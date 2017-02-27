@@ -26,8 +26,8 @@ class Restaurant extends Model
     	return $this->hasMany('App\Rereservation');
     }
 
-    public function categories() {
-        return $this->belongsTo('App\Category');
+    public function categoria() {
+        return $this->belongsTo('App\Category','category_id');
     }
 
     public function tags(){
@@ -36,5 +36,11 @@ class Restaurant extends Model
 
     public function images() {
         return $this->hasMany('App\Image');
+    }
+
+    public function scopeSearch($query, $name) {
+
+        return $query->where('name', 'LIKE', "%$name%");
+
     }
 }

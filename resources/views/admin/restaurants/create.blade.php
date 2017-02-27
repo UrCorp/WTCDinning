@@ -110,10 +110,10 @@
 		</div>
 
 		<div class="input-field col s3">
-			<select multiple>
+			<select multiple name="tags[]">
 				<option value="" disabled selected>Elige una o varias etiquetas</option>
 				@foreach($tags as $tag)
-				<option value="1">{{ $tag->name }}</option>
+				<option value="{{ $tag->id }}">{{ $tag->name }}</option>
 				@endforeach
 			</select>
 			<label>Etiquetas</label>

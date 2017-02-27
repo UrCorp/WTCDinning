@@ -26,7 +26,8 @@ class RestaurantRequest extends FormRequest
         return [
             //
             'name'      => 'min:4|max:120|required',
-            'email'     => 'min:4|max:100|required|unique:restaurants'
+            'email'     => 'min:4|max:100|required|unique:restaurants',
+            'image'     => 'image|required'
         ];
     }
 }

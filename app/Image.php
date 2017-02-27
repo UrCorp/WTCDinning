@@ -12,6 +12,6 @@ class Image extends Model
     protected $fillable = ['name', 'restaurant_id'];
 
     public function restaurants () {
-    	return $this->belongsTo('App\Restaurant');
+    	return $this->belongsTo('App\Restaurant','restaurant_id');
     }
 }

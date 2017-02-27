@@ -21,6 +21,7 @@
       <li><a class="dropdown-button" data-activates="Restaurantes" href="{{ route('restaurants.index') }}">Restaurantes<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-button" data-activates="Categorias" href="{{ route('categories.index') }}">Categorías<i class="material-icons right">arrow_drop_down</i></a></li>
       <li><a class="dropdown-button" data-activates="Etiquetas" href="{{ route('tags.index') }}">Etiquetas<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="{{ route('images.index') }}">Imagenes</a></li>
     </ul>
 
     <ul id="nav-mobile" class="side-nav">

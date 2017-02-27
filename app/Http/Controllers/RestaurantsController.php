@@ -19,12 +19,16 @@ class RestaurantsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         //
         
-        $restaurants = Restaurant::orderBy('id','ASC')->paginate(5);
+        $restaurants = Restaurant::search($request->search)->orderBy('id','ASC')->paginate();
+        $restaurants->each(function ($restaurants) {
+            $restaurants->categoria;
+        });
         return view('admin.restaurants.index')->with('restaurants', $restaurants);
+        //dd($restaurants->all());
     }
 
     /**
@@ -62,7 +66,7 @@ class RestaurantsController extends Controller
         $restaurant->close_hour = $request->close_hour.":".$request->minute_close;
         $restaurant->save();
 
-        $restaurant->tags()->sync();
+        $restaurant->tags()->sync($request->tags);
 
         $image = new Image();
         $image->name = $name;
@@ -95,7 +99,17 @@ class RestaurantsController extends Controller
     {
         //
         $restaurant = Restaurant::find($id);
-        return view('admin.restaurants.edit')->with('restaurant',$restaurant);
+        $restaurant->categoria;
+        $categories = Category::orderBy('id', 'ASC')->pluck('name','id');
+        $tags = Tag::orderBy('name','ASC')->pluck('name','id');
+        $my_tags = $restaurant->tags->pluck('id')->toArray(); 
+
+
+        return view('admin.restaurants.edit')
+            ->with('restaurant',$restaurant)
+            ->with('categories',$categories)
+            ->with('tags',$tags)
+            ->with('my_tags',$my_tags);
     }
 
     /**
@@ -109,17 +123,12 @@ class RestaurantsController extends Controller
     {
         //
         $restaurant = Restaurant::find($id); 
-        $restaurant->name = $request->name;
-        $restaurant->adress = $request->adress;
-        $restaurant->email = $request->email;
-        $restaurant->phone = $request->phone;
-        $restaurant->link_maps = $request->link_maps;
-        $restaurant->start_day = $request->start_day;
-        $restaurant->finish_day = $request->finish_day;
-        $restaurant->description = $request->description;
+        $restaurant->fill($request->all());
         $restaurant->open_hour = $request->open_hour.":".$request->minute_open;
         $restaurant->close_hour = $request->close_hour.":".$request->minute_close;
         $restaurant->save();
+
+        $restaurant->tags()->sync($request->tags);
 
         \Session::flash('flash_message',$restaurant->name.' actualizado correctamente.'); //<--FLASH MESSAGE
         return redirect()->route('restaurants.index');        

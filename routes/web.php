@@ -33,6 +33,11 @@ Route::group(['prefix' => 'admin'], function() {
 			'uses'	=>	'TagsController@destroy',
 			'as' 	=>	'tags.destroy'
 		]);
+
+	Route::get('images', [
+			'uses'	=> 'ImageController@index',
+			'as' 	=> 'images.index'
+		]);
 });
 Auth::routes();
 

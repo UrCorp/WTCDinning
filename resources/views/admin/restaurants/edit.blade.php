@@ -5,6 +5,15 @@
 @section('title','Editar')
 
 @section('content-fieldset')
+
+<?php 
+
+ $openh = substr($restaurant->open_hour, 0,2);
+ $openm = substr($restaurant->open_hour, 3,5);
+ $closeh = substr($restaurant->close_hour, 0,2);
+ $closem = substr($restaurant->close_hour, 3,5);
+
+?>
 <h3 class="center blue-text text-darken-1">Editar {{ $restaurant->name }}</h3>
 	{!! Form::open(['route' => ['restaurants.update', $restaurant], 'method' => 'PUT'],['class' => 'col s12']) !!}
 	<div class="row">
@@ -38,46 +47,49 @@
 			{!! Form::label('start_day', 'Día de Inicio') !!}
 			{!! Form::select('start_day', ['Lunes' => 'Lunes', 'Martes' => 'Martes', 'Miércoles' => 'Miércoles', 'Jueves' => 'Jueves', 'Viernes' => 'Viernes', 'Sábado' => 'Sábado', 'Domingo' => 'Domingo'], $restaurant->start_day,['class' => 'validate']) !!}	
 		</div>
-		
 		<div class="inline col s3">
 			{!! Form::label('finish_day', 'Día de Inicio') !!}
 			{!! Form::select('finish_day', ['Lunes' => 'Lunes', 'Martes' => 'Martes', 'Miércoles' => 'Miércoles', 'Jueves' => 'Jueves', 'Viernes' => 'Viernes', 'Sábado' => 'Sábado', 'Domingo' => 'Domingo'], $restaurant->finish_day,['class' => 'validate']) !!}	
 		</div>
-
 		<div class="col s1">
 			<p style="text-align: right;">Abre:</p>
 		</div>
-
 		<div class="col s1">
 			{!! Form::label('open_hour', 'Hora (24)') !!}
-			{!! Form::number('open_hour', '12',['min' => 0,'max' => 23,'style' => 'text-align: right']) !!}
+			{!! Form::number('open_hour', $openh,['min' => 0,'max' => 23,'style' => 'text-align: right']) !!}
 		</div>
-
 		<div class="col s1">
 			{!! Form::label('minute_open', 'Minuto') !!}
-			{!! Form::number('minute_open', '00',['min' => 0,'max' => 59, 'step' => 30]) !!}
+			{!! Form::number('minute_open', $openm,['min' => 0,'max' => 59, 'step' => 30]) !!}
 		</div>
-
 		<div class="col s1">
 			<p style="text-align: right;">Cierra:</p>
 		</div>
-
 		<div class="col s1">
 			{!! Form::label('close_hour', 'Hora (24)') !!}
-			{!! Form::number('close_hour', '12',['min' => 0,'max' => 23,'style' => 'text-align: right']) !!}
+			{!! Form::number('close_hour', $closeh,['min' => 0,'max' => 23,'style' => 'text-align: right']) !!}
 		</div>
-
 		<div class="col s1">
 			{!! Form::label('minute_close', 'Minuto') !!}
-			{!! Form::number('minute_close', '00',['min' => 0,'max' => 59, 'step' => 30]) !!}
+			{!! Form::number('minute_close', $closem,['min' => 0,'max' => 59, 'step' => 30]) !!}
 		</div>
 	</div>
 
 	<div class="row">
-
 		<div class="col s6">
 			{!! Form::label('description', 'Descripción') !!}
 			{!! Form::textarea('description', $restaurant->description, ['class' => 'materialize-textarea']) !!}
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="inline col s3">
+			{!! Form::label('category_id', 'Categoría') !!}
+			{!! Form::select('category_id', $categories,$restaurant->categoria->id,['class' => 'validate']) !!}	
+		</div>
+		<div class="inline col s3">
+			{!! Form::label('tags[]', 'Etiquetas') !!}
+			{!! Form::select('tags[]', $tags,$my_tags,['class' => 'validate', 'multiple']) !!}	
 		</div>
 
 	</div>
