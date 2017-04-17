@@ -39,6 +39,3 @@ Route::group(['prefix' => 'admin'], function() {
 			'as' 	=> 'images.index'
 		]);
 });
-Auth::routes();
-
-Route::get('/home', 'HomeController@index');

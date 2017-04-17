@@ -16,7 +16,7 @@ class indexController extends Controller
     //
     public function index(Request $request)
     {
-        
+        /*
         $restaurants = Restaurant::search($request->search)->orderBy('name','ASC')->paginate();
         $restaurants->each(function ($restaurants) {
         	$restaurants->categoria;
@@ -24,5 +24,7 @@ class indexController extends Controller
             $restaurants->tags;
         });
         return view('site.welcome')->with('restaurants',$restaurants);
+        */
+        return view('site.welcome');
     }
 }
