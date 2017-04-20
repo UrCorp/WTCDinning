@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', [
+Route::get('/public', [
 		'uses'	=> 	'indexController@index',
 		'as' 	=>	'index'
 	]);
