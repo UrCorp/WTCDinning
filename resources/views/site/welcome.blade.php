@@ -111,8 +111,29 @@ $people = ''.$restaurant->people;
       </div>
 
       <div class="row">
+      <div class="col s4">
+        <div class="switch">
+          <label>
+          
+            <input type="checkbox">
+            <span class="lever"></span>
+            Terraza
+          </label>
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
       <div class="col s12 center">
       {!! Form::submit('Confirmar',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+      </div>
+      </div>
+
+      <div>
+        <div class="input-field col s12">
+      <i class="material-icons prefix">subject</i>
+      {!! Form::label('textarea', 'Comentario* (Opcional)') !!}
+      {!! Form::text('textarea',null,['class' => 'validate',  'required']) !!}
       </div>
       </div>
       {!! Form::close()!!}
