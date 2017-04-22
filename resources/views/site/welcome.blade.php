@@ -6,7 +6,7 @@
   <div class="section no-pad-bot center">
     <nav style="width: 80%; border-radius: 15px; margin: auto" class=""> 
       <div class="nav-wrapper white" style="margin-top: 250px; border-radius: 15px;">
-        <div class="input-field col s12 m8 l8"">
+        <div class="input-field col s12 m8 l8">
         {!! Form::open(['route(' =>'site.welcome]', 'method' => 'GET']) !!}
           <input id="search" type="search" placeholder="Restaurantes, tipo de cocina, comida..." name="search">
           <label class="label-icon" for="search"><i class="material-icons">search</i></label>
