@@ -16,6 +16,16 @@ Route::get('/', [
 		'as' 	=>	'index'
 	]);
 
+Route::get('/Dinning', [
+		'uses' 	=> 	'indexController@dinning',
+		'as'	=> 	'dinning'
+	]);
+
+/*
+Route::group(['prefix' => '/'], function(){
+
+});*/
+
 Route::group(['prefix' => 'admin'], function() {
 	Route::resource('restaurants','RestaurantsController');
 	Route::get('restaurants/{id}/destroy', [

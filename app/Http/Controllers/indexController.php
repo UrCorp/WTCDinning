@@ -16,16 +16,17 @@ class indexController extends Controller
     //
     public function index(Request $request)
     {
-        /*
+        return view('site.welcome1');
+    }
+
+    public function dinning(Request $request)
+    {
         $restaurants = Restaurant::search($request->search)->orderBy('name','ASC')->paginate();
         $restaurants->each(function ($restaurants) {
-        	$restaurants->categoria;
+            $restaurants->categoria;
             $restaurants->images;
             $restaurants->tags;
         });
-        return view('site.welcome')->with('restaurants',$restaurants);
-        */
-        
-        return view('site.welcome1');
+        return view('site.dinning')->with('restaurants',$restaurants);
     }
 }
