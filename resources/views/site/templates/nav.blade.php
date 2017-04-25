@@ -2,7 +2,7 @@
     <div class="nav-wrapper">
       <img src="{{ asset('img/wtc-menu.png') }}" alt="">
       <ul class="right hide-on-med-and-down">
-        <li><a href="#>Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="Dinning">Servicios</a></li>
         <li><a href="#" title="Real State">Real Estate</a></li>
         <li><a href="#">Tienda</a></li>
