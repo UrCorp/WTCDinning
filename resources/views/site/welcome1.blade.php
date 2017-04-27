@@ -13,7 +13,7 @@
   <div class="section">
     <div class="row">
       <br>
-      <div class="col s3">
+      <div class="col s12 m3">
         <div class="card">
           <div class="card-image">
             <img src="{{ asset('img/home/cardRealEstate.jpg') }}">
@@ -22,7 +22,7 @@
         <p class="promo-caption center">Real Estate</p>
         <p class="light center">Conóce el exclusivo complejo corporativo y médico, arropado por las áreas comerciales de mayor prestigio en el Bajío.</p>
       </div>
-      <div class="col s3">
+      <div class="col s12 m3">
         <div class="card">
           <div class="card-image">
             <img src="{{ asset('img/home/cardActivosIntangibles.jpg') }}">
@@ -31,7 +31,7 @@
         <p class="promo-caption center">Activos Intangibles</p>
         <p class="light center">Nuestros expertos valuadores pueden ayudarte a incrementar el valor de tu empresa sin tener que gastar absolutmanete nada.</p>
       </div>
-      <div class="col s3">
+      <div class="col s12 m3">
         <div class="card">
           <div class="card-image">
             <img src="{{ asset('img/home/cardSoftLanding.jpg') }}">
@@ -40,7 +40,7 @@
         <p class="promo-caption center">Softlanding</p>
         <p class="light center">WTC te guía paso a paso para establecer tu empresa en México, nos encargamos de todo para que tú te dediques a crecer tu negocio.</p>
       </div>
-      <div class="col s3">
+      <div class="col s12 m3">
         <div class="card">
           <div class="card-image">
             <img src="{{ asset('img/home/cardTradeMissions.jpg') }}">
@@ -75,9 +75,22 @@
 </div>
 
 <div class="wrapper">
-<div id="index-banner" class="parallax-container" style="height: 300px;">
-  <div class="parallax grey lighten-4"><img src="{{ asset('img/home/arcos.png') }}" alt="Unsplashed background img 1"></div>
-</div>  
+  <div id="index-banner" class="parallax-container" style="height: 300px;">
+    <div class="parallax grey lighten-4 valign-wrapper"><img src="{{ asset('img/home/arcos.png') }}" alt="Unsplashed background img 1"></div>
+      <div class="caption center-align">
+        <h3 class="black-text">QUERÉTARO!</h3>
+        <div class="row">
+          <div class="col s7 offset-s3">
+            <div class="black-text text-lighten-3">Nombrada en varias ocasiones la Ciudad más segura y con mejor calidad de vida del país.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s7 offset-s3">
+            <div class="black-text text-lighten-3">Descubre lo que hay que hacer en la ciudad de mayor crecimiento en América Latina.</div>
+          </div>
+        </div>
+      </div>
+  </div>  
 </div>
 
 
@@ -86,7 +99,7 @@
         <div class="row">
             <br>
             <h5 class="center">Últimas Noticias</h5>
-            <div class="col s4">
+            <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
                   <img src="{{ asset('img/home/convergencias.jpg') }}">
@@ -97,7 +110,7 @@
                 </div>
               </div>
             </div>
-            <div class="col s4">
+            <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
                   <img src="{{ asset('img/home/update.jpg') }}">
@@ -108,7 +121,7 @@
                 </div>
               </div>
             </div>
-            <div class="col s4">
+            <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
                   <img src="{{ asset('img/home/momento.jpg') }}">
@@ -127,30 +140,70 @@
   <div class="parallax"><img src="{{ asset('img/home/celphone.jpg') }}" alt="Unsplashed background img 1"></div>
 </div>
 
-<div class="container">
+<div class="container hide-on-small-only">
   <div class="section">
     <h3 class="center">Contáctanos</h3>
     {{ Form::open(array('files' => true, 'method' => 'POST')) }}
     <div class="row">
-      <div class="input-field col s6 offset-s3">
+      <div class="input-field col s12 m6 offset-s3">
       {!! Form::label('name', 'Nombre') !!}
       {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
       </div>
     </div>
 
-    <div class="row center">
-      <div class="input-field col s3 offset-s3">
+    <div class="row">
+      <div class="input-field col s12 m3 offset-s3">
       {!! Form::label('email', 'Correo electrónico') !!}
       {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
       </div>
-      <div class="input-field col s3">
+      <div class="input-field col s12 m3">
       {!! Form::label('phone', 'Teléfono') !!}
       {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
       </div>
     </div>
 
     <div class="row">
-      <div class="col s6 offset-s3">
+      <div class="col s12 m6 offset-s3">
+      {!! Form::label('description', 'Mensaje') !!}
+      {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12">
+      {!! Form::submit('Registrar',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+      </div>
+    </div>
+
+
+    {!! Form::close() !!}
+  </div>
+</div>
+
+<div class="container hide-on-large-only">
+  <div class="section">
+    <h3 class="center">Contáctanos</h3>
+    {{ Form::open(array('files' => true, 'method' => 'POST')) }}
+    <div class="row">
+      <div class="input-field col s12 m6">
+      {!! Form::label('name', 'Nombre') !!}
+      {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12 m3">
+      {!! Form::label('email', 'Correo electrónico') !!}
+      {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+      </div>
+      <div class="input-field col s12 m3">
+      {!! Form::label('phone', 'Teléfono') !!}
+      {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m6">
       {!! Form::label('description', 'Mensaje') !!}
       {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
       </div>
