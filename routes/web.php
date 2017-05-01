@@ -21,6 +21,11 @@ Route::get('/Dinning', [
 		'as'	=> 	'dinning'
 	]);
 
+Route::get('/Home', [
+		'uses'	=> 	'indexController@index',
+		'as' 	=>	'index'
+	]);
+
 /*
 Route::group(['prefix' => '/'], function(){
 
