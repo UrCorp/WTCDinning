@@ -145,14 +145,14 @@
     <h3 class="center">Contáctanos</h3>
     {{ Form::open(array('files' => true, 'method' => 'POST')) }}
     <div class="row">
-      <div class="input-field col s12 m6 offset-s3">
+      <div class="input-field col s12 m6 offset-m3">
       {!! Form::label('name', 'Nombre') !!}
       {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
       </div>
     </div>
 
     <div class="row">
-      <div class="input-field col s12 m3 offset-s3">
+      <div class="input-field col s12 m3 offset-m3">
       {!! Form::label('email', 'Correo electrónico') !!}
       {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
       </div>
@@ -163,14 +163,14 @@
     </div>
 
     <div class="row">
-      <div class="col s12 m6 offset-s3">
+      <div class="col s12 m6 offset-m3">
       {!! Form::label('description', 'Mensaje') !!}
       {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
       </div>
     </div>
 
     <div class="row">
-      <div class="col s12">
+      <div class="col s12 center">
       {!! Form::submit('Registrar',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
       </div>
     </div>
