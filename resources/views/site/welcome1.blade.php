@@ -1,6 +1,11 @@
 @extends('site.templates.main')
 
 @section('body-content')
+
+<script type="text/javascript">
+  $(".button-collapse").sideNav();
+  
+</script>
   
 <div id="index-banner" class="parallax-container" style="height: 500px;">
   <div class="parallax"><img src="{{ asset('img/slider1.jpg') }}" alt="Unsplashed background img 1"></div>
@@ -13,7 +18,7 @@
   <div class="section">
     <div class="row">
       <br>
-      <div class="col s12 m3">
+      <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
             <img src="{{ asset('img/home/cardRealEstate.jpg') }}">
@@ -22,16 +27,7 @@
         <p class="promo-caption center">Real Estate</p>
         <p class="light center">Conóce el exclusivo complejo corporativo y médico, arropado por las áreas comerciales de mayor prestigio en el Bajío.</p>
       </div>
-      <div class="col s12 m3">
-        <div class="card">
-          <div class="card-image">
-            <img src="{{ asset('img/home/cardActivosIntangibles.jpg') }}">
-          </div>
-        </div>
-        <p class="promo-caption center">Activos Intangibles</p>
-        <p class="light center">Nuestros expertos valuadores pueden ayudarte a incrementar el valor de tu empresa sin tener que gastar absolutmanete nada.</p>
-      </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
             <img src="{{ asset('img/home/cardSoftLanding.jpg') }}">
@@ -40,7 +36,7 @@
         <p class="promo-caption center">Softlanding</p>
         <p class="light center">WTC te guía paso a paso para establecer tu empresa en México, nos encargamos de todo para que tú te dediques a crecer tu negocio.</p>
       </div>
-      <div class="col s12 m3">
+      <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
             <img src="{{ asset('img/home/cardTradeMissions.jpg') }}">
@@ -77,16 +73,39 @@
 <div class="wrapper">
   <div id="index-banner" class="parallax-container" style="height: 300px;">
     <div class="parallax grey lighten-4 valign-wrapper"><img src="{{ asset('img/home/arcos.png') }}" alt="Unsplashed background img 1"></div>
-      <div class="caption center-align">
+      <div class="caption center-align hide-on-med-and-down">
         <h3 class="black-text">QUERÉTARO!</h3>
         <div class="row">
-          <div class="col s7 offset-s3">
+          <div class="col s12 m7 offset-m3">
             <div class="black-text text-lighten-3">Nombrada en varias ocasiones la Ciudad más segura y con mejor calidad de vida del país.</div>
           </div>
         </div>
         <div class="row">
           <div class="col s7 offset-s3">
             <div class="black-text text-lighten-3">Descubre lo que hay que hacer en la ciudad de mayor crecimiento en América Latina.</div>
+          </div>
+        </div>
+      </div>
+      <div class="caption center-align hide-on-large-only">
+        <h3 class="black-text">QUERÉTARO!</h3>
+        <div class="row">
+          <div class="col s12 m7 offset-m3">
+            <div class="black-text text-lighten-3">Nombrada en varias ocasiones la Ciudad más</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m7 offset-m3">
+            <div class="black-text text-lighten-3">segura y con mejor calidad de vida del país.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m7 offset-m3">
+            <div class="black-text text-lighten-3">Descubre lo que hay que hacer en la ciudad</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m7 offset-m3">
+            <div class="black-text text-lighten-3">de mayor crecimiento en América Latina.</div>
           </div>
         </div>
       </div>
