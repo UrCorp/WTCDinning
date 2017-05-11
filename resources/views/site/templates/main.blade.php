@@ -24,5 +24,14 @@
 		<script src="{{ asset('plugins/materialize/js/materialize.js') }}"></script>
 		<script src="{{ asset('plugins/materialize/js/init.js') }}"></script>
 
+		<script>
+            $(document).ready(function () {
+                $('.slider').slider({
+                	full_width: true,
+                	height: 500
+                	});
+            });
+        </script>    
+
 	</body>
 </html>
