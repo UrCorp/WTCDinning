@@ -16,7 +16,7 @@ class indexController extends Controller
     //
     public function index(Request $request)
     {
-        return view('site.welcome1');
+        return view('site.welcome');
     }
 
     public function dinning(Request $request)
