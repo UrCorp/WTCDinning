@@ -18,15 +18,49 @@
       </a>
       <ul class="right hide-on-med-and-down condensed">
         <li class=""><a href="Home">Home</a></li>
-        <li><a href="#">Academics</a></li>
-        <li><a href="#">Consultancy</a></li>
+        <li><a class="dropdown-button" href="#" data-activates="dropdownAcademics">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#" data-activates="dropdownConsultancy">Consultancy<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="Dinning">Discover Querétaro</a></li>
-        <li><a href="http://wtcqueretaro.com/#wtcq_interactive" target="_blank" title="Real State">Real Estate</a></li>
-        <li><a href="#">Trading</a></li>
+        <li><a class="dropdown-button" href="#" data-activates="dropdownRealEstate">Real Estate<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#" data-activates="dropdownTrading">Trading<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
     </div>
   </nav>
 </div>
+<!-- Menú Academics -->
+<ul id="dropdownAcademics" class="dropdown-content">
+  <li class="thin"><a href="#!">WTC Certifications</a></li>
+  <li class="divider"></li>
+  <li class="thin"><a href="#!">Lean Six Sigma</a></li>
+</ul>
+
+<!-- Menú Consultancy -->
+<ul id="dropdownConsultancy" class="dropdown-content">
+  <li><a href="#!">Blog</a></li>
+  <li><a href="#!">Legal</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Finance</a></li>
+</ul>
+
+<!-- Menú Real Estate -->
+<ul id="dropdownRealEstate" class="dropdown-content">
+  <li class="thin"><a href="http://wtcqueretaro.com/#wtcq_interactive" target="_blank">Real Estate</a></li>
+  <li class="divider"></li>
+  <li class="thin"><a href="#!">Coworking</a></li>
+  <li class="divider"></li>
+  <li class="thin"><a href="#!">Built to suit</a></li>
+</ul>
+
+<!-- Menú Trading -->
+<ul id="dropdownTrading" class="dropdown-content">
+  <li><a href="#!">Kaching</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Connect América</a></li>
+</ul>
+
+
+
+<!-- Menú lateral -->
 <ul class="side-nav" id="mobile-demo">
   <li><a href="Home">Home</a></li>
   <li><a href="#">Academics</a></li>

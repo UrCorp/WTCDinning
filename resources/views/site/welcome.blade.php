@@ -9,7 +9,9 @@
       <div class="caption center-align">
         <h4 class="condensed" style="padding-top: 130px">VISITA EL NUEVO EDIFICIO</h4>
         <h6 class="light grey-text text-lighten-3">Agenda una visita para conocer tus nuevas oficinas y consultorios en WTC.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Reserva ya</a>
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">
+          Reserva ya
+        </a>
       </div>
     </li>
     <li>
@@ -25,7 +27,10 @@
       <div class="caption center-align">
         <h4 class="condensed ligth" style="padding-top: 130px">ADQUIERE ARTESARNÍAS EXLCUSIVAS</h4>
         <h6 class="light grey-text text-lighten-3">Descubre el talento de manos Queretanas en la nueva tienda en línea de WTC.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Ir a la Tienda</a>
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">
+          <i class="material-icons right">shop</i>
+          Ir a la Tienda
+        </a>
       </div>
     </li>
     <li>
