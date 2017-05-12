@@ -2,34 +2,46 @@
 
 @section('body-content')
 
-<div class="slider" style="z-index: 3">
+<div class="slider grey lighten-4" style="z-index: 3">
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed">VISITA EL NUEVO EDIFICIO</h4>
+        <h4 class="condensed" style="padding-top: 130px">VISITA EL NUEVO EDIFICIO</h4>
         <h6 class="light grey-text text-lighten-3">Agenda una visita para conocer tus nuevas oficinas y consultorios en WTC.</h6>
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Reserva ya</a>
+      </div>
+    </li>
+    <li>
+      <img src="{{ asset('img/home/slider/softlanding.png') }}">
+      <div class="caption center-align">
+        <h4 class="condensed" style="padding-top: 130px">OBTEN BENEFICIOS FISCALES</h4>
+        <h6 class="light grey-text text-lighten-3">Aumenta el valor de tu empresa aprovechando tu marca, software, historia y más.</h6>
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Conoce cómo</a>
       </div>
     </li>
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed ligth">ADQUIERE ARTESARNÍAS EXLCUSIVAS</h4>
+        <h4 class="condensed ligth" style="padding-top: 130px">ADQUIERE ARTESARNÍAS EXLCUSIVAS</h4>
         <h6 class="light grey-text text-lighten-3">Descubre el talento de manos Queretanas en la nueva tienda en línea de WTC.</h6>
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Ir a la Tienda</a>
       </div>
     </li>
     <li>
       <img src="{{ asset('img/home/slider/zocalo.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed ligth">SOFTLANDING</h4>
+        <h4 class="condensed ligth" style="padding-top: 130px">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Ofrecemos guía y apoyo paso a paso para establecer tu empresa en México.</h6>
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Agenda una consultoría gratis</a>
       </div>
     </li>
     <li>
-      <img src="{{ asset('img/home/slider/handshake.jpg') }}">
+      <img src="{{ asset('img/home/slider/handshake.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed ligth">HACEMOS TU AGENDA DE NEGOCIOS</h4>
+        <h4 class="condensed ligth" style="padding-top: 130px">HACEMOS TU AGENDA DE NEGOCIOS</h4>
         <h6 class="light grey-text text-lighten-3">Te conectamos con todos los proveedores de la red global de World Trade Center.</h6>
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Aprende más</a>
       </div>
     </li>
   </ul>
