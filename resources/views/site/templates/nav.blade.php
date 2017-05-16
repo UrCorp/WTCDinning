@@ -1,4 +1,4 @@
-<div class="navbar-fixed valign-wrapper" style="height: 35px">
+<div class="navbar-fixed valign-wrapper" style="height: 40px">
   <nav class="grey darken-2" style="z-index: 4;" role="navigation">
     <div class="nav-wrapper">
       <ul class="">
@@ -11,7 +11,7 @@
 <div class="navbar-fixed" >
   <nav class="white" style="z-index: 4; height: 100px" role="navigation">
     <div class="nav-wrapper" style="margin-top: 20px">
-      <img src="{{ asset('img/wtcmenu.png') }}" class="hide-on-med-and-down left" alt="">
+      <a href="Home"><img src="{{ asset('img/wtcmenu.png') }}" class="hide-on-med-and-down left" alt=""></a>
       <img src="{{ asset('img/wtc.png') }}" class="hide-on-large-only right" alt="">
       <a href="#" data-activates="mobile-demo" class="button-collapse">
         <i class="material-icons">menu</i>
@@ -20,7 +20,7 @@
         <li class=""><a href="Home">Home</a></li>
         <li><a class="dropdown-button" href="#" data-activates="dropdownAcademics">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#" data-activates="dropdownConsultancy">Consultancy<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a href="Dinning">Discover Querétaro</a></li>
+        <li><a class="dropdown-button" href="#" data-activates="dropdownDiscover">Discover Querétaro<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#" data-activates="dropdownRealEstate">Real Estate<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#" data-activates="dropdownTrading">Trading<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
@@ -29,22 +29,38 @@
 </div>
 <!-- Menú Academics -->
 <ul id="dropdownAcademics" class="dropdown-content">
-  <li class="thin"><a href="#!">WTC Certifications</a></li>
+  <li class="thin"><a href="#!">WTC Certification</a></li>
   <li class="divider"></li>
   <li class="thin"><a href="#!">Lean Six Sigma</a></li>
+  <li class="divider"></li>
+  <li class="thin"><a href="#!">Seminars</a></li>
 </ul>
 
 <!-- Menú Consultancy -->
 <ul id="dropdownConsultancy" class="dropdown-content">
-  <li><a href="#!">Blog</a></li>
-  <li><a href="#!">Legal</a></li>
+  <li class="thin"><a href="#!">Newsletter</a></li>
   <li class="divider"></li>
-  <li><a href="#!">Finance</a></li>
+  <li class="thin"><a href="#!">Legal</a></li>
+  <li class="divider"></li>
+  <li class="thin"><a href="#!">Finance</a></li>
+  <li class="divider"></li>
+  <li class="thin"><a href="#!">SoftLanding</a></li>
+</ul>
+
+<!-- Menú Discover -->
+<ul id="dropdownDiscover" class="dropdown-content">
+  <li class="thin"><a href="#!">Dinning</a></li>
+  <li class="divider"></li>
+  <li class="thin"><a href="#!">Events</a></li>
+  <li class="divider"></li>
+  <li class="thin"><a href="#!">Trade Missions</a></li>
 </ul>
 
 <!-- Menú Real Estate -->
 <ul id="dropdownRealEstate" class="dropdown-content">
   <li class="thin"><a href="http://wtcqueretaro.com/#wtcq_interactive" target="_blank">Real Estate</a></li>
+  <li class="divider"></li>
+  <li class="thin"><a href="#!">Offices</a></li>
   <li class="divider"></li>
   <li class="thin"><a href="#!">Coworking</a></li>
   <li class="divider"></li>
@@ -53,9 +69,9 @@
 
 <!-- Menú Trading -->
 <ul id="dropdownTrading" class="dropdown-content">
-  <li><a href="#!">Kaching</a></li>
+  <li class="thin"><a href="#!">Commerce</a></li>
   <li class="divider"></li>
-  <li><a href="#!">Connect América</a></li>
+  <li class="thin"><a href="#!">Connect Americas</a></li>
 </ul>
 
 

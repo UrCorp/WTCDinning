@@ -8,7 +8,7 @@ use App\Http\Requests;
 use App\Category;
 use App\Http\Requests\CategoryRequest;
 
-class CategoriesController extends Controller
+class BlogController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,8 +18,6 @@ class CategoriesController extends Controller
     public function index()
     {
         //
-        $categories = Category::orderBy('id','ASC')->paginate();
-        return view('admin.categories.index')->with('categories',$categories);
     }
 
     /**
@@ -30,7 +28,7 @@ class CategoriesController extends Controller
     public function create()
     {
         //
-        return view('admin.categories.create');
+        return view('admin.blog.create');
     }
 
     /**
@@ -42,10 +40,6 @@ class CategoriesController extends Controller
     public function store(CategoryRequest $request)
     {
         //
-        $category = new Category($request->all());
-        $category->save();
-        \Session::flash('flash_message','Categoría añadida correctamente..'); //<--FLASH MESSAGE
-        return redirect()->route('categories.index');
 
     }
 
@@ -68,8 +62,7 @@ class CategoriesController extends Controller
      */
     public function edit($id)
     {
-        $category = Category::find($id);
-        return view('admin.categories.edit')->with('category',$category);
+
     }
 
     /**
@@ -82,11 +75,6 @@ class CategoriesController extends Controller
     public function update(Request $request, $id)
     {
         //
-        $category = Category::find($id); 
-        $category->name = $request->name;
-        $category->save();
-        \Session::flash('flash_message',$category->name.' actualizado correctamente.'); //<--FLASH MESSAGE
-        return redirect()->route('categories.index');
     }
 
     /**
@@ -98,10 +86,5 @@ class CategoriesController extends Controller
     public function destroy($id)
     {
         //
-        $category = Category::find($id);
-        $category->delete();
-
-        \Session::flash('flash_message','Categoría borrada correctamente.'); //<--FLASH MESSAGE
-        return redirect()->route('categories.index');
     }
 }

@@ -17,8 +17,8 @@
     <li>
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 130px">OBTEN BENEFICIOS FISCALES</h4>
-        <h6 class="light grey-text text-lighten-3">Aumenta el valor de tu empresa aprovechando tu marca, software, historia y más.</h6>
+        <h4 class="condensed" style="padding-top: 130px">CERTIFICACIÓN WORLD TRADE CENTER</h4>
+        <h6 class="light grey-text text-lighten-3">Genera un valor agregado a tu organización de nivel internacional.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Conoce cómo</a>
       </div>
     </li>
@@ -115,7 +115,7 @@
   <div id="index-banner" class="parallax-container" style="height: 300px;">
     <div class="parallax grey lighten-4 valign-wrapper"><img src="{{ asset('img/home/arcos.png') }}" alt="Unsplashed background img 1"></div>
       <div class="caption center-align hide-on-med-and-down">
-        <h3 class="black-text">QUERÉTARO!</h3>
+        <h3 class="black-text">QUERÉTARO</h3>
         <div class="row">
           <div class="col s12 m7 offset-m3">
             <div class="black-text text-lighten-3">Nombrada en varias ocasiones la Ciudad más segura y con mejor calidad de vida del país.</div>
