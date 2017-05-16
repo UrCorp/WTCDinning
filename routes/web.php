@@ -38,11 +38,15 @@ Route::group(['prefix' => 'admin'], function() {
 			'as' 	=>	'restaurants.destroy'
 		]);
 	Route::resource('reservations', 'ReservationsController');
+	
 	Route::resource('categories', 'CategoriesController');
 	Route::get('categories/{id}/destroy', [
 			'uses'	=>	'CategoriesController@destroy',
 			'as' 	=>	'categories.destroy'
 		]);
+
+	Route::resource('blog', 'BlogController');
+	
 	Route::resource('tags', 'TagsController');
 	Route::get('tags/{id}/destroy', [
 			'uses'	=>	'TagsController@destroy',
