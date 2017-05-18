@@ -29,49 +29,49 @@
 </div>
 <!-- Menú Academics -->
 <ul id="dropdownAcademics" class="dropdown-content">
-  <li class="thin"><a href="#!">WTC Certification</a></li>
+  <li class=""><a href="#!">WTC Certification</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Lean Six Sigma</a></li>
+  <li class=""><a href="#!">Lean Six Sigma</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Seminars</a></li>
+  <li class=""><a href="#!">Seminars</a></li>
 </ul>
 
 <!-- Menú Consultancy -->
 <ul id="dropdownConsultancy" class="dropdown-content">
-  <li class="thin"><a href="#!">Newsletter</a></li>
+  <li class=""><a href="#!">Newsletter</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Legal</a></li>
+  <li class=""><a href="#!">Legal</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Finance</a></li>
+  <li class=""><a href="#!">Finance</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">SoftLanding</a></li>
+  <li class=""><a href="#!">SoftLanding</a></li>
 </ul>
 
 <!-- Menú Discover -->
 <ul id="dropdownDiscover" class="dropdown-content">
-  <li class="thin"><a href="#!">Dinning</a></li>
+  <li class=""><a href="#!">Dinning</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Events</a></li>
+  <li class=""><a href="#!">Events</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Trade Missions</a></li>
+  <li class=""><a href="#!">Trade Missions</a></li>
 </ul>
 
 <!-- Menú Real Estate -->
 <ul id="dropdownRealEstate" class="dropdown-content">
-  <li class="thin"><a href="http://wtcqueretaro.com/#wtcq_interactive" target="_blank">Real Estate</a></li>
+  <li class=""><a href="http://wtcqueretaro.com/#wtcq_interactive" target="_blank">Real Estate</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Offices</a></li>
+  <li class=""><a href="#!">Offices</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Coworking</a></li>
+  <li class=""><a href="#!">Coworking</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Built to suit</a></li>
+  <li class=""><a href="#!">Built to suit</a></li>
 </ul>
 
 <!-- Menú Trading -->
 <ul id="dropdownTrading" class="dropdown-content">
-  <li class="thin"><a href="#!">Commerce</a></li>
+  <li class=""><a href="#!">Commercee</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Connect Americas</a></li>
+  <li class=""><a href="#!"><img src="http://connectamericas.com/sites/default/files/content-idb/verifiedbadge.png" />Connect Americas</a></li>
 </ul>
 
 
