@@ -66,7 +66,7 @@
           </div>
         </div>
         <p class="promo-caption center">Real Estate</p>
-        <p class="light center">Conóce el exclusivo complejo corporativo y médico, arropado por las áreas comerciales de mayor prestigio en el Bajío.</p>
+        <p class="light center">Discover our exclusive corporate and medical complex, surrounded by commercial areas, persuading investment in the Bajio Region.</p>
       </div>
       <div class="col s12 m4">
         <div class="card">
@@ -75,7 +75,7 @@
           </div>
         </div>
         <p class="promo-caption center">Softlanding</p>
-        <p class="light center">WTC te guía paso a paso para establecer tu empresa en México, nos encargamos de todo para que tú te dediques a crecer tu negocio.</p>
+        <p class="light center">WTC guides you systematically to establish your company in Mexico; we take care of everything so you can dedicate to grow your business.</p>
       </div>
       <div class="col s12 m4">
         <div class="card">
@@ -94,8 +94,8 @@
 <div class="container center-align">
   <div class="section">
     <div class="row">
-        <h4 class="center">HABLEMOS DE NEGOCIOS</h4>
-        <p class="col s6 offset-s3 center">World Trade Center es un plataforma global que promueve el comercio internacional, con una red de proveedores ubicadas en las ciudades más importantes del mundo.</p>
+        <h4 class="center">Let's talk about business</h4>
+        <p class="col s6 offset-s3 center">World Trade Center is a global platform that promotes international trade, with a Supplier Network located in the most important cities in the world.</p>
     </div>
     <div class="video-container center">
       <iframe  width="854" height="480" src="https://www.youtube.com/embed/cHr360f6naM" frameborder="0" allowfullscreen></iframe>
@@ -103,7 +103,7 @@
     <div class="row center">
       <br>
       <br>
-      <a class="waves-effect waves-light btn-flat blue-text">Agenda una consultoría virtual</a>
+      <a class="waves-effect waves-light btn-flat blue-text"> Program your virtual consultancy</a>
       <br>
       <br>
       <br>
@@ -118,12 +118,12 @@
         <h3 class="black-text">QUERÉTARO</h3>
         <div class="row">
           <div class="col s12 m7 offset-m3">
-            <div class="black-text text-lighten-3">Nombrada en varias ocasiones la Ciudad más segura y con mejor calidad de vida del país.</div>
+            <div class="black-text text-lighten-3">Named several times as the safest and best life quality city in the country.</div>
           </div>
         </div>
         <div class="row">
           <div class="col s7 offset-s3">
-            <div class="black-text text-lighten-3">Descubre lo que hay que hacer en la ciudad de mayor crecimiento en América Latina.</div>
+            <div class="black-text text-lighten-3"> Discover the main activities in the fastest growing city in Latin America.</div>
           </div>
         </div>
       </div>
@@ -131,22 +131,22 @@
         <h3 class="black-text">QUERÉTARO!</h3>
         <div class="row">
           <div class="col s12 m7 offset-m3">
-            <div class="black-text text-lighten-3">Nombrada en varias ocasiones la Ciudad más</div>
+            <div class="black-text text-lighten-3">Named several times as the safest and  </div>
           </div>
         </div>
         <div class="row">
           <div class="col s12 m7 offset-m3">
-            <div class="black-text text-lighten-3">segura y con mejor calidad de vida del país.</div>
+            <div class="black-text text-lighten-3">sbest life quality city in the country.</div>
           </div>
         </div>
         <div class="row">
           <div class="col s12 m7 offset-m3">
-            <div class="black-text text-lighten-3">Descubre lo que hay que hacer en la ciudad</div>
+            <div class="black-text text-lighten-3">Discover the main activities in the </div>
           </div>
         </div>
         <div class="row">
           <div class="col s12 m7 offset-m3">
-            <div class="black-text text-lighten-3">de mayor crecimiento en América Latina.</div>
+            <div class="black-text text-lighten-3">fastest growing city in Latin America.</div>
           </div>
         </div>
       </div>
@@ -158,7 +158,7 @@
     <div class="section">
         <div class="row">
             <br>
-            <h5 class="center">Últimas Noticias</h5>
+            <h5 class="center">Latest News</h5>
             <div class="col s12 m4">
               <div class="card">
                 <div class="card-image">
@@ -185,10 +185,10 @@
               <div class="card">
                 <div class="card-image">
                   <img src="{{ asset('img/home/momento.jpg') }}">
-                  <span class="card-title">Momento Histórico en Querétaro</span>
+                  <span class="card-title">Historic moment in Queretaro</span>
                 </div>
                 <div class="card-content">
-                  <p>WMomento histórico donde WTC Querétaro conformado por Eduardo J. Franco y Carlos Uribe Menéndez y GRUPO MOMENTUM firman la alianza para un complejo WTC único en el mundo! </p>
+                  <p>Historic moment where Eduardo J. Franco and Carlos Uribe Menéndez from WTC Queretaro and GRUPO MOMENTUM sign the alliance for a unique WTC complex in the world.</p>
                 </div>
               </div>
             </div>
@@ -202,36 +202,36 @@
 
 <div class="container hide-on-small-only">
   <div class="section">
-    <h3 class="center">Contáctanos</h3>
+    <h3 class="center">Contact Us</h3>
     {{ Form::open(array('files' => true, 'method' => 'POST')) }}
     <div class="row">
       <div class="input-field col s12 m6 offset-m3">
-      {!! Form::label('name', 'Nombre') !!}
+      {!! Form::label('name', 'Name') !!}
       {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
       </div>
     </div>
 
     <div class="row">
       <div class="input-field col s12 m3 offset-m3">
-      {!! Form::label('email', 'Correo electrónico') !!}
+      {!! Form::label('email', 'Mail') !!}
       {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
       </div>
       <div class="input-field col s12 m3">
-      {!! Form::label('phone', 'Teléfono') !!}
+      {!! Form::label('phone', 'Phone') !!}
       {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
       </div>
     </div>
 
     <div class="row">
       <div class="col s12 m6 offset-m3">
-      {!! Form::label('description', 'Mensaje') !!}
+      {!! Form::label('description', 'Message') !!}
       {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
       </div>
     </div>
 
     <div class="row">
       <div class="col s12 center">
-      {!! Form::submit('Registrar',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+      {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
       </div>
     </div>
 

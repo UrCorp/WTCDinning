@@ -8,7 +8,7 @@
       <div class="nav-wrapper white" style="margin-top: 250px; border-radius: 15px;">
         <div class="input-field col s12 m8 l8">
         {!! Form::open(['route(' =>'site.welcome]', 'method' => 'GET']) !!}
-          <input id="search" type="search" placeholder="Restaurantes, tipo de cocina, comida..." name="search">
+          <input id="search" type="search" placeholder="Restaurants, food type..." name="search">
           <label class="label-icon" for="search"><i class="material-icons">search</i></label>
           <i class="material-icons">close</i>
         {!! Form::close() !!}
@@ -24,7 +24,7 @@
 <div class="section">
 <div class="row s12 "><!--   Icon Section   -->
 
-<h4>Conoce nuestros socios</h4>
+<h4>Meet our partners</h4>
 @foreach($restaurants as $restaurant)
 <?php
 $name = 'name'.$restaurant->id;
@@ -62,24 +62,24 @@ $people = ''.$restaurant->people;
       <div class="row">
       <div class="input-field col s6">
       <i class="material-icons prefix">account_circle</i>
-      {!! Form::label($name, 'Nombre') !!}
+      {!! Form::label($name, 'Name') !!}
       {!! Form::text($name, null,['class' => 'validate',  'required' => 'required']) !!}
       </div>
       <div class="input-field col s6">
       <i class="material-icons prefix">message</i>
-      {!! Form::label($email, 'Correo') !!}
+      {!! Form::label($email, 'Mail') !!}
       {!! Form::email($email,null,['class' => 'validate',  'required']) !!}
       </div>
       </div>
       <div class="row">
       <div class="input-field col s6">
       <i class="material-icons prefix">phone</i>
-      {!! Form::label($phone, 'Teléfono') !!}
+      {!! Form::label($phone, 'Phone') !!}
       {!! Form::text($phone,null,['class' => 'validate',  'required']) !!}
       </div>
       <div class="input-field col s6">
       <i class="material-icons prefix">today</i>
-      {!! Form::label($date, 'Fecha') !!}
+      {!! Form::label($date, 'Date') !!}
       {!! Form::date($date,null,['class' => 'datepicker']) !!}
       </div>
       </div>
@@ -90,12 +90,12 @@ $people = ''.$restaurant->people;
       </div>
 
       <div class="col s3">
-      {!! Form::label('open_hour', 'Hora (24)') !!}
+      {!! Form::label('open_hour', 'Hour (24)') !!}
       {!! Form::number('open_hour', '12',['min' => 0,'max' => 23,'style' => 'text-align: right']) !!}
       </div>
 
       <div class="col s3">
-      {!! Form::label('minute_open', 'Minuto') !!}
+      {!! Form::label('minute_open', 'Min') !!}
       {!! Form::number('minute_open', '00',['min' => 0,'max' => 59, 'step' => 30]) !!}
       </div> 
 
@@ -104,7 +104,7 @@ $people = ''.$restaurant->people;
       </div>                   
 
       <div class="col s4">
-      {!! Form::label('people', 'Personas') !!}
+      {!! Form::label('people', 'Guests') !!}
       {!! Form::number('people', '00',['min' => 0,'max' => 20]) !!}
       </div>
 
@@ -117,7 +117,7 @@ $people = ''.$restaurant->people;
           
             <input type="checkbox">
             <span class="lever"></span>
-            Terraza
+            Smoking area
           </label>
         </div>
         </div>
@@ -140,7 +140,7 @@ $people = ''.$restaurant->people;
     </div>
 
     <div class="card-action">
-      <a class=" activator"><i class="material-icons">today</i> Reservar</a>
+      <a class=" activator"><i class="material-icons">today</i> Book</a>
       <a href="{{ $restaurant->link_maps }}" target="_blank" class="right"><i class="material-icons">location_on</i> Cómo llegar</a>
     </div>
   </div>

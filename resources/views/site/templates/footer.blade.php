@@ -4,16 +4,16 @@
         <div class="col l3 s12">
           <h5 class="blue-text">WTC Querétaro</h5>
           <ul class="white-text">
-            <li>Tienda en línea</li>
+            <li>Shop</li>
             <li>Real Estate</li>
             <li>Trade Missions</li>
-            <li>Descubre Querétaro</li>
+            <li>Discover Queretaro</li>
             <li>Academics</li>
             <li>Blog</li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="blue-text">Redes Sociales</h5>
+          <h5 class="blue-text">Social</h5>
           <ul>
             <li><a class="white-text" href="#!">Fb</a></li>
             <li><a class="white-text" href="#!">Twitter</a></li>
