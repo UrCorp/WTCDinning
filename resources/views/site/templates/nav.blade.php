@@ -49,7 +49,7 @@
 
 <!-- Menú Discover -->
 <ul id="dropdownDiscover" class="dropdown-content">
-  <li class=""><a href="#!">Dinning</a></li>
+  <li class=""><a href="Dinning">Dinning</a></li>
   <li class="divider"></li>
   <li class=""><a href="#!">Events</a></li>
   <li class="divider"></li>
