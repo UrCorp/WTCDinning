@@ -157,41 +157,41 @@
 <div class="container">
     <div class="section">
         <div class="row">
-            <br>
-            <h5 class="center">Latest News</h5>
-            <div class="col s12 m4">
-              <div class="card">
-                <div class="card-image">
-                  <img src="{{ asset('img/home/convergencias.jpg') }}">
-                  <span class="card-title">"Convergencias" 2015 Georgetown</span>
-                </div>
-                <div class="card-content">
-                  <p>A space where mexican enthusiasts that live in the United States along with experts in various fields, converge in a forum of conversation about the most pertinent issues in México... </p>
-                </div>
+          <br>
+          <h5 class="center">Latest News</h5>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="{{ asset('img/home/convergencias.jpg') }}">
+                <span class="card-title">"Convergencias" 2015 Georgetown</span>
+              </div>
+              <div class="card-content">
+                <p>A space where mexican enthusiasts that live in the United States along with experts in various fields, converge in a forum of conversation about the most pertinent issues in México... </p>
               </div>
             </div>
-            <div class="col s12 m4">
-              <div class="card">
-                <div class="card-image">
-                  <img src="{{ asset('img/home/update.jpg') }}">
-                  <span class="card-title">WTC CEO Update</span>
-                </div>
-                <div class="card-content">
-                  <p>An amazing event of the World Trade Center having the CEO Update | Most of the countries assisted this year | #SelectQuerétaro | #InvestQueretaro</p>
-                </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="{{ asset('img/home/update.jpg') }}">
+                <span class="card-title">WTC CEO Update</span>
+              </div>
+              <div class="card-content">
+                <p>An amazing event of the World Trade Center having the CEO Update | Most of the countries assisted this year | #SelectQuerétaro | #InvestQueretaro</p>
               </div>
             </div>
-            <div class="col s12 m4">
-              <div class="card">
-                <div class="card-image">
-                  <img src="{{ asset('img/home/momento.jpg') }}">
-                  <span class="card-title">Historic moment in Queretaro</span>
-                </div>
-                <div class="card-content">
-                  <p>Historic moment where Eduardo J. Franco and Carlos Uribe Menéndez from WTC Queretaro and GRUPO MOMENTUM sign the alliance for a unique WTC complex in the world.</p>
-                </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="{{ asset('img/home/momento.jpg') }}">
+                <span class="card-title">Historic moment in Queretaro</span>
+              </div>
+              <div class="card-content">
+                <p>Historic moment where Eduardo J. Franco and Carlos Uribe Menéndez from WTC Queretaro and GRUPO MOMENTUM sign the alliance for a unique WTC complex in the world.</p>
               </div>
             </div>
+          </div>
       </div>
     </div>
 </div>

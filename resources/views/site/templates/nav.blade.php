@@ -69,7 +69,7 @@
 
 <!-- Menú Trading -->
 <ul id="dropdownTrading" class="dropdown-content">
-  <li class=""><a href="#!">Commercee</a></li>
+  <li class=""><a href="#!">Commerce</a></li>
   <li class="divider"></li>
   <li class=""><a href="#!"><img src="http://connectamericas.com/sites/default/files/content-idb/verifiedbadge.png" />Connect Americas</a></li>
 </ul>
