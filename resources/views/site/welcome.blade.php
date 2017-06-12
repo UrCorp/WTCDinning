@@ -9,7 +9,7 @@
       <div class="caption center-align">
         <h4 class="condensed" style="padding-top: 130px">VISITA EL NUEVO EDIFICIO</h4>
         <h6 class="light grey-text text-lighten-3">Agenda una visita para conocer tus nuevas oficinas y consultorios en WTC.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="#modal1" >
           Reserva ya
         </a>
       </div>
@@ -41,16 +41,9 @@
         <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Agenda una consultoría gratis</a>
       </div>
     </li>
-    <li>
-      <img src="{{ asset('img/home/slider/handshake.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 130px">HACEMOS TU AGENDA DE NEGOCIOS</h4>
-        <h6 class="light grey-text text-lighten-3">Te conectamos con todos los proveedores de la red global de World Trade Center.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Aprende más</a>
-      </div>
-    </li>
   </ul>
 </div>
+
 
 <div class="grey lighten-4">
   <div class="container">
@@ -153,49 +146,6 @@
   </div>  
 </div>
 
-
-<div class="container">
-    <div class="section">
-        <div class="row">
-          <br>
-          <h5 class="center">Latest News</h5>
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="{{ asset('img/home/convergencias.jpg') }}">
-                <span class="card-title">"Convergencias" 2015 Georgetown</span>
-              </div>
-              <div class="card-content">
-                <p>A space where mexican enthusiasts that live in the United States along with experts in various fields, converge in a forum of conversation about the most pertinent issues in México... </p>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="{{ asset('img/home/update.jpg') }}">
-                <span class="card-title">WTC CEO Update</span>
-              </div>
-              <div class="card-content">
-                <p>An amazing event of the World Trade Center having the CEO Update | Most of the countries assisted this year | #SelectQuerétaro | #InvestQueretaro</p>
-              </div>
-            </div>
-          </div>
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="{{ asset('img/home/momento.jpg') }}">
-                <span class="card-title">Historic moment in Queretaro</span>
-              </div>
-              <div class="card-content">
-                <p>Historic moment where Eduardo J. Franco and Carlos Uribe Menéndez from WTC Queretaro and GRUPO MOMENTUM sign the alliance for a unique WTC complex in the world.</p>
-              </div>
-            </div>
-          </div>
-      </div>
-    </div>
-</div>
-
 <div id="index-banner" class="parallax-container" style="height: 300px;">
   <div class="parallax"><img src="{{ asset('img/home/celphone.jpg') }}" alt="Unsplashed background img 1"></div>
 </div>
@@ -279,5 +229,17 @@
     {!! Form::close() !!}
   </div>
 </div>
+
+
+<!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>    
 
 @endsection

@@ -16,7 +16,7 @@ Route::get('/', [
 		'as' 	=>	'index'
 	]);
 
-Route::get('/Dinning', [
+Route::get('/Dining', [
 		'uses' 	=> 	'indexController@dinning',
 		'as'	=> 	'dinning'
 	]);

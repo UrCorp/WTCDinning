@@ -22,7 +22,7 @@
         <li><a class="dropdown-button" href="#" data-activates="dropdownConsultancy">Consultancy<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#" data-activates="dropdownDiscover">Discover Querétaro<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#" data-activates="dropdownRealEstate">Real Estate<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a class="dropdown-button" href="#" data-activates="dropdownTrading">Trading<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#" data-activates="dropdownTrading">Trade<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
     </div>
   </nav>
@@ -33,45 +33,32 @@
   <li class="divider"></li>
   <li class="thin"><a href="#!">Lean Six Sigma</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Seminars</a></li>
+  <li class="thin"><a href="#!">WTC University</a></li>
 </ul>
 
 <!-- Menú Consultancy -->
 <ul id="dropdownConsultancy" class="dropdown-content">
-  <li class="thin"><a href="#!">Newsletter</a></li>
-  <li class="divider"></li>
-  <li class="thin"><a href="#!">Legal</a></li>
-  <li class="divider"></li>
-  <li class="thin"><a href="#!">Finance</a></li>
-  <li class="divider"></li>
   <li class="thin"><a href="#!">SoftLanding</a></li>
 </ul>
 
 <!-- Menú Discover -->
 <ul id="dropdownDiscover" class="dropdown-content">
-  <li class="thin"><a href="#!">Dinning</a></li>
+  <li class="thin"><a href="#!">Dining</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Events</a></li>
-  <li class="divider"></li>
-  <li class="thin"><a href="#!">Trade Missions</a></li>
 </ul>
 
 <!-- Menú Real Estate -->
 <ul id="dropdownRealEstate" class="dropdown-content">
-  <li class="thin"><a href="http://wtcqueretaro.com/#wtcq_interactive" target="_blank">Real Estate</a></li>
-  <li class="divider"></li>
-  <li class="thin"><a href="#!">Offices</a></li>
-  <li class="divider"></li>
   <li class="thin"><a href="#!">Coworking</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Built to suit</a></li>
+  <li class="thin"><a href="#!">Offices</a></li>
 </ul>
 
 <!-- Menú Trading -->
 <ul id="dropdownTrading" class="dropdown-content">
-  <li class="thin"><a href="#!">Commercee</a></li>
+  <li class="thin"><a href="#!">Commerce</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!"><img src="http://connectamericas.com/sites/default/files/content-idb/verifiedbadge.png" />Connect Americas</a></li>
+  <li class="thin"><a href="https://connectamericas.com/company/world-trade-center-queretaro">Connect Americas</a></li>
 </ul>
 
 
