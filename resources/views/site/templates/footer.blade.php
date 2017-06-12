@@ -33,7 +33,8 @@
     </div>
     <div class="footer-copyright tale">
       <div class="container">
-      Powered by <a class="brown-text text-lighten-3" href="http://urcorp.mx">UrCorp</a>
+      <!--Powered by <a class="brown-text text-lighten-3" href="http://urcorp.mx">UrCorp</a-->
+          Powered by <img src="{{ asset('img/wtc-footer.png') }}" style="width: 5%" />
       </div>
     </div>
   </footer>

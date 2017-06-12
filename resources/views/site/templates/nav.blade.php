@@ -56,7 +56,7 @@
 
 <!-- Menú Trading -->
 <ul id="dropdownTrading" class="dropdown-content">
-  <li class="thin"><a href="#!">Commerce</a></li>
+  <li class="thin"><a href="https://www.kichink.com/stores/kanpai">Commerce</a></li>
   <li class="divider"></li>
   <li class="thin"><a href="https://connectamericas.com/company/world-trade-center-queretaro">Connect Americas</a></li>
 </ul>
