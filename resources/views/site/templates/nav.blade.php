@@ -2,8 +2,8 @@
   <nav class="grey darken-2" style="z-index: 4;" role="navigation">
     <div class="nav-wrapper">
       <ul class="">
-        <li><i class="material-icons left white-text">phone</i><span class="white-text thin">+52 (1) 4421297663</span></li>  
-        <li><a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top"><i class="material-icons left white-text">mail</i><span class="white-text thin">contacto@wtcqueretaro.com.mx</span></a></li>  
+        <li><i class="material-icons left white-text">phone</i><span class="white-text ">+52 (1) 4421297663</span></li>  
+        <li><a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top"><i class="material-icons left white-text">mail</i><span class="white-text ">contacto@wtcqueretaro.com.mx</span></a></li>  
       </ul>
     </div>
   </nav>
@@ -29,36 +29,36 @@
 </div>
 <!-- Menú Academics -->
 <ul id="dropdownAcademics" class="dropdown-content">
-  <li class="thin"><a href="#!">WTC Certification</a></li>
+  <li class=""><a href="#!">WTC Certification</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Lean Six Sigma</a></li>
+  <li class=""><a href="#!">Lean Six Sigma</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">WTC University</a></li>
+  <li class=""><a href="#!">WTC University</a></li>
 </ul>
 
 <!-- Menú Consultancy -->
 <ul id="dropdownConsultancy" class="dropdown-content">
-  <li class="thin"><a href="#!">SoftLanding</a></li>
+  <li class=""><a href="#!">SoftLanding</a></li>
 </ul>
 
 <!-- Menú Discover -->
 <ul id="dropdownDiscover" class="dropdown-content">
-  <li class="thin"><a href="#!">Dining</a></li>
+  <li class=""><a href="Dining">Dining</a></li>
   <li class="divider"></li>
 </ul>
 
 <!-- Menú Real Estate -->
 <ul id="dropdownRealEstate" class="dropdown-content">
-  <li class="thin"><a href="#!">Coworking</a></li>
+  <li class=""><a href="#!">Coworking</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="#!">Offices</a></li>
+  <li class=""><a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Offices</a></li>
 </ul>
 
 <!-- Menú Trading -->
 <ul id="dropdownTrading" class="dropdown-content">
-  <li class="thin"><a href="https://www.kichink.com/stores/kanpai">Commerce</a></li>
+  <li class=""><a href="https://www.kichink.com/stores/kanpai" target="_blank">Commerce</a></li>
   <li class="divider"></li>
-  <li class="thin"><a href="https://connectamericas.com/company/world-trade-center-queretaro">Connect Americas</a></li>
+  <li class=""><a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a></li>
 </ul>
 
 
