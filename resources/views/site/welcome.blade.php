@@ -2,7 +2,7 @@
 
 @section('body-content')
 
-<div class="slider grey lighten-4" style="z-index: 3; height: 100px">
+<div class="slider grey lighten-4" style="z-index: 3">
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
@@ -48,7 +48,9 @@
 <div class="grey lighten-4">
   <div class="container">
   <div class="section"></div>
-  <div class="section"></div>
+  <div class="section">
+    <h3 class="center">Explore World Trade Center</h3>
+  </div>
   <div class="section">
     <div class="row">
       <br>
