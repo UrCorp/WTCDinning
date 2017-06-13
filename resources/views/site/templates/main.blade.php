@@ -9,6 +9,25 @@
 	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	  <link href="{{ asset('plugins/materialize/css/materialize.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
 	  <link href="{{ asset('plugins/materialize/css/style.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <style type="text/css">
+	  	.slider .indicators .indicator-item {
+			height: 7px;
+			width: 7px;
+			background-color: #666666;
+			/*border: 1px solid #ffffff;*/
+			-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+			-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+		}
+		.slider .indicators .indicator-item.active {
+		  background-color: #ffffff;
+		}
+		.slider .indicators {
+		  bottom: 60px;
+		  z-index: 100;
+		  /* text-align: left; */
+		}
+	  </style>
 	</head>
 	<body>
 
