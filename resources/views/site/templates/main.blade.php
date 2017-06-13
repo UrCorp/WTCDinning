@@ -28,7 +28,9 @@
             $(document).ready(function () {
                 $('.slider').slider({
                 	full_width: true,
-                	height: 500
+                	height: 400,
+                	indicators: true,
+                	interval: 10000
                 	});
             });
         </script>    

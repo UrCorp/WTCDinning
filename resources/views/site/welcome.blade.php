@@ -2,12 +2,12 @@
 
 @section('body-content')
 
-<div class="slider grey lighten-4" style="z-index: 3" style="height: 800px">
+<div class="slider grey lighten-4" style="z-index: 3; height: 100px">
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 130px">VISITA EL NUEVO EDIFICIO</h4>
+        <h4 class="condensed" style="padding-top: 90px">VISITA EL NUEVO EDIFICIO</h4>
         <h6 class="light grey-text text-lighten-3">Agenda una visita para conocer tus nuevas oficinas y consultorios en WTC.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="#modal1" >
           Reserva ya
@@ -17,7 +17,7 @@
     <li>
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 130px">CERTIFICACIÓN WORLD TRADE CENTER</h4>
+        <h4 class="condensed" style="padding-top: 90px">CERTIFICACIÓN WORLD TRADE CENTER</h4>
         <h6 class="light grey-text text-lighten-3">Genera un valor agregado a tu organización de nivel internacional.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="#modal2">Conoce cómo</a>
       </div>
@@ -25,7 +25,7 @@
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 130px">ADQUIERE ARTESARNÍAS EXLCUSIVAS</h4>
+        <h4 class="condensed ligth" style="padding-top: 90px">ADQUIERE ARTESARNÍAS EXLCUSIVAS</h4>
         <h6 class="light grey-text text-lighten-3">Descubre el talento de manos Queretanas en la nueva tienda en línea de WTC.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
@@ -36,7 +36,7 @@
     <li>
       <img src="{{ asset('img/home/slider/zocalo.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 130px">SOFTLANDING</h4>
+        <h4 class="condensed ligth" style="padding-top: 90px">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Ofrecemos guía y apoyo paso a paso para establecer tu empresa en México.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="#modal4">Agenda una consultoría gratis</a>
       </div>
