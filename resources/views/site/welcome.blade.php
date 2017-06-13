@@ -230,23 +230,12 @@
   </div>
 </div>
 
-
 <!-- Modal Reserva Ya -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
-    </div>
-  </div>  
-
-<!-- Modal Reserva Ya -->
-  <div id="modal1" class="modal">
+  <div id="modal1" class="modal modal-fixed-footer">
     <div class="modal-content">
       <div class="section">
-        <h3 class="center">Contact Us</h3>
+        <img src="{{ asset('img/wtc-w.png') }}" class="center" style="width: 10%; height: 10%">
+        <h5 class="center">Contact Us</h5>
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
@@ -265,33 +254,32 @@
           {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
-
         <div class="row">
-          <div class="col s12 m6 offset-m3">
-          {!! Form::label('description', 'Message') !!}
-          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('enterprise', 'Enterprise') !!}
+          {!! Form::text('enterprise',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
         <div class="row">
           <div class="col s12 center">
-          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+          {!! Form::submit('Book Now',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
           </div>
         </div>
         {!! Form::close() !!}
       </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
   </div> 
 
-
 <!-- Modal Reserva Ya -->
-  <div id="modal2" class="modal">
+  <div id="modal2" class="modal modal-fixed-footer">
     <div class="modal-content">
       <div class="section">
-        <h3 class="center">Contact Us</h3>
+        <img src="{{ asset('img/wtc-w.png') }}" class="center" style="width: 10%; height: 10%">
+        <h5 class="center">Contact Us</h5>
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
@@ -310,11 +298,10 @@
           {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
-
         <div class="row">
-          <div class="col s12 m6 offset-m3">
-          {!! Form::label('description', 'Message') !!}
-          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('enterprise', 'Enterprise') !!}
+          {!! Form::text('enterprise',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
@@ -327,14 +314,16 @@
       </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Envíar</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
   </div> 
+
 <!-- Modal Reserva Ya -->
-  <div id="modal4" class="modal">
+  <div id="modal4" class="modal modal-fixed-footer">
     <div class="modal-content">
       <div class="section">
-        <h3 class="center">Contact Us</h3>
+        <img src="{{ asset('img/wtc-w.png') }}" class="center" style="width: 10%; height: 10%">
+        <h5 class="center">Contact Us</h5>
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
@@ -353,11 +342,10 @@
           {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
-
         <div class="row">
-          <div class="col s12 m6 offset-m3">
-          {!! Form::label('description', 'Message') !!}
-          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('enterprise', 'Enterprise') !!}
+          {!! Form::text('enterprise',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
@@ -370,8 +358,8 @@
       </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
-  </div>  
+  </div> 
 
 @endsection
