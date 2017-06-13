@@ -1,9 +1,9 @@
-<div class="navbar-fixed valign-wrapper" style="height: 40px">
+<div class="navbar-fixed valign-wrapper" style="height: 40px;">
   <nav style="z-index: 4; background-color: #444444" role="navigation">
     <div class="nav-wrapper">
       <ul class="">
-        <li><i class="material-icons left white-text">phone</i><span class="white-text ">+52 (1) 4421297663</span></li>  
-        <li><a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top"><i class="material-icons left white-text">mail</i><span class="white-text ">contacto@wtcqueretaro.com.mx</span></a></li>  
+        <li><i style="font-size: 13px;" class="material-icons left white-text">phone</i><span style="font-size: 13px;" class="white-text ">+52 (1) 4421297663</span></li>  
+        <li><a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top"><i style="font-size: 13px;" class="material-icons left white-text">mail</i><span class="white-text" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span></a></li>  
       </ul>
     </div>
   </nav>
