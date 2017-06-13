@@ -2,10 +2,6 @@
   $(function(){
 
     $('.parallax').parallax();
-/*    $('.slider').slider({
-    height: 100,
-    indicators: false,
-    });*/
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
