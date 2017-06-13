@@ -47,7 +47,6 @@
 
 <div class="grey lighten-4">
   <div class="container">
-  <div class="section"></div>
   <div class="section">
     <h3 class="center">Explore World Trade Center</h3>
   </div>
