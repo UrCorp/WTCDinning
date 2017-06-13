@@ -2,7 +2,7 @@
 
 @section('body-content')
 
-<div class="slider grey lighten-4" style="z-index: 3">
+<div class="slider grey lighten-4" style="z-index: 3" style="height: 800px">
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
@@ -19,7 +19,7 @@
       <div class="caption center-align">
         <h4 class="condensed" style="padding-top: 130px">CERTIFICACIÓN WORLD TRADE CENTER</h4>
         <h6 class="light grey-text text-lighten-3">Genera un valor agregado a tu organización de nivel internacional.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Conoce cómo</a>
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="#modal2">Conoce cómo</a>
       </div>
     </li>
     <li>
@@ -38,7 +38,7 @@
       <div class="caption center-align">
         <h4 class="condensed ligth" style="padding-top: 130px">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Ofrecemos guía y apoyo paso a paso para establecer tu empresa en México.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white">Agenda una consultoría gratis</a>
+        <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="#modal4">Agenda una consultoría gratis</a>
       </div>
     </li>
   </ul>
@@ -231,15 +231,147 @@
 </div>
 
 
-<!-- Modal Structure -->
+<!-- Modal Reserva Ya -->
   <div id="modal1" class="modal">
     <div class="modal-content">
       <h4>Modal Header</h4>
       <p>A bunch of text</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
     </div>
-  </div>    
+  </div>  
+
+<!-- Modal Reserva Ya -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="section">
+        <h3 class="center">Contact Us</h3>
+        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('name', 'Name') !!}
+          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('email', 'Mail') !!}
+          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('phone', 'Phone') !!}
+          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m6 offset-m3">
+          {!! Form::label('description', 'Message') !!}
+          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 center">
+          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+          </div>
+        </div>
+        {!! Form::close() !!}
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+    </div>
+  </div> 
+
+
+<!-- Modal Reserva Ya -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <div class="section">
+        <h3 class="center">Contact Us</h3>
+        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('name', 'Name') !!}
+          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('email', 'Mail') !!}
+          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('phone', 'Phone') !!}
+          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m6 offset-m3">
+          {!! Form::label('description', 'Message') !!}
+          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 center">
+          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+          </div>
+        </div>
+        {!! Form::close() !!}
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Envíar</a>
+    </div>
+  </div> 
+<!-- Modal Reserva Ya -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <div class="section">
+        <h3 class="center">Contact Us</h3>
+        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('name', 'Name') !!}
+          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('email', 'Mail') !!}
+          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('phone', 'Phone') !!}
+          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m6 offset-m3">
+          {!! Form::label('description', 'Message') !!}
+          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 center">
+          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+          </div>
+        </div>
+        {!! Form::close() !!}
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+    </div>
+  </div>  
 
 @endsection
