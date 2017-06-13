@@ -1,5 +1,5 @@
 <div class="navbar-fixed valign-wrapper" style="height: 40px">
-  <nav class="grey darken-2" style="z-index: 4;" role="navigation">
+  <nav style="z-index: 4; background-color: #444444" role="navigation">
     <div class="nav-wrapper">
       <ul class="">
         <li><i class="material-icons left white-text">phone</i><span class="white-text ">+52 (1) 4421297663</span></li>  
