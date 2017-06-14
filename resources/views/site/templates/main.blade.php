@@ -27,6 +27,10 @@
 		  z-index: 100;
 		  /* text-align: left; */
 		}
+
+		a .btn-large{
+			border: 1px solid #ffffff;
+		}
 	  </style>
 	</head>
 	<body>
@@ -45,12 +49,20 @@
 
 		<script>
             $(document).ready(function () {
-                $('.slider').slider({
+                $('.slider').slider({		
                 	full_width: true,
                 	height: 400,
                 	indicators: true,
                 	interval: 10000
-                	});
+            	});
+
+				$('.next').click(function() {
+				 $('.slider').slider('next');
+				});
+				$('.prev').click(function() {
+				 $('.slider').slider('prev');
+				});
+
             });
         </script>    
 

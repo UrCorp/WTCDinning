@@ -9,7 +9,7 @@
       <div class="caption center-align">
         <h4 class="condensed" style="padding-top: 90px">VISITA EL NUEVO EDIFICIO</h4>
         <h6 class="light grey-text text-lighten-3">Agenda una visita para conocer tus nuevas oficinas y consultorios en WTC.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="#modal1" >
+        <a class="waves-effect waves-light btn-large transparent bordered" href="#modal1" >
           Reserva ya
         </a>
       </div>
@@ -19,7 +19,7 @@
       <div class="caption center-align">
         <h4 class="condensed" style="padding-top: 90px">CERTIFICACIÓN WORLD TRADE CENTER</h4>
         <h6 class="light grey-text text-lighten-3">Genera un valor agregado a tu organización de nivel internacional.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="#modal2">Conoce cómo</a>
+        <a class="waves-effect waves-light btn-large transparent" href="#modal2">Conoce cómo</a>
       </div>
     </li>
     <li>
@@ -27,7 +27,7 @@
       <div class="caption center-align">
         <h4 class="condensed ligth" style="padding-top: 90px">ADQUIERE ARTESARNÍAS EXLCUSIVAS</h4>
         <h6 class="light grey-text text-lighten-3">Descubre el talento de manos Queretanas en la nueva tienda en línea de WTC.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="https://www.kichink.com/stores/kanpai">
+        <a class="waves-effect waves-light btn-large transparent" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
           Ir a la Tienda
         </a>
@@ -38,7 +38,7 @@
       <div class="caption center-align">
         <h4 class="condensed ligth" style="padding-top: 90px">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Ofrecemos guía y apoyo paso a paso para establecer tu empresa en México.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border-color: white" href="#modal4">Agenda una consultoría gratis</a>
+        <a class="waves-effect waves-light btn-large transparent" style="border: solid 10px black; border-color: white" href="#modal4">Agenda una consultoría gratis</a>
       </div>
     </li>
   </ul>
