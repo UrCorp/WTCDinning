@@ -7,3 +7,7 @@
 Homestead.json
 Homestead.yaml
 .env
+.htaccess
+index.php
+/stats
+composer.lock
