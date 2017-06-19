@@ -10,7 +10,7 @@
         <h4 class="condensed" style="padding-top: 90px">VISITA EL NUEVO EDIFICIO</h4>
         <h6 class="light grey-text text-lighten-3">Agenda una visita para conocer tus nuevas oficinas y consultorios en WTC.</h6>
         <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
-          Reserva ya
+          Reserva ya <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
@@ -19,7 +19,9 @@
       <div class="caption center-align">
         <h4 class="condensed" style="padding-top: 90px">CERTIFICACIÓN WORLD TRADE CENTER</h4>
         <h6 class="light grey-text text-lighten-3">Genera un valor agregado a tu organización de nivel internacional.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">Conoce cómo</a>
+        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
+          Conoce cómo <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+        </a>
       </div>
     </li>
     <li>
@@ -38,7 +40,9 @@
       <div class="caption center-align">
         <h4 class="condensed ligth" style="padding-top: 90px">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Ofrecemos guía y apoyo paso a paso para establecer tu empresa en México.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal4">Agenda una consultoría gratis</a>
+        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal4">
+          Agenda una consultoría gratis <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+        </a>
       </div>
     </li>
   </ul>
