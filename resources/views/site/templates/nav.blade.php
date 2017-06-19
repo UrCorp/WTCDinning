@@ -4,6 +4,7 @@
       <ul class="">
         <li><i style="font-size: 13px;" class="material-icons left white-text">phone</i><span style="font-size: 13px;" class="white-text ">+52 (1) 4421297663</span></li>  
         <li><a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top"><i style="font-size: 13px;" class="material-icons left white-text">mail</i><span class="white-text" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span></a></li>  
+        <li><a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/"><i class="fa fa-facebook-official"></i> Facebook</a></li>
       </ul>
     </div>
   </nav>
