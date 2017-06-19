@@ -13,19 +13,19 @@ class ImagesSeeder extends Seeder
     {
         //
         DB::table('images')->insert([
-                'name'          =>  'republica.jpg',
+                'name'          =>  'republica.png',
                 'restaurant_id' =>  '1'
             ]);
         DB::table('images')->insert([
-                'name'          =>  'laborcilla.jpg',
+                'name'          =>  'laborcilla.png',
                 'restaurant_id' =>  '2'
             ]);
         DB::table('images')->insert([
-                'name'          =>  '1810.jpg',
+                'name'          =>  '1810.png',
                 'restaurant_id' =>  '3'
             ]);
         DB::table('images')->insert([
-                'name'          =>  'argentilia.jpg',
+                'name'          =>  'argentilia.png',
                 'restaurant_id' =>  '4'
             ]);
         DB::table('images')->insert([
