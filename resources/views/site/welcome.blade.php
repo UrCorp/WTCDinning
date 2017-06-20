@@ -2,7 +2,7 @@
 
 @section('body-content')
 
-<div class="slider grey lighten-4" style="z-index: 3">
+<div class="slider grey lighten-4 w3-container-display" >
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
@@ -46,8 +46,9 @@
       </div>
     </li>
   </ul>
+  <button class="prev btn-flat white-text w3-display-left" style="z-index: 5">&#10094;</button>
+  <button class="next btn-flat white-text w3-display-right" style="z-index: 5">&#10095;</button>
 </div>
-
 
 <div class="grey lighten-4">
   <div class="container">
