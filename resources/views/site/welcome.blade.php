@@ -17,21 +17,21 @@
     <li>
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 90px">CERTIFICACIÓN WORLD TRADE CENTER</h4>
-        <h6 class="light grey-text text-lighten-3">Genera un valor agregado a tu organización de nivel internacional.</h6>
+        <h4 class="condensed" style="padding-top: 90px">WORLD TRADE CENTER CERTIFICATION</h4>
+        <h6 class="light grey-text text-lighten-3">Generate internacional added value to your organization.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
-          Conoce cómo <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+          Know How <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 90px">ADQUIERE ARTESARNÍAS EXLCUSIVAS</h4>
-        <h6 class="light grey-text text-lighten-3">Descubre el talento de manos Queretanas en la nueva tienda en línea de WTC.</h6>
+        <h4 class="condensed ligth" style="padding-top: 90px">ACQUIRE EXCLUSIVE MEXICAN CRAFTS</h4>
+        <h6 class="light grey-text text-lighten-3">Discover the awesome talent of Mexican hand crafting acquire your favorite products in our online store.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
-          Ir a la Tienda
+          Go Shopping
         </a>
       </div>
     </li>
@@ -39,9 +39,9 @@
       <img src="{{ asset('img/home/slider/zocalo.png') }}">
       <div class="caption center-align">
         <h4 class="condensed ligth" style="padding-top: 90px">SOFTLANDING</h4>
-        <h6 class="light grey-text text-lighten-3">Ofrecemos guía y apoyo paso a paso para establecer tu empresa en México.</h6>
+        <h6 class="light grey-text text-lighten-3">Need guidance to explore new markets, relocate your company or lower your production costs.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal4">
-          Agenda una consultoría gratis <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+          SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
