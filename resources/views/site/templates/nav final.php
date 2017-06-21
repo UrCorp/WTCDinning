@@ -74,8 +74,6 @@
   <li class="thin"><a href="#!"><img src="http://connectamericas.com/sites/default/files/content-idb/verifiedbadge.png" />Connect Americas</a></li>
 </ul>
 
-
-
 <!-- Menú lateral -->
 <ul class="side-nav" id="mobile-demo">
   <li><a href="Home">Home</a></li>

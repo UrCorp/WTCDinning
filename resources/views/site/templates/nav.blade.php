@@ -62,10 +62,16 @@
   <li class=""><a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a></li>
 </ul>
 
-
-
 <!-- Menú lateral -->
-<ul class="side-nav" id="mobile-demo">
+<ul class="side-nav collapsible" id="mobile-demo"  data-collapsible="accordion">
+    <li>
+        <div class="collapsible-header">Academics</div>
+        <div class="collapsible-body">
+            <a href="#!">WTC Certification</a>
+            <a href="#!">Lean Six Sigma</a>
+            <a href="#!">WTC University</a>
+        </div>
+    </li>
   <li><a href="Home">Home</a></li>
   <li><a href="#">Academics</a></li>
   <li><a href="#">Consultancy</a></li>
