@@ -46,8 +46,8 @@
       </div>
     </li>
   </ul>
-  <button class="prev btn-flat white-text w3-display-left" style="z-index: 5">&#10094;</button>
-  <button class="next btn-flat white-text w3-display-right" style="z-index: 5">&#10095;</button>
+  <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 50px; font-size: 36px">&#10094;</span></button>
+  <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 50px; font-size: 36px">&#10095;</button>
 </div>
 
 <div class="grey lighten-4">
