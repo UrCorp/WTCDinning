@@ -14,11 +14,12 @@
     </div>
   </nav>
 </div>
+
 <div class="navbar-fixed" >
   <nav class="white" style="z-index: 4; height: 100px" role="navigation">
     <div class="nav-wrapper" style="margin-top: 20px">
-      <a href="Home"><img src="{{ asset('img/wtcmenu.png') }}" class="hide-on-med-and-down left" alt=""></a>
-      <img src="{{ asset('img/wtc.png') }}" class="hide-on-large-only right" alt="">
+      <a href="Home"><img src="{{ asset('img/wtcmenu.png') }}" class="hide-on-med-and-down left" style="height: 50px"></a>
+      <img src="{{ asset('img/wtc.png') }}" class="hide-on-large-only right" style="">
       <a href="#" data-activates="mobile-demo" class="button-collapse">
         <i class="material-icons">menu</i>
       </a>
@@ -31,6 +32,7 @@
         <li><a class="dropdown-button" href="#" data-activates="dropdownTrading">Trade<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
     </div>
+    
   </nav>
 </div>
 <!-- Menú Academics -->
