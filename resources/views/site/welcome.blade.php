@@ -28,7 +28,7 @@
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="caption center-align">
         <h4 class="condensed ligth" style="padding-top: 90px">MEXICAN CRAFTS</h4>
-        <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting.</h6>
+        <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
           Go Shopping
