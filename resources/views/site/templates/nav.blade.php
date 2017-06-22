@@ -2,11 +2,11 @@
   <nav style="z-index: 4; background-color: #444444" role="navigation">
     <div class="nav-wrapper">
       <ul>
-        <li><i style="font-size: 13px;" class="material-icons left white-text">phone</i><span style="font-size: 13px;" class="white-text ">+52 (1) 4421297663</span></li>  
-        <li><a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top"><i style="font-size: 13px;" class="material-icons left white-text">mail</i><span class="white-text" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span></a></li> 
-        <li><a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/"><i class="fa fa-facebook-official" style="font-size: 13px"></i></a></li>
-        <li><a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/"><i class="fa fa-linkedin-square" style="font-size: 13px"></i></a></li>
-        <li><a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/"><i class="fa fa-instagram" style="font-size: 13px"></i></a></li>
+        <li><i style="font-size: 13px;" class="material-icons left white-text">phone</i><span style="font-size: 13px;" class="white-text hide-on-med-and-down">+52 (1) 4421297663</span></li>  
+        <li><a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top"><i style="font-size: 13px;" class="material-icons left white-text">mail</i><span class="white-text hide-on-med-and-down" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span></a></li> 
+        <li><a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/"><i class="fa fa-facebook-f" style="font-size: 13px;"></i></a></li>
+        <li><a class="white-text" target="_blank" href="https://www.linkedin.com/in/wtcqueretaro/"><i class="fa fa-linkedin-square" style="font-size: 13px"></i></a></li>
+        <li><a class="white-text" target="_blank" href="https://www.instagram.com/wtcqro/"><i class="fa fa-instagram" style="font-size: 13px"></i></a></li>
       </ul>
       <a href="https://www.wtca.org/world-trade-center-queretaro" class="right" target="_blank">
         <img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" class="right" style="padding-top: 20px">
@@ -80,15 +80,29 @@
         </div>
     </li>
     <li>
-        <div class="collapsible-header">Academics</div>
+        <div class="collapsible-header">Consultancy</div>
         <div class="collapsible-body">
-            <a href="#!">WTC Certification</a>
-            <a href="#!">Lean Six Sigma</a>
-            <a href="#!">WTC University</a>
+            <a href="#!">Softlanding</a>
         </div>
     </li>
-    <li><a href="#">Consultancy</a></li>
-    <li><a href="Dinning">Discover Querétaro</a></li>
-    <li><a href="http://wtcqueretaro.com/#wtcq_interactive" target="_blank" title="Real State">Real Estate</a></li>
-    <li><a href="#">Trading</a></li>
+    <li>
+        <div class="collapsible-header">Discover Querétaro</div>
+        <div class="collapsible-body">
+            <a href="Dining">Dining</a>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Real Estate</div>
+        <div class="collapsible-body">
+            <a href="#!">Coworking</a>
+            <a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Offices</a>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Trade</div>
+        <div class="collapsible-body">
+          <a href="https://www.kichink.com/stores/kanpai" target="_blank">Commerce</a>
+          <a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a>
+        </div>
+    </li>
 </ul>

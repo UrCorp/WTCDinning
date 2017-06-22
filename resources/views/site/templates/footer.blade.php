@@ -32,7 +32,8 @@
     <div class="footer-copyright tale">
       <div class="container">
           Powered by <a href="http://urcorp.mx" target="_blank"><img src="{{ asset('img/wtc-footer.png') }}" style="height: 20px" /></a>
-          <a href="https://www.wtca.org/world-trade-center-queretaro"><img src="{{ asset('img/logos/wtc-association-blanco-footer.png') }}" class="right"></a>
+          <a href="https://www.wtca.org/world-trade-center-queretaro"><img src="{{ asset('img/logos/wtc-association-blanco-footer.png') }}" class="right hide-on-med-and-down"></a>
+          <a href="https://www.wtca.org/world-trade-center-queretaro"><img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" class="right hide-on-large-only"></a>
       </div>
     </div>
   </footer>
