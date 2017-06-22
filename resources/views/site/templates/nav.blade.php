@@ -62,14 +62,28 @@
   <li class=""><a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a></li>
 </ul>
 
-
-
 <!-- Menú lateral -->
-<ul class="side-nav" id="mobile-demo">
-  <li><a href="Home">Home</a></li>
-  <li><a href="#">Academics</a></li>
-  <li><a href="#">Consultancy</a></li>
-  <li><a href="Dinning">Discover Querétaro</a></li>
-  <li><a href="http://wtcqueretaro.com/#wtcq_interactive" target="_blank" title="Real State">Real Estate</a></li>
-  <li><a href="#">Trading</a></li>
+<ul class="side-nav collapsible" id="mobile-demo"  data-collapsible="accordion">
+    
+    <li><a href="Home">Home</a></li>
+    <li>
+        <div class="collapsible-header">Academics</div>
+        <div class="collapsible-body">
+            <a href="#!">WTC Certification</a>
+            <a href="#!">Lean Six Sigma</a>
+            <a href="#!">WTC University</a>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Academics</div>
+        <div class="collapsible-body">
+            <a href="#!">WTC Certification</a>
+            <a href="#!">Lean Six Sigma</a>
+            <a href="#!">WTC University</a>
+        </div>
+    </li>
+    <li><a href="#">Consultancy</a></li>
+    <li><a href="Dinning">Discover Querétaro</a></li>
+    <li><a href="http://wtcqueretaro.com/#wtcq_interactive" target="_blank" title="Real State">Real Estate</a></li>
+    <li><a href="#">Trading</a></li>
 </ul>

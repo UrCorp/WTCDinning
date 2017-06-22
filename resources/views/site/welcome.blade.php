@@ -227,7 +227,7 @@
 
     <div class="row">
       <div class="col s12 center">
-      {!! Form::submit('Registrar',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+      {!! Form::submit('Registrar',['class' => 'btn blue darken-1', 'style' => 'margin:auto']) !!}
       </div>
     </div>
 
@@ -240,7 +240,8 @@
   <div id="modal1" class="modal modal-fixed-footer">
     <div class="modal-content">
       <div class="section">
-        <img src="{{ asset('img/wtc-w.png') }}" class="center" style="width: 10%; height: 10%">
+        <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
+        <button class="modal-close right btn-flat">X</button>
         <h5 class="center">Contact Us</h5>
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
@@ -269,14 +270,16 @@
 
         <div class="row">
           <div class="col s12 center">
-          {!! Form::submit('Book Now',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+          
           </div>
         </div>
         {!! Form::close() !!}
       </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        <div class="w3-center">
+        {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
     </div>
   </div> 
 
@@ -285,6 +288,7 @@
     <div class="modal-content">
       <div class="section">
         <img src="{{ asset('img/wtc-w.png') }}" class="center" style="width: 10%; height: 10%">
+        <button class="modal-close right btn-flat">X</button>
         <h5 class="center">Contact Us</h5>
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
@@ -313,14 +317,14 @@
 
         <div class="row">
           <div class="col s12 center">
-          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+         
           </div>
         </div>
         {!! Form::close() !!}
       </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+         {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
     </div>
   </div> 
 
@@ -329,6 +333,7 @@
     <div class="modal-content">
       <div class="section">
         <img src="{{ asset('img/wtc-w.png') }}" class="center" style="width: 10%; height: 10%">
+        <button class="modal-close right btn-flat">X</button>
         <h5 class="center">Contact Us</h5>
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
@@ -364,7 +369,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        {!! Form::submit('Register',['class' => 'btn blue darken-1 center', 'style' => 'margin: auto']) !!}
     </div>
   </div> 
 
