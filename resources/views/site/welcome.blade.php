@@ -7,10 +7,10 @@
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 90px">VISITA EL NUEVO EDIFICIO</h4>
-        <h6 class="light grey-text text-lighten-3">Agenda una visita para conocer tus nuevas oficinas y consultorios en WTC.</h6>
+        <h4 class="condensed" style="padding-top: 90px">EXPLORE OUR NEW COMPLEX</h4>
+        <h6 class="light grey-text text-lighten-3">We are pleased to give you a guided visit.</h6>
         <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
-          Reserva ya <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+          VISIT NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
