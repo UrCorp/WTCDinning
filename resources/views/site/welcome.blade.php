@@ -17,7 +17,7 @@
     <li>
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 90px">WORLD TRADE CENTER CERTIFICATION</h4>
+        <h4 class="condensed" style="padding-top: 90px">WTC QRO CERTIFICATION</h4>
         <h6 class="light grey-text text-lighten-3">Generate internacional added value to your organization.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
           Know How <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
