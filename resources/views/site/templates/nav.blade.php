@@ -1,11 +1,16 @@
 <div class="navbar-fixed valign-wrapper" style="height: 40px;">
   <nav style="z-index: 4; background-color: #444444" role="navigation">
     <div class="nav-wrapper">
-      <ul class="">
+      <ul>
         <li><i style="font-size: 13px;" class="material-icons left white-text">phone</i><span style="font-size: 13px;" class="white-text ">+52 (1) 4421297663</span></li>  
-        <li><a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top"><i style="font-size: 13px;" class="material-icons left white-text">mail</i><span class="white-text" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span></a></li>  
+        <li><a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top"><i style="font-size: 13px;" class="material-icons left white-text">mail</i><span class="white-text" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span></a></li> 
         <li><a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/"><i class="fa fa-facebook-official" style="font-size: 13px"></i></a></li>
+        <li><a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/"><i class="fa fa-linkedin-square" style="font-size: 13px"></i></a></li>
+        <li><a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/"><i class="fa fa-instagram" style="font-size: 13px"></i></a></li>
       </ul>
+      <a href="https://www.wtca.org/world-trade-center-queretaro" class="right" target="_blank">
+        <img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" class="right" style="padding-top: 20px">
+      </a>
     </div>
   </nav>
 </div>
