@@ -2,7 +2,7 @@
 
 @section('body-content')
 
-<div class="slider grey lighten-4 w3-container-display" >
+<div class="slider grey lighten-4 w3-container-display" style="">
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
