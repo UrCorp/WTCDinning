@@ -53,7 +53,7 @@
 <!-- Academics -->
 <div class="grey lighten-3">
   <div class="container">
-    <div class="section">      
+    <div class="section">
       <h3 class="grey-text text-darken-2">Academics</h3>
     </div>
     <div class="section">
@@ -111,9 +111,11 @@
 
 <!-- WTC Landing -->
 <div class="wrapper">
-  <div id="index-banner" class="parallax-container valign-wrapper" style="height: 600px;">
+  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 600px;">
+
+    <img src="{{ asset('img/home/trans-soft.png') }}" class="w3-display-left" style="height: 600px; width: 60%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Unsplashed background img 1"></div>
-      <div class="caption left-align hide-on-med-and-down" style="padding-left: 10%">
+      <div class="caption left-align hide-on-med-and-down" style="padding-left: 10%; z-index: 100">
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
           <br>
           <h5 class="light grey-text text-lighten-3">¡TU FUTURO ESTA SEGURO CON NOSOTROS!</h5>
@@ -124,9 +126,10 @@
       </div>
       <div class="caption center-align hide-on-large-only">
       </div>
-  </div>  
+  </div>
 </div>
 <!-- End WTC Landing -->
+<!--img src="{{ asset('img/home/trans-soft.png') }}" style="hight: 600px; margin-top: -600px;z-index: 10;"-->
 
 <div id="index-banner" class="parallax-container" style="height: 300px;">
   <div class="parallax"><img src="{{ asset('img/home/celphone.jpg') }}" alt="Unsplashed background img 1"></div>
@@ -246,7 +249,7 @@
 
         <div class="row">
           <div class="col s12 center">
-          
+
           </div>
         </div>
         {!! Form::close() !!}
@@ -257,7 +260,7 @@
         {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
         </div>
     </div>
-  </div> 
+  </div>
 
 <!-- Modal Reserva Ya -->
   <div id="modal2" class="modal modal-fixed-footer">
@@ -293,7 +296,7 @@
 
         <div class="row">
           <div class="col s12 center">
-         
+
           </div>
         </div>
         {!! Form::close() !!}
@@ -302,7 +305,7 @@
     <div class="modal-footer">
          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
     </div>
-  </div> 
+  </div>
 
 <!-- Modal Reserva Ya -->
   <div id="modal4" class="modal modal-fixed-footer">
@@ -347,6 +350,6 @@
     <div class="modal-footer">
         {!! Form::submit('Register',['class' => 'btn blue darken-1 center', 'style' => 'margin: auto']) !!}
     </div>
-  </div> 
+  </div>
 
 @endsection
