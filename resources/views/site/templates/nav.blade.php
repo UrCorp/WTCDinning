@@ -50,7 +50,7 @@
 
       <ul class="hide-on-med-and-down condensed">
         <li class="">
-          <a href="Home" class=">Home</a>
+          <a href="Home" class="">Home</a>
         </li>
         <li class="">
           <a class="dropdown-button" href="#" data-activates="dropdownAcademics">
