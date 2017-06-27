@@ -61,48 +61,45 @@
         <div class="col s12 m4">
           <div class="w3-card white">
             <img src="{{ asset('img/home/a-certification.jpg') }}" alt="CERTIFICATION" width="100%">
-            <div class="w3-container white w3-margin">
-              <h5 class="grey-text text-darken-1"><b>WTC CERTIFICATION</b></h5>
+            <div class="w3-container white w3-margin-small">
+              <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>WTC CERTIFICATION</b></h5>
               <p class="w3-justify w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+              quis nostrud exercitation ullamco.</p>
               <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
                 <b>INSCRIBIRME</b>
               </a>
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
-          <div class="w3-card white">
-            <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="CERTIFICATION" width="100%">
-            <div class="w3-container white w3-margin">
-              <h5 class="grey-text text-darken-1"><b>LEAN SIX SIGMA</b></h5>
-              <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-              <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
-                <b>INSCRIBIRME</b>
-              </a>
+          <div class="col s12 m4">
+            <div class="w3-card white">
+              <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="CERTIFICATION" width="100%">
+              <div class="w3-container white w3-margin-small">
+                <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>LEAN SIX SIGMA</b></h5>
+                <p class="w3-justify w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco.</p>
+                <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
+                  <b>INSCRIBIRME</b>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="w3-card white">
-            <img src="{{ asset('img/home/a-university.jpg') }}" alt="CERTIFICATION" width="100%">
-            <div class="w3-container white w3-margin">
-              <h5 class="grey-text text-darken-1"><b>WTC UNIVERSITY</b></h5>
-              <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-              <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
-                <b>INSCRIBIRME</b>
-              </a>
+            <div class="col s12 m4">
+              <div class="w3-card white">
+                <img src="{{ asset('img/home/a-university.jpg') }}" alt="CERTIFICATION" width="100%">
+                <div class="w3-container white w3-margin-small">
+                  <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>WTC UNIVERSITY</b></h5>
+                  <p class="w3-justify w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco.</p>
+                  <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
+                    <b>INSCRIBIRME</b>
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -188,7 +185,7 @@
     </div>
   </div>
   <div class="w3-col m7 w3-container">
-    <h2 style="color: #542581; ">Los más vendidos</h2> 
+    <h2 style="color: #542581; ">Los más vendidos</h2>
   </div>
 </div>
 <!-- End Commerce -->
