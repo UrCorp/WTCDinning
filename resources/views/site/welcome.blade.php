@@ -113,13 +113,12 @@
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 600px;">
 
-    <img src="{{ asset('img/home/trans-soft.png') }}" class="w3-display-left" style="height: 600px; width: 60%">
+    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left" style="height: 600px; width: 60%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Unsplashed background img 1"></div>
-      <div class="caption left-align hide-on-med-and-down" style="padding-left: 10%; z-index: 100">
+      <div class="caption left-align" style="padding-left: 10%; z-index: 100">
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
           <br>
           <h5 class="light grey-text text-lighten-3">¡TU FUTURO ESTA SEGURO CON NOSOTROS!</h5>
-
           <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#modal1" >
             LEER MAS
           </a>
@@ -129,11 +128,50 @@
   </div>
 </div>
 <!-- End WTC Landing -->
-<!--img src="{{ asset('img/home/trans-soft.png') }}" style="hight: 600px; margin-top: -600px;z-index: 10;"-->
 
-<div id="index-banner" class="parallax-container" style="height: 300px;">
-  <div class="parallax"><img src="{{ asset('img/home/celphone.jpg') }}" alt="Unsplashed background img 1"></div>
+<!-- Newsletter -->
+<div style="background-color: #EBECEE" class="w3-display-container">
+  <img src="{{ asset('img/home/trans-news.png') }}" width="100%" style="margin-left: -30px; margin-bottom: -50px; margin-top: -22px">
+    <!--h3 class="w3-display-topmiddle grey-text text-darken-2">¡Recibe las últimas noticias!</h3>
+    <p class="w3-display-middle">Se parte de la red más grande de empresarios del país, suscríbete a nuestro Newsletter.</p-->
+    <div class="w3-display-middle center">
+    <h3 class="grey-text text-darken-2"><b>¡Recibe las últimas noticias!</b></h3>
+      <p class="grey-text text-darken-2">Se parte de la red más grande de empresarios del país, suscríbete a nuestro Newsletter.</p>
+          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#modal1" >
+            SUSCRIBIRME
+          </a>
+    </div>
 </div>
+
+
+<!-- End Newletter -->
+
+<!-- Dining -->
+<div class="wrapper">
+  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 600px;">
+    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
+      <div class="caption left-align" style="padding-left: 10%; z-index: 100;">
+          <!--h1 class="white-text"><b>Dining</b></h1>
+          <span class="w3-half w3-justify">Descubre nuestra gama de restaurantes y disfruta de la propuesta culinaria</span>
+          <br>
+          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#modal1" >
+            BUSCAR MAS ->
+          </a-->
+          <div class="w3-half">
+            <div class="w3-container transparent w3-padding">
+              <h1 class="white-text">DINING</h1>
+              <p class="w3-justify">Descrube nuestra gama de restaurantes y disfruta de nuestra oferta culinaria.</p>
+              <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
+                INCRIBIRME
+              </a>
+            </div>
+          </div>
+      </div>
+      <div class="caption center-align hide-on-large-only">
+      </div>
+  </div>
+</div>
+<!-- End Dining -->
 
 <div class="container hide-on-small-only">
   <div class="section">
