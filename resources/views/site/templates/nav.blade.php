@@ -7,7 +7,7 @@
           <span style="font-size: 13px;" class="white-text hide-on-med-and-down">+52 (1) 4421297663</span>
         </li>  
         <li>
-          <a href="mailto:constacto@wtcqueretaro.com?Subject=Hola" target="_top">
+          <a href="mailto:contacto@wtcqueretaro.com?Subject=Hola" target="_top">
             <i style="font-size: 13px;" class="material-icons left white-text">mail</i>
             <span class="white-text hide-on-med-and-down" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span>
           </a>

@@ -59,46 +59,46 @@
     <div class="section">
       <div class="row">
         <div class="col s12 m4">
-          <div class="w3-card">
-            <img src="{{ asset('img/home/a-certification.jpg') }}" alt="Norway" width="100%">
-            <div class="w3-container white w3-padding">
-              <h5 class="w3-center grey-text text-darken-2">WTC CERTIFICATION</h5>
-              <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          <div class="w3-card white">
+            <img src="{{ asset('img/home/a-certification.jpg') }}" alt="CERTIFICATION" width="100%">
+            <div class="w3-container white w3-margin">
+              <h5 class="grey-text text-darken-1"><b>WTC CERTIFICATION</b></h5>
+              <p class="w3-justify w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-              <a class="waves-effect waves-light grey darken-2 w3-button w3-block white-text" style="border: solid 1px black; border-color: white" href="#modal1" >
-                INCRIBIRME
+              <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
+                <b>INSCRIBIRME</b>
               </a>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="w3-card">
-            <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="Norway" width="100%">
-            <div class="w3-container white w3-padding">
-              <h5 class="w3-center grey-text text-darken-2">LEAN SIX SIGMA</h5>
+          <div class="w3-card white">
+            <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="CERTIFICATION" width="100%">
+            <div class="w3-container white w3-margin">
+              <h5 class="grey-text text-darken-1"><b>LEAN SIX SIGMA</b></h5>
               <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-              <a class="waves-effect waves-light grey darken-2 w3-button w3-block white-text" style="border: solid 1px black; border-color: white" href="#modal1" >
-                INCRIBIRME
+              <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
+                <b>INSCRIBIRME</b>
               </a>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="w3-card">
-            <img src="{{ asset('img/home/a-university.jpg') }}" alt="Norway" width="100%">
-            <div class="w3-container white w3-padding">
-              <h5 class="w3-center grey-text text-darken-2">WTC UNIVSERSITY</h5>
+          <div class="w3-card white">
+            <img src="{{ asset('img/home/a-university.jpg') }}" alt="CERTIFICATION" width="100%">
+            <div class="w3-container white w3-margin">
+              <h5 class="grey-text text-darken-1"><b>WTC UNIVERSITY</b></h5>
               <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-              <a class="waves-effect waves-light grey darken-2 w3-button w3-block white-text" href="#modal1" >
-                INCRIBIRME
+              <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
+                <b>INSCRIBIRME</b>
               </a>
             </div>
           </div>
@@ -111,9 +111,9 @@
 
 <!-- WTC Landing -->
 <div class="wrapper">
-  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 600px;">
+  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
 
-    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left" style="height: 600px; width: 60%">
+    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left" style="height: 550px; width: 60%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Unsplashed background img 1"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
@@ -148,15 +148,9 @@
 
 <!-- Dining -->
 <div class="wrapper">
-  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 600px;">
+  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100;">
-          <!--h1 class="white-text"><b>Dining</b></h1>
-          <span class="w3-half w3-justify">Descubre nuestra gama de restaurantes y disfruta de la propuesta culinaria</span>
-          <br>
-          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#modal1" >
-            BUSCAR MAS ->
-          </a-->
           <div class="w3-half">
             <div class="w3-container transparent w3-padding">
               <h1 class="white-text">DINING</h1>
@@ -173,6 +167,54 @@
 </div>
 <!-- End Dining -->
 
+<!-- Commerce -->
+<div class="w3-row">
+  <div class="w3-col m5 w3-container valign-wrapper" style="background-color: #542581; height: 400px">
+    <div class="w3-third">
+      <img src="{{ asset('img/home/kchink-circle.png') }}" class="w3-right" height="100%">
+    </div>
+    <div class="w3-half">
+      <div class="w3-container">
+        <h2 class="w3-left white-text w3-left"><b>Commerce</b></h2>
+      </div>
+      <div class="w3-container">
+        <p class="white-text w3-justify">Adquiere productos artesanales de nuestra selección única hehca sólo para ti.</p>
+      </div>
+      <div class="w3-container">
+              <a class="W3-btn w3-block waves-effect waves-light white center w3-padding" href="#modal1" style="color: #542581;">
+                ¡COMPRAR YA!
+              </a>
+      </div>
+    </div>
+  </div>
+  <div class="w3-col m7 w3-container">
+    <h2 style="color: #542581; ">Los más vendidos</h2> 
+  </div>
+</div>
+<!-- End Commerce -->
+
+<!-- WTC trade -->
+<div class="wrapper">
+  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
+
+    <img src="{{ asset('img/home/trade-trans.png') }}" class="w3-display-right" style="height: 550px; width: 70%">
+    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/trade.png') }}" alt=""></div>
+      <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
+          <img src="{{ asset('img/home/wtc-trade.png') }}" width="50%">
+          <br>
+          <h5 class="light grey-text text-lighten-3"><b>Coworking Club</b></h5>
+          <h6>Descrubre nuestra gama de restarutantes y disfruta de la propuesta culinaria</h6>
+          <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+            AGENDAR
+          </a>
+      </div>
+      <div class="caption center-align hide-on-large-only">
+      </div>
+  </div>
+</div>
+<!-- End WTC trade -->
+
+<!-- Contact -->
 <div class="container hide-on-small-only">
   <div class="section">
     <h3 class="center">Contact Us</h3>
