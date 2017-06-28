@@ -109,8 +109,7 @@
 <!-- WTC Landing -->
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-
-    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left" style="height: 550px; width: 60%">
+    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left " style="height: 550px; width: 60%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Unsplashed background img 1"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
@@ -128,19 +127,15 @@
 
 <!-- Newsletter -->
 <div style="background-color: #EBECEE" class="w3-display-container">
-  <img src="{{ asset('img/home/trans-news.png') }}" width="100%" style="margin-left: -30px; margin-bottom: -50px; margin-top: -22px">
-    <!--h3 class="w3-display-topmiddle grey-text text-darken-2">¡Recibe las últimas noticias!</h3>
-    <p class="w3-display-middle">Se parte de la red más grande de empresarios del país, suscríbete a nuestro Newsletter.</p-->
+  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" >
     <div class="w3-display-middle center">
-    <h3 class="grey-text text-darken-2"><b>¡Recibe las últimas noticias!</b></h3>
+      <h3 class="grey-text text-darken-2"><b>¡Recibe las últimas noticias!</b></h3>
       <p class="grey-text text-darken-2">Se parte de la red más grande de empresarios del país, suscríbete a nuestro Newsletter.</p>
           <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#modal1" >
             SUSCRIBIRME
           </a>
     </div>
 </div>
-
-
 <!-- End Newletter -->
 
 <!-- Dining -->
@@ -164,32 +159,6 @@
 </div>
 <!-- End Dining -->
 
-<!-- Commerce -->
-<div class="w3-row">
-  <div class="w3-col m5 w3-container valign-wrapper" style="background-color: #542581; height: 400px">
-    <div class="w3-third">
-      <img src="{{ asset('img/home/kchink-circle.png') }}" class="w3-right" height="100%">
-    </div>
-    <div class="w3-half">
-      <div class="w3-container">
-        <h2 class="w3-left white-text w3-left"><b>Commerce</b></h2>
-      </div>
-      <div class="w3-container">
-        <p class="white-text w3-justify">Adquiere productos artesanales de nuestra selección única hehca sólo para ti.</p>
-      </div>
-      <div class="w3-container">
-              <a class="W3-btn w3-block waves-effect waves-light white center w3-padding" href="#modal1" style="color: #542581;">
-                ¡COMPRAR YA!
-              </a>
-      </div>
-    </div>
-  </div>
-  <div class="w3-col m7 w3-container">
-    <h2 style="color: #542581; ">Los más vendidos</h2>
-  </div>
-</div>
-<!-- End Commerce -->
-
 <!-- WTC trade -->
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
@@ -211,45 +180,74 @@
 </div>
 <!-- End WTC trade -->
 
-<!-- Contact -->
-<div class="container hide-on-small-only">
-  <div class="section">
-    <h3 class="center">Contact Us</h3>
-    {{ Form::open(array('files' => true, 'method' => 'POST')) }}
-    <div class="row">
-      <div class="input-field col s12 m6 offset-m3">
-      {!! Form::label('name', 'Name') !!}
-      {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+<!-- Commerce -->
+<div class="w3-row">
+  <div class="w3-col m5 w3-container valign-wrapper" style="background-color: #542581; height: 400px">
+    <div class="w3-third">
+      <img src="{{ asset('img/home/kchink-circle.png') }}" class="w3-right" height="100%">
+    </div>
+    <div class="w3-half">
+      <div class="w3-container">
+        <h2 class="w3-left white-text w3-left"><b>Commerce</b></h2>
+      </div>
+      <div class="w3-container">
+        <p class="white-text w3-justify">Adquiere productos artesanales de nuestra selección única hehca sólo para ti.</p>
+      </div>
+      <div class="w3-container">
+        <a class="W3-btn w3-block waves-effect waves-light white center w3-padding" href="#modal1" style="color: #542581;">
+          ¡COMPRAR YA!
+        </a>
       </div>
     </div>
-
-    <div class="row">
-      <div class="input-field col s12 m3 offset-m3">
-      {!! Form::label('email', 'Mail') !!}
-      {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
-      </div>
-      <div class="input-field col s12 m3">
-      {!! Form::label('phone', 'Phone') !!}
-      {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col s12 m6 offset-m3">
-      {!! Form::label('description', 'Message') !!}
-      {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col s12 center">
-      {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
-      </div>
-    </div>
-
-
-    {!! Form::close() !!}
   </div>
+  <div class="w3-col m7 w3-container">
+    <h2 style="color: #542581; ">Los más vendidos</h2>
+  </div>
+</div>
+<!-- End Commerce -->
+
+
+  <div class="">
+    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
+  </div>
+
+<!-- Contact -->
+<div class="container hide-on-med-and-down">
+    <div class="section">
+      <h3 class="center">Contact Us</h3>
+      {{ Form::open(array('files' => true, 'method' => 'POST')) }}
+      <div class="row">
+        <div class="input-field col m10 offset-m1">
+        {!! Form::label('name', 'Name') !!}
+        {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col m5 offset-m1">
+        {!! Form::label('email', 'Mail') !!}
+        {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+        </div>
+        <div class="input-field col m5">
+        {!! Form::label('phone', 'Phone') !!}
+        {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col m10 offset-m1">
+        {!! Form::label('description', 'Message') !!}
+        {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col m10 offset-m1 center">
+        {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+        </div>
+      </div>
+      {!! Form::close() !!}
+    </div>
 </div>
 
 <div class="container hide-on-large-only">
