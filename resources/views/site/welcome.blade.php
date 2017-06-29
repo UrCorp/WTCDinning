@@ -112,11 +112,12 @@
 <!-- End WTC Landing -->
 
 <!-- Newsletter -->
-<div style="background-color: #EBECEE" class="w3-display-container">
-  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" >
+<div style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
+  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
     <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2"><b>¡Recibe las últimas noticias!</b></h3>
-      <p class="grey-text text-darken-2">Se parte de la red más grande de empresarios del país, suscríbete a nuestro Newsletter.</p>
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Recibe las últimas noticias!</b></h3>
+      <h6 class="grey-text text-darken-2"><b>¡Recibe las últimas noticias!</b></h5>
+      <p class="grey-text text-darken-2 w3-tiny">Se parte de la red más grande de empresarios del país, suscríbete a nuestro Newsletter.</p>
           <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#modal1" >
             SUSCRIBIRME
           </a>
@@ -168,7 +169,7 @@
 
 <!-- Commerce -->
 <div class="w3-row">
-  <div class="w3-col m5 w3-container valign-wrapper" style="background-color: #542581; height: 400px">
+  <div class="w3-col s12 m5 w3-container valign-wrapper" style="background-color: #542581; height: 400px">
     <div class="w3-third">
       <img src="{{ asset('img/home/kchink-circle.png') }}" class="w3-right" height="100%">
     </div>
@@ -186,7 +187,7 @@
       </div>
     </div>
   </div>
-  <div class="w3-col m7 w3-container">
+  <div class="w3-col s12 m7 w3-container">
     <h2 style="color: #542581; ">Los más vendidos</h2>
   </div>
 </div>
@@ -200,47 +201,26 @@
 <!-- End Map -->
 
 <!-- Popup -->
-<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px">
+<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px" class="hide-on-med-and-down">
    <ul id="general" class="collapsible w3-right" data-collapsible="accordion" style="width: 250px;">
     <li id="informes">
       <div class="collapsible-header white-text" style="background-color: #7E858D"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
       <div class="collapsible-body white">
-        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
-        <div class="row">
-          <div class="input-field col m12">
-          {!! Form::label('name', 'Name') !!}
-          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
-          </div>
-        </div>
+        <form class="w3-container" action="index.html" method="post">
+          <label class="w3-text-gray w3-small"><b>Nombre</b></label>
+          <input class="w3-input w3-border" style="height:30px" type="text">
 
-        <div class="row">
-          <div class="input-field col m12">
-          {!! Form::label('email', 'Mail') !!}
-          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
-          </div>
-        </div>
+          <label class="w3-text-gray"><b>Correo</b></label>
+          <input class="w3-input w3-border" style="height:30px" type="text">
 
-        <div class="row">
-          <div class="input-field col m12">
-          {!! Form::label('phone', 'Phone') !!}
-          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
-          </div>
-        </div>
+          <label class="w3-text-gray"><b>Telefono</b></label>
+          <input class="w3-input w3-border" style="height:30px" type="text">
 
-        <div class="row">
-          <div class="col m12">
-          {!! Form::label('description', 'Message') !!}
-          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
-          </div>
-        </div>
+          <label class="w3-text-gray"><b>Mensaje</b></label>
+          <input class="w3-input w3-border" style="height:30px" type="text">
 
-        <div class="row">
-          <div class="col m10 offset-m1 center">
-          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
-          </div>
-        </div>
-        {!! Form::close() !!}
-      </div>
+          <button class="w3-btn w3-gray white-text center">Enviar</button>
+        </form>
     </li>
   </ul>
 </div>
