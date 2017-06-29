@@ -202,12 +202,7 @@
   <div class="section">
     <div class="w3-row">
       <div class="w3-half">
-        <iframe
-          width="450"
-          height="250"
-          frameborder="0" style="border:0"
-          src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBiNydPY-Kj1gUb5JKc-Ry5zkeIjlwvQMs&q=record+stores+in+Seattle" allowfullscreen>
-        </iframe>
+        <div id="googleMap" class="" style="width:100%;height:450px;"></div>
       </div>
       <div class="w3-half">
         <h3 class="center">Contact Us</h3>

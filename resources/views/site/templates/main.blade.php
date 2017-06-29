@@ -26,6 +26,9 @@
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="{{ asset('plugins/materialize/js/materialize.js') }}"></script>
 		<script src="{{ asset('plugins/materialize/js/init.js') }}"></script>
+		<script src="{{ asset('js/home.js') }}"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByvtwqkD692H3-KFxtpZMwoFH5SlNAsqQ&callback=myMap"></script>
+
 
 		<script>
             $(document).ready(function () {
