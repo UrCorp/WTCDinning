@@ -193,9 +193,58 @@
 <!-- End Commerce -->
 
 
+<!-- Map -->
   <div class="">
     <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
   </div>
+<!-- End Map -->
+
+<!-- Popup -->
+<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px">
+   <ul id="general" class="collapsible w3-right" data-collapsible="accordion" style="width: 250px;">
+    <li id="informes">
+      <div class="collapsible-header white-text" style="background-color: #7E858D"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
+      <div class="collapsible-body white">
+        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
+        <div class="row">
+          <div class="input-field col m12">
+          {!! Form::label('name', 'Name') !!}
+          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col m12">
+          {!! Form::label('email', 'Mail') !!}
+          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col m12">
+          {!! Form::label('phone', 'Phone') !!}
+          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col m12">
+          {!! Form::label('description', 'Message') !!}
+          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col m10 offset-m1 center">
+          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+          </div>
+        </div>
+        {!! Form::close() !!}
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- Popup -->
 
 <!-- Contact -->
 <div class="container hide-on-med-and-down">

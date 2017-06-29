@@ -13,3 +13,9 @@
   });
   marker.setMap(map);
 }
+
+$('#informes').click(function() {
+    $('#general').css({
+        'width': '30%'
+    });
+});
