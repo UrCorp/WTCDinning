@@ -87,8 +87,6 @@
   <li class=""><a href="#!">WTC Certification</a></li>
   <li class="divider"></li>
   <li class=""><a href="#!">Lean Six Sigma</a></li>
-  <li class="divider"></li>
-  <li class=""><a href="#!">WTC University</a></li>
 </ul>
 
 <!-- Menú Consultancy -->
@@ -138,7 +136,6 @@
         <div class="collapsible-body">
             <a href="#!">WTC Certification</a>
             <a href="#!">Lean Six Sigma</a>
-            <a href="#!">WTC University</a>
         </div>
     </li>
     <li>

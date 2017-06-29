@@ -58,7 +58,7 @@
     </div>
     <div class="section">
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m6">
           <div class="w3-card white">
             <img src="{{ asset('img/home/a-certification.jpg') }}" alt="CERTIFICATION" width="100%">
             <div class="w3-container white w3-margin-small">
@@ -72,7 +72,7 @@
             </div>
           </div>
         </div>
-          <div class="col s12 m4">
+          <div class="col s12 m6">
             <div class="w3-card white">
               <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="CERTIFICATION" width="100%">
               <div class="w3-container white w3-margin-small">
@@ -86,20 +86,6 @@
               </div>
             </div>
           </div>
-            <div class="col s12 m4">
-              <div class="w3-card white">
-                <img src="{{ asset('img/home/a-university.jpg') }}" alt="CERTIFICATION" width="100%">
-                <div class="w3-container white w3-margin-small">
-                  <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>WTC UNIVERSITY</b></h5>
-                  <p class="w3-justify w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco.</p>
-                  <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
-                    <b>INSCRIBIRME</b>
-                  </a>
-                </div>
-              </div>
-            </div>
       </div>
     </div>
   </div>
@@ -213,41 +199,53 @@
 
 <!-- Contact -->
 <div class="container hide-on-med-and-down">
-    <div class="section">
-      <h3 class="center">Contact Us</h3>
-      {{ Form::open(array('files' => true, 'method' => 'POST')) }}
-      <div class="row">
-        <div class="input-field col m10 offset-m1">
-        {!! Form::label('name', 'Name') !!}
-        {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
-        </div>
+  <div class="section">
+    <div class="w3-row">
+      <div class="w3-half">
+        <iframe
+          width="450"
+          height="250"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBiNydPY-Kj1gUb5JKc-Ry5zkeIjlwvQMs&q=record+stores+in+Seattle" allowfullscreen>
+        </iframe>
       </div>
+      <div class="w3-half">
+        <h3 class="center">Contact Us</h3>
+        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
+        <div class="row">
+          <div class="input-field col m10 offset-m1">
+          {!! Form::label('name', 'Name') !!}
+          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
 
-      <div class="row">
-        <div class="input-field col m5 offset-m1">
-        {!! Form::label('email', 'Mail') !!}
-        {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+        <div class="row">
+          <div class="input-field col m5 offset-m1">
+          {!! Form::label('email', 'Mail') !!}
+          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col m5">
+          {!! Form::label('phone', 'Phone') !!}
+          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+          </div>
         </div>
-        <div class="input-field col m5">
-        {!! Form::label('phone', 'Phone') !!}
-        {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col m10 offset-m1">
-        {!! Form::label('description', 'Message') !!}
-        {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+        <div class="row">
+          <div class="col m10 offset-m1">
+          {!! Form::label('description', 'Message') !!}
+          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col m10 offset-m1 center">
-        {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+        <div class="row">
+          <div class="col m10 offset-m1 center">
+          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+          </div>
         </div>
+        {!! Form::close() !!}
       </div>
-      {!! Form::close() !!}
     </div>
+  </div>
 </div>
 
 <div class="container hide-on-large-only">
