@@ -21,6 +21,10 @@ Route::get('/Dining', [
 		'as'	=> 	'dinning'
 	]);
 
+Route::get('/Shop', function () {
+    return view('site.shop');
+});
+
 Route::get('/Home', [
 		'uses'	=> 	'indexController@index',
 		'as' 	=>	'index'
