@@ -1,15 +1,18 @@
 <div class="navbar-fixed" style="height: 30px">
-  <nav style="z-index: 4; background-color: #444;" role="navigation" class="w3-container">
+  <!--nav style="z-index: 4; background-color: #444;" role="navigation" class="w3-container"-->
+  <nav style="z-index: 4;" role="navigation" class="w3-container z-depth-0 transparent" id="topnav">
     <div class="nav-wrapper" style="">
-      <ul>
+      <ul class="">
         <li>
-          <i style="font-size: 13px;" class="material-icons left white-text">phone</i>
-          <span style="font-size: 13px;" class="white-text hide-on-med-and-down">+52 (1) 4421297663</span>
+          <a href="tel:4421297663" class="white-text">
+            <i style="font-size: 13px;" class="material-icons left">phone</i>
+            <span style="font-size: 13px;" class="hide-on-med-and-down">+52 (1) 4421297663</span>
+          </a>
         </li>  
         <li>
-          <a href="mailto:contacto@wtcqueretaro.com?Subject=Hola" target="_top">
-            <i style="font-size: 13px;" class="material-icons left white-text">mail</i>
-            <span class="white-text hide-on-med-and-down" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span>
+          <a href="mailto:contacto@wtcqueretaro.com?Subject=Hola" target="_top" class="white-text">
+            <i style="font-size: 13px;" class="material-icons left ">mail</i>
+            <span class=" hide-on-med-and-down" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span>
           </a>
         </li> 
         <li>
@@ -18,7 +21,7 @@
           </a>
         </li>
         <li>
-          <a class="white-text" target="_blank" href="https://www.linkedin.com/in/wtcqueretaro/">
+          <a class="white-text" target="_blank" href="https://www.linkedin.com/in/wtcqueretaro/" class="white-text">
             <i class="fa fa-linkedin-square" style="font-size: 13px"></i>
           </a>
         </li>
@@ -36,11 +39,15 @@
 </div>
 
 <!-- Large menu -->
-<div class="navbar-fixed hide-on-med-and-down" style="height: 0px">
-  <nav class="white" style="z-index: 4; height: 100px;" role="navigation">
-    <div class="nav-wrapper valign-wrapper w3-display-container" style="">
-      <a href="Home"><img src="{{ asset('img/wtcmenu.png') }}" class="hide-on-med-and-down left" style="height: 50px"></a>
-
+<div class="navbar-fixed hide-on-med-and-down" style="height: 0; margin-top: 0px;">
+  <nav class="transparent z-depth-0" style="z-index: 4; height: 100px;"  role="navigation" id="undernav">
+    <div class="nav-wrapper valign-wrapper w3-display-container w3-border-0" style=" border-bottom: dotted 10px white">
+      <a href="Home">
+        <img src="{{ asset('img/wtcmenu.png') }}" class="hide-on-med-and-down w3-display-left w3-hide logonav" id="logobn">
+      </a>
+      <a href="Home">
+        <img src="{{ asset('img/logos/wtc-letras-blanco.png') }}" class="hide-on-med-and-down w3-display-left logonav" id="logocolor">
+      </a>
       <!-- Icons responsive menu -->
       <img src="{{ asset('img/wtc.png') }}" class="hide-on-large-only nav-logo" style="">
       <a href="#" data-activates="mobile-demo" class="button-collapse">
@@ -48,32 +55,32 @@
       </a>
       <!-- End icons responsive menu -->
 
-      <ul class="hide-on-med-and-down condensed">
+      <ul class="hide-on-med-and-down condensed w3-display-right">
         <li class="">
-          <a href="Home" class="">Home</a>
+          <a href="Home" class="white-text" id="menuscroll">Home</a>
         </li>
         <li class="">
-          <a class="dropdown-button" href="#" data-activates="dropdownAcademics">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownAcademics" id="menuscroll">
             Academics<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li class="">
-          <a class="dropdown-button" href="#" data-activates="dropdownConsultancy">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownConsultancy" id="menuscroll">
             Consultancy<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li class="">
-          <a class="dropdown-button" href="#" data-activates="dropdownDiscover">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownDiscover" id="menuscroll">
             Discover Querétaro<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li class="">
-          <a class="dropdown-button" href="#" data-activates="dropdownRealEstate">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="menuscroll">
             Real Estate<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li class="">
-          <a class="dropdown-button" href="#" data-activates="dropdownTrading">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownTrading" id="menuscroll">
             Trade<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>

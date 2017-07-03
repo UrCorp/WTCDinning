@@ -45,7 +45,6 @@
 				$('.prev').click(function() {
 				 $('.slider').slider('prev');
 				});
-
             });
         </script>    
 

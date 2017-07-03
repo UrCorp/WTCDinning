@@ -2,7 +2,7 @@
 
 @section('body-content')
 
-<div class="slider w3-container-display" style="">
+<div class="slider w3-container-display grey lighten-3" style="margin-top: -30px">
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">

@@ -28,6 +28,7 @@ a .btn-large
 nav {
     height: 30px;
     line-height: 30px;
+    border-style: none;
 }
 
 nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
@@ -49,4 +50,18 @@ nav .brand-logo {
         height: 30px;
         line-height: 30px;
     }
+}
+
+.z-depth-0 {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0);
+}
+
+.greytop{
+    background-color: #444
+}
+
+.logonav{
+    height: 50px;
 }
