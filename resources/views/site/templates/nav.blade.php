@@ -40,8 +40,8 @@
 
 <!-- Large menu -->
 <div class="navbar-fixed hide-on-med-and-down" style="height: 0; margin-top: 0px;">
-  <nav class="transparent z-depth-0" style="z-index: 4; height: 100px;"  role="navigation" id="undernav">
-    <div class="nav-wrapper valign-wrapper w3-display-container w3-border-0" style=" border-bottom: dotted 10px white">
+  <nav class="transparent z-depth-0" style="z-index: 4; height: 70px;"  role="navigation" id="undernav">
+    <div class="nav-wrapper valign-wrapper w3-display-container w3-border-0">
       <a href="Home">
         <img src="{{ asset('img/wtcmenu.png') }}" class="hide-on-med-and-down w3-display-left w3-hide logonav" id="logobn">
       </a>
@@ -57,30 +57,30 @@
 
       <ul class="hide-on-med-and-down condensed w3-display-right">
         <li class="">
-          <a href="Home" class="white-text" id="menuscroll">Home</a>
+          <a href="Home" class="white-text" id="home">Home</a>
         </li>
         <li class="">
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownAcademics" id="menuscroll">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownAcademics" id="academics">
             Academics<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li class="">
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownConsultancy" id="menuscroll">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownConsultancy" id="consultancy">
             Consultancy<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li class="">
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownDiscover" id="menuscroll">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownDiscover" id="discover">
             Discover Querétaro<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li class="">
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="menuscroll">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="real">
             Real Estate<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li class="">
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownTrading" id="menuscroll">
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownTrading" id="trade">
             Trade<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>

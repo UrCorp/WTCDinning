@@ -2,10 +2,10 @@
 
 @section('body-content')
   
-<div id="index-banner" class="parallax-container" style="height: 500px;">
+<div id="index-banner" class="parallax-container" style="height: 500px; margin-top: -30px">
   <div class="section no-pad-bot center">
-    <nav style="width: 80%; border-radius: 15px; margin: auto" class=""> 
-      <div class="nav-wrapper white" style="margin-top: 250px; border-radius: 15px;">
+    <nav style="width: 80%; border-radius: 15px; margin: auto; height: 50px" class=""> 
+      <div class="nav-wrapper white" style="margin-top: 250px; height: 50px">
         <div class="input-field col s12 m8 l8">
         {!! Form::open(['route(' =>'site.welcome]', 'method' => 'GET']) !!}
           <input id="search" type="search" placeholder="Restaurants, food type..." name="search">

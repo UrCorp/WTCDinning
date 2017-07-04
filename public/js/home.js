@@ -26,18 +26,35 @@ $(window).scroll(function() {
   if ($(document).scrollTop() > 50) {
     //cuando se hace el scroll down
     $('nav').removeClass('transparent');
+    $('nav').removeClass('z-depth-0');
     $('#topnav').removeClass('transparent');
     $('#topnav').addClass('greytop');
     $('#undernav').addClass('white');
     $('#logocolor').addClass('w3-hide');
     $('#logobn').removeClass('w3-hide');
-    $('#menuscroll').removeClass('withe-text');
-    $('#menuscroll').addClass('black-text');
+    $('#home').removeClass('white-text');
+    $('#home').css('color','#444');
+    $('#academics').removeClass('white-text');
+    $('#academics').css('color','#444');
+    $('#consultancy').removeClass('white-text');
+    $('#consultancy').css('color','#444');
+    $('#discover').removeClass('white-text');
+    $('#discover').css('color','#444');
+    $('#real').removeClass('white-text');
+    $('#real').css('color','#444');
+    $('#trade').removeClass('white-text');
+    $('#trade').css('color','#444');
   } else {
     //cuado se esta hasta arriba
     $('nav').addClass('transparent');
+    $('nav').addClass('z-depth-0');
     $('#logocolor').removeClass('w3-hide');
     $('#logobn').addClass('w3-hide');
-    $('#menuscroll').addClass('black-text');
+    $('#home').addClass('white-text');
+    $('#academics').addClass('white-text');
+    $('#consultancy').addClass('white-text');
+    $('#discover').addClass('white-text');
+    $('#real').addClass('white-text');
+    $('#trade').addClass('white-text');
   }
 });

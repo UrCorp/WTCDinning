@@ -7,7 +7,7 @@
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 90px">EXPLORE OUR NEW COMPLEX</h4>
+        <h4 class="condensed" style="padding-top: 60px">EXPLORE OUR NEW COMPLEX</h4>
         <h6 class="light grey-text text-lighten-3">We are pleased to give you a guided visit.</h6>
         <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
           VISIT NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
@@ -17,7 +17,7 @@
     <li>
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 90px">WTC QRO CERTIFICATION</h4>
+        <h4 class="condensed" style="padding-top: 60px">WTC QRO CERTIFICATION</h4>
         <h6 class="light grey-text text-lighten-3">Generate internacional added value to your organization.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
           Know How <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
@@ -27,7 +27,7 @@
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 90px">MEXICAN CRAFTS</h4>
+        <h4 class="condensed ligth" style="padding-top: 60px">MEXICAN CRAFTS</h4>
         <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
@@ -38,7 +38,7 @@
     <li>
       <img src="{{ asset('img/home/slider/zocalo.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 90px">SOFTLANDING</h4>
+        <h4 class="condensed ligth" style="padding-top: 60px">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Need guidance to explore new markets, relocate your company or lower your production costs.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal4">
           SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
