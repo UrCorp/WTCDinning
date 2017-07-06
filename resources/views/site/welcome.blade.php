@@ -201,7 +201,7 @@
 <!-- End Map -->
 
 <!-- Popup -->
-<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px" class="hide-on-med-and-down">
+<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px" class="">
    <ul id="general" class="collapsible w3-right" data-collapsible="accordion" style="width: 250px;">
     <li id="informes">
       <div class="collapsible-header white-text" style="background-color: #7E858D"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
