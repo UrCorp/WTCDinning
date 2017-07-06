@@ -8,13 +8,13 @@
             <i style="font-size: 13px;" class="material-icons left">phone</i>
             <span style="font-size: 13px;" class="hide-on-med-and-down">+52 (1) 4421297663</span>
           </a>
-        </li>  
+        </li>
         <li>
           <a href="mailto:contacto@wtcqueretaro.com?Subject=Hola" target="_top" class="white-text">
             <i style="font-size: 13px;" class="material-icons left ">mail</i>
-            <span class=" hide-on-med-and-down" style="font-size: 13px;">contacto@wtcqueretaro.com.mx</span>
+            <span class=" hide-on-med-and-down" style="font-size: 13px;">contacto@wtcqueretaro.com</span>
           </a>
-        </li> 
+        </li>
         <li>
           <a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/">
             <i class="fa fa-facebook-f" style="font-size: 13px;"></i>
@@ -136,7 +136,7 @@
 
 <!-- Collapsible menu -->
 <ul class="side-nav collapsible" id="mobile-demo"  data-collapsible="accordion">
-    
+
     <li><a href="Home">Home</a></li>
     <li>
         <div class="collapsible-header">Academics</div>

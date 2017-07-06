@@ -63,9 +63,7 @@
             <img src="{{ asset('img/home/a-certification.jpg') }}" alt="CERTIFICATION" width="100%">
             <div class="w3-container white w3-margin-small">
               <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>WTC CERTIFICATION</b></h5>
-              <p class="w3-justify w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco.</p>
+              <p class="w3-justify w3-padding-16"></p>
               <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
                 <b>INSCRIBIRME</b>
               </a>
@@ -77,9 +75,7 @@
               <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="CERTIFICATION" width="100%">
               <div class="w3-container white w3-margin-small">
                 <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>LEAN SIX SIGMA</b></h5>
-                <p class="w3-justify w3-padding-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco.</p>
+                <p class="w3-justify w3-padding-16"></p>
                 <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
                   <b>INSCRIBIRME</b>
                 </a>
@@ -201,12 +197,13 @@
 <!-- End Map -->
 
 <!-- Popup -->
-<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px" class="">
+<!-- Large -->
+<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px" class="hide-on-med-and-down" id="prueba">
    <ul id="general" class="collapsible w3-right" data-collapsible="accordion" style="width: 250px;">
     <li id="informes">
       <div class="collapsible-header white-text" style="background-color: #7E858D"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
       <div class="collapsible-body white">
-        <form class="w3-container" action="index.html" method="post">
+        <!--form class="w3-container" action="index.html" method="post">
           <label class="w3-text-gray w3-small"><b>Nombre</b></label>
           <input class="w3-input w3-border" style="height:30px" type="text">
 
@@ -220,7 +217,35 @@
           <input class="w3-input w3-border" style="height:30px" type="text">
 
           <button class="w3-btn w3-gray white-text center">Enviar</button>
-        </form>
+        </form-->
+        <h4>Teléfono:</h4>
+        <h3><a href="tel:+52 442 294 8121" target="_blank">442 294 8121</a></h3>
+    </li>
+  </ul>
+</div>
+<!-- Responsive -->
+<div style="position: fixed; z-index: 10; bottom: 0; width: 100%; margin-bottom: -18px; z-index: 1000" class="hide-on-large-only" id="prueba1">
+   <ul id="general-movil" class="collapsible w3-right" data-collapsible="accordion">
+    <li id="informes-movil">
+      <div class="collapsible-header white-text" style="background-color: #7E858D"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
+      <div class="collapsible-body white">
+        <!--form class="w3-container" action="index.html" method="post">
+          <label class="w3-text-gray w3-small"><b>Nombre</b></label>
+          <input class="w3-input w3-border" style="height:30px" type="text">
+
+          <label class="w3-text-gray"><b>Correo</b></label>
+          <input class="w3-input w3-border" style="height:30px" type="text">
+
+          <label class="w3-text-gray"><b>Telefono</b></label>
+          <input class="w3-input w3-border" style="height:30px" type="text">
+
+          <label class="w3-text-gray"><b>Mensaje</b></label>
+          <input class="w3-input w3-border" style="height:30px" type="text">
+
+          <button class="w3-btn w3-gray white-text center">Enviar</button>
+        </form-->
+        <h4>Teléfono:</h4>
+        <h3><a href="tel:+52 442 294 8121" target="_blank">442 294 8121</a></h3>
     </li>
   </ul>
 </div>

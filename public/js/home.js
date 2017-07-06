@@ -19,7 +19,21 @@ $('#informes').click(function() {
         'width': '30%'
     });
 });
-
+/*
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    //cuando se hace el scroll down
+    $('nav').removeClass('transparent');
+    $('nav').removeClass('z-depth-0');
+    $('#topnav').removeClass('transparent');
+  } else {
+    //cuado se esta hasta arriba
+    $('nav').addClass('transparent');
+    $('nav').addClass('z-depth-0');
+    $('#logocolor').removeClass('w3-hide');
+  }
+});
+*/
 
 
 $(window).scroll(function() {
@@ -57,4 +71,32 @@ $(window).scroll(function() {
     $('#real').addClass('white-text');
     $('#trade').addClass('white-text');
   }
+});
+
+$(window).scroll(function() {
+   if($(window).scrollTop() + $(window).height() == $(document).height()) {
+       //alert("bottom!");
+       $('#general').css({
+           'width': '250px'
+       });
+       $('#general').css({
+             'margin-bottom': '80px'
+       });
+
+       $('#general-movil').css({
+             'margin-bottom': '80px'
+         });
+   } else {
+     $('#general').css({
+         'width': '250px'
+     });
+     $('#general').css({
+           'margin-bottom': '10px'
+       });
+
+     $('#general-movil').css({
+           'margin-bottom': '10px'
+       });
+
+   }
 });
