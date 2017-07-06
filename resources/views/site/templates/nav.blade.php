@@ -2,13 +2,18 @@
   <!--nav style="z-index: 4; background-color: #444;" role="navigation" class="w3-container"-->
   <nav style="z-index: 4;" role="navigation" class="w3-container z-depth-0 transparent" id="topnav">
     <div class="nav-wrapper" style="">
-      <ul class="">
-        <li>
+      <ul>
+        <li class="hide-on-med-and-down">
           <a href="tel:4421297663" class="white-text">
             <i style="font-size: 13px;" class="material-icons left">phone</i>
             <span style="font-size: 13px;" class="hide-on-med-and-down">+52 (1) 4421297663</span>
           </a>
         </li>
+          <li class="hide-on-large-only">
+            <a href="tel:4421297663" class="white-text">
+              <i style="font-size: 13px;" class="material-icons left">phone</i>
+            </a>
+          </li>
         <li>
           <a href="mailto:contacto@wtcqueretaro.com?Subject=Hola" target="_top" class="white-text">
             <i style="font-size: 13px;" class="material-icons left ">mail</i>
@@ -56,30 +61,30 @@
       <!-- End icons responsive menu -->
 
       <ul class="hide-on-med-and-down condensed w3-display-right">
-        <li class="">
+        <li>
           <a href="Home" class="white-text" id="home">Home</a>
         </li>
-        <li class="">
+        <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownAcademics" id="academics">
             Academics<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
-        <li class="">
+        <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownConsultancy" id="consultancy">
             Consultancy<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
-        <li class="">
+        <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownDiscover" id="discover">
             Discover Querétaro<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
-        <li class="">
+        <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="real">
             Real Estate<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
-        <li class="">
+        <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownTrading" id="trade">
             Trade<i class="material-icons right">arrow_drop_down</i>
           </a>
@@ -91,34 +96,34 @@
 
 <!-- Menú Academics -->
 <ul id="dropdownAcademics" class="dropdown-content">
-  <li class=""><a href="#!">WTC Certification</a></li>
+  <li><a href="#!">WTC Certification</a></li>
   <li class="divider"></li>
-  <li class=""><a href="#!">Lean Six Sigma</a></li>
+  <li><a href="#!">Lean Six Sigma</a></li>
 </ul>
 
 <!-- Menú Consultancy -->
 <ul id="dropdownConsultancy" class="dropdown-content">
-  <li class=""><a href="#!">SoftLanding</a></li>
+  <li><a href="#!">SoftLanding</a></li>
 </ul>
 
 <!-- Menú Discover -->
 <ul id="dropdownDiscover" class="dropdown-content">
-  <li class=""><a href="Dining">Dining</a></li>
+  <li><a href="Dining">Dining</a></li>
   <li class="divider"></li>
 </ul>
 
 <!-- Menú Real Estate -->
 <ul id="dropdownRealEstate" class="dropdown-content">
-  <li class=""><a href="#!">Coworking</a></li>
+  <li><a href="#!">Coworking</a></li>
   <li class="divider"></li>
-  <li class=""><a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Offices</a></li>
+  <li><a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Offices</a></li>
 </ul>
 
 <!-- Menú Trading -->
 <ul id="dropdownTrading" class="dropdown-content">
-  <li class=""><a href="https://www.kichink.com/stores/kanpai" target="_blank">Commerce</a></li>
+  <li><a href="https://www.kichink.com/stores/kanpai" target="_blank">Commerce</a></li>
   <li class="divider"></li>
-  <li class=""><a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a></li>
+  <li><a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a></li>
 </ul>
 
 

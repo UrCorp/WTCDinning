@@ -129,7 +129,7 @@
           <div class="w3-half">
             <div class="w3-container transparent w3-padding">
               <h1 class="white-text">DINING</h1>
-              <p class="w3-justify">Descrube nuestra gama de restaurantes y disfruta de nuestra oferta culinaria.</p>
+              <p class="w3-justify">Descubre nuestra gama de restaurantes y disfruta de nuestra oferta culinaria.</p>
               <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
                 INCRIBIRME
               </a>
@@ -152,7 +152,7 @@
           <img src="{{ asset('img/home/wtc-trade.png') }}" width="50%">
           <br>
           <h5 class="light grey-text text-lighten-3"><b>Coworking Club</b></h5>
-          <h6>Descrubre nuestra gama de restarutantes y disfruta de la propuesta culinaria</h6>
+          <h6>¡Próximamente!</h6>
           <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
             AGENDAR
           </a>
@@ -174,7 +174,7 @@
         <h2 class="w3-left white-text w3-left"><b>Commerce</b></h2>
       </div>
       <div class="w3-container">
-        <p class="white-text w3-justify">Adquiere productos artesanales de nuestra selección única hehca sólo para ti.</p>
+        <p class="white-text w3-justify">Adquiere productos artesanales de nuestra selección única hecha sólo para ti.</p>
       </div>
       <div class="w3-container">
         <a class="W3-btn w3-block waves-effect waves-light white center w3-padding" href="#modal1" style="color: #542581;">
