@@ -88,15 +88,17 @@
         <img src="{{ asset('img/logos/wtc-letras-blanco.png') }}" class="hide-on-med-and-down w3-display-left logonav" id="logocolor">
       </a>
       <!-- Icons responsive menu -->
-      <img src="{{ asset('img/wtc.png') }}" class="hide-on-large-only nav-logo" style="">
-      <a href="#" data-activates="mobile-demo" class="button-collapse">
-        <i class="material-icons">menu</i>
-      </a>
+
       <!-- End icons responsive menu -->
 
       <ul class="hide-on-med-and-down condensed w3-display-right">
         <li>
           <a href="Home" class="white-text" id="home">Home</a>
+        </li>
+        <li>
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="real">
+            Real Estate<i class="material-icons right">arrow_drop_down</i>
+          </a>
         </li>
         <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownAcademics" id="academics">
@@ -111,11 +113,6 @@
         <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownDiscover" id="discover">
             Discover Querétaro<i class="material-icons right">arrow_drop_down</i>
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="real">
-            Real Estate<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li>
@@ -162,13 +159,13 @@
 
 
 <!-- Mobile menu -->
-<div class="navbar-fixed hide-on-large-only" >
-  <nav class="white" style="z-index: 4; height: 60px" role="navigation">
-    <div class="nav-wrapper valign-wrapper" style="margin-top: auto;">
-      <a href="#" data-activates="mobile-demo" class="button-collapse">
-        <i class="material-icons">menu</i>
+<div class="navbar-fixed hide-on-large-only" style="height: 0px; margin-top: 0">
+  <nav class="transparent z-depth-0" style="z-index: 4; height: 70px;" role="navigation" id="undernav-movil">
+    <div class="nav-wrapper valign-wrapper w3-display-container">
+      <a href="#" data-activates="mobile-demo" class="button-collapse w3-display-left">
+        <i class="material-icons white-text" id="iconmenumovil">menu</i>
       </a>
-      <img src="{{ asset('img/wtc.png') }}" class="hide-on-large-only" style="height: 39px; padding-left: 100px;">
+      <img src="{{ asset('img/logos/logomenumovil.png') }}" class="hide-on-large-only w3-display-middle" style="height: 29px;">
     </div>
   </nav>
 </div>

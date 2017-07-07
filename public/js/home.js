@@ -46,6 +46,7 @@ $(window).scroll(function() {
     $('#topnav-movil').removeClass('transparent');
     $('#topnav-movil').addClass('greytop');
     $('#undernav').addClass('white');
+    $('#undernav-movil').addClass('white');
     $('#logocolor').addClass('w3-hide');
     $('#logobn').removeClass('w3-hide');
     $('#home').removeClass('white-text');
@@ -60,6 +61,8 @@ $(window).scroll(function() {
     $('#real').css('color','#444');
     $('#trade').removeClass('white-text');
     $('#trade').css('color','#444');
+    $('#iconmenumovil').removeClass('white-text');
+    $('#iconmenumovil').css('color','#444');
   } else {
     //cuado se esta hasta arriba
     $('nav').addClass('transparent');
@@ -72,6 +75,7 @@ $(window).scroll(function() {
     $('#discover').addClass('white-text');
     $('#real').addClass('white-text');
     $('#trade').addClass('white-text');
+    $('#iconmenumovil').addClass('white-text');
   }
 });
 
