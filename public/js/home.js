@@ -47,8 +47,8 @@ $(window).scroll(function() {
     $('#topnav-movil').addClass('greytop');
     $('#undernav').addClass('white');
     $('#undernav-movil').addClass('white');
-    $('#logocolor').addClass('w3-hide');
-    $('#logobn').removeClass('w3-hide');
+    $('#logocolormovil').addClass('w3-hide');
+    $('#logobnmovil').removeClass('w3-hide');
     $('#home').removeClass('white-text');
     $('#home').css('color','#444');
     $('#academics').removeClass('white-text');
@@ -69,6 +69,8 @@ $(window).scroll(function() {
     $('nav').addClass('z-depth-0');
     $('#logocolor').removeClass('w3-hide');
     $('#logobn').addClass('w3-hide');
+    $('#logocolormovil').removeClass('w3-hide');
+    $('#logobnmovil').addClass('w3-hide');
     $('#home').addClass('white-text');
     $('#academics').addClass('white-text');
     $('#consultancy').addClass('white-text');

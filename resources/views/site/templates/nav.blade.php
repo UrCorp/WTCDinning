@@ -165,7 +165,13 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse w3-display-left">
         <i class="material-icons white-text" id="iconmenumovil">menu</i>
       </a>
-      <img src="{{ asset('img/logos/logomenumovil.png') }}" class="hide-on-large-only w3-display-middle" style="height: 29px;">
+      <a href="Home">
+        <img src="{{ asset('img/logos/logomenumovil.png') }}" class="w3-display-middle w3-hide logonav" id="logobnmovil">
+      </a>
+      <a href="Home">
+        <img src="{{ asset('img/logos/logomenumovilblanco.png') }}" class="w3-display-middle logonav" id="logocolormovil">
+      </a>
+
     </div>
   </nav>
 </div>
