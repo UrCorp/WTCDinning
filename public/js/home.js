@@ -43,6 +43,8 @@ $(window).scroll(function() {
     $('nav').removeClass('z-depth-0');
     $('#topnav').removeClass('transparent');
     $('#topnav').addClass('greytop');
+    $('#topnav-movil').removeClass('transparent');
+    $('#topnav-movil').addClass('greytop');
     $('#undernav').addClass('white');
     $('#logocolor').addClass('w3-hide');
     $('#logobn').removeClass('w3-hide');

@@ -1,6 +1,5 @@
 <div class="navbar-fixed" style="height: 30px">
-  <!--nav style="z-index: 4; background-color: #444;" role="navigation" class="w3-container"-->
-  <nav style="z-index: 4;" role="navigation" class="w3-container z-depth-0 transparent" id="topnav">
+  <nav style="z-index: 4;" role="navigation" class="w3-container z-depth-0 transparent hide-on-med-and-down" id="topnav">
     <div class="nav-wrapper" style="">
       <ul>
         <li class="hide-on-med-and-down">
@@ -41,12 +40,47 @@
       </a>
     </div>
   </nav>
+  <!--  -->
+  <nav style="z-index: 4;" role="navigation" class="w3-container z-depth-0 transparent hide-on-large-only" id="topnav-movil">
+    <div class="nav-wrapper" style="">
+      <ul>
+        <li>
+          <a href="tel:4421297663" class="white-text">
+            <i class="fa fa-phone" style="font-size: 13px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:contacto@wtcqueretaro.com?Subject=Hola" target="_top" class="white-text">
+            <i class="fa fa-envelope-o" style="font-size: 13px;"></i>
+          </a>
+        </li>
+        <li>
+          <a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/">
+            <i class="fa fa-facebook-f" style="font-size: 13px;"></i>
+          </a>
+        </li>
+        <li>
+          <a class="white-text" target="_blank" href="https://www.linkedin.com/in/wtcqueretaro/" class="white-text">
+            <i class="fa fa-linkedin-square" style="font-size: 13px"></i>
+          </a>
+        </li>
+        <li>
+          <a class="white-text" target="_blank" href="https://www.instagram.com/wtcqro/">
+            <i class="fa fa-instagram" style="font-size: 13px"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="https://www.wtca.org/world-trade-center-queretaro" target="_blank">
+        <img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" class="w3-display-right">
+      </a>
+    </div>
+  </nav>
 </div>
 
 <!-- Large menu -->
 <div class="navbar-fixed hide-on-med-and-down" style="height: 0; margin-top: 0px;">
   <nav class="transparent z-depth-0" style="z-index: 4; height: 70px;"  role="navigation" id="undernav">
-    <div class="nav-wrapper valign-wrapper w3-display-container w3-border-0">
+    <div class="nav-wrapper valign-wrapper w3-display-container">
       <a href="Home">
         <img src="{{ asset('img/wtcmenu.png') }}" class="hide-on-med-and-down w3-display-left w3-hide logonav" id="logobn">
       </a>
