@@ -63,7 +63,7 @@
               <div class="w3-container white w3-margin-small">
                 <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>WTC CERTIFICATION</b></h5>
                 <p class="w3-justify w3-padding-16">
-                  Increase productivity in your organization, transcending through human value, generating solvency. Design new strategies based on innovation tools and generate an added value with an international level.
+                  Increase productivity in your organization, transcending through human value and generating solvency. Design new strategies based on innovation tools and generate an added value with an international level.
                 </p>
                 <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
                   <b>REGISTER</b>
@@ -114,7 +114,7 @@
 <div class="grey lighten-3" style="margin-top: -30px">
 <h2 class="center grismomentum">Elige tu oficina o consultorio</h2 >
   <div class="">
-    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
+    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
   </div>
 </div>
 <!-- End Map -->
