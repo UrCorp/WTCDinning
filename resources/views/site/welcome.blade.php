@@ -131,7 +131,7 @@
             <h1 class="white-text">DINING</h1>
             <p class="w3-justify">Descubre nuestra gama de restaurantes y disfruta de nuestra oferta culinaria.</p>
             <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
-              RESERVE
+              RESERVE NOW
             </a>
           </div>
         </div>
