@@ -7,11 +7,11 @@
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 60px">PREVENTA Y RENTA</h4>
+        <h4 class="condensed" style="padding-top: 60px">PRE-SALE AND RENT</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
-        <p>Conoce y elige de entre nuestras oficinas y consultorios.</p>
+        <p>Choose your office or medical consulting room.</p>
         <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
-          SABER MÁS <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+          KNOW MORE <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
@@ -52,44 +52,42 @@
 </div>
 
 <!-- Academics-->
-  <div class="w3-container" style="background-image: url('public/img/home/trans-academics.jpg'); background-repeat: no-repeat; background-size: cover;">
-    <div class="container">
-        <h3 class="grey-text text-darken-2 center">Academics</h3>
-      <div class="section" style="padding-bottom: 80px">
-        <div class="row">
-          <div class="col s12 m5 offset-m1">
-            <div class="w3-card white">
-              <img src="{{ asset('img/home/a-certification.jpg') }}" alt="CERTIFICATION" width="100%">
-              <div class="w3-container white w3-margin-small">
-                <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>WTC CERTIFICATION</b></h5>
-                <p class="w3-justify w3-padding-16">
-                  Increase productivity in your organization, transcending through human value and generating solvency. Design new strategies based on innovation tools and generate an added value with an international level.
-                </p>
-                <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
-                  <b>REGISTER</b>
-                </a>
-              </div>
-            </div>
-          </div>
-            <div class="col s12 m5 ">
-              <div class="w3-card white">
-                <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="CERTIFICATION" width="100%">
-                <div class="w3-container white w3-margin-small">
-                  <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>LEAN SIX SIGMA</b></h5>
-                  <p class="w3-justify w3-padding-16">
-                    Lean Six Sigma is a rigorous and systematic method of improving operational performance by leveraging various tools to identify and eliminate defects. Our training has direct and tangible applications in almost all manufacturing processes but it can also be used to ﬁnd bottlenecks and improve the performance in service-related organizations.
-                  </p>
-                  <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
-                    <b>REGISTER</b>
-                  </a>
-                </div>
-              </div>
-            </div>
+  <div class="wrapper">
+    <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
+      <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right" style="height: 550px; width: 70%">
+      <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
+        <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
+            <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
+            <h6>¡Coming Soon!</h6>
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+              Newsletter
+            </a>
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+              Certification
+            </a>
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+              Lean Six Sigma
+            </a>
         </div>
-      </div>
+        <div class="caption center-align hide-on-large-only">
+        </div>
     </div>
   </div>
 <!-- End Academics -->
+
+<!-- Newsletter -->
+<div style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
+  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
+    <div class="w3-display-middle center">
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡RECEIVE OUR LAST NEWS!</b></h3>
+      <h6 class="grey-text text-darken-2"><b>¡Receive our last news!</b></h5>
+      <p class="grey-text text-darken-2 w3-tiny">Be part of the largest business network in the country. Subscribe to our Newsletter.</p>
+          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#modal1" >
+            SUBSCRIBE
+          </a>
+    </div>
+</div>
+<!-- End Newletter -->
 
 <!-- WTC Landing -->
 <div class="wrapper">
@@ -99,9 +97,9 @@
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
           <br>
-          <h5 class="light grey-text text-lighten-3">¡TU FUTURO ESTA SEGURO CON NOSOTROS!</h5>
+          <h5 class="light grey-text text-lighten-3">¡YOUR FUTURE IS SAFE WITH US!</h5>
           <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#modal1" >
-            LEER MAS
+            READ MORE
           </a>
       </div>
       <div class="caption center-align hide-on-large-only">
@@ -112,7 +110,7 @@
 
 <!-- Map -->
 <div class="grey lighten-3" style="margin-top: -30px">
-<h2 class="center grismomentum">Elige tu oficina o consultorio</h2 >
+<h2 class="center grismomentum">Choose your office or medical consulting room</h2 >
   <div class="">
     <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
   </div>
@@ -129,7 +127,7 @@
         <div class="w3-display-topright">
           <div class="w3-container w3-padding" style="width: 70%; background-color: rgb(111,111,111, 0.3);">
             <h1 class="white-text">DINING</h1>
-            <p class="w3-justify">Descubre nuestra gama de restaurantes y disfruta de nuestra oferta culinaria.</p>
+            <p class="w3-justify">Discover our range of restaurants and enjoy our culinary offer.</p>
             <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
               RESERVE NOW
             </a>
@@ -140,19 +138,39 @@
 </div>
 <!-- End Dining -->
 
-<!-- Newsletter -->
-<div style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
-  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
-    <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Recibe las últimas noticias!</b></h3>
-      <h6 class="grey-text text-darken-2"><b>¡Recibe las últimas noticias!</b></h5>
-      <p class="grey-text text-darken-2 w3-tiny">Se parte de la red más grande de empresarios del país, suscríbete a nuestro Newsletter.</p>
-          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#modal1" >
-            SUSCRIBIRME
-          </a>
+<!-- Momentum -->
+  <div class="w3-container w3-padding-32 w3-padding-large">
+    <div class="w3-half w3-padding-large">
+      <h4 class="grismomentum">Trabajar aquí será un placer</h4>
+      <p class="grismomentum">Amenidades únicas en su tipo:</p>
+      <ul class="grismomentum">
+        <li>7 salas de juntas</li>
+        <li>Cancha de padel tenis</li>
+        <li>Gimnaio</li>
+        <li>Alberca Techada</li>
+        <li>Regaderas</li>
+        <li>Vapor</li>
+        <li>Comedor</li>
+        <li>Sky Garden</li>
+        <li>Sale de Juegos</li>
+      </ul>
+      <p class="w3-justify grismomentum">Conoce el exclusivo desarrollo médico y empresarial <b>World Trade Center...</b> donde tienes lo mejor a tu alcance.</p>
+      <p class="verdemomentum">Proyecto Pre-certificado MEES, Edificación Sustentable</p>
+      <button type="button" name="button" class="w3-btn btnmomentum">Solicitar información</button>
+      <button type="button" name="button" class="w3-btn btnmomentum">Recorrido Virtual</button>
     </div>
-</div>
-<!-- End Newletter -->
+    <div class="w3-half w3-padding-large">
+      <img src="{{ asset('img/home/momentum/nite.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="height: 200px">
+      <div class="w3-half">
+        <img src="{{ asset('img/home/momentum/day.jpg') }}" width="100%" height="200px" class="w3-paddig-16 w3-padding" style="">
+      </div>
+      <div class="w3-half">
+        <img src="{{ asset('img/home/momentum/inside.jpg') }}" width="100%" height="200px" class="w3-paddig-16 w3-padding" style="">
+      </div>
+      <img src="{{ asset('img/home/momentum/pool.jpg') }}" width="100%" class="w3-paddig-16 w3-padding"  style="height: 200px">
+    </div>
+  </div>
+<!-- End Momentum -->
 
 <!-- WTC trade -->
 <div class="wrapper">
@@ -164,9 +182,9 @@
           <img src="{{ asset('img/home/wtc-trade.png') }}" width="50%">
           <br>
           <h5 class="light grey-text text-lighten-3"><b>Coworking Club</b></h5>
-          <h6>¡Próximamente!</h6>
+          <h6>¡Coming Soon!</h6>
           <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
-            AGENDAR
+            Shedule Now
           </a>
       </div>
       <div class="caption center-align hide-on-large-only">
@@ -174,7 +192,6 @@
   </div>
 </div>
 <!-- End WTC trade -->
-
 
 <!-- Popup -->
 <!-- Large -->
@@ -198,7 +215,7 @@
 
           <button class="w3-btn w3-gray white-text center">Enviar</button>
         </form-->
-        <h4>Teléfono:</h4>
+        <h4>Phone:</h4>
         <h3><a href="tel:+52 442 294 8121" target="_blank">442 294 8121</a></h3>
     </li>
   </ul>
@@ -207,7 +224,7 @@
 <div style="position: fixed; z-index: 10; bottom: 0; width: 100%; margin-bottom: -18px; z-index: 1000" class="hide-on-large-only" id="prueba1">
    <ul id="general-movil" class="collapsible w3-right" data-collapsible="accordion">
     <li id="informes-movil">
-      <div class="collapsible-header white-text" style="background-color: #7E858D"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
+      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
       <div class="collapsible-body white">
         <!--form class="w3-container" action="index.html" method="post">
           <label class="w3-text-gray w3-small"><b>Nombre</b></label>
@@ -224,12 +241,23 @@
 
           <button class="w3-btn w3-gray white-text center">Enviar</button>
         </form-->
-        <h4>Teléfono:</h4>
+        <h4>Phone:</h4>
         <h3><a href="tel:+52 442 294 8121" target="_blank">442 294 8121</a></h3>
     </li>
   </ul>
 </div>
 <!-- Popup -->
+
+<!-- Patrocinadores -->
+  <div class="w3-panle">
+    <h2 class="center">Meet our Partners</h2>
+    <div class="row">
+      <div class="col s12 m4">
+
+      </div>
+    </div>
+  </div>
+<!-- End Patrocinadores -->
 
 <!-- Contact -->
 <div class="container hide-on-med-and-down">

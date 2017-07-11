@@ -76,3 +76,8 @@ nav .brand-logo {
  .slider{
 	 height: 400px;
  }
+
+ .btnmomentum{
+	 border: 3px solid #95b629;
+	 color: #95b629;
+ }
