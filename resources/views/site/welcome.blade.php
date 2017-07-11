@@ -51,15 +51,6 @@
   <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 50px; font-size: 36px">&#10095;</button>
 </div>
 
-<!-- Map -->
-<div class="grey lighten-3" style="margin-top: -30px">
-<h2 class="center grismomentum">Elige tu oficina o consultorio</h2 >
-  <div class="">
-    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
-  </div>
-</div>
-<!-- End Map -->
-
 <!-- Academics-->
   <div class="w3-container" style="background-image: url('img/home/trans-academics.jpg'); background-repeat: no-repeat; background-size: cover;">
     <div class="container">
@@ -119,19 +110,14 @@
 </div>
 <!-- End WTC Landing -->
 
-<!-- Newsletter -->
-<div style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
-  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
-    <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Recibe las últimas noticias!</b></h3>
-      <h6 class="grey-text text-darken-2"><b>¡Recibe las últimas noticias!</b></h5>
-      <p class="grey-text text-darken-2 w3-tiny">Se parte de la red más grande de empresarios del país, suscríbete a nuestro Newsletter.</p>
-          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#modal1" >
-            SUSCRIBIRME
-          </a>
-    </div>
+<!-- Map -->
+<div class="grey lighten-3" style="margin-top: -30px">
+<h2 class="center grismomentum">Elige tu oficina o consultorio</h2 >
+  <div class="">
+    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
+  </div>
 </div>
-<!-- End Newletter -->
+<!-- End Map -->
 
 <!-- Dining -->
 <div class="wrapper">
@@ -153,6 +139,20 @@
   </div>
 </div>
 <!-- End Dining -->
+
+<!-- Newsletter -->
+<div style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
+  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
+    <div class="w3-display-middle center">
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Recibe las últimas noticias!</b></h3>
+      <h6 class="grey-text text-darken-2"><b>¡Recibe las últimas noticias!</b></h5>
+      <p class="grey-text text-darken-2 w3-tiny">Se parte de la red más grande de empresarios del país, suscríbete a nuestro Newsletter.</p>
+          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#modal1" >
+            SUSCRIBIRME
+          </a>
+    </div>
+</div>
+<!-- End Newletter -->
 
 <!-- WTC trade -->
 <div class="wrapper">
