@@ -62,6 +62,18 @@ nav .brand-logo {
     background-color: #444
 }
 
+.verdemomentum{
+    color: #95b629;
+}
+
+.grismomentum{
+    color: #5a5a5a;
+}
+
 .logonav{
     height: 50px;
+}
+
+.fondoacademics{
+    background-image: url("/public/img/home/transacademics.jpg");
 }

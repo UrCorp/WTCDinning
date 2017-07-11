@@ -7,10 +7,11 @@
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 60px">EXPLORE OUR NEW COMPLEX</h4>
-        <h6 class="light grey-text text-lighten-3">We are pleased to give you a guided visit.</h6>
+        <h4 class="condensed" style="padding-top: 60px">PREVENTA Y RENTA</h4>
+        <h6 class="light grey-text text-lighten-3"></h6>
+        <p>Conoce y elige de entre nuestras oficinas y consultorios.</p>
         <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
-          VISIT NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+          SABER MÁS <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
@@ -50,31 +51,28 @@
   <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 50px; font-size: 36px">&#10095;</button>
 </div>
 
+<!-- Map -->
+<div class="grey lighten-3" style="margin-top: -30px">
+<h2 class="center grismomentum">Elige tu oficina o consultorio</h2 >
+  <div class="">
+    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
+  </div>
+</div>
+<!-- End Map -->
+
 <!-- Academics -->
-<div class="grey lighten-3">
-  <div class="container">
-    <div class="section">
-      <h3 class="grey-text text-darken-2">Academics</h3>
-    </div>
-    <div class="section">
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="w3-card white">
-            <img src="{{ asset('img/home/a-certification.jpg') }}" alt="CERTIFICATION" width="100%">
-            <div class="w3-container white w3-margin-small">
-              <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>WTC CERTIFICATION</b></h5>
-              <p class="w3-justify w3-padding-16"></p>
-              <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
-                <b>INSCRIBIRME</b>
-              </a>
-            </div>
-          </div>
-        </div>
+  <div class="" style="background-image: url('img/home/trans-academics.jpg'); background-repeat: no-repeat;">
+    <div class="container">
+      <div class="section">
+        <h3 class="grey-text text-darken-2">Academics</h3>
+      </div>
+      <div class="section">
+        <div class="row">
           <div class="col s12 m6">
             <div class="w3-card white">
-              <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="CERTIFICATION" width="100%">
+              <img src="{{ asset('img/home/a-certification.jpg') }}" alt="CERTIFICATION" width="100%">
               <div class="w3-container white w3-margin-small">
-                <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>LEAN SIX SIGMA</b></h5>
+                <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>WTC CERTIFICATION</b></h5>
                 <p class="w3-justify w3-padding-16"></p>
                 <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
                   <b>INSCRIBIRME</b>
@@ -82,10 +80,22 @@
               </div>
             </div>
           </div>
+            <div class="col s12 m6">
+              <div class="w3-card white">
+                <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="CERTIFICATION" width="100%">
+                <div class="w3-container white w3-margin-small">
+                  <h5 class="grey-text text-darken-1" style="padding-top: 20px"><b>LEAN SIX SIGMA</b></h5>
+                  <p class="w3-justify w3-padding-16"></p>
+                  <a class="grey darken-2 w3-center w3-button w3-block white-text" style="margin: auto;margin-bottom: 25px; width: 80%; " href="#modal1" >
+                    <b>INSCRIBIRME</b>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 <!-- End Academics -->
 
 <!-- WTC Landing -->
@@ -163,38 +173,6 @@
 </div>
 <!-- End WTC trade -->
 
-<!-- Commerce -->
-<div class="w3-row">
-  <div class="w3-col s12 m5 w3-container valign-wrapper" style="background-color: #542581; height: 400px">
-    <div class="w3-third">
-      <img src="{{ asset('img/home/kchink-circle.png') }}" class="w3-right" height="100%">
-    </div>
-    <div class="w3-half">
-      <div class="w3-container">
-        <h2 class="w3-left white-text w3-left"><b>Commerce</b></h2>
-      </div>
-      <div class="w3-container">
-        <p class="white-text w3-justify">Adquiere productos artesanales de nuestra selección única hecha sólo para ti.</p>
-      </div>
-      <div class="w3-container">
-        <a class="W3-btn w3-block waves-effect waves-light white center w3-padding" href="#modal1" style="color: #542581;">
-          ¡COMPRAR YA!
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="w3-col s12 m7 w3-container">
-    <h2 style="color: #542581; ">Los más vendidos</h2>
-  </div>
-</div>
-<!-- End Commerce -->
-
-
-<!-- Map -->
-  <div class="">
-    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
-  </div>
-<!-- End Map -->
 
 <!-- Popup -->
 <!-- Large -->
