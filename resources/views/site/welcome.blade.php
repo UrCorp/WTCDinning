@@ -52,7 +52,7 @@
 </div>
 
 <!-- Academics-->
-  <div class="w3-container" style="background-image: url('img/home/trans-academics.jpg'); background-repeat: no-repeat; background-size: cover;">
+  <div class="w3-container" style="background-image: url('public/img/home/trans-academics.jpg'); background-repeat: no-repeat; background-size: cover;">
     <div class="container">
         <h3 class="grey-text text-darken-2 center">Academics</h3>
       <div class="section" style="padding-bottom: 80px">
