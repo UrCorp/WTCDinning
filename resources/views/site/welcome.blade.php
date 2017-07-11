@@ -2,7 +2,7 @@
 
 @section('body-content')
 
-<div class="slider w3-container-display grey lighten-3" style="margin-top: -30px">
+<div class="slider w3-container-display grey lighten-3" style="margin-top: -30px;">
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
@@ -181,7 +181,7 @@
 <div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px" class="hide-on-med-and-down" id="prueba">
    <ul id="general" class="collapsible w3-right" data-collapsible="accordion" style="width: 250px;">
     <li id="informes">
-      <div class="collapsible-header white-text" style="background-color: #7E858D"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
+      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
       <div class="collapsible-body white">
         <!--form class="w3-container" action="index.html" method="post">
           <label class="w3-text-gray w3-small"><b>Nombre</b></label>

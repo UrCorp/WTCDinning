@@ -32,7 +32,7 @@
 
 		<script>
             $(document).ready(function () {
-                $('.slider').slider({		
+                $('.slider').slider({
                 	full_width: true,
                 	height: 400,
                 	indicators: true,
@@ -46,7 +46,7 @@
 				 $('.slider').slider('prev');
 				});
             });
-        </script>    
+        </script>
 
 	</body>
 </html>
