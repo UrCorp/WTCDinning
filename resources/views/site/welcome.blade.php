@@ -60,15 +60,13 @@
 </div>
 <!-- End Map -->
 
-<!-- Academics -->
-  <div class="" style="background-image: url('img/home/trans-academics.jpg'); background-repeat: no-repeat;">
+<!-- Academics-->
+  <div class="w3-container" style="background-image: url('img/home/trans-academics.jpg'); background-repeat: no-repeat; background-size: cover;">
     <div class="container">
-      <div class="section">
-        <h3 class="grey-text text-darken-2">Academics</h3>
-      </div>
-      <div class="section">
+        <h3 class="grey-text text-darken-2 center">Academics</h3>
+      <div class="section" style="padding-bottom: 80px">
         <div class="row">
-          <div class="col s12 m6">
+          <div class="col s12 m5 offset-m1">
             <div class="w3-card white">
               <img src="{{ asset('img/home/a-certification.jpg') }}" alt="CERTIFICATION" width="100%">
               <div class="w3-container white w3-margin-small">
@@ -80,7 +78,7 @@
               </div>
             </div>
           </div>
-            <div class="col s12 m6">
+            <div class="col s12 m5 ">
               <div class="w3-card white">
                 <img src="{{ asset('img/home/a-lean6sigma.jpg') }}" alt="CERTIFICATION" width="100%">
                 <div class="w3-container white w3-margin-small">
@@ -134,20 +132,20 @@
 <!-- Dining -->
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
-      <div class="caption left-align" style="padding-left: 10%; z-index: 100;">
-          <div class="w3-half">
-            <div class="w3-container transparent w3-padding">
-              <h1 class="white-text">DINING</h1>
-              <p class="w3-justify">Descubre nuestra gama de restaurantes y disfruta de nuestra oferta culinaria.</p>
-              <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
-                INCRIBIRME
-              </a>
-            </div>
+    <div class="parallax valign-wrapper">
+      <img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1">
+    </div>
+    <div class="caption left-align" style="padding-left: 10%; z-index: 100;">
+        <div class="w3-display-topright">
+          <div class="w3-container w3-padding" style="width: 70%; background-color: rgb(111,111,111, 0.3);">
+            <h1 class="white-text">DINING</h1>
+            <p class="w3-justify">Descubre nuestra gama de restaurantes y disfruta de nuestra oferta culinaria.</p>
+            <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
+              INCRIBIRME
+            </a>
           </div>
-      </div>
-      <div class="caption center-align hide-on-large-only">
-      </div>
+        </div>
+    </div>
   </div>
 </div>
 <!-- End Dining -->

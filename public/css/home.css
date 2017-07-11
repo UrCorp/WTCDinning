@@ -1,5 +1,5 @@
 
-.slider .indicators .indicator-item 
+.slider .indicators .indicator-item
 {
 	height: 7px;
 	width: 7px;
@@ -9,11 +9,11 @@
 	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-.slider .indicators .indicator-item.active 
+.slider .indicators .indicator-item.active
 {
 	background-color: #ffffff;
 }
-.slider .indicators 
+.slider .indicators
 {
 	bottom: 60px;
 	z-index: 100;
@@ -41,8 +41,8 @@ nav .button-collapse i {
     line-height: 30px;
 }
 
-nav .brand-logo { 
-    font-size: 1.6rem; 
+nav .brand-logo {
+    font-size: 1.6rem;
 }
 
 @media only screen and (min-width: 601px){
@@ -72,8 +72,4 @@ nav .brand-logo {
 
 .logonav{
     height: 50px;
-}
-
-.fondoacademics{
-    background-image: url("/public/img/home/transacademics.jpg");
 }
