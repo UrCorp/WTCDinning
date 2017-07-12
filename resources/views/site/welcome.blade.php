@@ -2,7 +2,7 @@
 
 @section('body-content')
 
-<div class="slider w3-container-display grey lighten-3" style="margin-top: -30px;">
+<div class="slider w3-container-display black lighten-3" style="margin-top: -30px; height: +40px">
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
@@ -52,7 +52,7 @@
 </div>
 
 <!-- Academics-->
-  <div class="wrapper">
+  <div class="wrapper" style="">
     <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right" style="height: 550px; width: 70%">
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
@@ -120,20 +120,17 @@
 <!-- Dining -->
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <div class="parallax valign-wrapper">
-      <img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1">
-    </div>
-    <div class="caption left-align" style="padding-left: 10%; z-index: 100;">
-        <div class="w3-display-topright">
-          <div class="w3-container w3-padding" style="width: 70%; background-color: rgb(111,111,111, 0.3);">
-            <h1 class="white-text">DINING</h1>
-            <p class="w3-justify">Discover our range of restaurants and enjoy our culinary offer.</p>
-            <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
-              RESERVE NOW
-            </a>
-          </div>
-        </div>
-    </div>
+    <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left " style="height: 550px; width: 60%">
+    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
+      <div class="caption left-align" style="padding-left: 10%; z-index: 100">
+        <h1 class="white-text">DINING</h1>
+        <p class="w3-justify">Discover our range of restaurants and enjoy our culinary offer.</p>
+        <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
+          RESERVE NOW
+        </a>
+      </div>
+      <div class="caption center-align hide-on-large-only">
+      </div>
   </div>
 </div>
 <!-- End Dining -->
@@ -160,14 +157,22 @@
       <button type="button" name="button" class="w3-btn btnmomentum">Recorrido Virtual</button>
     </div>
     <div class="w3-half w3-padding-large">
-      <img src="{{ asset('img/home/momentum/nite.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="height: 200px">
-      <div class="w3-half">
-        <img src="{{ asset('img/home/momentum/day.jpg') }}" width="100%" height="200px" class="w3-paddig-16 w3-padding" style="">
+      <div class="w3-row">
+        <div class="w3-half">
+          <img src="{{ asset('img/home/momentum/nite.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="">
+        </div>
+        <div class="w3-half">
+          <img src="{{ asset('img/home/momentum/pool.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="">
+        </div>
       </div>
-      <div class="w3-half">
-        <img src="{{ asset('img/home/momentum/inside.jpg') }}" width="100%" height="200px" class="w3-paddig-16 w3-padding" style="">
+      <div class="row">
+        <div class="w3-half">
+          <img src="{{ asset('img/home/momentum/day.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="">
+        </div>
+        <div class="w3-half">
+          <img src="{{ asset('img/home/momentum/inside.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="">
+        </div>
       </div>
-      <img src="{{ asset('img/home/momentum/pool.jpg') }}" width="100%" class="w3-paddig-16 w3-padding"  style="height: 200px">
     </div>
   </div>
 <!-- End Momentum -->
@@ -248,16 +253,47 @@
 </div>
 <!-- Popup -->
 
-<!-- Patrocinadores -->
+<!-- Aliados estratégicos -->
   <div class="w3-panle">
-    <h2 class="center">Meet our Partners</h2>
+    <h3 class="center">Our Allies</h3>
     <div class="row">
-      <div class="col s12 m4">
-
+      <div class="col s12 m2 offset-m1">
+        <img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt="">
+      </div>
+      <div class="col s12 m2">
+        <img src="{{ asset('img/home/aliados/audi.png') }}" width="100%" alt="">
+      </div>
+      <div class="col s12 m2">
+        <img src="{{ asset('img/home/aliados/nena.jpg') }}" width="100%" alt="">
+      </div>
+      <div class="col s12 m2">
+        <img src="{{ asset('img/home/aliados/proyectos.png') }}" width="100%" alt="">
+      </div>
+      <div class="col s12 m2">
+        <img src="{{ asset('img/home/aliados/URCORP.png') }}" width="100%" alt="">
       </div>
     </div>
   </div>
-<!-- End Patrocinadores -->
+<!-- End Aliados estratégicos -->
+
+<!-- Socios -->
+<hr>
+  <div class="w3-panle">
+    <h3 class="center">Our Partners</h3>
+    <div class="row">
+      <div class="col s12 m2 offset-m3">
+        <img src="{{ asset('img/home/socios/alterra.png') }}" width="100%" alt="">
+      </div>
+      <div class="col s12 m2">
+        <img src="{{ asset('img/home/socios/momentum.png') }}" width="100%" alt="">
+      </div>
+      <div class="col s12 m2">
+        <img src="{{ asset('img/home/socios/lumico.png') }}" width="100%" alt="">
+      </div>
+    </div>
+  </div>
+  <hr>
+<!-- End Socios -->
 
 <!-- Contact -->
 <div class="container hide-on-med-and-down">
