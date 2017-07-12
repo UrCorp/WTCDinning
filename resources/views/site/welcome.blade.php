@@ -159,18 +159,18 @@
     <div class="w3-half w3-padding-large">
       <div class="w3-row">
         <div class="w3-half">
-          <img src="{{ asset('img/home/momentum/nite.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="">
+          <img src="{{ asset('img/home/momentum/nite.jpg') }}" width="100%" style="padding: 3%">
         </div>
         <div class="w3-half">
-          <img src="{{ asset('img/home/momentum/pool.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="">
+          <img src="{{ asset('img/home/momentum/pool.jpg') }}" width="100%" style="padding: 3%">
         </div>
       </div>
-      <div class="row">
+      <div class="w3-row">
         <div class="w3-half">
-          <img src="{{ asset('img/home/momentum/day.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="">
+          <img src="{{ asset('img/home/momentum/day.jpg') }}" width="100%" style="padding: 3%">
         </div>
         <div class="w3-half">
-          <img src="{{ asset('img/home/momentum/inside.jpg') }}" width="100%" class="w3-paddig-16 w3-padding" style="">
+          <img src="{{ asset('img/home/momentum/inside.jpg') }}" width="100%" style="padding: 3%">
         </div>
       </div>
     </div>
