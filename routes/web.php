@@ -30,6 +30,10 @@ Route::get('/Home', [
 		'as' 	=>	'index'
 	]);
 
+Route::group(['prefix' => 'es'], function(){
+	
+});
+
 /*
 Route::group(['prefix' => '/'], function(){
 
@@ -42,7 +46,7 @@ Route::group(['prefix' => 'admin'], function() {
 			'as' 	=>	'restaurants.destroy'
 		]);
 	Route::resource('reservations', 'ReservationsController');
-	
+
 	Route::resource('categories', 'CategoriesController');
 	Route::get('categories/{id}/destroy', [
 			'uses'	=>	'CategoriesController@destroy',
@@ -50,7 +54,7 @@ Route::group(['prefix' => 'admin'], function() {
 		]);
 
 	Route::resource('blog', 'BlogController');
-	
+
 	Route::resource('tags', 'TagsController');
 	Route::get('tags/{id}/destroy', [
 			'uses'	=>	'TagsController@destroy',
