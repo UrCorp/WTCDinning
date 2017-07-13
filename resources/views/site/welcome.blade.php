@@ -205,23 +205,21 @@
     <li id="informes">
       <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
       <div class="collapsible-body white">
-        <!--form class="w3-container" action="index.html" method="post">
-          <label class="w3-text-gray w3-small"><b>Nombre</b></label>
-          <input class="w3-input w3-border" style="height:30px" type="text">
-
-          <label class="w3-text-gray"><b>Correo</b></label>
-          <input class="w3-input w3-border" style="height:30px" type="text">
-
-          <label class="w3-text-gray"><b>Telefono</b></label>
-          <input class="w3-input w3-border" style="height:30px" type="text">
-
-          <label class="w3-text-gray"><b>Mensaje</b></label>
-          <input class="w3-input w3-border" style="height:30px" type="text">
-
-          <button class="w3-btn w3-gray white-text center">Enviar</button>
-        </form-->
-        <h4>Phone:</h4>
-        <h3><a href="tel:+52 442 294 8121" target="_blank">442 294 8121</a></h3>
+        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
+            {!! Form::label('contact[name]', 'Nombre *') !!}
+            {!! Form::text('contact[name]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
+            {!! Form::label('contact[email]', 'eMail *') !!}
+            {!! Form::email('contact[email]', null, ['class' => '', 'maxlength' => 250, 'required' => 'required']) !!}
+            {!! Form::label('contact[phone]', 'Teléfono') !!}
+            {!! Form::text('contact[phone]', null, ['class' => '', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
+            {!! Form::label('contact[enterprise]', 'Empresa *') !!}
+            {!! Form::text('contact[enterprise]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
+          <div style="width: 100;">
+            <button class="w3-btn" style="color: white; background-color: #ECA154; margin: auto">
+              ENVIAR
+            </button>
+          </div>
+        {!! Form::close() !!}
     </li>
   </ul>
 </div>
@@ -231,23 +229,21 @@
     <li id="informes-movil">
       <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
       <div class="collapsible-body white">
-        <!--form class="w3-container" action="index.html" method="post">
-          <label class="w3-text-gray w3-small"><b>Nombre</b></label>
-          <input class="w3-input w3-border" style="height:30px" type="text">
-
-          <label class="w3-text-gray"><b>Correo</b></label>
-          <input class="w3-input w3-border" style="height:30px" type="text">
-
-          <label class="w3-text-gray"><b>Telefono</b></label>
-          <input class="w3-input w3-border" style="height:30px" type="text">
-
-          <label class="w3-text-gray"><b>Mensaje</b></label>
-          <input class="w3-input w3-border" style="height:30px" type="text">
-
-          <button class="w3-btn w3-gray white-text center">Enviar</button>
-        </form-->
-        <h4>Phone:</h4>
-        <h3><a href="tel:+52 442 294 8121" target="_blank">442 294 8121</a></h3>
+        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
+            {!! Form::label('contact[name]', 'Nombre *') !!}
+            {!! Form::text('contact[name]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
+            {!! Form::label('contact[email]', 'eMail *') !!}
+            {!! Form::email('contact[email]', null, ['class' => '', 'maxlength' => 250, 'required' => 'required']) !!}
+            {!! Form::label('contact[phone]', 'Teléfono') !!}
+            {!! Form::text('contact[phone]', null, ['class' => '', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
+            {!! Form::label('contact[enterprise]', 'Empresa *') !!}
+            {!! Form::text('contact[enterprise]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
+          <div style="width: 100;">
+            <button class="w3-btn" style="color: white; background-color: #ECA154; margin: auto">
+              ENVIAR
+            </button>
+          </div>
+        {!! Form::close() !!}
     </li>
   </ul>
 </div>

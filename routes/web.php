@@ -11,33 +11,46 @@
 |
 */
 
-Route::get('/', [
-		'uses'	=> 	'indexController@index',
-		'as' 	=>	'index'
-	]);
 
-Route::get('/Dining', [
-		'uses' 	=> 	'indexController@dinning',
-		'as'	=> 	'dinning'
-	]);
+Route::group(['as' => 'site.'], function () {
 
-Route::get('/Shop', function () {
-    return view('site.shop');
+  Route::group(['as' => 'welcome.'], function () {
+
+		Route::get('/', [
+				'uses'	=> 	'indexController@index',
+				'as' 	=>	'index'
+			]);
+
+		Route::get('/Dining', [
+				'uses' 	=> 	'indexController@dinning',
+				'as'	=> 	'dinning'
+			]);
+
+		Route::get('/Shop', function () {
+		    return view('site.shop');
+		});
+
+		Route::get('/Home', [
+				'uses'	=> 	'indexController@index',
+				'as' 	=>	'index'
+			]);
+  });
+
+  Route::group(['prefix' => 'contact', 'as' => 'contact.'], function () {
+
+    Route::post('/send', [
+      'uses'  => 'Contact@send',
+      'as'    => 'send'
+    ]);
+
+    Route::post('/save', [
+      'uses'  => 'Contact@save',
+      'as'    => 'save'
+    ]);
+  });
 });
 
-Route::get('/Home', [
-		'uses'	=> 	'indexController@index',
-		'as' 	=>	'index'
-	]);
 
-Route::group(['prefix' => 'es'], function(){
-	
-});
-
-/*
-Route::group(['prefix' => '/'], function(){
-
-});*/
 
 Route::group(['prefix' => 'admin'], function() {
 	Route::resource('restaurants','RestaurantsController');
