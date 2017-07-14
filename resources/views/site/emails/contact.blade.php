@@ -9,7 +9,7 @@
     <div style="display:block;margin:auto;">
 		<div style="width:92%; display:block; margin: 25px auto 15px auto;">
 			<center>
-			<img src="{{ asset('public/img/logos/wtc-association-blanco.png') }}" title="WTC - Logo" style="display:inline-block;width:252px;height:94px;background-position:center center;background-size:contain;background-repeat:no-repeat;display:inline-block;vertical-align: middle;margin-left:20px;" />
+			<img src="http://wtcqueretaro.com/public/img/logos/wtc-letras-gris.png" title="WTC - Logo" style="display:inline-block;width:252px;height:94px;background-position:center center;background-size:contain;background-repeat:no-repeat;display:inline-block;vertical-align: middle;margin-left:20px;" />
 			</center>
 		</div>
 		<div style="width:92%; display:block; margin: auto auto 15px auto;">
