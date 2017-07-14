@@ -3,57 +3,68 @@
 <head>
   <meta charset="utf-8" />
   <title>[WTC] Mensaje de contacto | {{ $contact['name'] }}</title>
+  <style media="screen">
+    th{
+      color: #b2b1b1;
+    }
+    td{
+      color: #818f95
+    }
+    h1{
+      color: #79888e
+    }
+    h2{
+      color: #b4bcbf
+    }
+    h3{
+      color: #a8b2b5
+    }
+  </style>
 </head>
-<body style="background-color: #F5F5F5;">
-  <div style="display:block;width:80%;margin:auto;margin-top:50px;margin-bottom:15px;background-color:white;padding:15px;border-radius:3px;box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
-    <div style="display:block;margin:auto;">
-		<div style="width:92%; display:block; margin: 25px auto 15px auto;">
-			<center>
-			<img src="http://wtcqueretaro.com/public/img/logos/wtc-letras-gris.png" title="WTC-Logo" style="display:inline-block;width:100%;background-position:center center;background-size:contain;background-repeat:no-repeat;display:inline-block;vertical-align: middle;" />
-			</center>
-		</div>
-		<div style="width:92%; display:block; margin: auto auto 15px auto;">
-			<h1 style="color: #333;font-family: helvetica, arial, sans-serif;font-size:22px;text-align:center;">
-			  DATOS DE WTC para el cliente
-			</h1>
-		</div>
+<body style="background-color: white; padding-top: 5%">
+  <div style="width:60%; margin:auto">
+    <div style="width: 100%; text-align:center">
+      <img src="http://wtcqueretaro.com/public/img/logos/wtc-letras-gris.png" title="WTC-Logo" style="width:50%; text-align: center" />
     </div>
-    <div style="width:92%;display:block;margin:auto;margin: auto;">
-
-      <table style="width:100%;display:block;margin:auto;">
-        <tbody style="width:100%;">
-			<tr style="width:100%">
-            <td style="width:480px;text-align:center;padding:15px;font-weight:bold;">NOMBRE: </td>
-            <td style="width:480px;text-align:center;padding:15px">{{ $contact['name'] }}</td>
-			</tr >
-			<tr style="width:100%">
-            <td style="width:480px;text-align:center;padding:15px;font-weight:bold;">Correo electrónico: </td>
-            <td style="width:480px;text-align:center;padding:15px">
-				<a href="mailto:{{ $contact['email'] }}" style="color: #333;">
-				{{ $contact['email'] }}
-				</a>
-			</td>
-			</tr >
-			<tr style="width:100%">
-            <td style="width:480px;text-align:center;padding:15px;font-weight:bold;">Teléfono: </td>
-            <td style="width:480px;text-align:center;padding:15px">{{ $contact['phone'] }}</td>
-			</tr >
-        <tr style="width:100%">
-          <td style="width:480px;text-align:center;padding:15px;font-weight:bold;">Empresa: </td>
-          <td style="width:480px;text-align:center;padding:15px">{{ $contact['enterprise'] }}</td>
-        </tr >
-		</tbody>
-	  </table>
-      </div>
-	<div style="width:100%;display:inline-block;margin:auto;text-align:center;">
-	  <p style="font-size: 18px;">Por favor, ponerse en contacto con el cliente para resolver dudas a: <a href="mailto:{{ $contact['email'] }}" style="color: #333;">{{ $contact['email'] }}</a>
-	  </p>
-	</div>
-	<div style="width:92%;display:block;margin: auto auto 25px auto;">
-		<div style="background-color:#FFAE3F;padding:15px;border-radius:3px;font-family:helvetica,arial,sans-serif;color:#F1F1F1;font-size:16px;">
-			Este correo electrónico y cualquiera de sus anexos podrían contener información confidencial. Si usted no es el destinatario, por el presente se le notifica que cualquier difusión y copiado de este correo electrónico y cualquiera de sus anexos o uso de su contenido por cualquier medio está estrictamente prohibido. Si usted recibió este correo electrónico equivocadamente o por error, por favor notifíquelo al remitente inmediatamente y cancele este correo electrónico y todos sus anexos de su ordenador (computadora).
-		</div>
-	</div>
+    <hr style="width: 50%; margin-top: 4%">
+    <div style="margin-top:4%">
+      <h1 style="text-align: center">
+        Te haz puesto en contacto con los siguientes datos...
+      </h1>
     </div>
+    <hr style="width: 50%; margin-top: 4%">
+    <div style="margin-top: 4%">
+      <table width="60%" style="margin:auto">
+        <tr>
+          <th style="border-bottom: 2px solid;width;80%; text-align: left">Nombre</th>
+          <th style="border-bottom: 2px solid;width;80%; text-align: left">Telefono</th>
+        </tr>
+        <tr>
+          <td>{{ $contact['name'] }}</td>
+          <td>{{ $contact['phone'] }}</td>
+        </tr>
+          <tr style="padding-top: 210px">
+            <th style="border-bottom: 2px solid;width;80%; text-align: left">Correo</th>
+            <th style="border-bottom: 2px solid;width;80%; text-align: left">Empresa</th>
+          </tr>
+          <tr>
+            <td>{{ $contact['email'] }}</td>
+            <td>{{ $contact['enterprise'] }}</td>
+          </tr>
+      </table>
+    </div>
+    <hr style="width: 50%; margin-top: 4%">
+    <div style="margin-top:4%">
+      <center>
+        <h2 style=""> WTC Queretaro se comunicará a la brevedad.</h2>
+        <h3><b>¡Gracias por ponerte en contacto!</b></h3>
+      </center>
+    </div>
+    <div style="margin-top:4%; color: gray;">
+      <p style="font-family:helvetica,arial,sans-serif; text-align:justify;">
+        Este correo electrónico y cualquiera de sus anexos podrían contener información confidencial. Si usted no es el destinatario, por el presente se le notifica que cualquier difusión y copiado de este correo electrónico y cualquiera de sus anexos o uso de su contenido por cualquier medio está estrictamente prohibido. Si usted recibió este correo electrónico equivocadamente o por error, por favor notifíquelo al remitente inmediatamente y cancele este correo electrónico y todos sus anexos de su ordenador (computadora).
+      </p>
+    </div>
+  </div>
 </body>
 </html>
