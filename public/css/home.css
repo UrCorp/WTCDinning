@@ -116,8 +116,8 @@ li.prueba:first-child::before {
   display: none;
 }
 
-.active {
-  background: dodgerblue;
+.active .prueba{
+  background: white;
 }
 
 .active ~ li.prueba {

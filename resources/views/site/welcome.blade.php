@@ -2,7 +2,7 @@
 
 @section('body-content')
 
-<div class="slider w3-container-display black lighten-3" style="margin-top: -30px; height: +40px">
+<div class="slider w3-container-display black lighten-3" style="margin-top: -30px;">
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
@@ -252,17 +252,17 @@
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
           <div class="input-field col m10 offset-m1">
-          {!! Form::label('name', 'Name') !!}
           {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('name', 'Name') !!}
           </div>
         </div>
 
         <div class="row">
-          <div class="input-field col m5 offset-m1">
+          <div class="col m5 offset-m1">
           {!! Form::label('email', 'Mail') !!}
           {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
           </div>
-          <div class="input-field col m5">
+          <div class="col m5">
           {!! Form::label('phone', 'Phone') !!}
           {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
           </div>
@@ -291,18 +291,18 @@
     <h3 class="center">Contáctanos</h3>
     {{ Form::open(array('files' => true, 'method' => 'POST')) }}
     <div class="row">
-      <div class="input-field col s12 m6">
+      <div class="col s12 m6">
       {!! Form::label('name', 'Nombre') !!}
       {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
       </div>
     </div>
 
     <div class="row">
-      <div class="input-field col s12 m3">
+      <div class="col s12 m3">
       {!! Form::label('email', 'Correo electrónico') !!}
       {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
       </div>
-      <div class="input-field col s12 m3">
+      <div class="col s12 m3">
       {!! Form::label('phone', 'Teléfono') !!}
       {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
       </div>
@@ -326,7 +326,7 @@
   </div>
 </div>
 
-<!-- Modal Reserva Ya -->
+<!-- Modal Venta y Renta -->
   <div id="modal1" class="modal modal-fixed-footer">
     <div class="modal-content">
       <div class="section">
@@ -336,25 +336,25 @@
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('name', 'Name') !!}
-          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('name-momentum', 'Name') !!}
+          {!! Form::text('name-momentum',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
         <div class="row">
           <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('email', 'Mail') !!}
-          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+          {!! Form::label('email-momentum', 'Mail') !!}
+          {!! Form::email('email-momentum',null,['class' => 'form-control validate', 'required']) !!}
           </div>
           <div class="input-field col s12 m3">
-          {!! Form::label('phone', 'Phone') !!}
-          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+          {!! Form::label('phone-momentum', 'Phone') !!}
+          {!! Form::text('phone-momentum',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('enterprise', 'Enterprise') !!}
-          {!! Form::text('enterprise',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('enterprise-momentum', 'Enterprise') !!}
+          {!! Form::text('enterprise-momentum',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
@@ -373,7 +373,7 @@
     </div>
   </div>
 
-<!-- Modal Reserva Ya -->
+<!-- Modal Certification -->
   <div id="modal2" class="modal modal-fixed-footer">
     <div class="modal-content">
       <div class="section">
@@ -383,25 +383,25 @@
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('name', 'Name') !!}
-          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('name-cert', 'Name') !!}
+          {!! Form::text('name-cert',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
         <div class="row">
           <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('email', 'Mail') !!}
-          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+          {!! Form::label('email-cert', 'Mail') !!}
+          {!! Form::email('email-cert',null,['class' => 'form-control validate', 'required']) !!}
           </div>
           <div class="input-field col s12 m3">
-          {!! Form::label('phone', 'Phone') !!}
-          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+          {!! Form::label('phone-cert', 'Phone') !!}
+          {!! Form::text('phone-cert',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('enterprise', 'Enterprise') !!}
-          {!! Form::text('enterprise',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('enterprise-cert', 'Enterprise') !!}
+          {!! Form::text('enterprise-cert',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 

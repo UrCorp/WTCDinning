@@ -22,26 +22,35 @@
 
 		<!-- Popup for Sales Information -->
 		<!-- Large -->
-		<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px" class="hide-on-med-and-down" id="prueba">
-		   <ul id="general" class="collapsible w3-right" data-collapsible="accordion" style="width: 250px;">
+		<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px;z-index: 100000000000000000000;" class="hide-on-med-and-down" id="prueba">
+		   <ul id="general" class="collapsible w3-right" data-collapsible="accordion">
 		    <li id="informes">
 		      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
 		      <div class="collapsible-body white">
 		        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
+		          <div class="form-group">
 		            {!! Form::label('contact[name]', 'Nombre *') !!}
-		            {!! Form::text('contact[name]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
+		            {!! Form::text('contact[name]', null, ['class' => 'validate form-control', 'maxlength' => 60, 'required' => 'required']) !!}
+		          </div>
+		          <div class="form-group">
 		            {!! Form::label('contact[email]', 'eMail *') !!}
-		            {!! Form::email('contact[email]', null, ['class' => '', 'maxlength' => 250, 'required' => 'required']) !!}
+		            {!! Form::email('contact[email]', null, ['class' => 'form-control', 'maxlength' => 250, 'required' => 'required']) !!}
+		          </div>
+		          <div class="form-group">
 		            {!! Form::label('contact[phone]', 'Teléfono') !!}
-		            {!! Form::text('contact[phone]', null, ['class' => '', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
+		            {!! Form::text('contact[phone]', null, ['class' => 'form-control', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
+		          </div>
+							<div class="form-group">
 		            {!! Form::label('contact[enterprise]', 'Empresa *') !!}
-		            {!! Form::text('contact[enterprise]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
+		            {!! Form::text('contact[enterprise]', null, ['class' => 'form-control', 'maxlength' => 60, 'required' => 'required']) !!}
+		          </div>
 		          <div style="width: 100;">
 		            <button class="w3-btn" style="color: white; background-color: #ECA154; margin: auto">
 		              ENVIAR
 		            </button>
 		          </div>
 		        {!! Form::close() !!}
+					</div>
 		    </li>
 		  </ul>
 		</div>
@@ -52,20 +61,29 @@
 		      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
 		      <div class="collapsible-body white">
 		        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
+		          <div class="form-group">
 		            {!! Form::label('contact[name]', 'Nombre *') !!}
-		            {!! Form::text('contact[name]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
+		            {!! Form::text('contact[name]', null, ['class' => 'validate form-control', 'maxlength' => 60, 'required' => 'required']) !!}
+		          </div>
+		          <div class="form-group">
 		            {!! Form::label('contact[email]', 'eMail *') !!}
-		            {!! Form::email('contact[email]', null, ['class' => '', 'maxlength' => 250, 'required' => 'required']) !!}
+		            {!! Form::email('contact[email]', null, ['class' => 'form-control', 'maxlength' => 250, 'required' => 'required']) !!}
+		          </div>
+		          <div class="form-group">
 		            {!! Form::label('contact[phone]', 'Teléfono') !!}
-		            {!! Form::text('contact[phone]', null, ['class' => '', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
+		            {!! Form::text('contact[phone]', null, ['class' => 'form-control', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
+		          </div>
+							<div class="form-group">
 		            {!! Form::label('contact[enterprise]', 'Empresa *') !!}
-		            {!! Form::text('contact[enterprise]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
+		            {!! Form::text('contact[enterprise]', null, ['class' => 'form-control', 'maxlength' => 60, 'required' => 'required']) !!}
+		          </div>
 		          <div style="width: 100;">
 		            <button class="w3-btn" style="color: white; background-color: #ECA154; margin: auto">
 		              ENVIAR
 		            </button>
 		          </div>
 		        {!! Form::close() !!}
+					</div>
 		    </li>
 		  </ul>
 		</div>

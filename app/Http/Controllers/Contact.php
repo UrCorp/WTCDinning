@@ -31,17 +31,17 @@ class Contact extends Controller
         $res['status'] = 'VALIDATION_ERROR';
         $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
       } else {
-        /*$mail_sent_momentum = Mail::send('site.emails.contact', ['contact' => $contact], function ($m) use ($contact) {
+        $mail_sent_momentum = Mail::send('site.emails.contact', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
           $m->to('ventas@grupomomentum.com.mx', 'Ventas Momentum');
           $m->subject('Inofrmes de Ventas WTCQueretaro');
-        });*/
+        });
 
           $mail_sent = Mail::send('site.emails.contact', ['contact' => $contact], function ($m) use ($contact) {
             $m->from('web@wtcqueretaro.com', 'WTC');
             $m->replyTo($contact['email'], $contact['name']);
-            $m->to('eduardo.vera.pineda@gmail.com', 'Ventas Momentum');
+            $m->to('curibe@wtcqueretaro.com', 'Ventas WTC');
             $m->subject('Inofrmes de Ventas WTCQueretaro');
           });
 
