@@ -189,7 +189,7 @@
           <h5 class="light grey-text text-lighten-3"><b>Coworking Club</b></h5>
           <h6>¡Coming Soon!</h6>
           <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
-            Shedule Now
+            Schedule Now
           </a>
       </div>
       <div class="caption center-align hide-on-large-only">

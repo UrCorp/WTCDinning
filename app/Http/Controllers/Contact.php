@@ -52,7 +52,7 @@ class Contact extends Controller
           $m->subject('Cotización');
         });
 
-        if ($mail_sent) {
+        if ($mail_sent_momentum) {
           $res['status'] = 'SUCCESS';
           $res['msg'] = '¡Mensaje enviado!';
         }

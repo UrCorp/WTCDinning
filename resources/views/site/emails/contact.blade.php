@@ -48,11 +48,11 @@
         </tr>
           <tr style="padding-top: 210px">
             <th style="border-bottom: 2px solid;width;80%; text-align: left">Correo</th>
-            <th style="border-bottom: 2px solid;width;80%; text-align: left">Empresa</th>
+            <th style="border-bottom: 2px solid;width;80%; text-align: left">Mensaje</th>
           </tr>
           <tr>
             <td>{{ $contact['email'] }}</td>
-            <td>{{ $contact['enterprise'] }}</td>
+            <td>{{ $contact['message'] }}</td>
           </tr>
       </table>
     </div>

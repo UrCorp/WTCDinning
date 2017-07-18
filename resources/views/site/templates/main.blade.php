@@ -41,8 +41,8 @@
 		            {!! Form::text('contact[phone]', null, ['class' => 'form-control', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
 		          </div>
 							<div class="form-group">
-		            {!! Form::label('contact[enterprise]', 'Empresa *') !!}
-		            {!! Form::text('contact[enterprise]', null, ['class' => 'form-control', 'maxlength' => 60, 'required' => 'required']) !!}
+		            {!! Form::label('contact[message]', 'Mensaje *') !!}
+		            {!! Form::text('contact[message]', null, ['class' => 'form-control', 'maxlength' => 60, 'required' => 'required']) !!}
 		          </div>
 		          <div style="width: 100;">
 		            <button class="w3-btn" style="color: white; background-color: #ECA154; margin: auto">
@@ -74,8 +74,8 @@
 		            {!! Form::text('contact[phone]', null, ['class' => 'form-control', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
 		          </div>
 							<div class="form-group">
-		            {!! Form::label('contact[enterprise]', 'Empresa *') !!}
-		            {!! Form::text('contact[enterprise]', null, ['class' => 'form-control', 'maxlength' => 60, 'required' => 'required']) !!}
+		            {!! Form::label('contact[message]', 'Mensaje *') !!}
+		            {!! Form::text('contact[message]', null, ['class' => 'form-control', 'maxlength' => 60, 'required' => 'required']) !!}
 		          </div>
 		          <div style="width: 100;">
 		            <button class="w3-btn" style="color: white; background-color: #ECA154; margin: auto">
