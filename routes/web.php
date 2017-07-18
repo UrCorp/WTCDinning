@@ -26,6 +26,15 @@ Route::group(['as' => 'site.'], function () {
 				'as'	=> 	'dinning'
 			]);
 
+		Route::get('/Lean-Six-Sigma', function () {
+		    return view('site.leansixsigma');
+		});
+
+
+		Route::get('/Certification', function () {
+		    return view('site.certification');
+		});
+
 		Route::get('/Shop', function () {
 		    return view('site.shop');
 		});

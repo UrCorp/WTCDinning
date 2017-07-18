@@ -81,3 +81,49 @@ nav .brand-logo {
 	 border: 3px solid #95b629;
 	 color: #95b629;
  }
+
+ .font-gray{
+    color: #707372;
+ }
+
+
+ li.prueba {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background: dodgerblue;
+  margin: 0 1em;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+
+li.prueba::before{
+  content: '';
+  position: absolute;
+  top: .9em;
+  left: -4em;
+  width: 4em;
+  height: .2em;
+  background: dodgerblue;
+  z-index: -1;
+}
+
+
+li.prueba:first-child::before {
+  display: none;
+}
+
+.active {
+  background: dodgerblue;
+}
+
+.active ~ li.prueba {
+  background: lightblue;
+}
+
+.active ~ li.prueba::before {
+  background: lightblue;
+}

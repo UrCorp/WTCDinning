@@ -198,57 +198,6 @@
 </div>
 <!-- End WTC trade -->
 
-<!-- Popup -->
-<!-- Large -->
-<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px" class="hide-on-med-and-down" id="prueba">
-   <ul id="general" class="collapsible w3-right" data-collapsible="accordion" style="width: 250px;">
-    <li id="informes">
-      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
-      <div class="collapsible-body white">
-        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
-            {!! Form::label('contact[name]', 'Nombre *') !!}
-            {!! Form::text('contact[name]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
-            {!! Form::label('contact[email]', 'eMail *') !!}
-            {!! Form::email('contact[email]', null, ['class' => '', 'maxlength' => 250, 'required' => 'required']) !!}
-            {!! Form::label('contact[phone]', 'Teléfono') !!}
-            {!! Form::text('contact[phone]', null, ['class' => '', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
-            {!! Form::label('contact[enterprise]', 'Empresa *') !!}
-            {!! Form::text('contact[enterprise]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
-          <div style="width: 100;">
-            <button class="w3-btn" style="color: white; background-color: #ECA154; margin: auto">
-              ENVIAR
-            </button>
-          </div>
-        {!! Form::close() !!}
-    </li>
-  </ul>
-</div>
-<!-- Responsive -->
-<div style="position: fixed; z-index: 10; bottom: 0; width: 100%; margin-bottom: -18px; z-index: 1000" class="hide-on-large-only" id="prueba1">
-   <ul id="general-movil" class="collapsible w3-right" data-collapsible="accordion">
-    <li id="informes-movil">
-      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
-      <div class="collapsible-body white">
-        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
-            {!! Form::label('contact[name]', 'Nombre *') !!}
-            {!! Form::text('contact[name]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
-            {!! Form::label('contact[email]', 'eMail *') !!}
-            {!! Form::email('contact[email]', null, ['class' => '', 'maxlength' => 250, 'required' => 'required']) !!}
-            {!! Form::label('contact[phone]', 'Teléfono') !!}
-            {!! Form::text('contact[phone]', null, ['class' => '', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
-            {!! Form::label('contact[enterprise]', 'Empresa *') !!}
-            {!! Form::text('contact[enterprise]', null, ['class' => '', 'maxlength' => 60, 'required' => 'required']) !!}
-          <div style="width: 100;">
-            <button class="w3-btn" style="color: white; background-color: #ECA154; margin: auto">
-              ENVIAR
-            </button>
-          </div>
-        {!! Form::close() !!}
-    </li>
-  </ul>
-</div>
-<!-- Popup -->
-
 <!-- Aliados estratégicos -->
   <div class="w3-panle">
     <h3 class="center">Our Allies</h3>

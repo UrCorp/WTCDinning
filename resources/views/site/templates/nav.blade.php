@@ -127,9 +127,9 @@
 
 <!-- Menú Academics -->
 <ul id="dropdownAcademics" class="dropdown-content">
-  <li><a href="#!">WTC Certification</a></li>
+  <li><a href="Certification">WTC Certification</a></li>
   <li class="divider"></li>
-  <li><a href="#!">Lean Six Sigma</a></li>
+  <li><a href="Lean-Six-Sigma">Lean Six Sigma</a></li>
 </ul>
 
 <!-- Menú Consultancy -->
@@ -183,8 +183,8 @@
     <li>
         <div class="collapsible-header">Academics</div>
         <div class="collapsible-body">
-            <a href="#!">WTC Certification</a>
-            <a href="#!">Lean Six Sigma</a>
+            <a href="Certification">WTC Certification</a>
+            <a href="Lean-Six-Sigma">Lean Six Sigma</a>
         </div>
     </li>
     <li>
