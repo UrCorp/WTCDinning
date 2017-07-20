@@ -37,7 +37,7 @@
 		            {!! Form::email('contact[email]', null, ['class' => 'form-control', 'maxlength' => 250, 'required' => 'required']) !!}
 		          </div>
 		          <div class="form-group">
-		            {!! Form::label('contact[phone]', 'Teléfono') !!}
+		            {!! Form::label('contact[phone]', 'Teléfono *') !!}
 		            {!! Form::text('contact[phone]', null, ['class' => 'form-control', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
 		          </div>
 							<div class="form-group">
@@ -70,7 +70,7 @@
 		            {!! Form::email('contact[email]', null, ['class' => 'form-control', 'maxlength' => 250, 'required' => 'required']) !!}
 		          </div>
 		          <div class="form-group">
-		            {!! Form::label('contact[phone]', 'Teléfono') !!}
+		            {!! Form::label('contact[phone]', 'Teléfono *') !!}
 		            {!! Form::text('contact[phone]', null, ['class' => 'form-control', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
 		          </div>
 							<div class="form-group">

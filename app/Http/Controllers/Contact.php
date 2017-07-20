@@ -35,7 +35,7 @@ class Contact extends Controller
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
           $m->to('ventas@grupomomentum.com.mx', 'Ventas Momentum');
-          $m->subject('Inofrmes de Ventas WTCQueretaro');
+          $m->subject('Informes de Ventas WTCQueretaro');
         });
 
           $mail_sent = Mail::send('site.emails.contact', ['contact' => $contact], function ($m) use ($contact) {
