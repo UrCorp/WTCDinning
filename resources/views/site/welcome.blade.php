@@ -2,29 +2,8 @@
 
 @section('body-content')
 
-<div class="slider w3-container-display black lighten-3" style="margin-top: -30px;">
+<div class="slider" style="margin-top: -30px;">
   <ul class="slides valign-wrapper">
-    <li>
-      <img src="{{ asset('img/home/slider/momentum.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 60px">PRE-SALE AND RENT</h4>
-        <h6 class="light grey-text text-lighten-3"></h6>
-        <p>Choose your office or medical consulting room.</p>
-        <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
-          KNOW MORE <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
-        </a>
-      </div>
-    </li>
-    <li>
-      <img src="{{ asset('img/home/slider/softlanding.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 60px">WTC QRO CERTIFICATION</h4>
-        <h6 class="light grey-text text-lighten-3">Generate internacional added value to your organization.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
-          Know How <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
-        </a>
-      </div>
-    </li>
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="caption center-align">
@@ -36,23 +15,13 @@
         </a>
       </div>
     </li>
-    <li>
-      <img src="{{ asset('img/home/slider/zocalo.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 60px">SOFTLANDING</h4>
-        <h6 class="light grey-text text-lighten-3">Need guidance to explore new markets, relocate your company or lower your production costs.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal4">
-          SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
-        </a>
-      </div>
-    </li>
   </ul>
   <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 50px; font-size: 36px">&#10094;</span></button>
   <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 50px; font-size: 36px">&#10095;</button>
 </div>
 
 <!-- Academics-->
-  <div class="wrapper" style="">
+  <div class="wrapper" style="margin-top: -40px">
     <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right" style="height: 550px; width: 70%">
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
