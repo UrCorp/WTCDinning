@@ -2,8 +2,29 @@
 
 @section('body-content')
 
-<div class="slider" style="margin-top: -30px;">
+<div class="slider w3-container-display" style="margin-top: -30px;">
   <ul class="slides valign-wrapper">
+    <li>
+      <img src="{{ asset('img/home/slider/momentum.png') }}">
+      <div class="caption center-align">
+        <h4 class="condensed" style="padding-top: 60px">PRE-SALE AND RENT</h4>
+        <h6 class="light grey-text text-lighten-3"></h6>
+        <p>Choose your office or medical consulting room.</p>
+        <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
+          KNOW MORE <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+        </a>
+      </div>
+    </li>
+    <li>
+      <img src="{{ asset('img/home/slider/softlanding.png') }}">
+      <div class="caption center-align">
+        <h4 class="condensed" style="padding-top: 60px">WTC QRO CERTIFICATION</h4>
+        <h6 class="light grey-text text-lighten-3">Generate internacional added value to your organization.</h6>
+        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
+          Know How <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+        </a>
+      </div>
+    </li>
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="caption center-align">
@@ -12,6 +33,16 @@
         <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
           Go Shopping
+        </a>
+      </div>
+    </li>
+    <li>
+      <img src="{{ asset('img/home/slider/zocalo.png') }}">
+      <div class="caption center-align">
+        <h4 class="condensed ligth" style="padding-top: 60px">SOFTLANDING</h4>
+        <h6 class="light grey-text text-lighten-3">Need guidance to explore new markets, relocate your company or lower your production costs.</h6>
+        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal4">
+          SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
