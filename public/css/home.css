@@ -83,5 +83,15 @@ nav .brand-logo {
  }
 
  .font-gray{
-    color: #707372;
+    color: #909091;
+ }
+
+ .letra-chica{
+	 font-size:14px;
+	 line-height: 1.5;
+	 color: #909091;
+ }
+
+ header > h5 {
+	 font-weight:900;
  }
