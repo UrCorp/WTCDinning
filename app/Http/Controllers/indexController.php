@@ -29,4 +29,9 @@ class indexController extends Controller
         });
         return view('site.dinning')->with('restaurants',$restaurants);
     }
+
+    public function inicio(Request $request)
+    {
+        return view('site.es.inicio');
+    }
 }

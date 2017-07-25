@@ -21,6 +21,11 @@ Route::group(['as' => 'site.'], function () {
 				'as' 	=>	'index'
 			]);
 
+		Route::get('/Home', [
+				'uses'	=> 	'indexController@index',
+				'as' 	=>	'index'
+			]);
+
 		Route::get('/Dining', [
 				'uses' 	=> 	'indexController@dinning',
 				'as'	=> 	'dinning'
@@ -39,10 +44,13 @@ Route::group(['as' => 'site.'], function () {
 		    return view('site.shop');
 		});
 
-		Route::get('/Home', [
-				'uses'	=> 	'indexController@index',
-				'as' 	=>	'index'
-			]);
+    Route::group(['prefix' => 'es'], function() {
+
+    	Route::get('/', [
+    			'uses'	=> 'indexController@inicio',
+    			'as' 	=> 'inicio'
+    		]);
+    });
   });
 
   Route::group(['prefix' => 'contact', 'as' => 'contact.'], function () {
