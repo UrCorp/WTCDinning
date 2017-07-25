@@ -44,13 +44,23 @@ Route::group(['as' => 'site.'], function () {
 		    return view('site.shop');
 		});
 
-    Route::group(['prefix' => 'es'], function() {
+  });
 
-    	Route::get('/', [
-    			'uses'	=> 'indexController@inicio',
-    			'as' 	=> 'inicio'
-    		]);
-    });
+  Route::group(['prefix' => 'es'], function() {
+
+    Route::get('/', [
+        'uses'	=> 'indexController@inicio',
+        'as' 	=> 'inicio'
+      ]);
+
+    Route::get('/Inicio', [
+        'uses'	=> 	'indexController@inicio',
+        'as' 	=>	'es'
+      ]);
+
+    Route::get('/Lean-Six-Sigma', function () {
+		    return view('site.es.leansixsigma');
+		});
   });
 
   Route::group(['prefix' => 'contact', 'as' => 'contact.'], function () {

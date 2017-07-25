@@ -93,7 +93,7 @@
 
       <ul class="hide-on-med-and-down condensed w3-display-right">
         <li>
-          <a href="Home" class="white-text" id="home">Home</a>
+          <a href="Inicio" class="white-text" id="home">Home</a>
         </li>
         <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="real">

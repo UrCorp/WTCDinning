@@ -15,7 +15,7 @@
 	</head>
 	<body>
 
-		@include('site.templates.nav')
+		@include('site.es.templates.nav')
 
 		@yield('body-content')
 
