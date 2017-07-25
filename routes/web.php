@@ -61,6 +61,10 @@ Route::group(['as' => 'site.'], function () {
     Route::get('/Lean-Six-Sigma', function () {
 		    return view('site.es.leansixsigma');
 		});
+
+    Route::get('/Certification', function () {
+		    return view('site.es.certification');
+		});
   });
 
   Route::group(['prefix' => 'contact', 'as' => 'contact.'], function () {

@@ -179,7 +179,7 @@
 <!-- Collapsible menu -->
 <ul class="side-nav collapsible" id="mobile-demo"  data-collapsible="accordion">
 
-    <li><a href="Home">Home</a></li>
+    <li><a href="Inicio">Home</a></li>
     <li>
         <div class="collapsible-header">Academics</div>
         <div class="collapsible-body">
