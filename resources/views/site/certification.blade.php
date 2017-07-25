@@ -29,69 +29,118 @@
 <div class="container" style="z-index: -5; margin-top: 100px">
   <div class="w3-display-container" style="z-index: -5">
     <img src="{{ asset('img/certification/classroom.png') }}" style="width: 100%; z-index: -5">
-    <div class="w3-display-topright w3-white" style="width: 50%; margin-right: 5%; margin-top: 25%">
+    <div class="w3-display-topright w3-white hide-on-med-and-down" style="width: 50%; margin-right: 5%; margin-top: 25%">
       <div class="w3-card-4 w3-padding-32 w3-padding-large">
         <div class="w3-container" style="border-left: 12px solid #8cbde5;">
-          <div class="w3-container">
-            <header>
-              <h5 class="font-gray">PASS SCALE</h5>
-            </header>
-            <p class="w3-justify letra-chica">Analyze ways in which you can be more productive and professional in your working
-              relationships. Starting from a vision of how to develop the best version of yourself.
-              Develop skills to communicate ideas, to do it clearly and understandable, generating
-              an impact that transcend in others, based on a consistent leadership.
-            </p>
-          </div>
+          <header>
+            <h5 class="font-gray">PASS SCALE</h5>
+          </header>
+          <p class="w3-justify letra-chica">Analyze ways in which you can be more productive and professional in your working
+            relationships. Starting from a vision of how to develop the best version of yourself.
+            Develop skills to communicate ideas, to do it clearly and understandable, generating
+            an impact that transcend in others, based on a consistent leadership.
+          </p>
         </div>
         <div class="w3-container" style="border-left: 12px solid #f9f15b;">
-          <div class="w3-container">
-          <header>
-            <h5 class="font-gray">TROT SCALE</h5>
-          </header>
-            <p class="w3-justify letra-chica">
-              Develop skills and processes that are necessary to succeed in negotiating and selling.
-              Identify the importance of the attitude that is shown in front of our clients and discover
-              the best practices to generate new commercial relations.
-            </p>
-          </div>
+        <header>
+          <h5 class="font-gray">TROT SCALE</h5>
+        </header>
+          <p class="w3-justify letra-chica">
+            Develop skills and processes that are necessary to succeed in negotiating and selling.
+            Identify the importance of the attitude that is shown in front of our clients and discover
+            the best practices to generate new commercial relations.
+          </p>
         </div>
         <div class="w3-container" style="border-left: 12px solid #434444;">
-          <div class="w3-container">
-            <header>
-              <h5 class="font-gray">GALLOP SCALE</h5>
-            </header>
-            <p class="w3-justify letra-chica">
-              Identify and promote the flow of ideas that will facilitate innovative processes that
-              transform the possibilities into solutions.
-            </p>
-            <p class="w3-justify letra-chica">
-              Implement tools that transform knowledge and perception about your organization, products
-              and services into business strategies. Develop guidelines that help consistently influence
-              and increase market share.
-            </p>
-          </div>
+          <header>
+            <h5 class="font-gray">GALLOP SCALE</h5>
+          </header>
+          <p class="w3-justify letra-chica">
+            Identify and promote the flow of ideas that will facilitate innovative processes that
+            transform the possibilities into solutions.
+          </p>
+          <p class="w3-justify letra-chica">
+            Implement tools that transform knowledge and perception about your organization, products
+            and services into business strategies. Develop guidelines that help consistently influence
+            and increase market share.
+          </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="w3-row">
-    <div class="w3-col w3-container" style="width: 40%; margin-top: 20px">
-      <header>
-        <h5 class="font-gray">WTC CERTIFICATION</h5>
-      </header>
-      <p class="w3-justify font-gray" style="line-height: 1.5;">
-        We help people find their potential through training and consulting programs, to develop skills
-        by using tools and processes, promoting human talent, influencing positively in productivity
-        and in the economy.
-      </p>
-      <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
-        SCHEDULE NOW
-      </a>
-    </div>
+  <div class="w3-container hide-on-med-and-down" style="width: 40%; margin-top: 20px">
+    <header>
+      <h5 class="font-gray">WTC CERTIFICATION</h5>
+    </header>
+    <p class="w3-justify font-gray " style="line-height: 1.5;">
+      We help people find their potential through training and consulting programs, to develop skills
+      by using tools and processes, promoting human talent, influencing positively in productivity
+      and in the economy.
+    </p>
+    <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
+      SCHEDULE NOW
+    </a>
+  </div>
+  <div class="w3-container hide-on-large-only" style="width: 100%; margin-top: 20px">
+    <header>
+      <h5 class="font-gray">WTC CERTIFICATION</h5>
+    </header>
+    <p class="w3-justify font-gray " style="line-height: 1.5;">
+      We help people find their potential through training and consulting programs, to develop skills
+      by using tools and processes, promoting human talent, influencing positively in productivity
+      and in the economy.
+    </p>
+    <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
+      SCHEDULE NOW
+    </a>
   </div>
 </div>
-<div class="w3-container" style="height: 400px">
+<div class="w3-container hide-on-med-and-down" style="height: 400px">
 
+</div>
+<div class="w3-white hide-on-large-only" style="margin: 5%">
+  <div class="w3-card-4 w3-padding-32 w3-padding-large">
+    <div class="w3-container" style="border-left: 12px solid #8cbde5;">
+      <div class="w3-container">
+        <header>
+          <h5 class="font-gray">PASS SCALE</h5>
+        </header>
+        <p class="w3-justify letra-chica">Analyze ways in which you can be more productive and professional in your working
+          relationships. Starting from a vision of how to develop the best version of yourself.
+          Develop skills to communicate ideas, to do it clearly and understandable, generating
+          an impact that transcend in others, based on a consistent leadership.
+        </p>
+      </div>
+    </div>
+    <div class="w3-container" style="border-left: 12px solid #f9f15b;">
+      <div class="w3-container">
+      <header>
+        <h5 class="font-gray">TROT SCALE</h5>
+      </header>
+        <p class="w3-justify letra-chica">
+          Develop skills and processes that are necessary to succeed in negotiating and selling.
+          Identify the importance of the attitude that is shown in front of our clients and discover
+          the best practices to generate new commercial relations.
+        </p>
+      </div>
+    </div>
+    <div class="w3-container" style="border-left: 12px solid #434444;">
+      <div class="w3-container">
+        <header>
+          <h5 class="font-gray">GALLOP SCALE</h5>
+        </header>
+        <p class="w3-justify letra-chica">
+          Identify and promote the flow of ideas that will facilitate innovative processes that
+          transform the possibilities into solutions.
+        </p>
+        <p class="w3-justify letra-chica">
+          Implement tools that transform knowledge and perception about your organization, products
+          and services into business strategies. Develop guidelines that help consistently influence
+          and increase market share.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 @endsection
