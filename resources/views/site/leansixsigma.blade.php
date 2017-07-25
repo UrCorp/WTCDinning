@@ -83,12 +83,14 @@
 <div class="container hide-on-med-and-up" style="margin-top: 5%">
   <div class="w3-row-padding">
     <div class="w3-col s12 w3-container">
+      <img src="{{ asset('img/lean6sigma/YB.jpg') }}" style="width: 100%">
       <p class="w3-justify font-gray letra-chica" style="position: relative;">
         Focuses on preparing individuals to develop efficient processes for fast delivery and consistent quality.
       </p>
       <a href="#" class="w3-btn btnlean">See Calendar</a>
     </div>
     <div class="w3-col s12 w3-container" >
+      <img src="{{ asset('img/lean6sigma/GB.jpg') }}" style="width: 100%">
       <p class="w3-justify font-gray letra-chica">
         Green belts are agents of change trained in the methodologies of Lean Six Sigma, and as such, are capable
         of implementing high-impact projects.
@@ -96,6 +98,7 @@
       <a href="#" class="w3-btn btnlean">See Calendar</a>
     </div>
     <div class="w3-col s12 w3-container">
+      <img src="{{ asset('img/lean6sigma/BB.jpg') }}" style="width: 100%">
       <p class="w3-justify font-gray letra-chica">
         Black Belts are experts in Lean Six Sigma methodologies and dedicate much of their time implementing
         company improvements, leading key projects, and training or mentoring staff.
