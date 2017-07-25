@@ -95,7 +95,7 @@
 
 <div class="container hide-on-med-and-up" style="margin-top: 5%">
   <div class="w3-row-padding">
-    <div class="w3-col s12 w3-container">
+    <div class="w3-col s12 w3-container w3-section">
       <div class="w3-display-container">
         <img src="{{ asset('img/lean6sigma/YB.jpg') }}" style="width: 100%">
         <div class="w3-display-middle" style="background-color: rgba(229, 211, 50, 0.8);position: absolute;width: 100%;height: 100%;"></div>
@@ -106,7 +106,7 @@
       </p>
       <a href="#" class="w3-btn btnlean">Ver Fechas</a>
     </div>
-    <div class="w3-col s12 w3-container" >
+    <div class="w3-col s12 w3-container w3-section" >
       <div class="w3-display-container">
         <img src="{{ asset('img/lean6sigma/GB.jpg') }}" style="width: 100%">
         <div class="w3-display-middle" style="background-color: rgba(171, 208, 58, 0.8);position: absolute;width: 100%;height: 100%;"></div>
@@ -117,7 +117,7 @@
       </p>
       <a href="#" class="w3-btn btnlean">Ver Fechas</a>
     </div>
-    <div class="w3-col s12 w3-container">
+    <div class="w3-col s12 w3-container w3-section">
       <div class="w3-display-container">
         <img src="{{ asset('img/lean6sigma/BB.jpg') }}" style="width: 100%">
         <div class="w3-display-middle" style="background-color: rgba(0, 0, 0, 0.8);position: absolute;width: 100%;height: 100%;"></div>
