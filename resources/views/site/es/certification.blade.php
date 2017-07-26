@@ -25,6 +25,39 @@
 </div>
 <!-- End Portada -->
 
+<!-- Portada -->
+<div class="wrapper" style="margin-top: -30px">
+  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
+    <img src="{{ asset('img/certification/trans-portada.png') }}" class="w3-display-middle" style="height: 550px; width: 100%">
+    <img src="{{ asset('img/certification/certification-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 65%">
+    <img src="{{ asset('img/certification/certification-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
+    <div class="parallax valign-wrapper">
+      <img src="{{ asset('img/certification/certification.jpg') }}" alt="">
+    </div>
+      <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 50%; ">
+        <h3 class="light grey-text text-lighten-3"><b>WTC CERTIFICATION</b></h3>
+        <p>
+          Potencializa la productividad de tu organización trascendiendo a través del valor humano, generando solvencia y diseñando nuevas estrategias de innovación.
+        </p>
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
+          AGENDA AHORA
+        </a>
+      </div>
+      <!-- Responsive -->
+      <div class="caption center-align hide-on-med-and-up" style="z-index: 100; padding: 4%; ">
+        <h3 class="light grey-text text-lighten-3"><b>WTC CERTIFICATION</b></h3>
+        <p class="w3-justify">
+          Potencializa la productividad de tu organización trascendiendo a través del valor humano, generando solvencia y diseñando nuevas estrategias de innovación.
+        </p>
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
+          AGENDA AHORA
+        </a>
+      </div>
+      <!-- End Responsive -->
+  </div>
+</div>
+<!-- End Portada -->
+
 <div class="container" style="z-index: -5; margin-top: 100px">
   <div class="w3-display-container" style="z-index: -5">
     <img src="{{ asset('img/certification/classroom.png') }}" style="width: 100%; z-index: -5">
