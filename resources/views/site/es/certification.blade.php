@@ -6,29 +6,6 @@
 <div class="wrapper" style="margin-top: -30px">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/certification/trans-portada.png') }}" class="w3-display-middle" style="height: 550px; width: 100%">
-    <img src="{{ asset('img/certification/certification-trans.png') }}" class="w3-display-right" style="height: 550px; width: 65%">
-    <div class="parallax valign-wrapper">
-      <img src="{{ asset('img/certification/certification.jpg') }}" alt="">
-    </div>
-      <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
-        <h3 class="light grey-text text-lighten-3"><b>WTC CERTIFICATION</b></h3>
-        <p>
-          Potencializa la productividad de tu organización trascendiendo a través del valor humano, generando solvencia y diseñando nuevas estrategias de innovación.
-        </p>
-        <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
-          AGENDA AHORA
-        </a>
-      </div>
-      <div class="caption center-align hide-on-large-only">
-      </div>
-  </div>
-</div>
-<!-- End Portada -->
-
-<!-- Portada -->
-<div class="wrapper" style="margin-top: -30px">
-  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <img src="{{ asset('img/certification/trans-portada.png') }}" class="w3-display-middle" style="height: 550px; width: 100%">
     <img src="{{ asset('img/certification/certification-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 65%">
     <img src="{{ asset('img/certification/certification-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
     <div class="parallax valign-wrapper">
@@ -119,7 +96,10 @@
   </div>
 </div>
 <div class="w3-container hide-on-med-and-down" style="height: 200px">
-
+  <select class="w3-select" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+    <option value="#">    <img src="{{ asset('img/nav/mx.png') }}" class="w3-display-right hide-on-small-only" style=""></option>
+    <option value="../"><img src="{{ asset('img/nav/uk.png') }}" alt=""></option>
+  </select>
 </div>
 <div class="w3-white hide-on-large-only" style="margin: 5%">
   <div class="w3-card-4 w3-padding-32 w3-padding-large">
