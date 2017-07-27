@@ -11,6 +11,11 @@
     <div class="parallax valign-wrapper">
       <img src="{{ asset('img/lean6sigma/lean.jpg') }}" alt="">
     </div>
+    <div class="w3-display-right hide-on-small-only" style="margin: -90px 200px 0 0;">
+      <a href="#" class="fa fa-facebook socialnav"></a>
+      <a href="#" class="fa fa-instagram socialnav" style="margin: 10px"></a>
+      <a href="#" class="fa fa-twitter socialnav"></a>
+    </div>
       <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 5%; width: 40%">
         <h3 class="light grey-text text-lighten-3"><b>LEAN SIX SIGMA</b></h3>
         <p class="w3-justify">
