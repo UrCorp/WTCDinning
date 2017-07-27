@@ -11,7 +11,7 @@
     <div class="parallax valign-wrapper">
       <img src="{{ asset('img/certification/certification.jpg') }}" alt="">
     </div>
-    <div class="w3-display-right hide-on-small-only" style="margin: -90px 200px 0 0;">
+    <div class="w3-display-left hide-on-small-only" style="margin: -90px 0 0 100px;">
       <a href="#" class="fa fa-facebook socialnav"></a>
       <a href="#" class="fa fa-instagram socialnav" style="margin: 10px"></a>
       <a href="#" class="fa fa-twitter socialnav"></a>
