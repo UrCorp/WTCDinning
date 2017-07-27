@@ -1,22 +1,18 @@
 <div class="navbar-fixed" style="height: 30px">
+  <!-- Little nav bar for desktop -->
   <nav style="z-index: 4;" role="navigation" class="w3-container z-depth-0 transparent hide-on-med-and-down" id="topnav">
-    <div class="nav-wrapper" style="">
+    <div class="nav-wrapper">
       <ul>
-        <li class="hide-on-med-and-down">
+        <li>
           <a href="tel:4421297663" class="white-text">
             <i style="font-size: 13px;" class="material-icons left">phone</i>
-            <span style="font-size: 13px;" class="hide-on-med-and-down">+52 (1) 4421297663</span>
+            <span style="font-size: 13px;">+52 (1) 4421297663</span>
           </a>
         </li>
-          <li class="hide-on-large-only">
-            <a href="tel:4421297663" class="white-text">
-              <i style="font-size: 13px;" class="material-icons left">phone</i>
-            </a>
-          </li>
         <li>
           <a href="mailto:contacto@wtcqueretaro.com?Subject=Hola" target="_top" class="white-text">
             <i style="font-size: 13px;" class="material-icons left ">mail</i>
-            <span class=" hide-on-med-and-down" style="font-size: 13px;">contacto@wtcqueretaro.com</span>
+            <span style="font-size: 13px;">contacto@wtcqueretaro.com</span>
           </a>
         </li>
         <li>
@@ -35,14 +31,27 @@
           </a>
         </li>
       </ul>
+      <div class="w3-display-right" style="margin-right: 15%; width: 16px;">
+        <a href="es/Inicio">
+          <img src="{{ asset('img/nav/mx.png') }}" class="w3-display-right">
+        </a>
+      </div>
+      <div class="w3-display-right" style="margin-right: 17%; width: 16px;">
+        <a href="#">
+          <img src="{{ asset('img/nav/uk.png') }}" class="w3-display-right">
+        </a>
+      </div>
+
       <a href="https://www.wtca.org/world-trade-center-queretaro" target="_blank">
         <img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" class="w3-display-right">
       </a>
     </div>
   </nav>
-  <!--  -->
+  <!-- End little nav bar for desktop -->
+
+  <!-- Little nav bar for mobil -->
   <nav style="z-index: 4;" role="navigation" class="w3-container z-depth-0 transparent hide-on-large-only" id="topnav-movil">
-    <div class="nav-wrapper" style="">
+    <div class="nav-wrapper">
       <ul>
         <li>
           <a href="tel:4421297663" class="white-text">
@@ -71,27 +80,25 @@
         </li>
       </ul>
       <a href="https://www.wtca.org/world-trade-center-queretaro" target="_blank">
-        <img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" class="w3-display-right">
+        <img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" class="w3-display-right" style="width: 100px">
       </a>
     </div>
   </nav>
 </div>
 
-<!-- Large menu -->
+<!-- Nav menu -->
+<!-- For desktop -->
 <div class="navbar-fixed hide-on-med-and-down" style="height: 0; margin-top: 0px;">
   <nav class="transparent z-depth-0" style="z-index: 4; height: 70px;"  role="navigation" id="undernav">
     <div class="nav-wrapper valign-wrapper w3-display-container">
       <a href="Home">
-        <img src="{{ asset('img/wtcmenu.png') }}" class="hide-on-med-and-down w3-display-left w3-hide logonav" id="logobn">
+        <img src="{{ asset('img/wtcmenu.png') }}" class="w3-display-left w3-hide logonav" id="logobn">
       </a>
       <a href="Home">
-        <img src="{{ asset('img/logos/wtc-letras-blanco.png') }}" class="hide-on-med-and-down w3-display-left logonav" id="logocolor">
+        <img src="{{ asset('img/logos/wtc-letras-blanco.png') }}" class="w3-display-left logonav" id="logocolor">
       </a>
-      <!-- Icons responsive menu -->
 
-      <!-- End icons responsive menu -->
-
-      <ul class="hide-on-med-and-down condensed w3-display-right">
+      <ul class="condensed w3-display-right">
         <li>
           <a href="Home" class="white-text" id="home">Home</a>
         </li>
@@ -171,6 +178,16 @@
       <a href="Home">
         <img src="{{ asset('img/logos/logomenumovilblanco.png') }}" class="w3-display-middle logonav" id="logocolormovil">
       </a>
+      <div class="w3-display-right" style="margin-right: 10%; width: 16px;">
+        <a href="es/Inicio">
+          <img src="{{ asset('img/nav/mx.png') }}" class="w3-display-right">
+        </a>
+      </div>
+      <div class="w3-display-right" style="margin-right: 5%; width: 16px;">
+        <a href="#">
+          <img src="{{ asset('img/nav/uk.png') }}" class="w3-display-right">
+        </a>
+      </div>
 
     </div>
   </nav>
