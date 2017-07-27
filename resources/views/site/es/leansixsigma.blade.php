@@ -6,14 +6,14 @@
 <div class="wrapper" style="margin-top: -30px">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/certification/trans-portada.png') }}" class="w3-display-middle" style="height: 550px; width: 100%">
-    <img src="{{ asset('img/certification/certification-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 65%">
-    <img src="{{ asset('img/certification/certification-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
+    <img src="{{ asset('img/lean6sigma/lean-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 65%">
+    <img src="{{ asset('img/lean6sigma/lean-trans.png') }}" class="w3-display-left hide-on-med-and-up" style="height: 550px; width: 100%">
     <div class="parallax valign-wrapper">
-      <img src="{{ asset('img/certification/certification.jpg') }}" alt="">
+      <img src="{{ asset('img/lean6sigma/lean.jpg') }}" alt="">
     </div>
-      <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 50%; ">
+    <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 5%; width: 40%">
         <h3 class="light grey-text text-lighten-3"><b>LEAN SIX SIGMA</b></h3>
-        <p>
+        <p class="w3-justifylean6sigma">
           Mejore el desempeño operacional aprovechando diversas herramientas para identificar y eliminar defectos. Nuestra formación tiene aplicaciones
           directas y tangibles en casi todos los procesos de fabricación.
         </p>
@@ -39,7 +39,7 @@
 
 <div class="container" style="z-index: -5; margin-top: 100px">
   <div class="w3-display-container" style="z-index: -5">
-    <img src="{{ asset('img/certification/classroom.png') }}" style="width: 100%; z-index: -5">
+    <img src="{{ asset('img/lean6sigma/table.jpg') }}" style="width: 100%; z-index: -5">
     <div class="w3-display-bottomright w3-white hide-on-med-and-down" style="width: 50%; margin-right: 5%; margin-bottom: -5%">
       <div class="w3-card-4 w3-padding-32 w3-padding-large">
         <div class="w3-container">
@@ -65,7 +65,7 @@
       <div class="w3-display-container">
         <img src="{{ asset('img/lean6sigma/YB.jpg') }}" style="width: 100%">
         <div class="w3-display-middle" style="background-color: rgba(229, 211, 50, 0.8);position: absolute;width: 100%;height: 100%;"></div>
-        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900">Yellow Belt <br> Course </h5>
+        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900; margin-left: 15px">Yellow Belt <br> Course </h5>
       </div>
       <p class="w3-justify font-gray letra-chica" style="position: relative;">
         La capacitación de Yellow Bet se centra en preparar a los individuos para desarrollar procesos eficientes para una entrega rápida y una calidad consistente.
@@ -75,7 +75,7 @@
       <div class="w3-display-container">
         <img src="{{ asset('img/lean6sigma/GB.jpg') }}" style="width: 100%">
         <div class="w3-display-middle" style="background-color: rgba(171, 208, 58, 0.8);position: absolute;width: 100%;height: 100%;"></div>
-        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900">Green Belt <br> Course </h5>
+        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900; margin-left: 15px">Green Belt <br> Course </h5>
       </div>
       <p class="w3-justify font-gray letra-chica">
         Son agentes de cambio entrenados en las metodologías de Lean Six Sigma, y ​​como tales, son capaces de implementar proyectos de alto impacto.
@@ -85,7 +85,7 @@
       <div class="w3-display-container">
         <img src="{{ asset('img/lean6sigma/BB.jpg') }}" style="width: 100%">
         <div class="w3-display-middle" style="background-color: rgba(0, 0, 0, 0.8);position: absolute;width: 100%;height: 100%;"></div>
-        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900">Black Belt <br> Course </h5>
+        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900; margin-left: 15px">Black Belt <br> Course </h5>
       </div>
       <p class="w3-justify font-gray letra-chica">
         Black Belts son expertos en metodologías Lean Six Sigma y dedican gran parte de su tiempo a implementar mejoras en la empresa, liderando proyectos claves
@@ -110,7 +110,7 @@
       <div class="w3-display-container">
         <img src="{{ asset('img/lean6sigma/YB.jpg') }}" style="width: 100%">
         <div class="w3-display-middle" style="background-color: rgba(229, 211, 50, 0.8);position: absolute;width: 100%;height: 100%;"></div>
-        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900">Yellow Belt <br> Course </h5>
+        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900; margin-left: 15px">Yellow Belt <br> Course </h5>
       </div>
       <p class="w3-justify font-gray letra-chica" style="position: relative;">
         La capacitación de Yellow Bet se centra en preparar a los individuos para desarrollar procesos eficientes para una entrega rápida y una calidad consistente.
@@ -121,7 +121,7 @@
       <div class="w3-display-container">
         <img src="{{ asset('img/lean6sigma/GB.jpg') }}" style="width: 100%">
         <div class="w3-display-middle" style="background-color: rgba(171, 208, 58, 0.8);position: absolute;width: 100%;height: 100%;"></div>
-        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900">Green Belt <br> Course </h5>
+        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900; margin-left: 15px">Green Belt <br> Course </h5>
       </div>
       <p class="w3-justify font-gray letra-chica">
         Son agentes de cambio entrenados en las metodologías de Lean Six Sigma, y ​​como tales, son capaces de implementar proyectos de alto impacto.
@@ -132,7 +132,7 @@
       <div class="w3-display-container">
         <img src="{{ asset('img/lean6sigma/BB.jpg') }}" style="width: 100%">
         <div class="w3-display-middle" style="background-color: rgba(0, 0, 0, 0.8);position: absolute;width: 100%;height: 100%;"></div>
-        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900">Black Belt <br> Course </h5>
+        <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900; margin-left: 15px">Black Belt <br> Course </h5>
       </div>
       <p class="w3-justify font-gray letra-chica">
         Black Belts son expertos en metodologías Lean Six Sigma y dedican gran parte de su tiempo a implementar mejoras en la empresa, liderando proyectos claves
