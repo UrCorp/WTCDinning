@@ -65,6 +65,11 @@ Route::group(['as' => 'site.'], function () {
     Route::get('/Certification', function () {
 		    return view('site.es.certification');
 		});
+
+    Route::get('/Dining', [
+				'uses' 	=> 	'indexController@reservas',
+				'as'	=> 	'reservas'
+			]);
   });
 
   Route::group(['prefix' => 'contact', 'as' => 'contact.'], function () {
@@ -72,11 +77,6 @@ Route::group(['as' => 'site.'], function () {
     Route::post('/send', [
       'uses'  => 'Contact@send',
       'as'    => 'send'
-    ]);
-
-    Route::post('/save', [
-      'uses'  => 'Contact@save',
-      'as'    => 'save'
     ]);
   });
 });

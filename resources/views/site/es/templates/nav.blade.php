@@ -100,31 +100,31 @@
 
       <ul class="condensed w3-display-right">
         <li>
-          <a href="Inicio" class="white-text" id="home">Home</a>
+          <a href="Inicio" class="white-text" id="home">Inicio</a>
         </li>
         <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="real">
-            Real Estate<i class="material-icons right">arrow_drop_down</i>
+            Bienes Raíces<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li>
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownAcademics" id="academics">
-            Academics<i class="material-icons right">arrow_drop_down</i>
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownAcademia" id="academics">
+            Academia<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li>
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownConsultancy" id="consultancy">
-            Consultancy<i class="material-icons right">arrow_drop_down</i>
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownConsultoria" id="consultancy">
+            Consultoría<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownDiscover" id="discover">
-            Discover Querétaro<i class="material-icons right">arrow_drop_down</i>
+            Descubre Querétaro<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownTrading" id="trade">
-            Trade<i class="material-icons right">arrow_drop_down</i>
+            Intercambio<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
       </ul>
@@ -132,29 +132,29 @@
   </nav>
 </div>
 
-<!-- Menú Academics -->
-<ul id="dropdownAcademics" class="dropdown-content">
-  <li><a href="Certification">WTC Certification</a></li>
+<!-- Menú Academia -->
+<ul id="dropdownAcademia" class="dropdown-content">
+  <li><a href="Certification">Certificación WTC</a></li>
   <li class="divider"></li>
   <li><a href="Lean-Six-Sigma">Lean Six Sigma</a></li>
 </ul>
 
-<!-- Menú Consultancy -->
-<ul id="dropdownConsultancy" class="dropdown-content">
-  <li><a href="#!">SoftLanding</a></li>
+<!-- Menú Consultoria -->
+<ul id="dropdownConsultoria" class="dropdown-content">
+  <li><a href="#!">Programa Softlanding</a></li>
 </ul>
 
 <!-- Menú Discover -->
 <ul id="dropdownDiscover" class="dropdown-content">
-  <li><a href="Dining">Dining</a></li>
+  <li><a href="Dining">Reservaciones</a></li>
   <li class="divider"></li>
 </ul>
 
-<!-- Menú Real Estate -->
+<!-- Menú Bienes Raíces -->
 <ul id="dropdownRealEstate" class="dropdown-content">
-  <li><a href="#!">Coworking</a></li>
+  <li><a href="#!">Aréa de Coworking</a></li>
   <li class="divider"></li>
-  <li><a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Offices</a></li>
+  <li><a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Oficinas</a></li>
 </ul>
 
 <!-- Menú Trading -->
@@ -196,35 +196,35 @@
 <!-- Collapsible menu -->
 <ul class="side-nav collapsible" id="mobile-demo"  data-collapsible="accordion">
 
-    <li><a href="Inicio">Home</a></li>
+    <li><a href="Inicio">Inicio</a></li>
     <li>
-        <div class="collapsible-header">Academics</div>
+        <div class="collapsible-header">Academia</div>
         <div class="collapsible-body">
-            <a href="Certification">WTC Certification</a>
+            <a href="Certification">Certificación WTC</a>
             <a href="Lean-Six-Sigma">Lean Six Sigma</a>
         </div>
     </li>
     <li>
-        <div class="collapsible-header">Consultancy</div>
+        <div class="collapsible-header">Consultoria</div>
         <div class="collapsible-body">
-            <a href="#!">Softlanding</a>
+            <a href="#!">Programa Softlanding</a>
         </div>
     </li>
     <li>
-        <div class="collapsible-header">Discover Querétaro</div>
+        <div class="collapsible-header">Descubre Querétaro</div>
         <div class="collapsible-body">
-            <a href="Dining">Dining</a>
+            <a href="Dining">Reservaciones</a>
         </div>
     </li>
     <li>
-        <div class="collapsible-header">Real Estate</div>
+        <div class="collapsible-header">Bienes Raíces</div>
         <div class="collapsible-body">
-            <a href="#!">Coworking</a>
-            <a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Offices</a>
+            <a href="#!">Aréa de Coworking</a>
+            <a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Oficinas</a>
         </div>
     </li>
     <li>
-        <div class="collapsible-header">Trade</div>
+        <div class="collapsible-header">Intercambio</div>
         <div class="collapsible-body">
           <a href="https://www.kichink.com/stores/kanpai" target="_blank">Commerce</a>
           <a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a>

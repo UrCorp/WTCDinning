@@ -9,30 +9,30 @@
       <div class="caption center-align">
         <h4 class="condensed" style="padding-top: 60px">PRE - VENTA Y RENTA</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
-        <p>Choose your office or medical consulting room.</p>
+        <p>Elige tu propia oficina o consultorio.</p>
         <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
-          KNOW MORE <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+          SABER MÁS <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
     <li>
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 60px">WTC QRO CERTIFICATION</h4>
-        <h6 class="light grey-text text-lighten-3">Generate internacional added value to your organization.</h6>
+        <h4 class="condensed" style="padding-top: 60px">WTC QRO CERTIFICACION</h4>
+        <h6 class="light grey-text text-lighten-3">Genera valor agregado a tu organización.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
-          Know How <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+          CONOCE CÓMO <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 60px">MEXICAN CRAFTS</h4>
+        <h4 class="condensed ligth" style="padding-top: 60px">ARTESANÍAS MEXICANAS</h4>
         <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
         <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
-          Go Shopping
+          Ir a la Tienda
         </a>
       </div>
     </li>
@@ -57,13 +57,13 @@
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right" style="height: 550px; width: 70%">
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
         <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
-            <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
+            <h2 class="light grey-text text-lighten-3"><b>Academia</b></h2>
             <h6>¡Coming Soon!</h6>
             <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
               Newsletter
             </a>
             <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
-              Certification
+              Certificación
             </a>
             <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
               Lean Six Sigma
@@ -79,11 +79,11 @@
 <div style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
   <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
     <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡RECEIVE OUR LAST NEWS!</b></h3>
-      <h6 class="grey-text text-darken-2"><b>¡Receive our last news!</b></h5>
-      <p class="grey-text text-darken-2 w3-tiny">Be part of the largest business network in the country. Subscribe to our Newsletter.</p>
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡RECIBE NUESTRAS ÚLTIMAS NOTICIAS!</b></h3>
+      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Recibe nuestras últimas noticias!</b></h5>
+      <p class="grey-text text-darken-2 w3-tiny">Se parte de la red de negocios más grande en el país. Suscríbete a nuestro Newsletter.</p>
           <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#modal1" >
-            SUBSCRIBE
+            SUSCRIBIRSE
           </a>
     </div>
 </div>
@@ -97,9 +97,9 @@
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
           <br>
-          <h5 class="light grey-text text-lighten-3">¡YOUR FUTURE IS SAFE WITH US!</h5>
+          <h5 class="light grey-text text-lighten-3">¡TU FUTURO ESTÁ A SALVO CON NOSOTROS!</h5>
           <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#modal1" >
-            READ MORE
+            LEER MÁS
           </a>
       </div>
       <div class="caption center-align hide-on-large-only">
@@ -110,7 +110,8 @@
 
 <!-- Map -->
 <div class="grey lighten-3" style="margin-top: -30px">
-<h2 class="center grismomentum">Choose your office or medical consulting room</h2 >
+  <h2 class="center grismomentum hide-on-med-and-down">Elige tu propia oficina o consultorio</h2>
+  <h5 class="center grismomentum hide-on-large-only" style="margin-top: 20px">Elige tu propia oficina o consultorio</h5>
   <div class="">
     <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
   </div>
@@ -124,9 +125,9 @@
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
         <h1 class="white-text">DINING</h1>
-        <p class="w3-justify">Discover our range of restaurants and enjoy our culinary offer.</p>
+        <p class="w3-justify">Disfruta de nuestra oferta culinaria en alguno de nuestros Restaurantes.</p>
         <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
-          RESERVE NOW
+          RESERVA AHORA
         </a>
       </div>
       <div class="caption center-align hide-on-large-only">
@@ -200,7 +201,7 @@
 
 <!-- Aliados estratégicos -->
   <div class="w3-panle">
-    <h3 class="center">Our Allies</h3>
+    <h3 class="center">Nuestros Aliados</h3>
     <div class="row">
       <div class="col s12 m2 offset-m1">
         <img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt="">
@@ -224,7 +225,7 @@
 <!-- Socios -->
 <hr>
   <div class="w3-panle">
-    <h3 class="center">Our Partners</h3>
+    <h3 class="center">Nuestros Socios</h3>
     <div class="row">
       <div class="col s12 m2 offset-m3">
         <img src="{{ asset('img/home/socios/alterra.png') }}" width="100%" alt="">
@@ -248,36 +249,36 @@
         <div id="googleMap" class="" style="width:100%;height:450px;"></div>
       </div>
       <div class="w3-half">
-        <h3 class="center">Contact Us</h3>
+        <h3 class="center">Contacto</h3>
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
           <div class="input-field col m10 offset-m1">
           {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
-          {!! Form::label('name', 'Name') !!}
+          {!! Form::label('name', 'Nombre') !!}
           </div>
         </div>
 
         <div class="row">
-          <div class="col m5 offset-m1">
-          {!! Form::label('email', 'Mail') !!}
+          <div class="input-field col m5 offset-m1">
+          {!! Form::label('email', 'Correo Electrónico') !!}
           {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
           </div>
-          <div class="col m5">
-          {!! Form::label('phone', 'Phone') !!}
+          <div class="input-field col m5">
+          {!! Form::label('phone', 'Teléfono') !!}
           {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
 
         <div class="row">
-          <div class="col m10 offset-m1">
-          {!! Form::label('description', 'Message') !!}
+          <div class="input-field col m10 offset-m1">
+          {!! Form::label('description', 'Mensaje') !!}
           {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
           </div>
         </div>
 
         <div class="row">
           <div class="col m10 offset-m1 center">
-          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+          {!! Form::submit('Envíar',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
           </div>
         </div>
         {!! Form::close() !!}
@@ -332,7 +333,7 @@
       <div class="section">
         <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
         <button class="modal-close right btn-flat">X</button>
-        <h5 class="center">Contact Us</h5>
+        <h5 class="center">Contacto</h5>
         {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
