@@ -101,22 +101,22 @@
 
 
 		<script>
-            $(document).ready(function () {
-                $('.slider').slider({
-                	full_width: true,
-                	height: 400,
-                	indicators: true,
-                	interval: 10000
-            	});
+		$(document).ready(function () {
+		  $('.slider').slider({
+		  	full_width: true,
+		  	height: 400,
+		  	indicators: true,
+		  	interval: 10000
+			});
 
-				$('.next').click(function() {
-				 $('.slider').slider('next');
-				});
-				$('.prev').click(function() {
-				 $('.slider').slider('prev');
-				});
-            });
-        </script>
+			$('.next').click(function() {
+			 $('.slider').slider('next');
+			});
+			$('.prev').click(function() {
+			 $('.slider').slider('prev');
+			});
+    });
+    </script>
 
 	</body>
 </html>
