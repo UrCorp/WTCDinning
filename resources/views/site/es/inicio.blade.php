@@ -154,8 +154,8 @@
       </ul>
       <p class="w3-justify grismomentum">Conoce el exclusivo desarrollo médico y empresarial <b>World Trade Center...</b> donde tienes lo mejor a tu alcance.</p>
       <p class="verdemomentum">Proyecto Pre-certificado MEES, Edificación Sustentable</p>
-      <button type="button" name="button" class="w3-btn btnmomentum">Solicitar información</button>
-      <button type="button" name="button" class="w3-btn btnmomentum">Recorrido Virtual</button>
+      <a class="w3-btn btnmomentum" href="">Solicitar información</a>
+      <a class="w3-btn btnmomentum" href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Recorrido Virtual</a>
     </div>
     <div class="w3-half w3-padding-large">
       <div class="w3-row">
@@ -199,47 +199,68 @@
 </div>
 <!-- End WTC trade -->
 
-<!-- Aliados estratégicos -->
+<!-- [Strategic Allies] -->
   <div class="w3-panle">
-    <h3 class="center">Nuestros Aliados</h3>
+    <h3 class="center">Our Allies</h3>
     <div class="row">
       <div class="col s12 m2 offset-m1">
-        <img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt="">
+        <a href="https://aeromexico.com/es-mx" target="_blank">
+          <img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt="">
+        </a>
       </div>
       <div class="col s12 m2">
-        <img src="{{ asset('img/home/aliados/audi.png') }}" width="100%" alt="">
+        <a href="http://audicenterjuriquilla.com.mx" target="_blank">
+          <img src="{{ asset('img/home/aliados/audi.png') }}" width="100%" alt="">
+        </a>
       </div>
       <div class="col s12 m2">
-        <img src="{{ asset('img/home/aliados/nena.jpg') }}" width="100%" alt="">
+        <a href="http://hotelnena.mx" target="_blank">
+          <img src="{{ asset('img/home/aliados/nena.jpg') }}" width="100%" alt="">
+        </a>
       </div>
       <div class="col s12 m2">
-        <img src="{{ asset('img/home/aliados/proyectos.png') }}" width="100%" alt="">
+        <a href="#">
+          <img src="{{ asset('img/home/aliados/proyectos.png') }}" width="100%" alt="">
+        </a>
       </div>
       <div class="col s12 m2">
-        <img src="{{ asset('img/home/aliados/URCORP.png') }}" width="100%" alt="">
+        <a href="http://urcorp.mx" target="_blank">
+          <img src="{{ asset('img/home/aliados/URCORP.png') }}" width="100%" alt="">
+        </a>
       </div>
     </div>
   </div>
-<!-- End Aliados estratégicos -->
+<!-- End [Strategic Allies] -->
 
-<!-- Socios -->
+<!-- [Partners] -->
 <hr>
   <div class="w3-panle">
-    <h3 class="center">Nuestros Socios</h3>
+    <h3 class="center">Our Partners</h3>
     <div class="row">
-      <div class="col s12 m2 offset-m3">
-        <img src="{{ asset('img/home/socios/alterra.png') }}" width="100%" alt="">
+      <div class="col s12 m2 offset-m2">
+        <a href="#">
+          <img src="{{ asset('img/home/socios/alterra.png') }}" width="100%" alt="">
+        </a>
       </div>
       <div class="col s12 m2">
-        <img src="{{ asset('img/home/socios/momentum.png') }}" width="100%" alt="">
+        <a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">
+          <img src="{{ asset('img/home/socios/momentum.png') }}" width="100%" alt="">
+        </a>
       </div>
       <div class="col s12 m2">
-        <img src="{{ asset('img/home/socios/lumico.png') }}" width="100%" alt="">
+        <a href="#">
+          <img src="{{ asset('img/home/socios/lumico.png') }}" width="100%" alt="">
+        </a>
+      </div>
+      <div class="col s12 m2">
+        <a href="#">
+          <img src="{{ asset('img/home/socios/goyen.png') }}" width="100%" alt="">
+        </a>
       </div>
     </div>
   </div>
   <hr>
-<!-- End Socios -->
+<!-- End [Partners] -->
 
 <!-- Contact -->
 <div class="container hide-on-med-and-down">
