@@ -6,30 +6,30 @@
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 60px">PRE-SALE AND RENT</h4>
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed">PRE-SALE AND RENT</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
-        <p>Choose your office or medical consulting room.</p>
-        <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
+        <p>Lease your office space or medical office.</p>
+        <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" onclick="$('.tap-target').tapTarget('open')">
           KNOW MORE <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
     <li>
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 60px">WTC QRO CERTIFICATION</h4>
-        <h6 class="light grey-text text-lighten-3">Generate internacional added value to your organization.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed">WTC QRO CERTIFICATION</h4>
+        <h6 class="light grey-text text-lighten-3">Add internacional, incremental value to your organization.</h6>
+        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#mCertification">
           Know How <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 60px">MEXICAN CRAFTS</h4>
-        <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed ligth">MEXICAN CRAFTS</h4>
+        <h6 class="light grey-text text-lighten-3">Purchase beautiful products, handmade by Mexican artisans in our exlcusive online shop.</h6>
         <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
           Go Shopping
@@ -38,10 +38,10 @@
     </li>
     <li>
       <img src="{{ asset('img/home/slider/zocalo.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 60px">SOFTLANDING</h4>
-        <h6 class="light grey-text text-lighten-3">Need guidance to explore new markets, relocate your company or lower your production costs.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal4">
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed ligth">SOFTLANDING</h4>
+        <h6 class="light grey-text text-lighten-3">Obtain guidance on unexplored markets, relocate your company or lower your production costs.</h6>
+        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#mSoftlanding">
           SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
@@ -59,13 +59,13 @@
         <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
             <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
             <h6>¡Coming Soon!</h6>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#mNewsletter" >
               Newsletter
             </a>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#mCertification" >
               Certification
             </a>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#mL6S" >
               Lean Six Sigma
             </a>
         </div>
@@ -80,9 +80,9 @@
   <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
     <div class="w3-display-middle center">
       <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡RECEIVE OUR LAST NEWS!</b></h3>
-      <h6 class="grey-text text-darken-2"><b>¡Receive our last news!</b></h5>
-      <p class="grey-text text-darken-2 w3-tiny">Be part of the largest business network in the country. Subscribe to our Newsletter.</p>
-          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#modal1" >
+      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Receive our last news!</b></h5>
+      <p class="grey-text text-darken-2">Be part of the largest business network in the country. Subscribe to our Newsletter.</p>
+          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#mNewsletter" >
             SUBSCRIBE
           </a>
     </div>
@@ -98,7 +98,7 @@
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
           <br>
           <h5 class="light grey-text text-lighten-3">¡YOUR FUTURE IS SAFE WITH US!</h5>
-          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#modal1" >
+          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#mSoftlanding" >
             READ MORE
           </a>
       </div>
@@ -110,7 +110,7 @@
 
 <!-- Map -->
 <div class="grey lighten-3" style="margin-top: -30px">
-<h2 class="center grismomentum">Choose your office or medical consulting room</h2 >
+<h2 class="center grismomentum">Select your office or medical consulting room</h2 >
   <div class="">
     <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
   </div>
@@ -124,9 +124,9 @@
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
         <h1 class="white-text">DINING</h1>
-        <p class="w3-justify">Discover our range of restaurants and enjoy our culinary offer.</p>
-        <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
-          RESERVE NOW
+        <p class="w3-justify">Choose form a wide range of restaurants and diverse culinary fares WTC has to offer.</p>
+        <a class="btn waves-effect waves-light white teal-text" href="/Dining" >
+          RESERVATIONS
         </a>
       </div>
       <div class="caption center-align hide-on-large-only">
@@ -143,7 +143,7 @@
       <ul class="grismomentum">
         <li>7 salas de juntas</li>
         <li>Cancha de padel tenis</li>
-        <li>Gimnaio</li>
+        <li>Gym</li>
         <li>Alberca Techada</li>
         <li>Regaderas</li>
         <li>Vapor</li>
