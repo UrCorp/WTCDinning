@@ -78,6 +78,10 @@ Route::group(['as' => 'site.'], function () {
       'uses'  => 'Contact@send',
       'as'    => 'send'
     ]);
+    Route::post('/presale', [
+      'uses'  => 'Contact@presale',
+      'as'    => 'presale'
+    ]);
   });
 });
 

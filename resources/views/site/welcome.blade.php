@@ -327,43 +327,36 @@
 </div>
 
 <!-- Modal Venta y Renta -->
-  <div id="modal1" class="modal modal-fixed-footer">
+  <div id="mPresale" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.presale', 'method' => 'POST']) !!}
     <div class="modal-content">
       <div class="section">
         <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
         <button class="modal-close right btn-flat">X</button>
         <h5 class="center">Contact Us</h5>
-        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('name-momentum', 'Name') !!}
-          {!! Form::text('name-momentum',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('presale[name-momentum]', 'Name') !!}
+          {!! Form::text('presale[name-momentum]',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
         <div class="row">
           <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('email-momentum', 'Mail') !!}
-          {!! Form::email('email-momentum',null,['class' => 'form-control validate', 'required']) !!}
+          {!! Form::label('presale[email-momentum]', 'Mail') !!}
+          {!! Form::email('presale[email-momentum]',null,['class' => 'form-control validate', 'required']) !!}
           </div>
           <div class="input-field col s12 m3">
-          {!! Form::label('phone-momentum', 'Phone') !!}
-          {!! Form::text('phone-momentum',null,['class' => 'validate',  'required']) !!}
+          {!! Form::label('presale[phone-momentum]', 'Phone') !!}
+          {!! Form::text('presale[phone-momentum]',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('enterprise-momentum', 'Enterprise') !!}
-          {!! Form::text('enterprise-momentum',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('presale[enterprise-momentum]', 'Enterprise') !!}
+          {!! Form::text('presale[enterprise-momentum]',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
-
-        <div class="row">
-          <div class="col s12 center">
-
-          </div>
-        </div>
-        {!! Form::close() !!}
       </div>
     </div>
     <div class="modal-footer">
@@ -371,6 +364,7 @@
         {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
         </div>
     </div>
+    {!! Form::close() !!}
   </div>
 
 <!-- Modal Certification -->

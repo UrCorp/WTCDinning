@@ -38,12 +38,12 @@ class Contact extends Controller
           $m->subject('Informes de Ventas WTCQueretaro');
         });
 
-          $mail_sent = Mail::send('site.emails.contact', ['contact' => $contact], function ($m) use ($contact) {
-            $m->from('web@wtcqueretaro.com', 'WTC');
-            $m->replyTo($contact['email'], $contact['name']);
-            $m->to('curibe@wtcqueretaro.com', 'Ventas WTC');
-            $m->subject('Inofrmes de Ventas WTCQueretaro');
-          });
+        $mail_sent = Mail::send('site.emails.contact', ['contact' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo($contact['email'], $contact['name']);
+          $m->to('curibe@wtcqueretaro.com', 'Ventas WTC');
+          $m->subject('Informes de Ventas WTCQueretaro');
+        });
 
         $mail_sent_client = Mail::send('site.emails.contact_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
@@ -55,6 +55,51 @@ class Contact extends Controller
         if ($mail_sent_momentum) {
           $res['status'] = 'SUCCESS';
           $res['msg'] = '¡Mensaje enviado!';
+        }
+      }
+    }
+    return redirect()->action('indexController@index');
+  }
+
+  public function presale(Request $request) {
+    $res = [
+      'status' => 'ERROR_CONNECTION',
+      'msg'    => 'Existe un error en la conexión <br/>¡Por favor, intente más tarde!'
+    ];
+
+    $contact = $request->input('presale');
+
+    if (isset($contact) and !empty($contact)) {
+
+      $validation = Validator::make($contact, [
+        'name-momentum'    => 'required|max:60',
+        'email-momentum'   => 'required|email|max:250',
+        'phone-momentum'   => 'required|regex:/^[0-9]{10,10}$/'
+      ]);
+
+      if ($validation->fails()) {
+        $res['status'] = 'VALIDATION_ERROR';
+        $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
+      } else {
+
+        $mail_sent = Mail::send('site.emails.newsletter', ['presale' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo($contact['email-momentum'], $contact['name-momentum']);
+          $m->to('eduardo.vera.pineda@gmail.com', 'Director WTC');
+          $m->subject('Inscripción Newsletter');
+        });
+
+        $mail_sent_client = Mail::send('site.emails.newsletter_client', ['contact' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo('eduardo.vera.pineda@gmail.com', 'Director WTC');
+          $m->to($contact['email-momentum'], $contact['name-momentum']);
+          $m->subject('Newsletter WTC');
+        });
+
+        if ($mail_sent_momentum) {
+          $res['status'] = 'SUCCESS';
+          $res['msg'] = '¡Mensaje enviado!';
+          dd()
         }
       }
     }
