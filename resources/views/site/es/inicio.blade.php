@@ -6,8 +6,8 @@
   <ul class="slides valign-wrapper">
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 60px">PRE - VENTA Y RENTA</h4>
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed">PRE - VENTA Y RENTA</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
         <p>Elige tu propia oficina o consultorio.</p>
         <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
@@ -17,8 +17,8 @@
     </li>
     <li>
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed" style="padding-top: 60px">WTC QRO CERTIFICACION</h4>
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed">WTC QRO CERTIFICACION</h4>
         <h6 class="light grey-text text-lighten-3">Genera valor agregado a tu organización.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
           CONOCE CÓMO <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
@@ -27,8 +27,8 @@
     </li>
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 60px">ARTESANÍAS MEXICANAS</h4>
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed ligth">ARTESANÍAS MEXICANAS</h4>
         <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
         <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
@@ -38,8 +38,8 @@
     </li>
     <li>
       <img src="{{ asset('img/home/slider/zocalo.png') }}">
-      <div class="caption center-align">
-        <h4 class="condensed ligth" style="padding-top: 60px">SOFTLANDING</h4>
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed ligth">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Need guidance to explore new markets, relocate your company or lower your production costs.</h6>
         <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal4">
           SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
