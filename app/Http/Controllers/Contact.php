@@ -72,9 +72,9 @@ class Contact extends Controller
     if (isset($contact) and !empty($contact)) {
 
       $validation = Validator::make($contact, [
-        'name-momentum'    => 'required|max:60',
-        'email-momentum'   => 'required|email|max:250',
-        'phone-momentum'   => 'required|regex:/^[0-9]{10,10}$/'
+        'name'    => 'required|max:60',
+        'email'   => 'required|email|max:250',
+        'phone'   => 'required|regex:/^[0-9]{10,10}$/'
       ]);
 
       if ($validation->fails()) {
@@ -82,24 +82,67 @@ class Contact extends Controller
         $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
       } else {
 
-        $mail_sent = Mail::send('site.emails.newsletter', ['presale' => $contact], function ($m) use ($contact) {
+        $mail_sent = Mail::send('site.emails.presale', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
-          $m->replyTo($contact['email-momentum'], $contact['name-momentum']);
+          $m->replyTo($contact['email'], $contact['name']);
           $m->to('eduardo.vera.pineda@gmail.com', 'Director WTC');
-          $m->subject('Inscripción Newsletter');
+          $m->subject('WTC | Informe de Ventas');
+        });
+
+        $mail_sent_client = Mail::send('site.emails.presale_client', ['contact' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo('eduardo.vera.pineda@gmail.com', 'Director WTC');
+          $m->to($contact['email'], $contact['name']);
+          $m->subject('WTC | Informe de Ventas');
+        });
+
+        if ($mail_sent) {
+          $res['status'] = 'SUCCESS';
+          $res['msg'] = '¡Mensaje enviado!';
+        }
+      }
+    }
+    return redirect()->action('indexController@index');
+  }
+
+  public function newsletter(Request $request) {
+    $res = [
+      'status' => 'ERROR_CONNECTION',
+      'msg'    => 'Existe un error en la conexión <br/>¡Por favor, intente más tarde!'
+    ];
+
+    $contact = $request->input('newsletter');
+
+    if (isset($contact) and !empty($contact)) {
+
+      $validation = Validator::make($contact, [
+        'name'    => 'required|max:60',
+        'email'   => 'required|email|max:250',
+        'phone'   => 'required|regex:/^[0-9]{10,10}$/'
+      ]);
+
+      if ($validation->fails()) {
+        $res['status'] = 'VALIDATION_ERROR';
+        $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
+      } else {
+
+        $mail_sent = Mail::send('site.emails.newsletter', ['contact' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo($contact['email'], $contact['name']);
+          $m->to('eduardo.vera.pineda@gmail.com', 'Director WTC');
+          $m->subject('WTC | Newsletter');
         });
 
         $mail_sent_client = Mail::send('site.emails.newsletter_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo('eduardo.vera.pineda@gmail.com', 'Director WTC');
-          $m->to($contact['email-momentum'], $contact['name-momentum']);
-          $m->subject('Newsletter WTC');
+          $m->to($contact['email'], $contact['name']);
+          $m->subject('WTC | Newsletter');
         });
 
-        if ($mail_sent_momentum) {
+        if ($mail_sent) {
           $res['status'] = 'SUCCESS';
           $res['msg'] = '¡Mensaje enviado!';
-          dd()
         }
       }
     }

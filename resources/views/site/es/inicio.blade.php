@@ -10,7 +10,7 @@
         <h4 class="condensed">PRE - VENTA Y RENTA</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
         <p>Elige tu propia oficina o consultorio.</p>
-        <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" href="#modal1" >
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#modal1" >
           SABER MÁS <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
@@ -20,7 +20,7 @@
       <div class="center white-text w3-display-middle">
         <h4 class="condensed">WTC QRO CERTIFICACION</h4>
         <h6 class="light grey-text text-lighten-3">Genera valor agregado a tu organización.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal2">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="Certification">
           CONOCE CÓMO <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
@@ -30,7 +30,7 @@
       <div class="center white-text w3-display-middle">
         <h4 class="condensed ligth">ARTESANÍAS MEXICANAS</h4>
         <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
-        <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
           Ir a la Tienda
         </a>
@@ -41,7 +41,7 @@
       <div class="center white-text w3-display-middle">
         <h4 class="condensed ligth">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Need guidance to explore new markets, relocate your company or lower your production costs.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#modal4">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#modal4">
           SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
@@ -59,13 +59,10 @@
         <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
             <h2 class="light grey-text text-lighten-3"><b>Academia</b></h2>
             <h6>¡Coming Soon!</h6>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
-              Newsletter
-            </a>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="Certification" >
               Certificación
             </a>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="Lean-Six-Sigma" >
               Lean Six Sigma
             </a>
         </div>
@@ -126,7 +123,7 @@
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
         <h1 class="white-text">DINING</h1>
         <p class="w3-justify">Disfruta de nuestra oferta culinaria en alguno de nuestros Restaurantes.</p>
-        <a class="btn waves-effect waves-light white teal-text" href="#modal1" >
+        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
           RESERVA AHORA
         </a>
       </div>
@@ -348,7 +345,7 @@
   </div>
 </div>
 
-<!-- Modal Venta y Renta -->
+<!-- [Presale - slider form] -->
   <div id="modal1" class="modal modal-fixed-footer">
     <div class="modal-content">
       <div class="section">
@@ -394,6 +391,7 @@
         </div>
     </div>
   </div>
+  <!-- End [Presale - slider form] -->
 
 <!-- Modal Certification -->
   <div id="modal2" class="modal modal-fixed-footer">
@@ -440,49 +438,5 @@
     </div>
   </div>
 
-<!-- Modal Reserva Ya -->
-  <div id="modal4" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <div class="section">
-        <img src="{{ asset('img/wtc-w.png') }}" class="center" style="width: 10%; height: 10%">
-        <button class="modal-close right btn-flat">X</button>
-        <h5 class="center">Contact Us</h5>
-        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
-        <div class="row">
-          <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('name', 'Name') !!}
-          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('email', 'Mail') !!}
-          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
-          </div>
-          <div class="input-field col s12 m3">
-          {!! Form::label('phone', 'Phone') !!}
-          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('enterprise', 'Enterprise') !!}
-          {!! Form::text('enterprise',null,['class' => 'validate',  'required' => 'required']) !!}
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col s12 center">
-          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
-          </div>
-        </div>
-        {!! Form::close() !!}
-      </div>
-    </div>
-    <div class="modal-footer">
-        {!! Form::submit('Register',['class' => 'btn blue darken-1 center', 'style' => 'margin: auto']) !!}
-    </div>
-  </div>
 
 @endsection

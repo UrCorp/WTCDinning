@@ -24,16 +24,16 @@
     }
   </style>
 </head>
-<body style="background-color: white; padding-top: 5%">
-  <div style="width:60%; margin:auto">
+<body style="background-color: white;">
+  <div style="width:80%; margin:auto; max-width:400px">
     <div style="width: 100%; text-align:center">
-      <img src="http://wtcqueretaro.com/public/img/logos/wtc-letras-gris.png" title="WTC-Logo" style="width:50%; text-align: center" />
+      <img src="http://wtcqueretaro.com/public/img/logos/wtc-letras-gris.png" title="WTC-Logo" style="width:100%; text-align: center; max-width:300px" />
     </div>
     <hr style="width: 50%; margin-top: 4%">
     <div style="margin-top:4%">
-      <h1 style="text-align: center">
+      <h3 style="text-align: center;color: #79888e">
         Te haz puesto en contacto con los siguientes datos...
-      </h1>
+      </h3>
     </div>
     <hr style="width: 50%; margin-top: 4%">
     <div style="margin-top: 4%">

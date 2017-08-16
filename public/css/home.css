@@ -1,4 +1,6 @@
-
+.sliderbtn{
+	border: solid 1px white;
+}
 .slider .indicators .indicator-item
 {
 	height: 7px;

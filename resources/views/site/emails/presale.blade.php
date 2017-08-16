@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>[WTC] Newsletter | {{ $contact['name'] }}</title>
+  <title>[WTC] Informe | {{ $contact['name'] }}</title>
   <style media="screen">
     th{
       color: #b2b1b1;
@@ -10,17 +10,11 @@
     td{
       color: #818f95
     }
-    h1{
-      color: #79888e
-    }
     h2{
       color: #b4bcbf
     }
     h3{
       color: #a8b2b5
-    }
-    .gris{
-      color: #b2b1b1;
     }
   </style>
 </head>
@@ -29,15 +23,15 @@
     <div style="width: 100%; text-align:center">
       <img src="http://wtcqueretaro.com/public/img/logos/wtc-letras-gris.png" title="WTC-Logo" style="width:100%; text-align: center; max-width:300px" />
     </div>
-    <hr style="width: 50%; margin-top: 4%">
-    <div style="margin-top:4%">
-      <h2 style="text-align: center">
-        ¡Se han suscrito al Newsletter!
+    <hr style="width: 50%; margin-top: 20px">
+    <div style="margin-top:20px">
+      <h2 style="text-align: center; color: #79888e">
+        ¡Han pedido informes para venta o renta!
       </h2>
     </div>
-    <hr style="width: 50%; margin-top: 4%">
-    <div style="margin-top: 4%">
-      <table width="60%" style="margin:auto">
+    <hr style="width: 50%; margin-top: 20px">
+    <div style="margin-top: 20px">
+      <table width="80%" style="margin:auto">
         <tr>
           <th style="border-bottom: 2px solid;width;80%; text-align: left">Nombre</th>
           <th style="border-bottom: 2px solid;width;80%; text-align: left">Telefono</th>
@@ -56,15 +50,16 @@
           </tr>
       </table>
     </div>
-    <hr style="width: 50%; margin-top: 4%">
-    <div style="margin-top:4%">
+    <hr style="width: 50%; margin-top: 20px">
+    <div style="margin-top:20px">
       <div style="margin:auto">
-        <h4 class="gris">Excelente ahora es momento de...</h4>
-        <p class="gris">1.- Registrarlo en una base de datos análoga <br> 2.- Agregarlo a una lista de mailing
-          <br>3.- Darle la bienvenida</p>
+        <h3>Excelente ahora es momento de...</h3>
+        <p style="color:#a8b2b5">1.- Ponerte en contacto a la brevedad <br> 2.- Dar una asesoría completa sobre servicio y productos
+          <br>3.- Concretar una cita presencial para detalles del negocio</p>
       </div>
     </div>
-    <div style="margin-top:4%; color: gray;">
+    <h3 align="center">¡ÉXITO EN TU NEGOCIACIÓN!</h3>
+    <div style="margin-top:20px; color: gray;">
       <p style="font-family:helvetica,arial,sans-serif; text-align:justify; font-size:9px">
         Este correo electrónico y cualquiera de sus anexos podrían contener información confidencial. Si usted no es el destinatario, por el presente se le notifica que cualquier difusión y copiado de este correo electrónico y cualquiera de sus anexos o uso de su contenido por cualquier medio está estrictamente prohibido. Si usted recibió este correo electrónico equivocadamente o por error, por favor notifíquelo al remitente inmediatamente y cancele este correo electrónico y todos sus anexos de su ordenador (computadora).
       </p>

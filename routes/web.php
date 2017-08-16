@@ -40,9 +40,9 @@ Route::group(['as' => 'site.'], function () {
 		    return view('site.certification');
 		});
 
-		Route::get('/Shop', function () {
-		    return view('site.shop');
-		});
+		/*Route::get('/Mail', function () {
+		    return view('site.emails.presale');
+		});*/
 
   });
 
@@ -81,6 +81,10 @@ Route::group(['as' => 'site.'], function () {
     Route::post('/presale', [
       'uses'  => 'Contact@presale',
       'as'    => 'presale'
+    ]);
+    Route::post('/newsletter', [
+      'uses'  => 'Contact@newsletter',
+      'as'    => 'newsletter'
     ]);
   });
 });

@@ -10,7 +10,7 @@
         <h4 class="condensed">PRE-SALE AND RENT</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
         <p>Lease your office space or medical office.</p>
-        <a class="waves-effect waves-light btn-large transparent bordered" style="border: solid 1px black; border-color: white" onclick="$('.tap-target').tapTarget('open')">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mPresale">
           KNOW MORE <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
@@ -20,7 +20,7 @@
       <div class="center white-text w3-display-middle">
         <h4 class="condensed">WTC QRO CERTIFICATION</h4>
         <h6 class="light grey-text text-lighten-3">Add internacional, incremental value to your organization.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#mCertification">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="Certification">
           Know How <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
@@ -30,7 +30,7 @@
       <div class="center white-text w3-display-middle">
         <h4 class="condensed ligth">MEXICAN CRAFTS</h4>
         <h6 class="light grey-text text-lighten-3">Purchase beautiful products, handmade by Mexican artisans in our exlcusive online shop.</h6>
-        <a class="waves-effect waves-light btn-large transparent" target="_blank" style="border: solid 1px black; border-color: white" href="https://www.kichink.com/stores/kanpai">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
           Go Shopping
         </a>
@@ -41,7 +41,7 @@
       <div class="center white-text w3-display-middle">
         <h4 class="condensed ligth">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Obtain guidance on unexplored markets, relocate your company or lower your production costs.</h6>
-        <a class="waves-effect waves-light btn-large transparent" style="border: solid 1px black; border-color: white" href="#mSoftlanding">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mSoftlanding">
           SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
@@ -59,13 +59,10 @@
         <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
             <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
             <h6>¡Coming Soon!</h6>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#mNewsletter" >
-              Newsletter
-            </a>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#mCertification" >
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="Certification" >
               Certification
             </a>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#mL6S" >
+            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="Lean-SixSigma" >
               Lean Six Sigma
             </a>
         </div>
@@ -125,7 +122,7 @@
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
         <h1 class="white-text">DINING</h1>
         <p class="w3-justify">Choose form a wide range of restaurants and diverse culinary fares WTC has to offer.</p>
-        <a class="btn waves-effect waves-light white teal-text" href="/Dining" >
+        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
           RESERVATIONS
         </a>
       </div>
@@ -347,7 +344,7 @@
   </div>
 </div>
 
-<!-- Modal Venta y Renta -->
+<!-- [Presale - slider form] -->
   <div id="mPresale" class="modal modal-fixed-footer">
     {!! Form::open(['route' => 'site.contact.presale', 'method' => 'POST']) !!}
     <div class="modal-content">
@@ -357,25 +354,67 @@
         <h5 class="center">Contact Us</h5>
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('presale[name-momentum]', 'Name') !!}
-          {!! Form::text('presale[name-momentum]',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('presale[name]', 'Name') !!}
+          {!! Form::text('presale[name]',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
         <div class="row">
           <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('presale[email-momentum]', 'Mail') !!}
-          {!! Form::email('presale[email-momentum]',null,['class' => 'form-control validate', 'required']) !!}
+          {!! Form::label('presale[email]', 'Mail') !!}
+          {!! Form::email('presale[email]',null,['class' => 'form-control validate', 'required']) !!}
           </div>
           <div class="input-field col s12 m3">
-          {!! Form::label('presale[phone-momentum]', 'Phone') !!}
-          {!! Form::text('presale[phone-momentum]',null,['class' => 'validate',  'required']) !!}
+          {!! Form::label('presale[phone]', 'Phone') !!}
+          {!! Form::text('presale[phone]',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('presale[enterprise-momentum]', 'Enterprise') !!}
-          {!! Form::text('presale[enterprise-momentum]',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('presale[enterprise]', 'Enterprise') !!}
+          {!! Form::text('presale[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+        <div class="w3-center">
+        {!! Form::submit('Send',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+  </div>
+<!-- End [Presale - slider form] -->
+
+<!-- [Newsletter] -->
+  <div id="mNewsletter" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.newsletter', 'method' => 'POST']) !!}
+    <div class="modal-content">
+      <div class="section">
+        <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
+        <button class="modal-close right btn-flat">X</button>
+        <h5 class="center">Contact Us</h5>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('newsletter[name]', 'Name') !!}
+          {!! Form::text('newsletter[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('newsletter[email]', 'Mail') !!}
+          {!! Form::email('newsletter[email]',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('newsletter[phone]', 'Phone') !!}
+          {!! Form::text('newsletter[phone]',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('newsletter[enterprise]', 'Enterprise') !!}
+          {!! Form::text('newsletter[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
       </div>
@@ -387,95 +426,6 @@
     </div>
     {!! Form::close() !!}
   </div>
-
-<!-- Modal Certification -->
-  <div id="modal2" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <div class="section">
-        <img src="{{ asset('img/wtc-w.png') }}" class="center" style="width: 10%; height: 10%">
-        <button class="modal-close right btn-flat">X</button>
-        <h5 class="center">Contact Us</h5>
-        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
-        <div class="row">
-          <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('name-cert', 'Name') !!}
-          {!! Form::text('name-cert',null,['class' => 'validate',  'required' => 'required']) !!}
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('email-cert', 'Mail') !!}
-          {!! Form::email('email-cert',null,['class' => 'form-control validate', 'required']) !!}
-          </div>
-          <div class="input-field col s12 m3">
-          {!! Form::label('phone-cert', 'Phone') !!}
-          {!! Form::text('phone-cert',null,['class' => 'validate',  'required']) !!}
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('enterprise-cert', 'Enterprise') !!}
-          {!! Form::text('enterprise-cert',null,['class' => 'validate',  'required' => 'required']) !!}
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col s12 center">
-
-          </div>
-        </div>
-        {!! Form::close() !!}
-      </div>
-    </div>
-    <div class="modal-footer">
-         {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
-    </div>
-  </div>
-
-<!-- Modal Reserva Ya -->
-  <div id="modal4" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <div class="section">
-        <img src="{{ asset('img/wtc-w.png') }}" class="center" style="width: 10%; height: 10%">
-        <button class="modal-close right btn-flat">X</button>
-        <h5 class="center">Contact Us</h5>
-        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
-        <div class="row">
-          <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('name', 'Name') !!}
-          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('email', 'Mail') !!}
-          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
-          </div>
-          <div class="input-field col s12 m3">
-          {!! Form::label('phone', 'Phone') !!}
-          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('enterprise', 'Enterprise') !!}
-          {!! Form::text('enterprise',null,['class' => 'validate',  'required' => 'required']) !!}
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col s12 center">
-          {!! Form::submit('Register',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
-          </div>
-        </div>
-        {!! Form::close() !!}
-      </div>
-    </div>
-    <div class="modal-footer">
-        {!! Form::submit('Register',['class' => 'btn blue darken-1 center', 'style' => 'margin: auto']) !!}
-    </div>
-  </div>
+<!-- End [Newsletter] -->
 
 @endsection
