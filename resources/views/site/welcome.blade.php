@@ -351,7 +351,7 @@
       <div class="section">
         <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
         <button class="modal-close right btn-flat">X</button>
-        <h5 class="center">Contact Us</h5>
+        <h5 class="center">Presale & Rent</h5>
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
           {!! Form::label('presale[name]', 'Name') !!}
@@ -393,7 +393,7 @@
       <div class="section">
         <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
         <button class="modal-close right btn-flat">X</button>
-        <h5 class="center">Contact Us</h5>
+        <h5 class="center">Newsletter</h5>
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
           {!! Form::label('newsletter[name]', 'Name') !!}
