@@ -135,23 +135,23 @@
 <!-- Momentum -->
   <div class="w3-container w3-padding-32 w3-padding-large">
     <div class="w3-half w3-padding-large">
-      <h4 class="grismomentum">Trabajar aquí será un placer</h4>
-      <p class="grismomentum">Amenidades únicas en su tipo:</p>
+      <h4 class="grismomentum">It will be a pleasure to work here</h4>
+      <p class="grismomentum">Unique Ammenities in its type:</p>
       <ul class="grismomentum">
-        <li>7 salas de juntas</li>
-        <li>Cancha de padel tenis</li>
+        <li>7 Meeting Rooms</li>
+        <li>Padel Tennis Court</li>
         <li>Gym</li>
-        <li>Alberca Techada</li>
-        <li>Regaderas</li>
-        <li>Vapor</li>
-        <li>Comedor</li>
+        <li>Roofed Pool</li>
+        <li>Showers</li>
+        <li>Steam Room</li>
+        <li>Dinning Room</li>
         <li>Sky Garden</li>
-        <li>Sale de Juegos</li>
+        <li>Games Room</li>
       </ul>
-      <p class="w3-justify grismomentum">Conoce el exclusivo desarrollo médico y empresarial <b>World Trade Center...</b> donde tienes lo mejor a tu alcance.</p>
-      <p class="verdemomentum">Proyecto Pre-certificado MEES, Edificación Sustentable</p>
-      <a class="w3-btn btnmomentum" href="">Solicitar información</a>
-      <a class="w3-btn btnmomentum" href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Recorrido Virtual</a>
+      <p class="w3-justify grismomentum">Visit the exclusive medical and corporate Real Estate development <b>"World Trade Center"</b> where you have the best.</p>
+      <p class="verdemomentum">Pre-Qualified MEES project, Sustainable Edification</p>
+      <a class="w3-btn btnmomentum" href="">More Infomation</a>
+      <a class="w3-btn btnmomentum" href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Virtual Trial</a>
     </div>
     <div class="w3-half w3-padding-large">
       <div class="w3-row">
