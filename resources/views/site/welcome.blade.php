@@ -19,7 +19,7 @@
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
       <div class="center white-text w3-display-middle">
         <h4 class="condensed">WTC QRO CERTIFICATION</h4>
-        <h6 class="light grey-text text-lighten-3">Add internacional, incremental value to your organization.</h6>
+        <h6 class="light grey-text text-lighten-3">Add Incremental Value to your organization.</h6>
         <a class="waves-effect waves-light btn-large transparent sliderbtn" href="Certification">
           Know How <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>

@@ -9,7 +9,7 @@
       <div class="center white-text w3-display-middle">
         <h4 class="condensed">PRE - VENTA Y RENTA</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
-        <p>Elige tu propia oficina o consultorio.</p>
+        <p>Elige el espacio para oficina o consultorio.</p>
         <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mPresale" >
           SABER MÁS <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
@@ -18,7 +18,7 @@
     <li>
       <img src="{{ asset('img/home/slider/softlanding.png') }}">
       <div class="center white-text w3-display-middle">
-        <h4 class="condensed">WTC QRO CERTIFICACION</h4>
+        <h4 class="condensed">CERTIFICACIÓN WTC QRO</h4>
         <h6 class="light grey-text text-lighten-3">Genera valor agregado a tu organización.</h6>
         <a class="waves-effect waves-light btn-large transparent sliderbtn" href="Certification">
           CONOCE CÓMO <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
@@ -26,23 +26,23 @@
       </div>
     </li>
     <li>
-      <img src="{{ asset('img/home/slider/cestos.png') }}">
+      <img src="{{ asset('img/home/slider/zocalo.png') }}">
       <div class="center white-text w3-display-middle">
-        <h4 class="condensed ligth">ARTESANÍAS MEXICANAS</h4>
-        <h6 class="light grey-text text-lighten-3">Acquire your favorite product from our exclusive Mexican hand crafting store.</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
-          <i class="material-icons right">shop</i>
-          Ir a la Tienda
+        <h4 class="condensed ligth">SOFTLANDING</h4>
+        <h6 class="light grey-text text-lighten-3">Obtén apoyo para explorar nuevos mercados, relocalizar tu compañía o bajar costos de operación.</h6>
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#modal4">
+          AGENDA AHORA<i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
     <li>
-      <img src="{{ asset('img/home/slider/zocalo.png') }}">
+      <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="center white-text w3-display-middle">
-        <h4 class="condensed ligth">SOFTLANDING</h4>
-        <h6 class="light grey-text text-lighten-3">Need guidance to explore new markets, relocate your company or lower your production costs.</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#modal4">
-          SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+        <h4 class="condensed ligth">ARTESANÍAS MEXICANAS</h4>
+        <h6 class="light grey-text text-lighten-3">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</h6>
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
+          <i class="material-icons right">shop</i>
+          Ir a la Tienda
         </a>
       </div>
     </li>
