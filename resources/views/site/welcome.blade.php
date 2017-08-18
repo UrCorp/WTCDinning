@@ -94,9 +94,9 @@
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
           <br>
-          <h5 class="light grey-text text-lighten-3">¡YOUR FUTURE IS SAFE WITH US!</h5>
+          <h5 class="light grey-text text-lighten-3">¡YOUR BUSSINESS FUTURE IS SAFE WITH US!</h5>
           <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#mSoftlanding" >
-            READ MORE
+            LEARN MORE
           </a>
       </div>
       <div class="caption center-align hide-on-large-only">
