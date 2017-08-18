@@ -122,10 +122,10 @@
     <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left " style="height: 550px; width: 60%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
-        <h1 class="white-text">DINING</h1>
-        <p class="w3-justify">Disfruta de nuestra oferta culinaria en alguno de nuestros Restaurantes.</p>
+        <h1 class="white-text">RERSERVATIONS</h1>
+        <p class="w3-justify" style="width:50%">Escoja dentro de nuestra amplia gama de restaurantes aliados la diversa oferta culinaria que tienen para ofrecer.</p>
         <a class="btn waves-effect waves-light white teal-text" href="Dining" >
-          RESERVA AHORA
+          RESERVACIONES
         </a>
       </div>
       <div class="caption center-align hide-on-large-only">
