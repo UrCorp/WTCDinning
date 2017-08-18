@@ -22,6 +22,22 @@
     .gris{
       color: #b2b1b1;
     }
+    hr.upshadow {
+    	height: 10px;
+    	border: 0;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    	box-shadow: 0 -5px 10px -5px #8c8b8b inset;
+      width: 70%;
+    }
+    hr.downshadow {
+    	height: 10px;
+    	border: 0;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    	box-shadow: 0 5px 10px -5px #8c8b8b inset;
+      width: 70%;
+    }
   </style>
 </head>
 <body style="background-color: white;">
@@ -35,7 +51,7 @@
         Te haz puesto en contacto con los siguientes datos...
       </h3>
     </div>
-    <hr style="width: 50%; margin-top: 4%">
+    <hr class="upshadow">
     <div style="margin-top: 4%">
       <table width="60%" style="margin:auto">
         <tr>
@@ -56,8 +72,8 @@
           </tr>
       </table>
     </div>
-    <hr style="width: 50%; margin-top: 4%">
-    <div style="margin-top:4%">
+    <hr class="downshadow">
+    <div style="margin-top:20px">
 
         <div width="70%" style="padding-left:30%">
           <h4 class="gris">Excelente ahora es momento de...</h4>

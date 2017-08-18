@@ -16,6 +16,22 @@
     h3{
       color: #a8b2b5
     }
+    hr.upshadow {
+    	height: 10px;
+    	border: 0;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    	box-shadow: 0 -5px 10px -5px #8c8b8b inset;
+      width: 70%;
+    }
+    hr.downshadow {
+    	height: 10px;
+    	border: 0;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    	box-shadow: 0 5px 10px -5px #8c8b8b inset;
+      width: 70%;
+    }
   </style>
 </head>
 <body style="background-color: white;">
@@ -29,7 +45,7 @@
         Te haz puesto en contacto con los siguientes datos...
       </h3>
     </div>
-    <hr style="width: 50%; margin-top: 4%">
+    <hr class="upshadow">
     <div style="margin-top: 4%">
       <table width="60%" style="margin:auto">
         <tr>
@@ -50,8 +66,8 @@
           </tr>
       </table>
     </div>
-    <hr style="width: 50%; margin-top: 4%">
-    <div style="margin-top:4%">
+    <hr class="downshadow">
+    <div style="margin-top:20px">
       <center>
         <h2 style=""> WTC Queretaro se comunicará a la brevedad.</h2>
         <h3><b>¡Gracias por ponerte en contacto!</b></h3>

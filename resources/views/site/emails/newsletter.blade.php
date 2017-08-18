@@ -22,6 +22,22 @@
     .gris{
       color: #b2b1b1;
     }
+    hr.upshadow {
+    	height: 10px;
+    	border: 0;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    	box-shadow: 0 -5px 10px -5px #8c8b8b inset;
+      width: 70%;
+    }
+    hr.downshadow {
+    	height: 10px;
+    	border: 0;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    	box-shadow: 0 5px 10px -5px #8c8b8b inset;
+      width: 70%;
+    }
   </style>
 </head>
 <body style="background-color: white;">
@@ -29,14 +45,14 @@
     <div style="width: 100%; text-align:center">
       <img src="http://wtcqueretaro.com/public/img/logos/wtc-letras-gris.png" title="WTC-Logo" style="width:100%; text-align: center; max-width:300px" />
     </div>
-    <hr style="width: 50%; margin-top: 4%">
-    <div style="margin-top:4%">
+    <hr class="downshadow">
+    <div style="margin-top:20px">
       <h2 style="text-align: center">
         ¡Se han suscrito al Newsletter!
       </h2>
     </div>
-    <hr style="width: 50%; margin-top: 4%">
-    <div style="margin-top: 4%">
+    <hr style="width: 50%; margin-top: 20px">
+    <div style="margin-top: 20px">
       <table width="60%" style="margin:auto">
         <tr>
           <th style="border-bottom: 2px solid;width;80%; text-align: left">Nombre</th>
@@ -56,15 +72,15 @@
           </tr>
       </table>
     </div>
-    <hr style="width: 50%; margin-top: 4%">
-    <div style="margin-top:4%">
+    <hr class="downshadow">
+    <div style="margin-top:20px">
       <div style="margin:auto">
         <h4 class="gris">Excelente ahora es momento de...</h4>
         <p class="gris">1.- Registrarlo en una base de datos análoga <br> 2.- Agregarlo a una lista de mailing
           <br>3.- Darle la bienvenida</p>
       </div>
     </div>
-    <div style="margin-top:4%; color: gray;">
+    <div style="margin-top:20px; color: gray;">
       <p style="font-family:helvetica,arial,sans-serif; text-align:justify; font-size:9px">
         Este correo electrónico y cualquiera de sus anexos podrían contener información confidencial. Si usted no es el destinatario, por el presente se le notifica que cualquier difusión y copiado de este correo electrónico y cualquiera de sus anexos o uso de su contenido por cualquier medio está estrictamente prohibido. Si usted recibió este correo electrónico equivocadamente o por error, por favor notifíquelo al remitente inmediatamente y cancele este correo electrónico y todos sus anexos de su ordenador (computadora).
       </p>

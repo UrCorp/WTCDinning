@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8" />
@@ -16,6 +16,22 @@
     h3{
       color: #a8b2b5
     }
+    hr.upshadow {
+    	height: 10px;
+    	border: 0;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    	box-shadow: 0 -5px 10px -5px #8c8b8b inset;
+      width: 70%;
+    }
+    hr.downshadow {
+    	height: 10px;
+    	border: 0;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    	box-shadow: 0 5px 10px -5px #8c8b8b inset;
+      width: 70%;
+    }
   </style>
 </head>
 <body style="background-color: white;">
@@ -29,7 +45,7 @@
         ¡Han pedido informes para venta o renta!
       </h2>
     </div>
-    <hr style="width: 50%; margin-top: 20px">
+    <hr class="upshadow">
     <div style="margin-top: 20px">
       <table width="80%" style="margin:auto">
         <tr>
@@ -42,7 +58,7 @@
         </tr>
           <tr style="padding-top: 210px">
             <th style="border-bottom: 2px solid;width;80%; text-align: left">Correo</th>
-            <th style="border-bottom: 2px solid;width;80%; text-align: left">Mensaje</th>
+            <th style="border-bottom: 2px solid;width;80%; text-align: left">Empresa</th>
           </tr>
           <tr>
             <td>{{ $contact['email'] }}</td>
@@ -50,8 +66,8 @@
           </tr>
       </table>
     </div>
-    <hr style="width: 50%; margin-top: 20px">
-    <div style="margin-top:20px">
+    <hr class="downshadow" style="margin-top:20px">
+    <div >
       <div style="margin:auto">
         <h3>Excelente ahora es momento de...</h3>
         <p style="color:#a8b2b5">1.- Ponerte en contacto a la brevedad <br> 2.- Dar una asesoría completa sobre servicio y productos
