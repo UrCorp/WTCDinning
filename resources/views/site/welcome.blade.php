@@ -81,7 +81,7 @@
     <div class="w3-display-middle center">
       <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡RECEIVE OUR LAST NEWS!</b></h3>
       <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Receive our last news!</b></h5>
-      <p class="grey-text text-darken-2">Be part of the largest business network in the world. Subscribe to our Newsletter.</p>
+      <p class="grey-text text-darken-2">Become a part of the largest business network in the world. Subscribe to our Newsletter.</p>
           <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#mNewsletter" >
             SUBSCRIBE
           </a>
