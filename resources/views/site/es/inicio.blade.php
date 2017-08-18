@@ -59,11 +59,14 @@
         <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
             <h2 class="light grey-text text-lighten-3"><b>Academia</b></h2>
             <h6>¡Coming Soon!</h6>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="Certification" >
-              Certificación
-            </a>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="Lean-Six-Sigma" >
-              Lean Six Sigma
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-SixSigma" style="margin-top:10px">
+              Certificación Lean Six Sigma
+            </a><br>
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
+              Certificación Corporativa WTC QRO
+            </a><br>
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-SixSigma" style="margin-top:10px">
+              Programa de Trascendencia WTC QRO
             </a>
         </div>
         <div class="caption center-align hide-on-large-only">

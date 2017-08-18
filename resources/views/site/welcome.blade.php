@@ -57,14 +57,17 @@
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right" style="height: 550px; width: 70%">
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
         <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
-            <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
-            <h6>¡Coming Soon!</h6>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="Certification" >
-              Certification
-            </a>
-            <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="Lean-SixSigma" >
-              Lean Six Sigma
-            </a>
+          <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
+          <h6>¡Coming Soon!</h6>
+          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-SixSigma" style="margin-top:10px">
+            Lean Six Sigma Certification
+          </a><br>
+          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
+            WTC QRO Corporate Certification
+          </a><br>
+          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-SixSigma" style="margin-top:10px">
+            WTC QRO Transecendence Program
+          </a>
         </div>
         <div class="caption center-align hide-on-large-only">
         </div>
