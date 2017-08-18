@@ -78,8 +78,8 @@
     <div class="w3-display-middle center">
       <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡RECIBE NUESTRAS ÚLTIMAS NOTICIAS!</b></h3>
       <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Recibe nuestras últimas noticias!</b></h5>
-      <p class="grey-text text-darken-2 hide-on-med-and-down">Se parte de la red de negocios más grande en el país. Suscríbete a nuestro Newsletter.</p>
-      <p class="grey-text text-darken-2 w3-tiny hide-on-large-only">Se parte de la red de negocios más grande en el país. Suscríbete a nuestro Newsletter.</p>
+      <p class="grey-text text-darken-2 hide-on-med-and-down">Se parte de la red de negocios más grande del mundo. Suscríbete a nuestro Newsletter.</p>
+      <p class="grey-text text-darken-2 w3-tiny hide-on-large-only">Se parte de la red de negocios más grande en el país. Subscríbete a nuestro Boletín Informativo.</p>
           <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#mNewsletter" >
             SUSCRIBIRSE
           </a>
