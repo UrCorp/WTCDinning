@@ -108,7 +108,7 @@
 
 <!-- Map -->
 <div class="grey lighten-3" style="margin-top: -30px">
-  <h2 class="center grismomentum hide-on-med-and-down">Elige tu propia oficina o consultorio</h2>
+  <h2 class="center grismomentum hide-on-med-and-down" style="margin-top: 30px">Elige tu espacio oficina o consultorio médico</h2>
   <h5 class="center grismomentum hide-on-large-only" style="margin-top: 20px">Elige tu propia oficina o consultorio</h5>
   <div class="">
     <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
