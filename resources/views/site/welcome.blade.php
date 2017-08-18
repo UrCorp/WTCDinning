@@ -26,6 +26,16 @@
       </div>
     </li>
     <li>
+      <img src="{{ asset('img/home/slider/zocalo.png') }}">
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed ligth">SOFTLANDING</h4>
+        <h6 class="light grey-text text-lighten-3">Obtain guidance on unexplored markets, relocate your company or lower your production costs.</h6>
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mSoftlanding">
+          SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
+        </a>
+      </div>
+    </li>
+    <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="center white-text w3-display-middle">
         <h4 class="condensed ligth">MEXICAN CRAFTS</h4>
@@ -33,16 +43,6 @@
         <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
           Go Shopping
-        </a>
-      </div>
-    </li>
-    <li>
-      <img src="{{ asset('img/home/slider/zocalo.png') }}">
-      <div class="center white-text w3-display-middle">
-        <h4 class="condensed ligth">SOFTLANDING</h4>
-        <h6 class="light grey-text text-lighten-3">Obtain guidance on unexplored markets, relocate your company or lower your production costs.</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mSoftlanding">
-          SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
     </li>
