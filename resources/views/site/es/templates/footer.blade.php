@@ -5,10 +5,10 @@
           <h5 class="blue-text">WTC Querétaro</h5>
           <ul class="white-text">
             <li>Academia</li>
-            <li>Consultoría</li>
-            <li>Descubre Queretaro</li>
-            <li>Bienes Raíces</li>
-            <li>Intercambio</li>
+            <li>Comercializadora</li>
+            <li>Inmobiliario</li>
+            <li>Reservaciones</li>
+            <li>Servicios</li>
           </ul>
         </div>
         <div class="col l2 s12">
@@ -21,15 +21,6 @@
             <li><a class="white-text" target="_blank" href="http://bit.ly/wtcqueretaro"><i class="fa fa-youtube"></i> YouTube</a></li>
           </ul>
         </div>
-        <div class="col l3 s12">
-          <h5 class="blue-text">Servicios</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Academia</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="section">
-
       </div>
     </div>
     <div class="footer-copyright tale">

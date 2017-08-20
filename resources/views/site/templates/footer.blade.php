@@ -5,10 +5,10 @@
           <h5 class="blue-text">WTC Querétaro</h5>
           <ul class="white-text">
             <li>Academics</li>
-            <li>Consultancy</li>
-            <li>Discover Queretaro</li>
+            <li>Commerce</li>
             <li>Real Estate</li>
-            <li>Trade</li>
+            <li>Reservations</li>
+            <li>Services</li>
           </ul>
         </div>
         <div class="col l2 s12">
@@ -19,12 +19,6 @@
             <li><a class="white-text" target="_blank" href="https://www.instagram.com/wtcqro/"><i class="fa fa-instagram"></i> Instagram</a></li>
             <li><a class="white-text" target="_blank" href="https://www.linkedin.com/in/wtcqueretaro/"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
             <li><a class="white-text" target="_blank" href="http://bit.ly/wtcqueretaro"><i class="fa fa-youtube"></i> YouTube</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="blue-text">Services</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Academics</a></li>
           </ul>
         </div>
       </div>
