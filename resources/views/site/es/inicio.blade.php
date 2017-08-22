@@ -7,7 +7,7 @@
     <li>
       <img src="{{ asset('img/home/slider/momentum.png') }}">
       <div class="center white-text w3-display-middle">
-        <h4 class="condensed">PRE - VENTA Y RENTA</h4>
+        <h4 class="condensed">PREVENTA Y RENTA</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
         <p>Elige el espacio para oficina o consultorio.</p>
         <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mPresale" >
@@ -114,7 +114,7 @@
   <h2 class="center grismomentum hide-on-med-and-down" style="margin-top: 30px">Elige tu espacio oficina o consultorio médico</h2>
   <h5 class="center grismomentum hide-on-large-only" style="margin-top: 20px">Elige tu propia oficina o consultorio</h5>
   <div class="">
-    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
+    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
   </div>
 </div>
 <!-- End Map -->
@@ -125,7 +125,7 @@
     <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left " style="height: 550px; width: 60%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
-        <h1 class="white-text">RERSERVATIONS</h1>
+        <h1 class="white-text">RESERVACIONES</h1>
         <p class="w3-justify" style="width:50%">Escoja dentro de nuestra amplia gama de restaurantes aliados la diversa oferta culinaria que tienen para ofrecer.</p>
         <a class="btn waves-effect waves-light white teal-text" href="Dining" >
           RESERVACIONES
@@ -145,13 +145,13 @@
       <ul class="grismomentum">
         <li>7 salas de juntas</li>
         <li>Cancha de padel tenis</li>
-        <li>Gimnaio</li>
+        <li>Gimnasio</li>
         <li>Alberca Techada</li>
         <li>Regaderas</li>
         <li>Vapor</li>
         <li>Comedor</li>
         <li>Sky Garden</li>
-        <li>Sale de Juegos</li>
+        <li>Sala de Juegos</li>
       </ul>
       <p class="w3-justify grismomentum">Conoce el exclusivo desarrollo médico y empresarial <b>World Trade Center...</b> donde tienes lo mejor a tu alcance.</p>
       <p class="verdemomentum">Proyecto Pre-certificado MEES, Edificación Sustentable</p>
