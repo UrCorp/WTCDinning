@@ -93,7 +93,7 @@
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left " style="height: 550px; width: 60%">
-    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Unsplashed background img 1"></div>
+    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Landing"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
           <br>
@@ -180,9 +180,8 @@
 <!-- WTC trade -->
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-
     <img src="{{ asset('img/home/trade-trans.png') }}" class="w3-display-right" style="height: 550px; width: 70%">
-    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/trade.png') }}" alt=""></div>
+    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/trade.jpg') }}" alt=""></div>
       <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
           <img src="{{ asset('img/home/wtc-trade.png') }}" width="50%">
           <br>
