@@ -17,7 +17,7 @@
       <a href="#" class="fa fa-twitter socialnav"></a>
     </div>
       <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 50%; ">
-        <h3 class="light grey-text text-lighten-3"><b>WTC CERTIFICATION</b></h3>
+        <h3 class="light grey-text text-lighten-3"><b>WTC QRO CORPORATE CERTIFICATION</b></h3>
         <p>
           Increase productivity in your organization, transcending through human value, generating solvency
           and designing new innovation strategies.
@@ -28,7 +28,7 @@
       </div>
       <!-- Responsive -->
       <div class="caption center-align hide-on-med-and-up" style="z-index: 100; padding: 4%; ">
-        <h3 class="light grey-text text-lighten-3"><b>WTC CERTIFICATION</b></h3>
+        <h3 class="light grey-text text-lighten-3"><b>WTC QRO CORPORATE CERTIFICATION</b></h3>
         <p class="w3-justify">
           Increase productivity in your organization, transcending through human value, generating solvency
           and designing new innovation strategies.
@@ -49,7 +49,7 @@
       <div class="w3-card-4 w3-padding-32 w3-padding-large">
         <div class="w3-container" style="border-left: 12px solid #8cbde5;">
           <header>
-            <h5 class="font-gray">PASS SCALE</h5>
+            <h5 class="font-gray">TRASCENDENCE</h5>
           </header>
           <p class="w3-justify letra-chica">Analyze ways in which you can be more productive and professional in your working
             relationships. Starting from a vision of how to develop the best version of yourself.
@@ -59,7 +59,7 @@
         </div>
         <div class="w3-container" style="border-left: 12px solid #f9f15b;">
         <header>
-          <h5 class="font-gray">TROT SCALE</h5>
+          <h5 class="font-gray">SOLVENCY</h5>
         </header>
           <p class="w3-justify letra-chica">
             Develop skills and processes that are necessary to succeed in negotiating and selling.
@@ -69,7 +69,7 @@
         </div>
         <div class="w3-container" style="border-left: 12px solid #434444;">
           <header>
-            <h5 class="font-gray">GALLOP SCALE</h5>
+            <h5 class="font-gray">INNOVATION</h5>
           </header>
           <p class="w3-justify letra-chica">
             Identify and promote the flow of ideas that will facilitate innovative processes that
@@ -86,7 +86,7 @@
   </div>
   <div class="w3-container hide-on-med-and-down" style="width: 40%; margin-top: 20px">
     <header>
-      <h5 class="font-gray">WTC CERTIFICATION</h5>
+      <h5 class="font-gray">WTC QRO CORPORATE CERTIFICATION</h5>
     </header>
     <p class="w3-justify font-gray " style="line-height: 1.5;">
       We help people find their potential through training and consulting programs, to develop skills
@@ -99,7 +99,7 @@
   </div>
   <div class="w3-container hide-on-large-only" style="width: 100%; margin-top: 20px">
     <header>
-      <h5 class="font-gray">WTC CERTIFICATION</h5>
+      <h5 class="font-gray">WTC QRO CORPORATE CERTIFICATION</h5>
     </header>
     <p class="w3-justify font-gray " style="line-height: 1.5;">
       We help people find their potential through training and consulting programs, to develop skills
@@ -119,7 +119,7 @@
     <div class="w3-container" style="border-left: 12px solid #8cbde5;">
       <div class="w3-container">
         <header>
-          <h5 class="font-gray">PASS SCALE</h5>
+          <h5 class="font-gray">TRASCENDENCE</h5>
         </header>
         <p class="w3-justify letra-chica">Analyze ways in which you can be more productive and professional in your working
           relationships. Starting from a vision of how to develop the best version of yourself.
@@ -131,7 +131,7 @@
     <div class="w3-container" style="border-left: 12px solid #f9f15b;">
       <div class="w3-container">
       <header>
-        <h5 class="font-gray">TROT SCALE</h5>
+        <h5 class="font-gray">SOLVENCY</h5>
       </header>
         <p class="w3-justify letra-chica">
           Develop skills and processes that are necessary to succeed in negotiating and selling.
@@ -143,7 +143,7 @@
     <div class="w3-container" style="border-left: 12px solid #434444;">
       <div class="w3-container">
         <header>
-          <h5 class="font-gray">GALLOP SCALE</h5>
+          <h5 class="font-gray">INNOVATION</h5>
         </header>
         <p class="w3-justify letra-chica">
           Identify and promote the flow of ideas that will facilitate innovative processes that

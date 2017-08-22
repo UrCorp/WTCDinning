@@ -17,7 +17,7 @@
       <a href="#" class="fa fa-twitter socialnav"></a>
     </div>
       <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 50%; ">
-        <h3 class="light grey-text text-lighten-3"><b>WTC CERTIFICATION</b></h3>
+        <h3 class="light grey-text text-lighten-3"><b>CERTIFICACIÓN CORPORATIVA WTC QRO</b></h3>
         <p>
           Potencializa la productividad de tu organización trascendiendo a través del valor humano, generando solvencia y diseñando nuevas estrategias de innovación.
         </p>
@@ -27,7 +27,7 @@
       </div>
       <!-- Responsive -->
       <div class="caption center-align hide-on-med-and-up" style="z-index: 100; padding: 4%; ">
-        <h3 class="light grey-text text-lighten-3"><b>WTC CERTIFICATION</b></h3>
+        <h3 class="light grey-text text-lighten-3"><b>CERTIFICACIÓN CORPORATIVA WTC QRO</b></h3>
         <p class="w3-justify">
           Potencializa la productividad de tu organización trascendiendo a través del valor humano, generando solvencia y diseñando nuevas estrategias de innovación.
         </p>
@@ -47,7 +47,7 @@
       <div class="w3-card-4 w3-padding-32 w3-padding-large">
         <div class="w3-container" style="border-left: 12px solid #8cbde5;">
           <header>
-            <h5 class="font-gray">PASS SCALE</h5>
+            <h5 class="font-gray">TRASCENDENCIA</h5>
           </header>
           <p class="w3-justify letra-chica">
             Analizará maneras en que puede ser más productivo y profesional en sus relaciones de trabajo. Desarrollará habilidades para comunicar ideas,
@@ -56,7 +56,7 @@
         </div>
         <div class="w3-container" style="border-left: 12px solid #f9f15b;">
         <header>
-          <h5 class="font-gray">TROT SCALE</h5>
+          <h5 class="font-gray">SOLVENCIA</h5>
         </header>
           <p class="w3-justify letra-chica">
             Desarrollará habilidades y procesos necesarios para tener éxito a la hora de negociar y vender. Identificará la importancia de las actitudes que
@@ -65,7 +65,7 @@
         </div>
         <div class="w3-container" style="border-left: 12px solid #434444;">
           <header>
-            <h5 class="font-gray">GALLOP SCALE</h5>
+            <h5 class="font-gray">INNOVACIÓN</h5>
           </header>
           <p class="w3-justify letra-chica">
             Facilitaremos procesos de innovación que transformen las posibilidades en soluciones. Transformaremos el conocimiento y la percepción que tiene la
@@ -77,7 +77,7 @@
   </div>
   <div class="w3-container hide-on-med-and-down" style="width: 40%; margin-top: 20px">
     <header>
-      <h5 class="font-gray">WTC CERTIFICATION</h5>
+      <h5 class="font-gray">CERTIFICACIÓN CORPORATIVA WTC QRO</h5>
     </header>
     <p class="w3-justify font-gray " style="line-height: 1.5;">
       Contribuimos a que las personas encuentren su potencial a través de programas de capacitación y consultoría que desarrollen habilidades por medio de
@@ -89,7 +89,7 @@
   </div>
   <div class="w3-container hide-on-large-only" style="width: 100%; margin-top: 20px">
     <header>
-      <h5 class="font-gray">WTC CERTIFICATION</h5>
+      <h5 class="font-gray">CERTIFICACIÓN CORPORATIVA WTC QRO</h5>
     </header>
     <p class="w3-justify font-gray " style="line-height: 1.5;">
       Contribuimos a que las personas encuentren su potencial a través de programas de capacitación y consultoría que desarrollen habilidades por medio de
@@ -101,17 +101,13 @@
   </div>
 </div>
 <div class="w3-container hide-on-med-and-down" style="height: 200px">
-  <select class="w3-select" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-    <option value="#">    <img src="{{ asset('img/nav/mx.png') }}" class="w3-display-right hide-on-small-only" style=""></option>
-    <option value="../"><img src="{{ asset('img/nav/uk.png') }}" alt=""></option>
-  </select>
 </div>
 <div class="w3-white hide-on-large-only" style="margin: 5%">
   <div class="w3-card-4 w3-padding-32 w3-padding-large">
     <div class="w3-container" style="border-left: 12px solid #8cbde5;">
       <div class="w3-container">
         <header>
-          <h5 class="font-gray">PASS SCALE</h5>
+          <h5 class="font-gray">TRASCENDENCIA</h5>
         </header>
         <p class="w3-justify letra-chica">
           Analizará maneras en que puede ser más productivo y profesional en sus relaciones de trabajo. Desarrollará habilidades para comunicar ideas,
@@ -122,7 +118,7 @@
     <div class="w3-container" style="border-left: 12px solid #f9f15b;">
       <div class="w3-container">
       <header>
-        <h5 class="font-gray">TROT SCALE</h5>
+        <h5 class="font-gray">SOLVENCIA</h5>
       </header>
         <p class="w3-justify letra-chica">
           Desarrollará habilidades y procesos necesarios para tener éxito a la hora de negociar y vender. Identificará la importancia de las actitudes que
@@ -133,7 +129,7 @@
     <div class="w3-container" style="border-left: 12px solid #434444;">
       <div class="w3-container">
         <header>
-          <h5 class="font-gray">GALLOP SCALE</h5>
+          <h5 class="font-gray">INNOVACIÓN</h5>
         </header>
         <p class="w3-justify letra-chica">
           Facilitaremos procesos de innovación que transformen las posibilidades en soluciones. Transformaremos el conocimiento y la percepción que tiene la
