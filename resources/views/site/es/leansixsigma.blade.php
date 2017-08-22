@@ -23,7 +23,7 @@
           directas y tangibles en casi todos los procesos de fabricación.
         </p>
         <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
-          RSERVA AHORA
+          RESERVA AHORA
         </a>
       </div>
       <!-- Responsive -->
