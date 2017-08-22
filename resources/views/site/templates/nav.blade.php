@@ -32,7 +32,7 @@
         </li>
       </ul>
       <div class="w3-display-right" style="margin-right: 15%; width: 16px;">
-        <a href="es">
+        <a href="es/Inicio">
           <img src="{{ asset('img/nav/mx.png') }}" class="w3-display-right">
         </a>
       </div>
