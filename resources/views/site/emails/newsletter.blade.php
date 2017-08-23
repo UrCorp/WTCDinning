@@ -1,3 +1,11 @@
+<?php
+/*
+$contact['name'] = "Eduardo Vera";
+$contact['email'] = "evera@urcorp.mx";
+$contact['phone'] = "4423773581";
+$contact['enterprise'] = "Web Developer";
+*/
+ ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
