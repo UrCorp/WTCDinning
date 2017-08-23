@@ -47,23 +47,23 @@
     </div>
     <hr class="upshadow">
     <div style="margin-top: 4%">
-      <table width="60%" style="margin:auto">
+      <table width="80%" style="margin:auto">
         <tr>
-          <th style="border-bottom: 2px solid;width;80%; text-align: left">Nombre</th>
-          <th style="border-bottom: 2px solid;width;80%; text-align: left">Telefono</th>
+          <td class="titulos">Nombre:</td>
+          <td>{{ $contact['name'] }}</td>
         </tr>
         <tr>
-          <td>{{ $contact['name'] }}</td>
+          <td class="titulos">Correo:</td>
+          <td>{{ $contact['email'] }}</td>
+        </tr>
+        <tr>
+          <td class="titulos">Teléfono:</td>
           <td>{{ $contact['phone'] }}</td>
         </tr>
-          <tr style="padding-top: 210px">
-            <th style="border-bottom: 2px solid;width;80%; text-align: left">Correo</th>
-            <th style="border-bottom: 2px solid;width;80%; text-align: left">Mensaje</th>
-          </tr>
-          <tr>
-            <td>{{ $contact['email'] }}</td>
-            <td>{{ $contact['message'] }}</td>
-          </tr>
+        <tr>
+          <td class="titulos">Empresa:</td>
+          <td>{{ $contact['enterprise'] }}</td>
+        </tr>
       </table>
     </div>
     <hr class="downshadow">

@@ -1,11 +1,3 @@
-<?php
-
-$contact['name'] = "Eduardo Vera";
-$contact['phone'] = "4423773581";
-$contact['email'] = "evera@urcorp.mx";
-$contact['enterprise'] = "UrCorp";
-
- ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -55,23 +47,23 @@ $contact['enterprise'] = "UrCorp";
     </div>
     <hr class="upshadow">
     <div style="margin-top: 20px">
-      <table width="60%" style="margin:auto">
+      <table width="80%" style="margin:auto">
         <tr>
-          <th style="border-bottom: 2px solid;width;80%; text-align: left">Nombre</th>
-          <th style="border-bottom: 2px solid;width;80%; text-align: left">Telefono</th>
+          <td class="titulos">Nombre:</td>
+          <td>{{ $contact['name'] }}</td>
         </tr>
         <tr>
-          <td>{{ $contact['name'] }}</td>
+          <td class="titulos">Correo:</td>
+          <td>{{ $contact['email'] }}</td>
+        </tr>
+        <tr>
+          <td class="titulos">Teléfono:</td>
           <td>{{ $contact['phone'] }}</td>
         </tr>
-          <tr style="padding-top: 210px">
-            <th style="border-bottom: 2px solid;width;80%; text-align: left">Correo</th>
-            <th style="border-bottom: 2px solid;width;80%; text-align: left">Empresa</th>
-          </tr>
-          <tr>
-            <td>{{ $contact['email'] }}</td>
-            <td>{{ $contact['enterprise'] }}</td>
-          </tr>
+        <tr>
+          <td class="titulos">Empresa:</td>
+          <td>{{ $contact['enterprise'] }}</td>
+        </tr>
       </table>
     </div>
     <hr class="downshadow">
