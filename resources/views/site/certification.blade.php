@@ -49,7 +49,7 @@
       <div class="w3-card-4 w3-padding-32 w3-padding-large">
         <div class="w3-container" style="border-left: 12px solid #8cbde5;">
           <header>
-            <h5 class="font-gray">TRASCENDENCE</h5>
+            <h5 class="font-gray">TRANSCENDENCE</h5>
           </header>
           <p class="w3-justify letra-chica">Analyze ways in which you can be more productive and professional in your working
             relationships. Starting from a vision of how to develop the best version of yourself.
@@ -119,7 +119,7 @@
     <div class="w3-container" style="border-left: 12px solid #8cbde5;">
       <div class="w3-container">
         <header>
-          <h5 class="font-gray">TRASCENDENCE</h5>
+          <h5 class="font-gray">TRANSCENDENCE</h5>
         </header>
         <p class="w3-justify letra-chica">Analyze ways in which you can be more productive and professional in your working
           relationships. Starting from a vision of how to develop the best version of yourself.
