@@ -1,8 +1,16 @@
+<?php
+/*
+$contact['name'] = "Eduardo Vera";
+$contact['email'] = "evera@urcorp.mx";
+$contact['phone'] = "4423773581";
+$contact['enterprise'] = "Web Developer";
+*/
+ ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>[WTC] Newsletter | {{ $contact['name'] }}</title>
+  <title>[WTC] Certification | {{ $contact['name'] }}</title>
   <style media="screen">
     th{
       color: #b2b1b1;
@@ -10,17 +18,11 @@
     td{
       color: #818f95
     }
-    h1{
-      color: #79888e
-    }
     h2{
       color: #b4bcbf
     }
     h3{
       color: #a8b2b5
-    }
-    .gris{
-      color: #b2b1b1;
     }
     hr.upshadow {
     	height: 10px;
@@ -47,11 +49,11 @@
     </div>
     <hr class="downshadow">
     <div style="margin-top:20px">
-      <h2 style="text-align: center">
-        ¡Se han suscrito al Newsletter!
+      <h2 style="text-align: center; color: #79888e">
+        ¡Gracias por contactarnos!
       </h2>
     </div>
-    <hr style="width: 50%; margin-top: 20px">
+    <hr class="upshadow">
     <div style="margin-top: 20px">
       <table width="80%" style="margin:auto">
         <tr>
@@ -73,12 +75,10 @@
       </table>
     </div>
     <hr class="downshadow">
-    <div style="margin-top:20px">
-      <div style="margin:auto">
-        <h4 class="gris">Excelente ahora es momento de...</h4>
-        <p class="gris">1.- Registrarlo en una base de datos análoga <br> 2.- Agregarlo a una lista de mailing
-          <br>3.- Darle la bienvenida</p>
-      </div>
+    <div style="margin-top:4%">
+      <center>
+        <p style="text-align:justify; color:gray; font-size:13px"> WTC Querétaro se comunicará a la brevedad para informarte acerca de nuestra Certificación Corporativa.</p>
+      </center>
     </div>
     <div style="margin-top:20px; color: gray;">
       <p style="font-family:helvetica,arial,sans-serif; text-align:justify; font-size:9px">

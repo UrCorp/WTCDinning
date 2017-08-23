@@ -22,7 +22,7 @@
           Increase productivity in your organization, transcending through human value, generating solvency
           and designing new innovation strategies.
         </p>
-        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#mPresale" style="color: #f7984d">
           SCHEDULE NOW
         </a>
       </div>
@@ -158,5 +158,47 @@
     </div>
   </div>
 </div>
+
+<!-- [Certification Modal] -->
+  <div id="mPresale" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.infocertification', 'method' => 'POST']) !!}
+    <div class="modal-content">
+      <div class="section">
+        <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
+        <button class="modal-close right btn-flat">X</button>
+        <h5 class="center">Certification</h5>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('certification[name]', 'Name') !!}
+          {!! Form::text('certification[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('certification[email]', 'Mail') !!}
+          {!! Form::email('certification[email]',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('certification[phone]', 'Phone') !!}
+          {!! Form::text('certification[phone]',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('certification[enterprise]', 'Enterprise') !!}
+          {!! Form::text('certification[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+        <div class="w3-center">
+        {!! Form::submit('Send',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+  </div>
+<!-- End [Certification Modal] -->
 
 @endsection

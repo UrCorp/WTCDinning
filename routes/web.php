@@ -86,6 +86,14 @@ Route::group(['as' => 'site.'], function () {
       'uses'  => 'Contact@newsletter',
       'as'    => 'newsletter'
     ]);
+    Route::post('/infocertification', [
+      'uses'  => 'Contact@infocertification',
+      'as'    => 'infocertification'
+    ]);
+    Route::post('/test', [
+      'uses'  => 'Contact@test',
+      'as'    => 'test'
+    ]);
   });
 });
 
