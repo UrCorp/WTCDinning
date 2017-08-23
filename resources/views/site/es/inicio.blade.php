@@ -201,29 +201,29 @@
 
 <!-- [Strategic Allies] -->
   <div class="w3-panle">
-    <h3 class="center">Aliados</h3>
+    <h3 class="center">Our Allies</h3>
     <div class="row">
-      <div class="col s12 m2 offset-m1">
+      <div class="col s4 m2 offset-m1">
         <a href="https://aeromexico.com/es-mx" target="_blank">
           <img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt="">
         </a>
       </div>
-      <div class="col s12 m2">
+      <div class="col s4 m2">
         <a href="http://audicenterjuriquilla.com.mx" target="_blank">
           <img src="{{ asset('img/home/aliados/audi.png') }}" width="100%" alt="">
         </a>
       </div>
-      <div class="col s12 m2">
+      <div class="col s4 m2">
         <a href="http://hotelnena.mx" target="_blank">
           <img src="{{ asset('img/home/aliados/nena.jpg') }}" width="100%" alt="">
         </a>
       </div>
-      <div class="col s12 m2">
-        <a href="#">
+      <div class="col s4 m2 offset-s2">
+        <a href="#mGP">
           <img src="{{ asset('img/home/aliados/proyectos.png') }}" width="100%" alt="">
         </a>
       </div>
-      <div class="col s12 m2">
+      <div class="col s4 m2">
         <a href="http://urcorp.mx" target="_blank">
           <img src="{{ asset('img/home/aliados/URCORP.png') }}" width="100%" alt="">
         </a>
@@ -235,18 +235,18 @@
 <!-- [Partners] -->
 <hr>
   <div class="w3-panle">
-    <h3 class="center">Nuestros Socios</h3>
+    <h3 class="center">Our Partners</h3>
     <div class="row">
-      <div class="col s12 m2 offset-m2">
+      <div class="col s4 m2 offset-m2">
           <img src="{{ asset('img/home/socios/alterra.png') }}" width="100%" alt="">
       </div>
-      <div class="col s12 m2">
+      <div class="col s4 m2">
           <img src="{{ asset('img/home/socios/momentum.png') }}" width="100%" alt="">
       </div>
-      <div class="col s12 m2">
+      <div class="col s4 m2">
           <img src="{{ asset('img/home/socios/lumico.png') }}" width="100%" alt="">
       </div>
-      <div class="col s12 m2">
+      <div class="col s4 m2 offset-s4">
           <img src="{{ asset('img/home/socios/goyen.png') }}" width="100%" alt="">
       </div>
     </div>
