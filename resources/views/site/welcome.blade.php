@@ -58,13 +58,13 @@
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
         <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
           <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
-          <h6>¡Coming Soon!</h6>
           <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-SixSigma" style="margin-top:10px">
             Lean Six Sigma Certification
           </a><br>
           <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
             WTC QRO Corporate Certification
-          </a><br>
+          </a><br><br>
+          <h6>¡Coming Soon!</h6>
           <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-SixSigma" style="margin-top:10px">
             WTC QRO Transecendence Program
           </a>
