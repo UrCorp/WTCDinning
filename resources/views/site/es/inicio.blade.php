@@ -58,7 +58,7 @@
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
         <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
             <h2 class="light grey-text text-lighten-3"><b>Academia</b></h2>
-            <h6>¡Coming Soon!</h6>
+            <h6>¡Próximamente!</h6>
             <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-Six-Sigma" style="margin-top:10px">
               Certificación Lean Six Sigma
             </a><br>
@@ -79,7 +79,7 @@
 <div style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
   <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
     <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡RECIBE NUESTRAS ÚLTIMAS NOTICIAS!</b></h3>
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Recibe nuestras últimas noticias!</b></h3>
       <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Recibe nuestras últimas noticias!</b></h5>
       <p class="grey-text text-darken-2 hide-on-med-and-down">Se parte de la red de negocios más grande del mundo. Suscríbete a nuestro Newsletter.</p>
       <p class="grey-text text-darken-2 w3-tiny hide-on-large-only">Se parte de la red de negocios más grande en el país. Subscríbete a nuestro Boletín Informativo.</p>
@@ -110,7 +110,7 @@
 <!-- End WTC Landing -->
 
 <!-- Map -->
-<div class="grey lighten-3" style="margin-top: -30px">
+<div class="grey lighten-3 hide-on-small-only" style="margin-top: -30px">
   <h2 class="center grismomentum hide-on-med-and-down" style="margin-top: 30px">Elige tu espacio oficina o consultorio médico</h2>
   <h5 class="center grismomentum hide-on-large-only" style="margin-top: 20px">Elige tu propia oficina o consultorio</h5>
   <div class="">
@@ -188,9 +188,9 @@
           <img src="{{ asset('img/home/wtc-trade.png') }}" width="50%">
           <br>
           <h5 class="light grey-text text-lighten-3"><b>Coworking Club</b></h5>
-          <h6>¡Coming Soon!</h6>
+          <h6>¡Próximamente!</h6>
           <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
-            Schedule Now
+            Agenda Ahora
           </a>
       </div>
       <div class="caption center-align hide-on-large-only">
@@ -201,7 +201,7 @@
 
 <!-- [Strategic Allies] -->
   <div class="w3-panle">
-    <h3 class="center">Our Allies</h3>
+    <h3 class="center">Aliados</h3>
     <div class="row">
       <div class="col s12 m2 offset-m1">
         <a href="https://aeromexico.com/es-mx" target="_blank">
@@ -235,7 +235,7 @@
 <!-- [Partners] -->
 <hr>
   <div class="w3-panle">
-    <h3 class="center">Our Partners</h3>
+    <h3 class="center">Nuestros Socios</h3>
     <div class="row">
       <div class="col s12 m2 offset-m2">
           <img src="{{ asset('img/home/socios/alterra.png') }}" width="100%" alt="">
