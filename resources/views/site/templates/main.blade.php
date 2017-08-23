@@ -12,6 +12,9 @@
 	  <link href="{{ asset('plugins/materialize/css/materialize.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
 	  <link href="{{ asset('plugins/materialize/css/style.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
 	  <link href="{{ asset('css/home.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<style media="screen">
+			.modalgp { width: 95% !important ; height: 95% !important ; }
+		</style>
 	</head>
 	<body>
 
@@ -115,6 +118,16 @@
 			$('.prev').click(function() {
 			 $('.slider').slider('prev');
 			});
+
+			$('.modal').modal({
+      dismissible: true, // Modal can be dismissed by clicking outside of the modal
+      opacity: .8, // Opacity of modal background
+      inDuration: 500, // Transition in duration
+      outDuration: 100, // Transition out duration
+      startingTop: '0%', // Starting top style attribute
+      endingTop: '10%', // Ending top style attribute
+    }
+  );
     });
     </script>
 

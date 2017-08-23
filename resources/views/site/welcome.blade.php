@@ -422,4 +422,44 @@
   </div>
 <!-- End [Newsletter] -->
 
+<!-- [Pop-up Grupo Momentum] -->
+  <div id="mGP" class="modal modal-fixed-footer modalgp">
+    {!! Form::open(['route' => 'site.contact.test', 'method' => 'POST']) !!}
+    <div class="modal-content">
+      <div class="section w3-display-container">
+        <img src="{{ asset('img/home/aliados/proyectos.png') }}" class="w3-display-topmiddle " style="width: 200px;">
+        <button class="modal-close right btn-flat">X</button>
+        <div class="row" style="margin-top:200px;">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('newsletter[name]', 'Name') !!}
+          {!! Form::text('newsletter[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('newsletter[email]', 'Mail') !!}
+          {!! Form::email('newsletter[email]',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('newsletter[phone]', 'Phone') !!}
+          {!! Form::text('newsletter[phone]',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('newsletter[enterprise]', 'Enterprise') !!}
+          {!! Form::text('newsletter[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+        <div class="w3-center">
+        {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+  </div>
+<!-- End [Pop-up Grupo Momentum] -->
 @endsection
