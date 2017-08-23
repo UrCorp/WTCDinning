@@ -73,7 +73,7 @@
         <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900; margin-left: 15px">Yellow Belt <br> Course </h5>
       </div>
       <p class="w3-justify font-gray letra-chica" style="position: relative;">
-        La capacitación de Yellow Bet se centra en preparar a los individuos para desarrollar procesos eficientes para una entrega rápida y una calidad consistente.
+        La capacitación de Yellow Belt se centra en preparar a los individuos para desarrollar procesos eficientes para una entrega rápida y una calidad consistente.
       </p>
     </div>
     <div class="w3-col s4 w3-container" >
@@ -118,7 +118,7 @@
         <h5 class="w3-display-topleft" style="color: rgba(255, 255, 255, 0.9); font-weight:900; margin-left: 15px">Yellow Belt <br> Course </h5>
       </div>
       <p class="w3-justify font-gray letra-chica" style="position: relative;">
-        La capacitación de Yellow Bet se centra en preparar a los individuos para desarrollar procesos eficientes para una entrega rápida y una calidad consistente.
+        La capacitación de Yellow Belt se centra en preparar a los individuos para desarrollar procesos eficientes para una entrega rápida y una calidad consistente.
       </p>
       <a href="#" class="w3-btn btnlean">Ver Fechas</a>
     </div>
