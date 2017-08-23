@@ -236,24 +236,16 @@
     <h3 class="center">Our Partners</h3>
     <div class="row">
       <div class="col s12 m2 offset-m2">
-        <a href="#">
           <img src="{{ asset('img/home/socios/alterra.png') }}" width="100%" alt="">
-        </a>
       </div>
       <div class="col s12 m2">
-        <a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">
           <img src="{{ asset('img/home/socios/momentum.png') }}" width="100%" alt="">
-        </a>
       </div>
       <div class="col s12 m2">
-        <a href="#">
           <img src="{{ asset('img/home/socios/lumico.png') }}" width="100%" alt="">
-        </a>
       </div>
       <div class="col s12 m2">
-        <a href="#">
           <img src="{{ asset('img/home/socios/goyen.png') }}" width="100%" alt="">
-        </a>
       </div>
     </div>
   </div>
