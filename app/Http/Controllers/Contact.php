@@ -85,13 +85,13 @@ class Contact extends Controller
         $mail_sent = Mail::send('site.emails.presale', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
-          $m->to('eduardo.vera.pineda@gmail.com', 'Director WTC');
+          $m->to('curibe@wtcqueretaro.com', 'Director WTC');
           $m->subject('WTC | Informe de Ventas');
         });
 
         $mail_sent_client = Mail::send('site.emails.presale_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
-          $m->replyTo('eduardo.vera.pineda@gmail.com', 'Director WTC');
+          $m->replyTo('curibe@wtcqueretaro.com', 'Director WTC');
           $m->to($contact['email'], $contact['name']);
           $m->subject('WTC | Informe de Ventas');
         });
@@ -126,16 +126,23 @@ class Contact extends Controller
         $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
       } else {
 
+        $mail_sent_Vera = Mail::send('site.emails.newsletter', ['contact' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo($contact['email'], $contact['name']);
+          $m->to('eduardo.vera.pineda@gmail.com', 'Developer WTC');
+          $m->subject('WTC | Newsletter');
+        });
+
         $mail_sent = Mail::send('site.emails.newsletter', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
-          $m->to('eduardo.vera.pineda@gmail.com', 'Director WTC');
+          $m->to('curibe@wtcqueretaro.com', 'Director WTC');
           $m->subject('WTC | Newsletter');
         });
 
         $mail_sent_client = Mail::send('site.emails.newsletter_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
-          $m->replyTo('eduardo.vera.pineda@gmail.com', 'Director WTC');
+          $m->replyTo('curibe@wtcqueretaro.com', 'Director WTC');
           $m->to($contact['email'], $contact['name']);
           $m->subject('WTC | Newsletter');
         });
