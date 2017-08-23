@@ -79,8 +79,8 @@
 <div style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
   <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
     <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡RECEIVE OUR LAST NEWS!</b></h3>
-      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Receive our last news!</b></h5>
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Receive our lastest news!</b></h3>
+      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Receive our lastest news!</b></h5>
       <p class="grey-text text-darken-2">Become a part of the largest business network in the world. Subscribe to our Newsletter.</p>
           <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#mNewsletter" >
             SUBSCRIBE
