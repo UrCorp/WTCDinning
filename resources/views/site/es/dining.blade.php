@@ -41,8 +41,7 @@ $people = ''.$restaurant->people;
     <div class="card-image waves-effect waves-block waves-light">
       @foreach($restaurant->images as $image)
       <img class="activator" src="{{ asset('img/restaurants/' . $image->name) }}">
-      <!--a class="btn-floating halfway-fab waves-effect waves-light green" style="z-index: 100"><i class="activator material-icons">add</i></a-->
-          <a class="w3-right btn-floating waves-effect waves-light freen" style="margin-top:-18px; margin-right: 30px"><i class="activator material-icons">add</i></a>
+          <a class="w3-right btn-floating waves-effect waves-light freen" style="margin-top:-80px; margin-right: 30px"><i class="activator material-icons">add</i></a>
       @endforeach
     </div>
 
@@ -69,7 +68,7 @@ $people = ''.$restaurant->people;
       </div>
       <div class="input-field col s6">
       <i class="material-icons prefix">message</i>
-      {!! Form::label($email, 'Correo electrónico') !!}
+      {!! Form::label($email, 'eMail') !!}
       {!! Form::email($email,null,['class' => 'validate',  'required']) !!}
       </div>
       </div>
