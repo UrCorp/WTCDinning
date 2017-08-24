@@ -25,6 +25,9 @@
         <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
           SCHEDULE NOW
         </a>
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="http://workshops.wtcqueretaro.com" style="color: #f7984d">
+          WORKSHOPS
+        </a>
       </div>
       <!-- Responsive -->
       <div class="caption center-align hide-on-med-and-up" style="z-index: 100; padding: 4%; ">
@@ -36,6 +39,9 @@
         <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
           SCHEDULE NOW
         </a>
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="http://workshops.wtcqueretaro.com" style="color: #f7984d">
+          WORKSHOPS
+        </a>
       </div>
       <!-- End Responsive -->
   </div>
@@ -46,8 +52,7 @@
   <div class="w3-display-container" style="z-index: -5">
     <img src="{{ asset('img/lean6sigma/table.jpg') }}" style="width: 100%; z-index: -5">
     <div class="w3-display-bottomright w3-white hide-on-med-and-down" style="width: 50%; margin-right: 5%; margin-bottom: -5%">
-      <div class="w3-card-4 w3-padding-32 w3-padding-large">
-        <div class="w3-container">
+      <div class="w3-card w3-padding-32 w3-padding-large">
           <header>
             <h5 class="font-gray">Lean Six Sigma</h5>
           </header>
@@ -56,15 +61,34 @@
             improved processes and unobstructed flow are essential elements for lowering costs and
             maintaining a competitive advantage.
           </p>
-          <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
-            SCHEDULE NOW
-          </a>
-        </div>
       </div>
     </div>
   </div>
 </div>
+<!-- START [CARD RESPONSIVE] -->
+<div class="w3-white hide-on-large-only w3-margin-top" style="width: 90%; margin: auto;">
+  <div class="w3-card-4 w3-padding-32 w3-padding-large">
+    <div class="w3-container">
+      <header>
+        <h5 class="font-gray">Lean Six Sigma</h5>
+      </header>
+      <p class="w3-justify letra-chica">
+        Lean Six Sigma Institute offers a broad range of training, consulting and assessment, where
+        improved processes and unobstructed flow are essential elements for lowering costs and
+        maintaining a competitive advantage.
+      </p>
+      <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
+        SCHEDULE NOW
+      </a>
+      <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="http://workshops.wtcqueretaro.com" style="background-color: #f7984d">
+        WORKSHOPS
+      </a>
+    </div>
+  </div>
+</div>
+<!-- END [CARD RESPONSIVE] -->
 
+<!-- START [BELTS] -->
 <div class="container hide-on-small-only" style="margin-top: 5%; margin-bottom: 5%">
   <div class="w3-row-padding">
     <div class="w3-col s4 w3-container">
@@ -110,7 +134,8 @@
       </div>
   </div>
 </div>
-
+<!-- END [BELTS] -->
+<!-- START [RESPONSIVE BELTS] -->
 <div class="container hide-on-med-and-up" style="margin-top: 5%">
   <div class="w3-row-padding">
     <div class="w3-col s12 w3-container w3-section">
@@ -150,5 +175,7 @@
     </div>
   </div>
 </div>
+<!-- END [RESPONSIVE BELTS] -->
+
 
 @endsection

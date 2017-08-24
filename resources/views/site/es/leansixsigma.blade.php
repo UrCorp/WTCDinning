@@ -25,6 +25,9 @@
         <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
           RESERVA AHORA
         </a>
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="http://workshops.wtcqueretaro.com" style="color: #f7984d">
+          WORKSHOPS
+        </a>
       </div>
       <!-- Responsive -->
       <div class="caption center-align hide-on-med-and-up" style="z-index: 100; padding: 4%; ">
@@ -35,6 +38,9 @@
         </p>
         <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
           RESRVA AHORA
+        </a>
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="http://workshops.wtcqueretaro.com" style="color: #f7984d">
+          WORKSHOPS
         </a>
       </div>
       <!-- End Responsive -->
@@ -55,14 +61,33 @@
             Lean Six Sigma Institute ofrece una amplia gama de servicios de capacitación, consultoría y evaluación para satisfacer las demandas y desafíos
             que las organizaciones enfrentan, donde los procesos y el flujo son elementos esenciales para reducir costos y mantener una ventaja competitiva.
           </p>
-          <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
-            AGENDAR
-          </a>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<!-- Start [Card Responsive] -->
+<div class="w3-white hide-on-large-only w3-margin-top" style="width: 90%; margin:auto;">
+  <div class="w3-card-4 w3-padding-32 w3-padding-large">
+    <div class="w3-container">
+      <header>
+        <h5 class="font-gray">Lean Six Sigma</h5>
+      </header>
+      <p class="w3-justify letra-chica">
+        Lean Six Sigma Institute ofrece una amplia gama de servicios de capacitación, consultoría y evaluación para satisfacer las demandas y desafíos
+        que las organizaciones enfrentan, donde los procesos y el flujo son elementos esenciales para reducir costos y mantener una ventaja competitiva.
+      </p>
+      <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
+        AGENDAR
+      </a>
+      <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="http://workshops.wtcqueretaro.com" style="background-color: #f7984d">
+        WORKSHOPS
+      </a>
+    </div>
+  </div>
+</div>
+<!-- End [Card Responsive] -->
 
 <div class="container hide-on-small-only" style="margin-top: 5%; margin-bottom: 5%">
   <div class="w3-row-padding">
