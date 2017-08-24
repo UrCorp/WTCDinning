@@ -422,7 +422,7 @@
   </div>
 <!-- End [Newsletter] -->
 
-<!-- [Pop-up Grupo Momentum] -->
+<!-- [Pop-up Grupo Momentum] >
   <div id="mGP" class="modal modal-fixed-footer modalgp">
     {!! Form::open(['route' => 'site.contact.test', 'method' => 'POST']) !!}
     <div class="modal-content">
@@ -461,5 +461,5 @@
     </div>
     {!! Form::close() !!}
   </div>
-<!-- End [Pop-up Grupo Momentum] -->
+< End [Pop-up Grupo Momentum] -->
 @endsection
