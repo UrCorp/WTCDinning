@@ -21,7 +21,7 @@
         <p>
           Potencializa la productividad de tu organización trascendiendo a través del valor humano, generando solvencia y diseñando nuevas estrategias de innovación.
         </p>
-        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#mCertification" style="color: #f7984d">
           AGENDA AHORA
         </a>
       </div>
@@ -102,6 +102,7 @@
 </div>
 <div class="w3-container hide-on-med-and-down" style="height: 200px">
 </div>
+<!-- Start [Card Responsive] -->
 <div class="w3-white hide-on-large-only" style="margin: 5%">
   <div class="w3-card-4 w3-padding-32 w3-padding-large">
     <div class="w3-container" style="border-left: 12px solid #8cbde5;">
@@ -139,5 +140,46 @@
     </div>
   </div>
 </div>
+<!-- End [Card responsive] -->
+<!-- [Certification Modal] -->
+  <div id="mCertification" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.infocertification', 'method' => 'POST']) !!}
+    <div class="modal-content">
+      <div class="section">
+        <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
+        <button class="modal-close right btn-flat">X</button>
+        <h5 class="center">Certification</h5>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('certification[name]', 'Nombre') !!}
+          {!! Form::text('certification[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('certification[email]', 'Mail') !!}
+          {!! Form::email('certification[email]',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('certification[phone]', 'Teléfono') !!}
+          {!! Form::text('certification[phone]',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('certification[enterprise]', 'Empresa') !!}
+          {!! Form::text('certification[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+        <div class="w3-center">
+        {!! Form::submit('Send',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+  </div>
+<!-- End [Certification Modal] -->
 @endsection

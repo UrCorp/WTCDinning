@@ -2,7 +2,7 @@
 
 @section('body-content')
 
-<!-- Portada -->
+<!-- [Portada] -->
 <div class="wrapper" style="margin-top: -30px">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/certification/trans-portada.png') }}" class="w3-display-middle" style="height: 550px; width: 100%">
@@ -22,11 +22,11 @@
           Increase productivity in your organization, transcending through human value, generating solvency
           and designing new innovation strategies.
         </p>
-        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#mPresale" style="color: #f7984d">
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#mCertification" style="color: #f7984d">
           SCHEDULE NOW
         </a>
       </div>
-      <!-- Responsive -->
+      <!-- [Responsive] -->
       <div class="caption center-align hide-on-med-and-up" style="z-index: 100; padding: 4%; ">
         <h3 class="light grey-text text-lighten-3"><b>WTC QRO CORPORATE CERTIFICATION</b></h3>
         <p class="w3-justify">
@@ -37,10 +37,10 @@
           SCHEDULE NOW
         </a>
       </div>
-      <!-- End Responsive -->
+      <!-- End [Responsive] -->
   </div>
 </div>
-<!-- End Portada -->
+<!-- End [Portada] -->
 
 <div class="container" style="z-index: -5; margin-top: 100px">
   <div class="w3-display-container" style="z-index: -5">
@@ -160,7 +160,7 @@
 </div>
 
 <!-- [Certification Modal] -->
-  <div id="mPresale" class="modal modal-fixed-footer">
+  <div id="mCertification" class="modal modal-fixed-footer">
     {!! Form::open(['route' => 'site.contact.infocertification', 'method' => 'POST']) !!}
     <div class="modal-content">
       <div class="section">
