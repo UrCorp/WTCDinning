@@ -24,10 +24,10 @@
       </div>
     </div>
     <div class="footer-copyright tale">
-      <div class="container">
-          <a class="white-text" target="_blank" href="http://bit.ly/wtcqueretaro">Powered by <img src="{{ asset('img/wtc-footer.png') }}" style="height: 20px" /></a>
-          <a href="https://www.wtca.org/world-trade-center-queretaro"><img src="{{ asset('img/logos/wtc-association-blanco-footer.png') }}" class="right hide-on-med-and-down"></a>
-          <a href="https://www.wtca.org/world-trade-center-queretaro"><img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" class="right hide-on-large-only" style="padding-right: 100px"></a>
+      <div class="" style="margin-bottom:50px;background-color: rgba(68,68,68,0.2); height:50px; width:100%; padding:10px">
+          Powered by <a href="http://urcorp.mx" target="_blank"><img src="{{ asset('img/wtc-footer.png') }}" style="height: 20px;" /></a>
+          <a href="https://www.wtca.org/world-trade-center-queretaro"><img src="{{ asset('img/logos/wtc-association-blanco-footer.png') }}" class="right hide-on-med-and-down "></a>
+          <a href="https://www.wtca.org/world-trade-center-queretaro"><img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" style="height: 20px;" class="right hide-on-large-only"></a>
       </div>
     </div>
   </footer>

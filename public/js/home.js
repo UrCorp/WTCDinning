@@ -73,24 +73,9 @@ $(window).scroll(function() {
        $('#general').css({
            'width': '250px'
        });
-       $('#general').css({
-             'margin-bottom': '80px'
-       });
-
-       $('#general-movil').css({
-             'margin-bottom': '80px'
-         });
    } else {
      $('#general').css({
          'width': '250px'
      });
-     $('#general').css({
-           'margin-bottom': '10px'
-       });
-
-     $('#general-movil').css({
-           'margin-bottom': '10px'
-       });
-
    }
 });
