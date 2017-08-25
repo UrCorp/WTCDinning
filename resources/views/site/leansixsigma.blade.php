@@ -25,7 +25,7 @@
         <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
           SCHEDULE NOW
         </a>
-        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="http://workshops.wtcqueretaro.com" style="color: #f7984d">
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="http://54.186.143.105" style="color: #f7984d">
           WORKSHOPS
         </a>
       </div>
@@ -39,7 +39,7 @@
         <a class="waves-effect waves-light white w3-btn w3-padding-16" href="#modal1" style="color: #f7984d">
           SCHEDULE NOW
         </a>
-        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="http://workshops.wtcqueretaro.com" style="color: #f7984d">
+        <a class="waves-effect waves-light white w3-btn w3-padding-16" href="http://54.186.143.105" style="color: #f7984d">
           WORKSHOPS
         </a>
       </div>
@@ -80,7 +80,7 @@
       <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
         SCHEDULE NOW
       </a>
-      <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="http://workshops.wtcqueretaro.com" style="background-color: #f7984d">
+      <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="http://54.186.143.105" style="background-color: #f7984d">
         WORKSHOPS
       </a>
     </div>
