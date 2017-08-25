@@ -159,19 +159,19 @@
       <a class="w3-btn btnmomentum" href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Recorrido Virtual</a>
     </div>
     <div class="w3-half w3-padding-large">
-      <div class="w3-row">
-        <div class="w3-half">
+      <div class="row">
+        <div class="col s5 m6 offset-s1">
           <img src="{{ asset('img/home/momentum/nite.jpg') }}" width="100%" style="padding: 3%">
         </div>
-        <div class="w3-half">
+        <div class="col s5 m6">
           <img src="{{ asset('img/home/momentum/pool.jpg') }}" width="100%" style="padding: 3%">
         </div>
       </div>
-      <div class="w3-row">
-        <div class="w3-half">
+      <div class="row">
+        <div class="col s5 m6 offset-s1">
           <img src="{{ asset('img/home/momentum/day.jpg') }}" width="100%" style="padding: 3%">
         </div>
-        <div class="w3-half">
+        <div class="col s5 m6">
           <img src="{{ asset('img/home/momentum/inside.jpg') }}" width="100%" style="padding: 3%">
         </div>
       </div>
