@@ -54,9 +54,10 @@
 <!-- Academics-->
   <div class="wrapper" style="margin-top: -40px">
     <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-      <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right" style="height: 550px; width: 70%">
+      <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
+      <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
-        <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
+        <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 60%; ">
           <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
           <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-Six-Sigma" style="margin-top:10px">
             Lean Six Sigma Certification
@@ -69,7 +70,18 @@
             WTC QRO Transecendence Program
           </a>
         </div>
-        <div class="caption center-align hide-on-large-only">
+        <div class="caption left-align hide-on-med-and-up" style="z-index: 100; margin: auto">
+          <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
+          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-Six-Sigma" style="margin-top:10px">
+            Lean Six Sigma Certification
+          </a><br>
+          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
+            WTC QRO Corporate Certification
+          </a><br><br>
+          <h6>¡Coming Soon!</h6>
+          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-Six-Sigma" style="margin-top:10px">
+            WTC QRO Transecendence Program
+          </a>
         </div>
     </div>
   </div>
@@ -92,7 +104,8 @@
 <!-- WTC Landing -->
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left " style="height: 550px; width: 60%">
+    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
+    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Landing"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
           <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
@@ -109,8 +122,9 @@
 <!-- End WTC Landing -->
 
 <!-- Map -->
-<div class="grey lighten-3" style="margin-top: -30px">
-<h2 class="center grismomentum">Select your office or medical consulting room</h2 >
+<div class="grey lighten-3 hide-on-small-only" style="margin-top: -30px">
+  <h2 class="center grismomentum hide-on-med-and-down" style="margin-top: 30px">Select your office or medical consulting room</h2>
+  <h5 class="center grismomentum hide-on-large-only" style="margin-top: 20px">Select your office or medical consulting room</h5>
   <div class="">
     <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
   </div>
@@ -120,16 +134,22 @@
 <!-- Dining -->
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left " style="height: 550px; width: 60%">
+    <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
+    <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
-      <div class="caption left-align" style="padding-left: 10%; z-index: 100">
+      <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100">
         <h1 class="white-text">RESERVATIONS</h1>
         <p class="w3-justify" style="width:50%">Choose from a wide range of restaurants and diverse cuisines our culinary partners have to offer.</p>
         <a class="btn waves-effect waves-light white teal-text" href="Dining" >
           RESERVATIONS
         </a>
       </div>
-      <div class="caption center-align hide-on-large-only">
+      <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
+        <h2 class="white-text">RESERVATIONS</h2>
+        <p class="w3-justify">Chooose from a wide range of restaurants and diverse cuisines our culinary partners have to offer.</p>
+        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+          RESERVATIONS
+        </a>
       </div>
   </div>
 </div>
@@ -180,9 +200,10 @@
 <!-- WTC trade -->
 <div class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <img src="{{ asset('img/home/trade-trans.png') }}" class="w3-display-right" style="height: 550px; width: 70%">
+    <img src="{{ asset('img/home/trade-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
+    <img src="{{ asset('img/home/trade-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/trade.jpg') }}" alt=""></div>
-      <div class="caption left-align" style="z-index: 100; padding-left: 50%; ">
+      <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 60%; ">
           <img src="{{ asset('img/home/wtc-trade.png') }}" width="50%">
           <br>
           <h5 class="light grey-text text-lighten-3"><b>Coworking Club</b></h5>
@@ -191,7 +212,14 @@
             Schedule Now
           </a>
       </div>
-      <div class="caption center-align hide-on-large-only">
+      <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
+        <img src="{{ asset('img/home/wtc-trade.png') }}" width="50%">
+        <br>
+        <h5 class="light grey-text text-lighten-3"><b>Coworking Club</b></h5>
+        <h6>¡Coming Soon!</h6>
+        <a class="waves-effect waves-light white w3-btn grey-text text-darken-2 w3-padding-16" href="#modal1" >
+          Schedule Now
+        </a>
       </div>
   </div>
 </div>
