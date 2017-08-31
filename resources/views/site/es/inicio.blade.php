@@ -59,27 +59,27 @@
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
         <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 60%; ">
             <h2 class="light grey-text text-lighten-3"><b>Academia</b></h2>
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-Six-Sigma" style="margin-top:10px">
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" style="margin-top:10px">
               Certificación Lean Six Sigma
             </a><br>
             <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
               Certificación Corporativa WTC QRO
             </a><br>
             <h6>¡Próximamente!</h6>
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-Six-Sigma" style="margin-top:10px">
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" style="margin-top:10px">
               Programa de Trascendencia WTC QRO
             </a>
         </div>
         <div class="caption left-align hide-on-med-and-up" style="z-index: 100; margin: auto">
             <h2 class="light grey-text text-lighten-3"><b>Academia</b></h2>
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-Six-Sigma" style="margin-top:10px">
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" style="margin-top:10px">
               Certificación Lean Six Sigma
             </a><br>
             <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
               Certificación Corporativa WTC QRO
             </a><br>
             <h6>¡Próximamente!</h6>
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Lean-Six-Sigma" style="margin-top:10px">
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" style="margin-top:10px">
               Programa de Trascendencia WTC QRO
             </a>
         </div>

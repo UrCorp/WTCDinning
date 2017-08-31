@@ -136,7 +136,7 @@
 <ul id="dropdownAcademics" class="dropdown-content">
   <li><a href="Certification">Certificación Corporativa WTC QRO</a></li>
   <li class="divider"></li>
-  <li><a href="Lean-Six-Sigma">Certificación Lean Six Sigma</a></li>
+  <li><a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22">Certificación Lean Six Sigma</a></li>
   <li class="divider"></li>
   <li><a href="#">Programa de Trascendencia WTC QRO</a></li>
 </ul>
@@ -209,8 +209,8 @@
         <div class="collapsible-header">Academia</div>
         <div class="collapsible-body">
             <a href="Certification">Certificación Corporativa WTC QRO</a>
-            <a href="Lean-Six-Sigma">Certificación Lean Six Sigma</a>
-            <a href="Lean-Six-Sigma">Programa de Trascendencia WTC QRO</a>
+            <a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22">Certificación Lean Six Sigma</a>
+            <a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22">Programa de Trascendencia WTC QRO</a>
         </div>
     </li>
     <li>
