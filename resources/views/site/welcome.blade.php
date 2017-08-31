@@ -53,7 +53,7 @@
 
 <!-- Academics-->
   <div class="wrapper" style="margin-top: -40px">
-    <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
+    <div id="Academics" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
@@ -65,8 +65,7 @@
           <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
             WTC QRO Corporate Certification
           </a><br><br>
-          <h6>¡Coming Soon!</h6>
-          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" style="margin-top:10px">
+          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="#Academics" style="margin-top:10px">
             WTC QRO Transecendence Program
           </a>
         </div>
@@ -78,8 +77,7 @@
           <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
             WTC QRO Corporate Certification
           </a><br><br>
-          <h6>¡Coming Soon!</h6>
-          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" style="margin-top:10px">
+          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="#Academics" style="margin-top:10px">
             WTC QRO Transecendence Program
           </a>
         </div>
