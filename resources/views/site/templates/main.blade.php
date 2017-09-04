@@ -32,7 +32,7 @@
 		      <div class="collapsible-body white">
 		        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
 		          <div class="form-group">
-		            {!! Form::label('contact[name]', 'Nombre *') !!}
+		            {!! Form::label('contact[name]', 'Name *') !!}
 		            {!! Form::text('contact[name]', null, ['class' => 'validate form-control', 'maxlength' => 60, 'required' => 'required']) !!}
 		          </div>
 		          <div class="form-group">
@@ -40,11 +40,11 @@
 		            {!! Form::email('contact[email]', null, ['class' => 'form-control', 'maxlength' => 250, 'required' => 'required']) !!}
 		          </div>
 		          <div class="form-group">
-		            {!! Form::label('contact[phone]', 'Teléfono *') !!}
+		            {!! Form::label('contact[phone]', 'Phone *') !!}
 		            {!! Form::text('contact[phone]', null, ['class' => 'form-control', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
 		          </div>
 							<div class="form-group">
-		            {!! Form::label('contact[message]', 'Mensaje *') !!}
+		            {!! Form::label('contact[message]', 'Message *') !!}
 		            {!! Form::text('contact[message]', null, ['class' => 'form-control', 'maxlength' => 60, 'required' => 'required']) !!}
 		          </div>
 		          <div style="width: 100;">
@@ -65,7 +65,7 @@
 		      <div class="collapsible-body white">
 		        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
 		          <div class="form-group">
-		            {!! Form::label('contact[name]', 'Nombre *') !!}
+		            {!! Form::label('contact[name]', 'Name *') !!}
 		            {!! Form::text('contact[name]', null, ['class' => 'validate form-control', 'maxlength' => 60, 'required' => 'required']) !!}
 		          </div>
 		          <div class="form-group">
@@ -73,11 +73,11 @@
 		            {!! Form::email('contact[email]', null, ['class' => 'form-control', 'maxlength' => 250, 'required' => 'required']) !!}
 		          </div>
 		          <div class="form-group">
-		            {!! Form::label('contact[phone]', 'Teléfono *') !!}
+		            {!! Form::label('contact[phone]', 'Phone *') !!}
 		            {!! Form::text('contact[phone]', null, ['class' => 'form-control', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
 		          </div>
 							<div class="form-group">
-		            {!! Form::label('contact[message]', 'Mensaje *') !!}
+		            {!! Form::label('contact[message]', 'Message *') !!}
 		            {!! Form::text('contact[message]', null, ['class' => 'form-control', 'maxlength' => 60, 'required' => 'required']) !!}
 		          </div>
 		          <div style="width: 100;">
