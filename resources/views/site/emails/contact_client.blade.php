@@ -61,8 +61,8 @@
           <td>{{ $contact['phone'] }}</td>
         </tr>
         <tr>
-          <td class="titulos">Empresa:</td>
-          <td>{{ $contact['enterprise'] }}</td>
+          <td class="titulos">Mensaje:</td>
+          <td>{{ $contact['message'] }}</td>
         </tr>
       </table>
     </div>

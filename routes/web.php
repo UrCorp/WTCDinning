@@ -90,6 +90,11 @@ Route::group(['as' => 'site.'], function () {
       'uses'  => 'Contact@infocertification',
       'as'    => 'infocertification'
     ]);
+    Route::post('/contact', [
+      'uses'  => 'Contact@contact',
+      'as'    => 'contact'
+    ]);
+    /* Para probar envíos - En el controller también hay un método test */
     Route::post('/test', [
       'uses'  => 'Contact@test',
       'as'    => 'test'

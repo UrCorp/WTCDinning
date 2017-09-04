@@ -273,43 +273,34 @@
 <!-- End [Partners] -->
 
 <!-- Contact -->
-<div class="container hide-on-med-and-down">
+<div class="container">
   <div class="section">
     <div class="w3-row">
-      <div class="w3-half">
+      <div class="w3-half hide-on-med-and-down">
         <div id="googleMap" class="" style="width:100%;height:450px;"></div>
       </div>
       <div class="w3-half">
-        <h3 class="center">Contacto</h3>
-        {{ Form::open(array('files' => true, 'method' => 'POST')) }}
+        <h3 class="center">Contact Us</h3>
+        {!! Form::open(['route' => 'site.contact.contact', 'id' => 'form-contact', 'method' => 'POST']) !!}
         <div class="row">
-          <div class="input-field col m10 offset-m1">
-          {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
-          {!! Form::label('name', 'Nombre') !!}
+          <div class="form-group col s12 l10 offset-l1">
+            {!! Form::label('contact[name]', 'Nombre *') !!}
+            {!! Form::text('contact[name]', null, ['class' => 'validate form-control', 'maxlength' => 60, 'required' => 'required']) !!}
           </div>
-        </div>
-
-        <div class="row">
-          <div class="input-field col m5 offset-m1">
-          {!! Form::label('email', 'Correo Electrónico') !!}
-          {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
+          <div class="form-group col s12 l5 offset-l1">
+            {!! Form::label('contact[email]', 'eMail *') !!}
+            {!! Form::email('contact[email]', null, ['class' => 'form-control validate', 'maxlength' => 250, 'required' => 'required']) !!}
           </div>
-          <div class="input-field col m5">
-          {!! Form::label('phone', 'Teléfono') !!}
-          {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
+          <div class="form-group col s12 l5">
+            {!! Form::label('contact[phone]', 'Teléfono *') !!}
+            {!! Form::text('contact[phone]', null, ['class' => 'form-control', 'pattern' => '^[0-9]{10,10}$', 'required' => 'required']) !!}
           </div>
-        </div>
-
-        <div class="row">
-          <div class="input-field col m10 offset-m1">
-          {!! Form::label('description', 'Mensaje') !!}
-          {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
+          <div class="form-group col s12 l10 offset-l1">
+            {!! Form::label('contact[message]', 'Mensaje *') !!}
+            {!! Form::text('contact[message]', null, ['class' => 'form-control', 'maxlength' => 60, 'required' => 'required']) !!}
           </div>
-        </div>
-
-        <div class="row">
-          <div class="col m10 offset-m1 center">
-          {!! Form::submit('Envíar',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
+          <div class="col l10 offset-l1 center">
+          {!! Form::submit('Send',['class' => 'btn blue darken-1', 'style' => 'margin: auto']) !!}
           </div>
         </div>
         {!! Form::close() !!}
@@ -317,47 +308,11 @@
     </div>
   </div>
 </div>
+<!-- End [Contact] -->
 
-<div class="container hide-on-large-only">
-  <div class="section">
-    <h3 class="center">Contáctanos</h3>
-    {{ Form::open(array('files' => true, 'method' => 'POST')) }}
-    <div class="row">
-      <div class="col s12 m6">
-      {!! Form::label('name', 'Nombre') !!}
-      {!! Form::text('name',null,['class' => 'validate',  'required' => 'required']) !!}
-      </div>
-    </div>
+<!-- END PAGE -->
 
-    <div class="row">
-      <div class="col s12 m3">
-      {!! Form::label('email', 'Correo electrónico') !!}
-      {!! Form::email('email',null,['class' => 'form-control validate', 'required']) !!}
-      </div>
-      <div class="col s12 m3">
-      {!! Form::label('phone', 'Teléfono') !!}
-      {!! Form::text('phone',null,['class' => 'validate',  'required']) !!}
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col s12 m6">
-      {!! Form::label('description', 'Mensaje') !!}
-      {!! Form::textarea('description', null, ['class' => 'materialize-textarea']) !!}
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col s12 center">
-      {!! Form::submit('Registrar',['class' => 'btn blue darken-1', 'style' => 'margin:auto']) !!}
-      </div>
-    </div>
-
-
-    {!! Form::close() !!}
-  </div>
-</div>
-
+<!--START [HELPERS:Modals] -->
 <!-- [Presale - slider form] -->
   <div id="mPresale" class="modal modal-fixed-footer">
     {!! Form::open(['route' => 'site.contact.presale', 'method' => 'POST']) !!}

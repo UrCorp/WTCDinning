@@ -48,7 +48,7 @@
     <hr style="width: 50%; margin-top: 4%">
     <div style="margin-top:4%">
       <h3 style="text-align: center;color: #79888e">
-        Te haz puesto en contacto con los siguientes datos...
+        ¡Han pedido informes!
       </h3>
     </div>
     <hr class="upshadow">
@@ -67,8 +67,8 @@
           <td>{{ $contact['phone'] }}</td>
         </tr>
         <tr>
-          <td class="titulos">Empresa:</td>
-          <td>{{ $contact['enterprise'] }}</td>
+          <td class="titulos">Mensaje:</td>
+          <td>{{ $contact['message'] }}</td>
         </tr>
       </table>
     </div>
