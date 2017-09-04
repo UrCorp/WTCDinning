@@ -74,25 +74,25 @@ Route::group(['as' => 'site.'], function () {
 
   Route::group(['prefix' => 'contact', 'as' => 'contact.'], function () {
 
-    Route::post('/send', [
-      'uses'  => 'Contact@send',
-      'as'    => 'send'
-    ]);
-    Route::post('/presale', [
-      'uses'  => 'Contact@presale',
-      'as'    => 'presale'
-    ]);
-    Route::post('/newsletter', [
-      'uses'  => 'Contact@newsletter',
-      'as'    => 'newsletter'
+    Route::post('/contact', [
+      'uses'  => 'Contact@contact',
+      'as'    => 'contact'
     ]);
     Route::post('/infocertification', [
       'uses'  => 'Contact@infocertification',
       'as'    => 'infocertification'
     ]);
-    Route::post('/contact', [
-      'uses'  => 'Contact@contact',
-      'as'    => 'contact'
+    Route::post('/newsletter', [
+      'uses'  => 'Contact@newsletter',
+      'as'    => 'newsletter'
+    ]);
+    Route::post('/presale', [
+      'uses'  => 'Contact@presale',
+      'as'    => 'presale'
+    ]);
+    Route::post('/sales', [
+      'uses'  => 'Contact@sales',
+      'as'    => 'sales'
     ]);
     /* Para probar envíos - En el controller también hay un método test */
     Route::post('/test', [

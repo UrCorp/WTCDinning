@@ -11,13 +11,13 @@ use Mail;
 
 class Contact extends Controller
 {
-  public function send(Request $request) {
+  public function sales(Request $request) {
     $res = [
       'status' => 'ERROR_CONNECTION',
       'msg'    => 'Existe un error en la conexión <br/>¡Por favor, intente más tarde!'
     ];
 
-    $contact = $request->input('contact');
+    $contact = $request->input('sales');
 
     if (isset($contact) and !empty($contact)) {
 
@@ -31,28 +31,28 @@ class Contact extends Controller
         $res['status'] = 'VALIDATION_ERROR';
         $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
       } else {
-        $mail_sent_momentum = Mail::send('site.emails.contact', ['contact' => $contact], function ($m) use ($contact) {
+        $mail_sent_momentum = Mail::send('site.emails.sales', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
           $m->to('ventas@grupomomentum.com.mx', 'Ventas Momentum');
           $m->subject('Informes de Ventas WTCQueretaro');
         });
 
-        $mail_sent = Mail::send('site.emails.contact', ['contact' => $contact], function ($m) use ($contact) {
+        $mail_sent = Mail::send('site.emails.sales', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
           $m->to('curibe@wtcqueretaro.com', 'Ventas WTC');
           $m->subject('Informes de Ventas WTCQueretaro');
         });
 
-        $mail_sent_client = Mail::send('site.emails.contact_client', ['contact' => $contact], function ($m) use ($contact) {
+        $mail_sent_client = Mail::send('site.emails.sales_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo('ventas@wtcqueretaro.com', 'Ventas WTC');
           $m->to($contact['email'], $contact['name']);
-          $m->subject('Cotización');
+          $m->subject('WTC | Cotización');
         });
 
-        if ($mail_sent_momentum) {
+        if ($mail_sent) {
           $res['status'] = 'SUCCESS';
           $res['msg'] = '¡Mensaje enviado!';
         }
@@ -250,7 +250,7 @@ class Contact extends Controller
       'msg'    => 'Existe un error en la conexión <br/>¡Por favor, intente más tarde!'
     ];
 
-    $contact = $request->input('certification');
+    $contact = $request->input('sales');
 
     if (isset($contact) and !empty($contact)) {
 
@@ -265,16 +265,16 @@ class Contact extends Controller
         $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
       } else {
 
-        $mail_sent = Mail::send('site.emails.certification', ['contact' => $contact], function ($m) use ($contact) {
+        $mail_sent = Mail::send('site.emails.sales', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
-          $m->to('eduardo.vera.pineda@gmail.com', 'Certification WTC');
+          $m->to('eduardo.vera.pineda@gmail.com', 'Test WTC');
           $m->subject('WTC | Developer');
         });
 
-        $mail_sent_client = Mail::send('site.emails.certification_client', ['contact' => $contact], function ($m) use ($contact) {
+        $mail_sent_client = Mail::send('site.emails.sales_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
-          $m->replyTo('eduardo.vera.pineda@gmail.com', 'Certification WTC');
+          $m->replyTo('eduardo.vera.pineda@gmail.com', 'Test WTC');
           $m->to($contact['email'], $contact['name']);
           $m->subject('WTC | Developer');
         });
