@@ -25,7 +25,7 @@
 		<div style="position: fixed; z-index: 10; bottom: 0;width: 100%; margin-bottom: -18px;z-index: 100000000000000000000;" class="hide-on-med-and-down" id="prueba">
 		   <ul id="general" class="collapsible w3-right" data-collapsible="accordion">
 		    <li id="informes">
-		      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
+		      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Ventas Inmobiliarias</div>
 		      <div class="collapsible-body white">
 		        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
 		          <div class="form-group">
@@ -58,7 +58,7 @@
 		<div style="position: fixed; z-index: 10; bottom: 0; width: 100%; margin-bottom: -18px; z-index: 1000" class="hide-on-large-only" id="prueba1">
 		   <ul id="general-movil" class="collapsible w3-right" data-collapsible="accordion">
 		    <li id="informes-movil">
-		      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Informes de Ventas</div>
+		      <div class="collapsible-header white-text" style="background-color: #ECA154"><i class="material-icons">aspect_ratio</i>Ventas</div>
 		      <div class="collapsible-body white">
 		        {!! Form::open(['route' => 'site.contact.send', 'id' => 'form-contact', 'method' => 'POST']) !!}
 		          <div class="form-group">

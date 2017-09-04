@@ -71,11 +71,11 @@ $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() == $(document).height()) {
        //alert("bottom!");
        $('#general').css({
-           'width': '250px'
+           'width': '275px'
        });
    } else {
      $('#general').css({
-         'width': '250px'
+         'width': '275px'
      });
    }
 });
