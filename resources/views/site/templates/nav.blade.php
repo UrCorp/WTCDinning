@@ -136,7 +136,7 @@
 <ul id="dropdownAcademics" class="dropdown-content">
   <li><a href="Certification">WTC QRO Corporate Certification</a></li>
   <li class="divider"></li>
-  <li><a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22">Lean Six Sigma Certification</a></li>
+  <li><a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank">Lean Six Sigma Certification</a></li>
   <li class="divider"></li>
   <li><a href="#">WTC QRO Transcendence Program</a></li>
 </ul>
@@ -209,8 +209,8 @@
         <div class="collapsible-header">Academics</div>
         <div class="collapsible-body">
             <a href="Certification">WTC QRO Corporate Certification</a>
-            <a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22">Lean Six Sigma Certification</a>
-            <a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22">WTC QRO Transcendence Program</a>
+            <a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank">Lean Six Sigma Certification</a>
+            <a href="#">WTC QRO Transcendence Program</a>
         </div>
     </li>
     <li>
