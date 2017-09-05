@@ -120,9 +120,9 @@
 <!-- End WTC Landing -->
 
 <!-- Map -->
-<div class="grey lighten-3 hide-on-small-only" style="margin-top: -30px">
-  <h2 class="center grismomentum hide-on-med-and-down" style="margin-top: 30px">Select your office or medical consulting room</h2>
-  <h5 class="center grismomentum hide-on-large-only" style="margin-top: 20px">Select your office or medical consulting room</h5>
+<div class="grey lighten-3 hide-on-small-only" style="--margin-top:30px">
+  <!--h2 class="center grismomentum hide-on-med-and-down" style="margin-top: 30px">Select your office or medical consulting room</h2>
+  <h5 class="center grismomentum hide-on-large-only" style="margin-top: 20px">Select your office or medical consulting room</h5-->
   <div class="">
     <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
   </div>
@@ -396,7 +396,7 @@
     </div>
     <div class="modal-footer">
         <div class="w3-center">
-        {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        {!! Form::submit('Subscribe',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
         </div>
     </div>
     {!! Form::close() !!}
