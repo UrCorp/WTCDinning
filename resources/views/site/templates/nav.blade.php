@@ -103,11 +103,6 @@
           <a href="Home" class="white-text" id="home">Home</a>
         </li>
         <li>
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="real">
-            Real Estate<i class="material-icons right">arrow_drop_down</i>
-          </a>
-        </li>
-        <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownAcademics" id="academics">
             Academics<i class="material-icons right">arrow_drop_down</i>
           </a>
@@ -115,6 +110,11 @@
         <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownTrading" id="trade">
             Commerce<i class="material-icons right">arrow_drop_down</i>
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-button white-text" href="#" data-activates="dropdownRealEstate" id="real">
+            Real Estate<i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
         <li>
