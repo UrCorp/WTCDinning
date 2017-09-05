@@ -86,7 +86,7 @@
 <!-- End Academics -->
 
 <!-- Newsletter -->
-<div style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
+<div id="Newsletter" style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
   <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
     <div class="w3-display-middle center">
       <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Receive our lastest news!</b></h3>
@@ -100,7 +100,7 @@
 <!-- End Newletter -->
 
 <!-- WTC Landing -->
-<div class="wrapper">
+<div id="Services" class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
     <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
@@ -120,17 +120,15 @@
 <!-- End WTC Landing -->
 
 <!-- Map -->
-<div class="grey lighten-3 hide-on-small-only" style="--margin-top:30px">
+<div id="RealEstate" class="grey lighten-3 hide-on-small-only" style="--margin-top:30px">
   <!--h2 class="center grismomentum hide-on-med-and-down" style="margin-top: 30px">Select your office or medical consulting room</h2>
   <h5 class="center grismomentum hide-on-large-only" style="margin-top: 20px">Select your office or medical consulting room</h5-->
-  <div class="">
-    <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
-  </div>
+  <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/index-en.html" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
 </div>
 <!-- End Map -->
 
 <!-- Dining -->
-<div class="wrapper">
+<div id="Reservations" class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
     <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
@@ -196,7 +194,7 @@
 <!-- End Momentum -->
 
 <!-- WTC trade -->
-<div class="wrapper">
+<div id="WeTrade" class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/home/trade-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
     <img src="{{ asset('img/home/trade-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
