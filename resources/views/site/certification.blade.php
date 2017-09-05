@@ -11,12 +11,12 @@
     <div class="parallax valign-wrapper">
       <img src="{{ asset('img/certification/certification.jpg') }}" alt="">
     </div>
-    <div class="w3-display-left hide-on-small-only" style="margin: -90px 0 0 100px;">
-      <a href="#" class="fa fa-facebook socialnav"></a>
-      <a href="#" class="fa fa-instagram socialnav" style="margin: 10px"></a>
-      <a href="#" class="fa fa-twitter socialnav"></a>
+    <div class="w3-display-left hide-on-small-only" style="z-index: 11;margin: -90px 0 0 100px;">
+      <a href="https://www.facebook.com/wtcqueretaro/" target="_blank" class="fa fa-facebook socialnav"></a>
+      <a href="https://www.instagram.com/wtcqro/" target="_blank" class="fa fa-instagram socialnav" style="margin: 10px"></a>
+      <a href="https://twitter.com/WTCQro" target="_blank" class="fa fa-twitter socialnav"></a>
     </div>
-      <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 50%; ">
+      <div class="caption left-align hide-on-small-only" style="z-index: 10; padding-left: 50%; ">
         <h3 class="light grey-text text-lighten-3"><b>WTC QRO CORPORATE CERTIFICATION</b></h3>
         <p>
           Increase productivity in your organization, transcending through human value, generating solvency
@@ -93,7 +93,7 @@
       by using tools and processes, promoting human talent, influencing positively in productivity
       and in the economy.
     </p>
-    <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
+    <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#mCertification" style="background-color: #f7984d">
       SCHEDULE NOW
     </a>
   </div>
@@ -106,7 +106,7 @@
       by using tools and processes, promoting human talent, influencing positively in productivity
       and in the economy.
     </p>
-    <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#modal1" style="background-color: #f7984d">
+    <a class="waves-effect waves-light white-text w3-btn w3-padding-16" href="#mCertification" style="background-color: #f7984d">
       SCHEDULE NOW
     </a>
   </div>
