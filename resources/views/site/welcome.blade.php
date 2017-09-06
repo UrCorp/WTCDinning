@@ -403,7 +403,7 @@
 
 <!-- [SoftLanding]
   <div id="mSoftLanding" class="modal modal-fixed-footer">
-    {!! Form::open(['route' => '', 'method' => 'POST']) !!}
+    {!! Form::open(['route' => 'site.contact.send', 'method' => 'POST']) !!}
     <div class="modal-content">
       <div class="section">
         <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
