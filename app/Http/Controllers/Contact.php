@@ -126,23 +126,16 @@ class Contact extends Controller
         $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
       } else {
 
-        $mail_sent_Vera = Mail::send('site.emails.newsletter', ['contact' => $contact], function ($m) use ($contact) {
-          $m->from('web@wtcqueretaro.com', 'WTC');
-          $m->replyTo($contact['email'], $contact['name']);
-          $m->to('eduardo.vera.pineda@gmail.com', 'Developer WTC');
-          $m->subject('WTC | Newsletter');
-        });
-
         $mail_sent = Mail::send('site.emails.newsletter', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
-          $m->to('curibe@wtcqueretaro.com', 'Director WTC');
-          $m->subject('WTC | Newsletter');
+          $m->to('newsletter@wtcqueretaro.com', 'Newsletter WTC');
+          $m->subject('Newsletter | New Contact');
         });
 
         $mail_sent_client = Mail::send('site.emails.newsletter_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
-          $m->replyTo('curibe@wtcqueretaro.com', 'Director WTC');
+          $m->replyTo('newsletter@wtcqueretaro.com', 'Newsletter WTC');
           $m->to($contact['email'], $contact['name']);
           $m->subject('WTC | Newsletter');
         });
@@ -181,6 +174,13 @@ class Contact extends Controller
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
           $m->to('svillarreal@wtcqueretaro.com', 'Certification WTC');
+          $m->subject('WTC | Certification');
+        });
+
+        $mail_sent_contact = Mail::send('site.emails.certification', ['contact' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo($contact['email'], $contact['name']);
+          $m->to('contacto@wtcqueretaro.com', 'Certification WTC');
           $m->subject('WTC | Certification');
         });
 
