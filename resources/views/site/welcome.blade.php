@@ -401,6 +401,48 @@
   </div>
 <!-- End [Newsletter] -->
 
+<!-- [SoftLanding]
+  <div id="mSoftLanding" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.softlanding', 'method' => 'POST']) !!}
+    <div class="modal-content">
+      <div class="section">
+        <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
+        <button class="modal-close right btn-flat">X</button>
+        <h5 class="center">SoftLanding</h5>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('softlanding[name]', 'Name') !!}
+          {!! Form::text('softlanding[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('softlanding[email]', 'Mail') !!}
+          {!! Form::email('softlanding[email]',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('softlanding[phone]', 'Phone') !!}
+          {!! Form::text('softlanding[phone]',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('softlanding[enterprise]', 'Enterprise') !!}
+          {!! Form::text('softlanding[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+        <div class="w3-center">
+        {!! Form::submit('Subscribe',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+  </div>
+<! End [SoftLanding] -->
+
 <!-- [Pop-up Grupo Momentum] >
   <div id="mGP" class="modal modal-fixed-footer modalgp">
     {!! Form::open(['route' => 'site.contact.test', 'method' => 'POST']) !!}
