@@ -85,39 +85,45 @@
   </div>
 <!-- End Academics -->
 
-<!-- Newsletter -->
-<div id="Newsletter" style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
-  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
+<!-- Lean Six Sigma -->
+<div id="LeanSixSigma" style="background-color: #EBECEE; width:100%;" class="w3-display-container">
+  <img src="{{ asset('img/home/trans-lss.jpg') }}" width="100%" height="300px">
+  <img src="{{ asset('img/home/thayer.png') }}" class="w3-display-left" style="width:80px; left: 8%;">
     <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Receive our lastest news!</b></h3>
-      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Receive our lastest news!</b></h5>
-      <p class="grey-text text-darken-2">Become a part of the largest business network in the world. Subscribe to our Newsletter.</p>
-          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#mNewsletter" >
-            SUBSCRIBE
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Lean Six Sigma Online Course!</b></h3>
+      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Lean Six Sigma Online Course!</b></h5>
+      <p class="grey-text text-darken-2 hide-on-med-and-down">Certify and increase your competences for the industry improving the quality of the processes with professional advisors in real time.</p>
+      <p class="grey-text text-darken-2 w3-tiny hide-on-large-only">Certify and increase your competences for the industry improving the quality of the processes with professional advisors in real time.</p>
+          <a class="waves-effect waves-light w3-btn white-text w3-padding-16" style="background-color:#0d6a3f">
+            START NOW
           </a>
     </div>
 </div>
-<!-- End Newletter -->
+<!-- End Lean Six Sigma -->
 
-<!-- WTC Landing -->
-<div id="Services" class="wrapper">
+<!-- Commerce -->
+<div id="Commerce" class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
-    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
-    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Landing"></div>
-      <div class="caption left-align" style="padding-left: 10%; z-index: 100">
-          <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
-          <br>
-          <h5 class="light grey-text text-lighten-3">¡YOUR BUSSINESS FUTURE IS SAFE WITH US!</h5>
-          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#mSoftlanding" >
-            LEARN MORE
-          </a>
+    <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
+    <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 542px; width: 100%">
+    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/commerce.jpg') }}" alt="Commerce"></div>
+      <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100">
+        <h1 style="font-weight:900">MEXICAN CRAFTS</h1>
+        <p class="w3-justify" style="width:70%; font-size:20px">Purchase beautiful products, handmade by Mexican artisans in our exlcusive online shop.</p>
+        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+          GO SHOPPING
+        </a>
       </div>
-      <div class="caption center-align hide-on-large-only">
+      <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
+        <h4 style="font-weight:900">Online Store</h4>
+        <p class="w3-justify">Adquiere tus productos online y disfruta la belleza del trabajo artesanal.</p>
+        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+          GO SHOPPING
+        </a>
       </div>
   </div>
 </div>
-<!-- End WTC Landing -->
+<!-- End Commerce -->
 
 <!-- Map -->
 <div id="RealEstate" class="grey lighten-3 hide-on-small-only" style="--margin-top:30px">
@@ -127,7 +133,7 @@
 </div>
 <!-- End Map -->
 
-<!-- Dining -->
+<!-- Reservations -->
 <div id="Reservations" class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
@@ -149,7 +155,7 @@
       </div>
   </div>
 </div>
-<!-- End Dining -->
+<!-- End Reservations -->
 
 <!-- Momentum -->
   <div class="w3-container w3-padding-32 w3-padding-large">
@@ -193,14 +199,48 @@
   </div>
 <!-- End Momentum -->
 
+<!-- WTC Landing -->
+<div id="Services" class="wrapper">
+  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
+    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
+    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
+    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Landing"></div>
+      <div class="caption left-align" style="padding-left: 10%; z-index: 100">
+          <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
+          <br>
+          <h5 class="light grey-text text-lighten-3">¡YOUR BUSSINESS FUTURE IS SAFE WITH US!</h5>
+          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#mSoftlanding" >
+            LEARN MORE
+          </a>
+      </div>
+      <div class="caption center-align hide-on-large-only">
+      </div>
+  </div>
+</div>
+<!-- End WTC Landing -->
+
+<!-- Newsletter -->
+<div id="Newsletter" style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
+  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
+    <div class="w3-display-middle center">
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Receive our lastest news!</b></h3>
+      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Receive our lastest news!</b></h5>
+      <p class="grey-text text-darken-2">Become a part of the largest business network in the world. Subscribe to our Newsletter.</p>
+          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#mNewsletter" >
+            SUBSCRIBE
+          </a>
+    </div>
+</div>
+<!-- End Newletter -->
+
 <!-- WTC trade -->
 <div id="WeTrade" class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/home/trade-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
     <img src="{{ asset('img/home/trade-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/trade.jpg') }}" alt=""></div>
-      <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 60%; ">
-          <img src="{{ asset('img/home/wtc-trade.png') }}" width="50%">
+      <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 65%; padding-top: 5%">
+          <img src="{{ asset('img/home/trade-wtc.png') }}" width="40%">
           <br>
           <h5 class="light grey-text text-lighten-3"><b>Coworking Club</b></h5>
           <h6>¡Coming Soon!</h6>
@@ -209,7 +249,7 @@
           </a>
       </div>
       <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
-        <img src="{{ asset('img/home/wtc-trade.png') }}" width="50%">
+        <img src="{{ asset('img/home/trade-wtc.png') }}" width="50%">
         <br>
         <h5 class="light grey-text text-lighten-3"><b>Coworking Club</b></h5>
         <h6>¡Coming Soon!</h6>
@@ -217,22 +257,27 @@
           Schedule Now
         </a>
       </div>
+      <div class="caption center-align hide-on-large-only">
+      </div>
   </div>
 </div>
 <!-- End WTC trade -->
 
 <!-- [Strategic Allies] -->
-  <div id="allies" class="w3-panel">
+  <div class="w3-panel">
     <h3 class="center">Our Allies</h3>
-    <div class="row">
-      <div class="col s4 m2 offset-m1">
-        <a href="https://aeromexico.com/es-mx" target="_blank">
-          <img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt="">
-        </a>
+    <div class="row" style="width:90%">
+      <div class="col s4 m2">
+        <img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt="">
       </div>
       <div class="col s4 m2">
         <a href="http://audicenterjuriquilla.com.mx" target="_blank">
           <img src="{{ asset('img/home/aliados/audi.png') }}" width="100%" alt="">
+        </a>
+      </div>
+      <div class="col s4 m2">
+        <a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">
+          <img src="{{ asset('img/home/aliados/bid.png') }}" width="100%" alt="">
         </a>
       </div>
       <div class="col s4 m2">
