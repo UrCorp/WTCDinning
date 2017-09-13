@@ -38,13 +38,6 @@ class Contact extends Controller
           $m->subject('Informes de Ventas WTCQueretaro');
         });
 
-        $mail_sent = Mail::send('site.emails.sales', ['contact' => $contact], function ($m) use ($contact) {
-          $m->from('web@wtcqueretaro.com', 'WTC');
-          $m->replyTo($contact['email'], $contact['name']);
-          $m->to('curibe@wtcqueretaro.com', 'Ventas WTC');
-          $m->subject('Informes de Ventas WTCQueretaro');
-        });
-
         $mail_sent_client = Mail::send('site.emails.sales_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo('ventas@wtcqueretaro.com', 'Ventas WTC');
@@ -85,13 +78,13 @@ class Contact extends Controller
         $mail_sent = Mail::send('site.emails.presale', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
-          $m->to('curibe@wtcqueretaro.com', 'Director WTC');
+          $m->to('ventas@wtcqueretaro.com', 'Director WTC');
           $m->subject('WTC | Informe de Ventas');
         });
 
         $mail_sent_client = Mail::send('site.emails.presale_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
-          $m->replyTo('curibe@wtcqueretaro.com', 'Director WTC');
+          $m->replyTo('ventas@wtcqueretaro.com', 'Director WTC');
           $m->to($contact['email'], $contact['name']);
           $m->subject('WTC | Informe de Ventas');
         });
