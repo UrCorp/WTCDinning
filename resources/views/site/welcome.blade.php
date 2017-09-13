@@ -58,28 +58,29 @@
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
         <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 60%; ">
-          <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
-          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank" style="margin-top:10px">
-            Lean Six Sigma Certification
-          </a><br>
-          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
-            WTC QRO Corporate Certification
-          </a><br><br>
-          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="#Academics" style="margin-top:10px">
-            WTC QRO Transecendence Program
-          </a>
+          <img src="{{ asset('img/home/academics-wtc.png') }}" width="100%">
+          <br>
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank" style="margin-top:10px">
+              Lean Six Sigma Certification
+            </a><br>
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
+              WTC QRO Corporate Certification
+            </a><br>
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="#Academics" style="margin-top:10px">
+              Programa de Trascendencia WTC QRO
+            </a>
         </div>
         <div class="caption left-align hide-on-med-and-up" style="z-index: 100; margin: auto">
-          <h2 class="light grey-text text-lighten-3"><b>Academics</b></h2>
-          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank" style="margin-top:10px">
-            Lean Six Sigma Certification
-          </a><br>
-          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
-            WTC QRO Corporate Certification
-          </a><br><br>
-          <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="#Academics" style="margin-top:10px">
-            WTC QRO Transecendence Program
-          </a>
+          <img src="{{ asset('img/home/academics-wtc.png') }}" width="100%">
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank" style="margin-top:10px">
+              Lean Six Sigma Certification
+            </a><br>
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
+              WTC QRO Corporate Certification
+            </a><br>
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="#Academics" style="margin-top:10px">
+              WTC QRO Transecendence Program
+            </a>
         </div>
     </div>
   </div>
@@ -140,14 +141,14 @@
     <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
       <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100">
-        <h1 class="white-text">RESERVATIONS</h1>
+        <img src="{{ asset('img/home/dining-wtc.png') }}" width="60%">
         <p class="w3-justify" style="width:50%">Choose from a wide range of restaurants and diverse cuisines our culinary partners have to offer.</p>
         <a class="btn waves-effect waves-light white teal-text" href="Dining" >
           RESERVATIONS
         </a>
       </div>
       <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
-        <h2 class="white-text">RESERVATIONS</h2>
+        <img src="{{ asset('img/home/dining-wtc.png') }}" width="100%">
         <p class="w3-justify">Chooose from a wide range of restaurants and diverse cuisines our culinary partners have to offer.</p>
         <a class="btn waves-effect waves-light white teal-text" href="Dining" >
           RESERVATIONS
@@ -206,14 +207,12 @@
     <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Landing"></div>
       <div class="caption left-align" style="padding-left: 10%; z-index: 100">
-          <img src="{{ asset('img/home/wtc-landing.png') }}" width="50%">
+          <img src="{{ asset('img/home/landing-wtc.png') }}" width="70%">
           <br>
           <h5 class="light grey-text text-lighten-3">¡YOUR BUSSINESS FUTURE IS SAFE WITH US!</h5>
           <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#mSoftlanding" >
             LEARN MORE
           </a>
-      </div>
-      <div class="caption center-align hide-on-large-only">
       </div>
   </div>
 </div>
