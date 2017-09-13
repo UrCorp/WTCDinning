@@ -214,8 +214,6 @@
             CONOCE MÁS
           </a>
       </div>
-      <div class="caption center-align hide-on-large-only">
-      </div>
   </div>
 </div>
 <!-- End WTC Landing -->
