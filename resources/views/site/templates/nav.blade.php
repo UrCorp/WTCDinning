@@ -150,25 +150,23 @@
 
 <!-- Nav Real State -->
 <ul id="dropdownRealEstate" class="dropdown-content">
-  <li><a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Offices</a></li>
+  <li><a href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Offices</a></li>
   <li class="divider"></li>
-  <li><a href="#!">Medical Office</a></li>
-  <li class="divider"></li>
-  <li><a href="#!">We Trade Co-working</a></li>
+  <li><a href="#WeTrade">We Trade Co-working</a></li>
 </ul>
 
 <!-- Nav Reservations -->
 <ul id="dropdownReservations" class="dropdown-content">
   <li><a href="Dining">Restaurants</a></li>
   <li class="divider"></li>
-  <li><a href="Dining">Hotels</a></li>
+  <li><a href="http://hotelnena.mx">Hotels</a></li>
 </ul>
 
 <!-- Nav Services -->
 <ul id="dropdownServices" class="dropdown-content">
   <li><a href="#!">Softlanding</a></li>
   <li class="divider"></li>
-  <li><a href="#!">Actuarials</a></li>
+  <li><a href="http://www.gp.org.mx/">Actuarials</a></li>
 </ul>
 
 
@@ -223,23 +221,22 @@
     <li>
         <div class="collapsible-header">Real Estate</div>
         <div class="collapsible-body">
-          <a href="http://grupomomentum.com.mx/project/world-trade-center-queretaro/" target="_blank">Offices</a>
-          <a href="#!">Medical Office</a>
-          <a href="#!">We Trade Co-Working</a>
+          <a href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Offices</a>
+          <a href="#WeTrade">We Trade Co-Working</a>
         </div>
     </li>
     <li>
         <div class="collapsible-header">Reservations</div>
         <div class="collapsible-body">
           <a href="Dining">Restaurants</a>
-          <a href="#">Hotels</a>
+          <a href="http://hotelnena.mx">Hotels</a>
         </div>
     </li>
     <li>
         <div class="collapsible-header">Services</div>
         <div class="collapsible-body">
           <a href="#!">Softlanding</a>
-          <a href="#!">Actuarials</a>
+          <a href="http://www.gp.org.mx/">Actuarials</a>
         </div>
     </li>
 </ul>
