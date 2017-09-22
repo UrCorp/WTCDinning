@@ -5,7 +5,7 @@
 <div class="slider w3-container-display" style="margin-top: -30px;">
   <ul class="slides valign-wrapper">
     <li>
-      <img src="{{ asset('img/home/slider/momentum.png') }}">
+      <img src="{{ asset('img/home/slider/momentum.jpg') }}">
       <div class="center white-text w3-display-middle">
         <h4 class="condensed">PREVENTA Y RENTA</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
@@ -43,6 +43,16 @@
         <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
           Ir a la Tienda
+        </a>
+      </div>
+    </li>
+    <li>
+      <img src="{{ asset('img/home/slider/sigma.jpg') }}">
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed ligth">LEAN SIX SIGMA</h4>
+        <h6 class="light grey-text text-lighten-3">Certificate e incrementa el valor de tus competencias en la industria mejorando la calidad de los procesos de la mano de asesores profesionales de Darthmouth University College.</h6>
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
+          CONOCE CÓMO
         </a>
       </div>
     </li>
@@ -89,10 +99,11 @@
 <!-- Lean Six Sigma -->
 <div id="LeanSixSigma" style="background-color: #EBECEE; width:100%;" class="w3-display-container">
   <img src="{{ asset('img/home/trans-lss.jpg') }}" width="100%" height="300px">
-  <img src="{{ asset('img/home/thayer.png') }}" class="w3-display-left" style="width:80px; left: 8%;">
+  <img src="{{ asset('img/home/thayer.png') }}" class="w3-display-left hide-on-med-and-down" style="width:300px; margin-left: 3%;">
+  <img src="{{ asset('img/home/thayer-logo.png') }}" class="w3-display-left hide-on-large-only" style="width:80px; margin-left: 3%;">
     <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Curso de Lean Six Sigma ONLINE!</b></h3>
-      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Curso de Lean Six Sigma ONLINE!</b></h5>
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Curso de Lean Six Sigma En Línea!</b></h3>
+      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Curso de Lean Six Sigma En Línea!</b></h5>
       <p class="grey-text text-darken-2 hide-on-med-and-down">Certificate e incrementa tus competencias para la industria mejorando la calidad de los procesos con asesores profesionales en tiempo real.</p>
       <p class="grey-text text-darken-2 w3-tiny hide-on-large-only">Certificate e incrementa tus competencias para la industria mejorando la calidad de los procesos con asesores profesionales en tiempo real.</p>
           <a class="waves-effect waves-light w3-btn white-text w3-padding-16" style="background-color:#0d6a3f">
@@ -108,20 +119,22 @@
     <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
     <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 542px; width: 100%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/commerce.jpg') }}" alt="Commerce"></div>
-      <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100">
-        <h1 style="font-weight:900">Online Store</h1>
-        <p class="w3-justify" style="width:70%; font-size:20px">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p>
-        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
-          GO SHOPPING
-        </a>
-      </div>
-      <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
-        <h4 style="font-weight:900">Online Store</h4>
-        <p class="w3-justify">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p>
-        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
-          GO SHOPPING
-        </a>
-      </div>
+    <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100">
+      <img src="{{ asset('img/home/commerce-wtc.png') }}" width="60%">
+      <h1 style="font-weight:900">Tienda en línea</h1>
+      <p class="w3-justify" style="width:50%">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p>
+      <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+        GO SHOPPING <i class="material-icons right">shop</i>
+      </a>
+    </div>
+    <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
+      <img src="{{ asset('img/home/commerce-wtc.png') }}" width="100%">
+      <h1 style="font-weight:900">Tienda en línea</h1>
+      <p class="w3-justify">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p>
+      <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+        GO SHOPPING <i class="material-icons right">shop</i>
+      </a>
+    </div>
   </div>
 </div>
 <!-- End Commerce -->
@@ -171,12 +184,12 @@
         <li>Regaderas</li>
         <li>Vapor</li>
         <li>Comedor</li>
-        <li>Sky Garden</li>
+        <li>Terraza</li>
         <li>Sala de Juegos</li>
       </ul>
-      <p class="w3-justify grismomentum">Conoce el exclusivo desarrollo médico y empresarial <b>World Trade Center...</b> donde tienes lo mejor a tu alcance.</p>
+      <p class="w3-justify grismomentum">Conoce el exclusivo desarrollo médico y empresarial <b>"World Trade Center Querétaro"</b> donde tienes lo mejor a tu alcance.</p>
       <p class="verdemomentum">Proyecto Pre-certificado MEES, Edificación Sustentable</p>
-      <a class="w3-btn btnmomentum" href="">Solicitar información</a>
+      <a class="w3-btn btnmomentum" href="#mPresale">Solicitar información</a>
       <a class="w3-btn btnmomentum" href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Recorrido Virtual</a>
     </div>
     <div class="w3-half w3-padding-large">
@@ -256,10 +269,10 @@
 
 <!-- [Strategic Allies] -->
   <div class="w3-panel">
-    <h3 class="center">Our Allies</h3>
+    <h3 class="center">Nuestros Aliados</h3>
     <div class="row" style="width:90%">
       <div class="col s4 m2">
-        <img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt="">
+        <a href="https://aeromexico.com/es-mx" target="_blank"><img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt=""></a>
       </div>
       <div class="col s4 m2">
         <a href="http://audicenterjuriquilla.com.mx" target="_blank">
@@ -293,7 +306,7 @@
 <!-- [Partners] -->
 <hr>
   <div class="w3-panle">
-    <h3 class="center">Our Partners</h3>
+    <h3 class="center">Nuestros Socios</h3>
     <div class="row">
       <div class="col s4 m2 offset-m2">
           <img src="{{ asset('img/home/socios/alterra.png') }}" width="100%" alt="">
@@ -320,7 +333,7 @@
         <div id="googleMap" class="" style="width:100%;height:450px;"></div>
       </div>
       <div class="w3-half">
-        <h3 class="center">Contact Us</h3>
+        <h3 class="center">Contacto</h3>
         {!! Form::open(['route' => 'site.contact.contact', 'id' => 'form-contact', 'method' => 'POST']) !!}
         <div class="row">
           <div class="form-group col s12 l10 offset-l1">

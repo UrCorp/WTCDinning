@@ -5,7 +5,7 @@
 <div class="slider w3-container-display" style="margin-top: -30px;">
   <ul class="slides valign-wrapper">
     <li>
-      <img src="{{ asset('img/home/slider/momentum.png') }}">
+      <img src="{{ asset('img/home/slider/momentum.jpg') }}">
       <div class="center white-text w3-display-middle">
         <h4 class="condensed">PRE-SALE AND RENT</h4>
         <h6 class="light grey-text text-lighten-3"></h6>
@@ -38,11 +38,21 @@
     <li>
       <img src="{{ asset('img/home/slider/cestos.png') }}">
       <div class="center white-text w3-display-middle">
-        <h4 class="condensed ligth">MEXICAN CRAFTS</h4>
+        <h4 class="condensed ligth">ONLINE STORE</h4>
         <h6 class="light grey-text text-lighten-3">Purchase beautiful products, handmade by Mexican artisans in our exlcusive online shop.</h6>
         <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
           <i class="material-icons right">shop</i>
           Go Shopping
+        </a>
+      </div>
+    </li>
+    <li>
+      <img src="{{ asset('img/home/slider/sigma.jpg') }}">
+      <div class="center white-text w3-display-middle">
+        <h4 class="condensed ligth">LEAN SIX SIGMA</h4>
+        <h6 class="light grey-text text-lighten-3">Certify and increase the value of your competences for industry, improving the quality of the processes by the hand of professional advisors of Darthmouth University College.</h6>
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
+          KNOW HOW
         </a>
       </div>
     </li>
@@ -89,7 +99,8 @@
 <!-- Lean Six Sigma -->
 <div id="LeanSixSigma" style="background-color: #EBECEE; width:100%;" class="w3-display-container">
   <img src="{{ asset('img/home/trans-lss.jpg') }}" width="100%" height="300px">
-  <img src="{{ asset('img/home/thayer.png') }}" class="w3-display-left" style="width:80px; left: 8%;">
+  <img src="{{ asset('img/home/thayer.png') }}" class="w3-display-left hide-on-med-and-down" style="width:300px; margin-left: 3%;">
+  <img src="{{ asset('img/home/thayer-logo.png') }}" class="w3-display-left hide-on-large-only" style="width:80px; margin-left: 3%;">
     <div class="w3-display-middle center">
       <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Lean Six Sigma Online Course!</b></h3>
       <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Lean Six Sigma Online Course!</b></h5>
@@ -102,26 +113,29 @@
 </div>
 <!-- End Lean Six Sigma -->
 
+
 <!-- Commerce -->
 <div id="Commerce" class="wrapper">
   <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
     <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
     <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 542px; width: 100%">
     <div class="parallax valign-wrapper"><img src="{{ asset('img/home/commerce.jpg') }}" alt="Commerce"></div>
-      <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100">
-        <h1 style="font-weight:900">MEXICAN CRAFTS</h1>
-        <p class="w3-justify" style="width:70%; font-size:20px">Purchase beautiful products, handmade by Mexican artisans in our exlcusive online shop.</p>
-        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
-          GO SHOPPING
-        </a>
-      </div>
-      <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
-        <h4 style="font-weight:900">Online Store</h4>
-        <p class="w3-justify">Adquiere tus productos online y disfruta la belleza del trabajo artesanal.</p>
-        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
-          GO SHOPPING
-        </a>
-      </div>
+    <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100">
+      <img src="{{ asset('img/home/commerce-wtc.png') }}" width="60%">
+      <h1 style="font-weight:900">Online Store</h1>
+      <p class="w3-justify" style="width:50%">Purchase beautiful products, handmade by Mexican artisans in our exlcusive online shop.</p>
+      <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+        GO SHOPPING <i class="material-icons right">shop</i>
+      </a>
+    </div>
+    <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
+      <img src="{{ asset('img/home/commerce-wtc.png') }}" width="100%">
+      <h1 style="font-weight:900">Online Store</h1>
+      <p class="w3-justify">Purchase beautiful products, handmade by Mexican artisans in our exlcusive online shop.</p>
+      <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+        GO SHOPPING <i class="material-icons right">shop</i>
+      </a>
+    </div>
   </div>
 </div>
 <!-- End Commerce -->
@@ -174,9 +188,9 @@
         <li>Sky Garden</li>
         <li>Games Room</li>
       </ul>
-      <p class="w3-justify grismomentum">Visit the exclusive medical and corporate Real Estate development <b>"World Trade Center"</b> where you have the best.</p>
+      <p class="w3-justify grismomentum">Visit the exclusive medical and corporate Real Estate development <b>"World Trade Center Querétaro"</b> where you have the best.</p>
       <p class="verdemomentum">Pre-Qualified MEES project, Sustainable Edification</p>
-      <a class="w3-btn btnmomentum" href="">More Infomation</a>
+      <a class="w3-btn btnmomentum" href="#mPresale">More Infomation</a>
       <a class="w3-btn btnmomentum" href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Virtual Trial</a>
     </div>
     <div class="w3-half w3-padding-large">
@@ -267,7 +281,7 @@
     <h3 class="center">Our Allies</h3>
     <div class="row" style="width:90%">
       <div class="col s4 m2">
-        <img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt="">
+        <a href="https://aeromexico.com/en-us" target="_blank"><img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt=""></a>
       </div>
       <div class="col s4 m2">
         <a href="http://audicenterjuriquilla.com.mx" target="_blank">
