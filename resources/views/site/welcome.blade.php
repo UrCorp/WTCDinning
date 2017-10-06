@@ -30,7 +30,7 @@
       <div class="center white-text w3-display-middle">
         <h4 class="condensed ligth">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Obtain guidance on unexplored markets, relocate your company or lower your production costs.</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mSoftlanding">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mPresale">
           SCHEDULE NOW <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
@@ -224,7 +224,7 @@
           <img src="{{ asset('img/home/landing-wtc.png') }}" width="70%">
           <br>
           <h5 class="light grey-text text-lighten-3">¡YOUR BUSSINESS FUTURE IS SAFE WITH US!</h5>
-          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#mSoftlanding" >
+          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#mPresale" >
             LEARN MORE
           </a>
       </div>
@@ -284,7 +284,8 @@
         <a href="https://aeromexico.com/en-us" target="_blank"><img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt=""></a>
       </div>
       <div class="col s4 m2">
-        <a href="http://audicenterjuriquilla.com.mx" target="_blank">
+        <!--a href="http://audicenterjuriquilla.com.mx" target="_blank"-->
+        <a href="#mAudi" target="_blank">
           <img src="{{ asset('img/home/aliados/audi.png') }}" width="100%" alt="">
         </a>
       </div>
@@ -294,12 +295,13 @@
         </a>
       </div>
       <div class="col s4 m2">
-        <a href="http://hotelnena.mx" target="_blank">
+        <!--a href="http://hotelnena.mx" target="_blank"-->
+        <a href="#mNena" target="_blank">
           <img src="{{ asset('img/home/aliados/nena.jpg') }}" width="100%" alt="">
         </a>
       </div>
       <div class="col s4 m2 offset-s2">
-        <a href="#mGP">
+        <a href="#mGp">
           <img src="{{ asset('img/home/aliados/proyectos.png') }}" width="100%" alt="">
         </a>
       </div>
@@ -459,76 +461,34 @@
   </div>
 <!-- End [Newsletter] -->
 
-<!-- [SoftLanding]
-  <div id="mSoftLanding" class="modal modal-fixed-footer">
-    {!! Form::open(['route' => 'site.contact.contact', 'method' => 'POST']) !!}
-    <div class="modal-content">
-      <div class="section">
-        <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
-        <button class="modal-close right btn-flat">X</button>
-        <h5 class="center">SoftLanding</h5>
-        <div class="row">
-          <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('softlanding[name]', 'Name') !!}
-          {!! Form::text('softlanding[name]',null,['class' => 'validate',  'required' => 'required']) !!}
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('softlanding[email]', 'Mail') !!}
-          {!! Form::email('softlanding[email]',null,['class' => 'form-control validate', 'required']) !!}
-          </div>
-          <div class="input-field col s12 m3">
-          {!! Form::label('softlanding[phone]', 'Phone') !!}
-          {!! Form::text('softlanding[phone]',null,['class' => 'validate',  'required']) !!}
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('softlanding[enterprise]', 'Enterprise') !!}
-          {!! Form::text('softlanding[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal-footer">
-        <div class="w3-center">
-        {!! Form::submit('Subscribe',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
-        </div>
-    </div>
-    {!! Form::close() !!}
-  </div>
-<! End [SoftLanding] -->
-
-<!-- [Pop-up Grupo Momentum] >
-  <div id="mGP" class="modal modal-fixed-footer modalgp">
-    {!! Form::open(['route' => 'site.contact.test', 'method' => 'POST']) !!}
+<!-- [Pop-up Audi] -->
+  <div id="mAudi" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.audi', 'method' => 'POST']) !!}
     <div class="modal-content">
       <div class="section w3-display-container">
-        <img src="{{ asset('img/home/aliados/proyectos.png') }}" class="w3-display-topmiddle " style="width: 200px;">
+        <img src="{{ asset('img/home/aliados/audi.png') }}" class="w3-display-topmiddle " style="width: 200px;">
         <button class="modal-close right btn-flat">X</button>
-        <div class="row" style="margin-top:200px;">
+        <div class="row" style="margin-top:100px;">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('newsletter[name]', 'Name') !!}
-          {!! Form::text('newsletter[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('audi[name]', 'Name') !!}
+          {!! Form::text('audi[name]',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
         <div class="row">
           <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('newsletter[email]', 'Mail') !!}
-          {!! Form::email('newsletter[email]',null,['class' => 'form-control validate', 'required']) !!}
+          {!! Form::label('audi[email]', 'Mail') !!}
+          {!! Form::email('audi[email]',null,['class' => 'form-control validate', 'required']) !!}
           </div>
           <div class="input-field col s12 m3">
-          {!! Form::label('newsletter[phone]', 'Phone') !!}
-          {!! Form::text('newsletter[phone]',null,['class' => 'validate',  'required']) !!}
+          {!! Form::label('audi[phone]', 'Phone') !!}
+          {!! Form::text('audi[phone]',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('newsletter[enterprise]', 'Enterprise') !!}
-          {!! Form::text('newsletter[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('audi[enterprise]', 'Enterprise') !!}
+          {!! Form::text('audi[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
       </div>
@@ -540,6 +500,88 @@
     </div>
     {!! Form::close() !!}
   </div>
-< End [Pop-up Grupo Momentum] -->
+<!-- End [Pop-up Audi] -->
+
+<!-- [Pop-up Grupo Momentum] -->
+  <div id="mGp" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.gp', 'method' => 'POST']) !!}
+    <div class="modal-content">
+      <div class="section w3-display-container">
+        <img src="{{ asset('img/home/aliados/proyectos.png') }}" class="w3-display-topmiddle " style="width: 200px;">
+        <button class="modal-close right btn-flat">X</button>
+        <div class="row" style="margin-top:100px;">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('gp[name]', 'Name') !!}
+          {!! Form::text('gp[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('gp[email]', 'Mail') !!}
+          {!! Form::email('gp[email]',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('gp[phone]', 'Phone') !!}
+          {!! Form::text('gp[phone]',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('gp[enterprise]', 'Enterprise') !!}
+          {!! Form::text('gp[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+        <div class="w3-center">
+        {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+  </div>
+<!-- End [Pop-up Grupo Momentum] -->
+
+<!-- [Pop-up Nena] -->
+  <div id="mNena" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.nena', 'method' => 'POST']) !!}
+    <div class="modal-content">
+      <div class="section w3-display-container">
+        <img src="{{ asset('img/home/aliados/nena.jpg') }}" class="w3-display-topmiddle " style="width: 200px;">
+        <button class="modal-close right btn-flat">X</button>
+        <div class="row" style="margin-top:100px;">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('nena[name]', 'Name') !!}
+          {!! Form::text('nena[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('nena[email]', 'Mail') !!}
+          {!! Form::email('nena[email]',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('nena[phone]', 'Phone') !!}
+          {!! Form::text('nena[phone]',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('nena[enterprise]', 'Enterprise') !!}
+          {!! Form::text('nena[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+        <div class="w3-center">
+        {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+  </div>
+<!-- End [Pop-up Nena] -->
 <!--END [HELPERS:Modals] -->
 @endsection

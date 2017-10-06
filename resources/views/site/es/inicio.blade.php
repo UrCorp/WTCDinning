@@ -30,7 +30,7 @@
       <div class="center white-text w3-display-middle">
         <h4 class="condensed ligth">SOFTLANDING</h4>
         <h6 class="light grey-text text-lighten-3">Obtén apoyo para explorar nuevos mercados, relocalizar tu compañía o bajar costos de operación.</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#modal4">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mPresale">
           AGENDA AHORA<i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
         </a>
       </div>
@@ -223,7 +223,7 @@
           <img src="{{ asset('img/home/landing-wtc.png') }}" width="70%">
           <br>
           <h5 class="light grey-text text-lighten-3">¡EL FUTURO DE TU EMPRESA ESTÁ A SALVO CON NOSOTROS!</h5>
-          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#modal1" >
+          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#mPresale" >
             CONOCE MÁS
           </a>
       </div>
@@ -275,7 +275,7 @@
         <a href="https://aeromexico.com/es-mx" target="_blank"><img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt=""></a>
       </div>
       <div class="col s4 m2">
-        <a href="http://audicenterjuriquilla.com.mx" target="_blank">
+        <a href="#mAudi" target="_blank">
           <img src="{{ asset('img/home/aliados/audi.png') }}" width="100%" alt="">
         </a>
       </div>
@@ -285,12 +285,12 @@
         </a>
       </div>
       <div class="col s4 m2">
-        <a href="http://hotelnena.mx" target="_blank">
+        <a href="#mNena" target="_blank">
           <img src="{{ asset('img/home/aliados/nena.jpg') }}" width="100%" alt="">
         </a>
       </div>
       <div class="col s4 m2 offset-s2">
-        <a href="#mGP">
+        <a href="#mGp">
           <img src="{{ asset('img/home/aliados/proyectos.png') }}" width="100%" alt="">
         </a>
       </div>
@@ -450,45 +450,126 @@
   </div>
 <!-- End [Newsletter] -->
 
-<!-- [SoftLanding] >
-  <div id="mSoftLanding" class="modal modal-fixed-footer">
-    {!! Form::open(['route' => 'site.contact.contact', 'method' => 'POST']) !!}
+<!-- [Pop-up Audi] -->
+  <div id="mAudi" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.audi', 'method' => 'POST']) !!}
     <div class="modal-content">
-      <div class="section">
-        <img src="{{ asset('img/wtc-w.png') }}" class="" style="width: 10%; height: 10%">
+      <div class="section w3-display-container">
+        <img src="{{ asset('img/home/aliados/audi.png') }}" class="w3-display-topmiddle " style="width: 200px;">
         <button class="modal-close right btn-flat">X</button>
-        <h5 class="center">SoftLanding</h5>
-        <div class="row">
+        <div class="row" style="margin-top:100px;">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('softlanding[name]', 'Name') !!}
-          {!! Form::text('softlanding[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('audi[name]', 'Nombre') !!}
+          {!! Form::text('audi[name]',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
 
         <div class="row">
           <div class="input-field col s12 m3 offset-m3">
-          {!! Form::label('softlanding[email]', 'Mail') !!}
-          {!! Form::email('softlanding[email]',null,['class' => 'form-control validate', 'required']) !!}
+          {!! Form::label('audi[email]', 'Correo') !!}
+          {!! Form::email('audi[email]',null,['class' => 'form-control validate', 'required']) !!}
           </div>
           <div class="input-field col s12 m3">
-          {!! Form::label('softlanding[phone]', 'Phone') !!}
-          {!! Form::text('softlanding[phone]',null,['class' => 'validate',  'required']) !!}
+          {!! Form::label('audi[phone]', 'Teléfono') !!}
+          {!! Form::text('audi[phone]',null,['class' => 'validate',  'required']) !!}
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12 m6 offset-m3">
-          {!! Form::label('softlanding[enterprise]', 'Enterprise') !!}
-          {!! Form::text('softlanding[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          {!! Form::label('audi[enterprise]', 'Empresa') !!}
+          {!! Form::text('audi[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
           </div>
         </div>
       </div>
     </div>
     <div class="modal-footer">
         <div class="w3-center">
-        {!! Form::submit('Subscribe',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
         </div>
     </div>
     {!! Form::close() !!}
   </div>
-<! End [SoftLanding] -->
+<!-- End [Pop-up Audi] -->
+
+<!-- [Pop-up Grupo Momentum] -->
+  <div id="mGp" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.gp', 'method' => 'POST']) !!}
+    <div class="modal-content">
+      <div class="section w3-display-container">
+        <img src="{{ asset('img/home/aliados/proyectos.png') }}" class="w3-display-topmiddle " style="width: 200px;">
+        <button class="modal-close right btn-flat">X</button>
+        <div class="row" style="margin-top:100px;">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('gp[name]', 'Nombre') !!}
+          {!! Form::text('gp[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('gp[email]', 'Correo') !!}
+          {!! Form::email('gp[email]',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('gp[phone]', 'Teléfono') !!}
+          {!! Form::text('gp[phone]',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('gp[enterprise]', 'Empresa') !!}
+          {!! Form::text('gp[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+        <div class="w3-center">
+        {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+  </div>
+<!-- End [Pop-up Grupo Momentum] -->
+
+<!-- [Pop-up Nena] -->
+  <div id="mNena" class="modal modal-fixed-footer">
+    {!! Form::open(['route' => 'site.contact.nena', 'method' => 'POST']) !!}
+    <div class="modal-content">
+      <div class="section w3-display-container">
+        <img src="{{ asset('img/home/aliados/nena.jpg') }}" class="w3-display-topmiddle " style="width: 200px;">
+        <button class="modal-close right btn-flat">X</button>
+        <div class="row" style="margin-top:100px;">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('nena[name]', 'Nombre') !!}
+          {!! Form::text('nena[name]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 m3 offset-m3">
+          {!! Form::label('nena[email]', 'Correo') !!}
+          {!! Form::email('nena[email]',null,['class' => 'form-control validate', 'required']) !!}
+          </div>
+          <div class="input-field col s12 m3">
+          {!! Form::label('nena[phone]', 'Teléfono') !!}
+          {!! Form::text('nena[phone]',null,['class' => 'validate',  'required']) !!}
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6 offset-m3">
+          {!! Form::label('nena[enterprise]', 'Empresa') !!}
+          {!! Form::text('nena[enterprise]',null,['class' => 'validate',  'required' => 'required']) !!}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+        <div class="w3-center">
+        {!! Form::submit('Book Now',['class' => 'btn blue darken-1 center', 'style' => '']) !!}
+        </div>
+    </div>
+    {!! Form::close() !!}
+  </div>
+<!-- End [Pop-up Nena] -->
 @endsection
