@@ -35,9 +35,6 @@
 			-webkit-font-smoothing: antialiased;
 			}
 		</style>
-		<style media="screen">
-			.modalgp { width: 95% !important ; height: 95% !important ; }
-		</style>
 	</head>
 	<body>
 
