@@ -124,7 +124,7 @@
       <img src="{{ asset('img/home/commerce-wtc.png') }}" width="60%">
       <h1 style="font-weight:900">Online Store</h1>
       <p class="w3-justify" style="width:50%">Purchase beautiful products, handmade by Mexican artisans in our exlcusive online shop.</p>
-      <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+      <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank">
         GO SHOPPING <i class="material-icons right">shop</i>
       </a>
     </div>
@@ -132,7 +132,7 @@
       <img src="{{ asset('img/home/commerce-wtc.png') }}" width="100%">
       <h1 style="font-weight:900">Online Store</h1>
       <p class="w3-justify">Purchase beautiful products, handmade by Mexican artisans in our exlcusive online shop.</p>
-      <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+      <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank">
         GO SHOPPING <i class="material-icons right">shop</i>
       </a>
     </div>

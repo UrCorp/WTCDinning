@@ -123,7 +123,7 @@
       <img src="{{ asset('img/home/commerce-wtc.png') }}" width="60%">
       <h1 style="font-weight:900">Tienda en línea</h1>
       <p class="w3-justify" style="width:50%">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p>
-      <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+      <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank">
         GO SHOPPING <i class="material-icons right">shop</i>
       </a>
     </div>
@@ -131,7 +131,7 @@
       <img src="{{ asset('img/home/commerce-wtc.png') }}" width="100%">
       <h1 style="font-weight:900">Tienda en línea</h1>
       <p class="w3-justify">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p>
-      <a class="btn waves-effect waves-light white teal-text" href="Dining" >
+      <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank">
         GO SHOPPING <i class="material-icons right">shop</i>
       </a>
     </div>
