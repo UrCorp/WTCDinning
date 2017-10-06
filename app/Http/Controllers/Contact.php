@@ -237,13 +237,83 @@ class Contact extends Controller
     return redirect()->action('indexController@index');
   }
 
+  public function audi(Request $request) {
+    $res = [
+      'status' => 'ERROR_CONNECTION',
+      'msg'    => 'Existe un error en la conexión <br/>¡Por favor, intente más tarde!'
+    ];
+
+    $contact = $request->input('audi');
+
+    if (isset($contact) and !empty($contact)) {
+
+        $mail_sent = Mail::send('site.emails.audi', ['contact' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo($contact['email'], $contact['name']);
+          $m->to('contacto@wtcqueretaro.com', 'Test WTC');
+          $m->subject('WTC | Audi');
+        });
+    }
+    return redirect()->to('http://audicenterjuriquilla.com.mx"');
+  }
+
+  public function nena(Request $request) {
+    $res = [
+      'status' => 'ERROR_CONNECTION',
+      'msg'    => 'Existe un error en la conexión <br/>¡Por favor, intente más tarde!'
+    ];
+
+    $contact = $request->input('nena');
+
+    if (isset($contact) and !empty($contact)) {
+
+        $mail_sent = Mail::send('site.emails.nena', ['contact' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo($contact['email'], $contact['name']);
+          $m->to('contacto@wtcqueretaro.com', 'Test WTC');
+          $m->subject('WTC | Nena');
+        });
+
+        if ($mail_sent) {
+          $res['status'] = 'SUCCESS';
+          $res['msg'] = '¡Mensaje enviado!';
+        }
+    }
+    return redirect()->to('http://hotelnena.mx');
+  }
+
+  public function gp(Request $request) {
+    $res = [
+      'status' => 'ERROR_CONNECTION',
+      'msg'    => 'Existe un error en la conexión <br/>¡Por favor, intente más tarde!'
+    ];
+
+    $contact = $request->input('gp');
+
+    if (isset($contact) and !empty($contact)) {
+
+        $mail_sent = Mail::send('site.emails.gp', ['contact' => $contact], function ($m) use ($contact) {
+          $m->from('web@wtcqueretaro.com', 'WTC');
+          $m->replyTo($contact['email'], $contact['name']);
+          $m->to('contacto@wtcqueretaro.com', 'Test WTC');
+          $m->subject('WTC | Grupo Proyectos');
+        });
+
+        if ($mail_sent) {
+          $res['status'] = 'SUCCESS';
+          $res['msg'] = '¡Mensaje enviado!';
+        }
+    }
+    return redirect()->to('https://google.com.mx');
+  }
+
   public function test(Request $request) {
     $res = [
       'status' => 'ERROR_CONNECTION',
       'msg'    => 'Existe un error en la conexión <br/>¡Por favor, intente más tarde!'
     ];
 
-    $contact = $request->input('sales');
+    $contact = $request->input('audi');
 
     if (isset($contact) and !empty($contact)) {
 
@@ -258,26 +328,29 @@ class Contact extends Controller
         $res['msg'] = 'Error de validación<br/>¡Los datos introducidos son incorrectos!';
       } else {
 
-        $mail_sent = Mail::send('site.emails.sales', ['contact' => $contact], function ($m) use ($contact) {
+        $mail_sent = Mail::send('site.emails.audi', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo($contact['email'], $contact['name']);
           $m->to('eduardo.vera.pineda@gmail.com', 'Test WTC');
           $m->subject('WTC | Developer');
         });
-
-        $mail_sent_client = Mail::send('site.emails.sales_client', ['contact' => $contact], function ($m) use ($contact) {
+/*
+        $mail_sent_client = Mail::send('site.emails.audi_client', ['contact' => $contact], function ($m) use ($contact) {
           $m->from('web@wtcqueretaro.com', 'WTC');
           $m->replyTo('eduardo.vera.pineda@gmail.com', 'Test WTC');
           $m->to($contact['email'], $contact['name']);
           $m->subject('WTC | Developer');
         });
-
+*/
         if ($mail_sent) {
           $res['status'] = 'SUCCESS';
           $res['msg'] = '¡Mensaje enviado!';
+          dd($contact);
+
         }
       }
     }
-    return redirect()->action('indexController@index');
+    //return redirect()->action('indexController@index');
+    dd($contact);
   }
 }

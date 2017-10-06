@@ -94,6 +94,18 @@ Route::group(['as' => 'site.'], function () {
       'uses'  => 'Contact@sales',
       'as'    => 'sales'
     ]);
+    Route::post('/audi', [
+      'uses'  => 'Contact@audi',
+      'as'    => 'audi'
+    ]);
+    Route::post('/nena', [
+      'uses'  => 'Contact@nena',
+      'as'    => 'nena'
+    ]);
+    Route::post('/gp', [
+      'uses'  => 'Contact@gp',
+      'as'    => 'gp'
+    ]);
     /* Para probar envíos - En el controller también hay un método test */
     Route::post('/test', [
       'uses'  => 'Contact@test',
