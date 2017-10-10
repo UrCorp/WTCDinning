@@ -106,6 +106,10 @@ Route::group(['as' => 'site.'], function () {
       'uses'  => 'Contact@gp',
       'as'    => 'gp'
     ]);
+    Route::post('/reservs', [
+      'uses'  => 'ReservsController@reservations',
+      'as'    => 'reservs'
+    ]);
     /* Para probar envíos - En el controller también hay un método test */
     Route::post('/test', [
       'uses'  => 'Contact@test',
