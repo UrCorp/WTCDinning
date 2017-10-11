@@ -80,12 +80,12 @@
             <i class="material-icons prefix">schedule</i>
           </div>
           <div class="col s3">
-            {!! Form::label('reserv'.$restaurant->id.'[open_hour]', 'Hour (24)') !!}
-            {!! Form::number('reserv'.$restaurant->id.'[open_hour]', '12',['min' => 0,'max' => 23,'style' => 'text-align: right']) !!}
+            {!! Form::label('reserv'.$restaurant->id.'[hour]', 'Hour (24)') !!}
+            {!! Form::number('reserv'.$restaurant->id.'[hour]', '12',['min' => 0,'max' => 23,'style' => 'text-align: right']) !!}
           </div>
           <div class="col s3">
-            {!! Form::label('reserv'.$restaurant->id.'[minute_open]', 'Min') !!}
-            {!! Form::number('reserv'.$restaurant->id.'[minute_open]', '00',['min' => 0,'max' => 59, 'step' => 30]) !!}
+            {!! Form::label('reserv'.$restaurant->id.'[minute]', 'Min') !!}
+            {!! Form::number('reserv'.$restaurant->id.'[minute]', '00',['min' => 0,'max' => 59, 'step' => 30]) !!}
           </div>
           <div class="col s1">
             <i class="material-icons prefix">recent_actors</i>
