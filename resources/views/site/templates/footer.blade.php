@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright tale">
+    <div class="footer-copyright tale" style="background-color: #191919">
       <div class="" style="margin-bottom:50px;background-color: rgba(68,68,68,0.2); height:50px; width:100%; padding:10px">
           Powered by <a href="http://urcorp.mx" target="_blank"><img src="{{ asset('img/wtc-footer.png') }}" style="height: 20px;" /></a>
           <a href="https://www.wtca.org/world-trade-center-queretaro" target="_blank"><img src="{{ asset('img/logos/wtc-association-blanco-footer.png') }}" class="right hide-on-med-and-down "></a>
