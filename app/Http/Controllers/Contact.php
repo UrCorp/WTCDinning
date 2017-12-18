@@ -45,7 +45,7 @@ class Contact extends Controller
           $m->subject('WTC | Cotización');
         });
 
-        if ($mail_sent) {
+        if ($mail_sent_client) {
           $res['status'] = 'SUCCESS';
           $res['msg'] = '¡Mensaje enviado!';
         }
