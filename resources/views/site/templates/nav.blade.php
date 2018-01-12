@@ -200,7 +200,7 @@
     <li>
         <div class="collapsible-header">Academics</div>
         <div class="collapsible-body">
-            <a href="Certification">WTC QRO Corporate Certification</a>
+            <a href="Certification">WTC QRO Certification</a>
         </div>
     </li>
     <li>
