@@ -254,7 +254,7 @@ class Contact extends Controller
           $m->subject('WTC | Audi');
         });
     }
-    return redirect()->to('http://audicenterjuriquilla.com.mx"');
+    return redirect()->to('http://audicenterjuriquilla.com.mx');
   }
 
   public function nena(Request $request) {
@@ -304,7 +304,7 @@ class Contact extends Controller
           $res['msg'] = '¡Mensaje enviado!';
         }
     }
-    return redirect()->to('https://google.com.mx');
+    return redirect()->to('https://gp.org.mx');
   }
 
   public function test(Request $request) {

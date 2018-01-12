@@ -46,16 +46,6 @@
         </a>
       </div>
     </li>
-    <li>
-      <img src="{{ asset('img/home/slider/sigma.jpg') }}">
-      <div class="center white-text w3-display-middle">
-        <h4 class="condensed ligth">LEAN SIX SIGMA</h4>
-        <h6 class="light grey-text text-lighten-3">Certify and increase the value of your competences for industry, improving the quality of the processes by the hand of professional advisors of Darthmouth University College.</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
-          KNOW HOW
-        </a>
-      </div>
-    </li>
   </ul>
   <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 50px; font-size: 36px">&#10094;</span></button>
   <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 50px; font-size: 36px">&#10095;</button>
@@ -70,48 +60,34 @@
         <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 60%; ">
           <img src="{{ asset('img/home/academics-wtc.png') }}" width="100%">
           <br>
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank" style="margin-top:10px">
-              Lean Six Sigma Certification
-            </a><br>
             <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
               WTC QRO Corporate Certification
             </a><br>
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="#Academics" style="margin-top:10px">
-              Programa de Trascendencia WTC QRO
-            </a>
         </div>
         <div class="caption left-align hide-on-med-and-up" style="z-index: 100; margin: auto">
           <img src="{{ asset('img/home/academics-wtc.png') }}" width="100%">
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank" style="margin-top:10px">
-              Lean Six Sigma Certification
-            </a><br>
             <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
               WTC QRO Corporate Certification
             </a><br>
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="#Academics" style="margin-top:10px">
-              WTC QRO Transecendence Program
-            </a>
         </div>
     </div>
   </div>
 <!-- End Academics -->
 
-<!-- Lean Six Sigma -->
-<div id="LeanSixSigma" style="background-color: #EBECEE; width:100%;" class="w3-display-container">
-  <img src="{{ asset('img/home/trans-lss.jpg') }}" width="100%" height="300px">
-  <img src="{{ asset('img/home/thayer.png') }}" class="w3-display-left hide-on-med-and-down" style="width:300px; margin-left: 3%;">
-  <img src="{{ asset('img/home/thayer-logo.png') }}" class="w3-display-left hide-on-large-only" style="width:80px; margin-left: 3%;">
+<!-- Newsletter-->
+<div id="Newsletter" style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
+  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
     <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Lean Six Sigma Online Course!</b></h3>
-      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Lean Six Sigma Online Course!</b></h5>
-      <p class="grey-text text-darken-2 hide-on-med-and-down">Certify and increase your competences for the industry improving the quality of the processes with professional advisors in real time.</p>
-      <p class="grey-text text-darken-2 w3-tiny hide-on-large-only">Certify and increase your competences for the industry improving the quality of the processes with professional advisors in real time.</p>
-          <a class="waves-effect waves-light w3-btn white-text w3-padding-16" style="background-color:#0d6a3f">
-            START NOW
+      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Receive our lastest news!</b></h3>
+      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Receive our lastest news!</b></h5>
+      <p class="grey-text text-darken-2">Become a part of the largest business network in the world. Subscribe to our Newsletter.</p>
+          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#mNewsletter" >
+            SUBSCRIBE
           </a>
     </div>
 </div>
-<!-- End Lean Six Sigma -->
+
+<!-- End Newsletter-->
 
 
 <!-- Commerce -->
@@ -232,19 +208,38 @@
 </div>
 <!-- End WTC Landing -->
 
-<!-- Newsletter -->
-<div id="Newsletter" style="background-color: #EBECEE; width:100%; height:300px" class="w3-display-container">
-  <img src="{{ asset('img/home/newsletter.jpg') }}" width="100%" height="300px">
-    <div class="w3-display-middle center">
-      <h3 class="grey-text text-darken-2 hide-on-med-and-down"><b>¡Receive our lastest news!</b></h3>
-      <h6 class="grey-text text-darken-2 hide-on-large-only"><b>¡Receive our lastest news!</b></h5>
-      <p class="grey-text text-darken-2">Become a part of the largest business network in the world. Subscribe to our Newsletter.</p>
-          <a class="waves-effect waves-light w3-btn white-text w3-padding-16 grey darken-2" href="#mNewsletter" >
-            SUBSCRIBE
-          </a>
+<!-- [Strategic Allies] -->
+  <div class="w3-panel">
+    <h3 class="center">Our Allies</h3>
+    <div class="row" style="width:90%">
+      <div class="col s4 m2 offset-m1">
+        <a href="https://aeromexico.com/en-us" target="_blank"><img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt=""></a>
+      </div>
+      <div class="col s4 m2">
+        <!--a href="http://audicenterjuriquilla.com.mx" target="_blank"-->
+        <a href="#mAudi" target="_blank">
+          <img src="{{ asset('img/home/aliados/audi.png') }}" width="100%" alt="">
+        </a>
+      </div>
+      <div class="col s4 m2">
+        <a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">
+          <img src="{{ asset('img/home/aliados/bid.png') }}" width="100%" alt="">
+        </a>
+      </div>
+      <div class="col s4 m2">
+        <!--a href="http://hotelnena.mx" target="_blank"-->
+        <a href="#mNena" target="_blank">
+          <img src="{{ asset('img/home/aliados/nena.jpg') }}" width="100%" alt="">
+        </a>
+      </div>
+      <div class="col s4 m2">
+        <a href="#mGp">
+          <img src="{{ asset('img/home/aliados/proyectos.png') }}" width="100%" alt="">
+        </a>
+      </div>
     </div>
-</div>
-<!-- End Newletter -->
+  </div>
+<!-- End [Strategic Allies] -->
 
 <!-- WTC trade -->
 <div id="WeTrade" class="wrapper">
@@ -275,44 +270,6 @@
   </div>
 </div>
 <!-- End WTC trade -->
-
-<!-- [Strategic Allies] -->
-  <div class="w3-panel">
-    <h3 class="center">Our Allies</h3>
-    <div class="row" style="width:90%">
-      <div class="col s4 m2">
-        <a href="https://aeromexico.com/en-us" target="_blank"><img src="{{ asset('img/home/aliados/aeromexico.png') }}" width="100%" alt=""></a>
-      </div>
-      <div class="col s4 m2">
-        <!--a href="http://audicenterjuriquilla.com.mx" target="_blank"-->
-        <a href="#mAudi" target="_blank">
-          <img src="{{ asset('img/home/aliados/audi.png') }}" width="100%" alt="">
-        </a>
-      </div>
-      <div class="col s4 m2">
-        <a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">
-          <img src="{{ asset('img/home/aliados/bid.png') }}" width="100%" alt="">
-        </a>
-      </div>
-      <div class="col s4 m2">
-        <!--a href="http://hotelnena.mx" target="_blank"-->
-        <a href="#mNena" target="_blank">
-          <img src="{{ asset('img/home/aliados/nena.jpg') }}" width="100%" alt="">
-        </a>
-      </div>
-      <div class="col s4 m2 offset-s2">
-        <a href="#mGp">
-          <img src="{{ asset('img/home/aliados/proyectos.png') }}" width="100%" alt="">
-        </a>
-      </div>
-      <div class="col s4 m2">
-        <a href="http://urcorp.mx" target="_blank">
-          <img src="{{ asset('img/home/aliados/URCORP.png') }}" width="100%" alt="">
-        </a>
-      </div>
-    </div>
-  </div>
-<!-- End [Strategic Allies] -->
 
 <!-- [Partners] -->
 <hr>

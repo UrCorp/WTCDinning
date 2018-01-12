@@ -18,7 +18,7 @@
         <li>
           <a class="white-text" target="_blank" href="https://www.facebook.com/wtcqueretaro/">
             <i class="fa fa-facebook-f" style="font-size: 13px;"></i>
-          </a>
+          </a
         </li>
         <li>
           <a class="white-text" target="_blank" href="https://www.linkedin.com/in/wtcqueretaro/" class="white-text">
@@ -135,10 +135,6 @@
 <!-- Nav Academics -->
 <ul id="dropdownAcademics" class="dropdown-content">
   <li><a href="Certification">WTC QRO Corporate Certification</a></li>
-  <li class="divider"></li>
-  <li><a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank">Lean Six Sigma Certification</a></li>
-  <li class="divider"></li>
-  <li><a href="#">WTC QRO Transcendence Program</a></li>
 </ul>
 
 <!-- Nav Commerce -->
@@ -150,21 +146,19 @@
 
 <!-- Nav Real State -->
 <ul id="dropdownRealEstate" class="dropdown-content">
-  <li><a href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Offices</a></li>
+  <li><a href="http://grupomomentum.com.mx/en/project/world-trade-center-queretaro/" target="_blank">Offices</a></li>
   <li class="divider"></li>
-  <li><a href="#WeTrade">We Trade Co-working</a></li>
+  <li><a href="https://coworkingwetrade.com">We Trade Co-working</a></li>
 </ul>
 
 <!-- Nav Reservations -->
 <ul id="dropdownReservations" class="dropdown-content">
   <li><a href="Dining">Restaurants</a></li>
-  <li class="divider"></li>
-  <li><a href="http://hotelnena.mx">Hotels</a></li>
 </ul>
 
 <!-- Nav Services -->
 <ul id="dropdownServices" class="dropdown-content">
-  <li><a href="#!">Softlanding</a></li>
+  <li><a href="#Services">Softlanding</a></li>
   <li class="divider"></li>
   <li><a href="http://www.gp.org.mx/">Actuarials</a></li>
 </ul>
@@ -207,8 +201,6 @@
         <div class="collapsible-header">Academics</div>
         <div class="collapsible-body">
             <a href="Certification">WTC QRO Corporate Certification</a>
-            <a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank">Lean Six Sigma Certification</a>
-            <a href="#">WTC QRO Transcendence Program</a>
         </div>
     </li>
     <li>
@@ -221,21 +213,20 @@
     <li>
         <div class="collapsible-header">Real Estate</div>
         <div class="collapsible-body">
-          <a href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Offices</a>
-          <a href="#WeTrade">We Trade Co-Working</a>
+          <a href="http://grupomomentum.com.mx/en/project/world-trade-center-queretaro/" target="_blank">Offices</a>
+          <a href="https://coworkingwetrade.com">We Trade Co-Working</a>
         </div>
     </li>
     <li>
         <div class="collapsible-header">Reservations</div>
         <div class="collapsible-body">
           <a href="Dining">Restaurants</a>
-          <a href="http://hotelnena.mx">Hotels</a>
         </div>
     </li>
     <li>
         <div class="collapsible-header">Services</div>
         <div class="collapsible-body">
-          <a href="#!">Softlanding</a>
+          <a href="#Services">Softlanding</a>
           <a href="http://www.gp.org.mx/">Actuarials</a>
         </div>
     </li>

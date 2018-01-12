@@ -136,9 +136,6 @@
 <ul id="dropdownAcademics" class="dropdown-content">
   <li><a href="Certification">Certificación Corporativa WTC QRO</a></li>
   <li class="divider"></li>
-  <li><a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank">Certificación Lean Six Sigma</a></li>
-  <li class="divider"></li>
-  <li><a href="#">Programa de Trascendencia WTC QRO</a></li>
 </ul>
 
 <!-- Nav Commerce -->
@@ -150,21 +147,20 @@
 
 <!-- Nav Real State -->
 <ul id="dropdownRealEstate" class="dropdown-content">
-  <li><a href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Oficinas</a></li>
+  <li><a href="http://grupomomentum.com.mx/en/project/world-trade-center-queretaro/" target="_blank">Oficinas</a></li>
   <li class="divider"></li>
-  <li><a href="#WeTrade">We Trade Co-working</a></li>
+  <li><a href="https://coworkingwetrade.come">We Trade Co-working</a></li>
 </ul>
 
 <!-- Nav Reservations -->
 <ul id="dropdownReservations" class="dropdown-content">
   <li><a href="Dining">Restaurantes</a></li>
   <li class="divider"></li>
-  <li><a href="http://hotelnena.mx">Hoteles</a></li>
 </ul>
 
 <!-- Nav Services -->
 <ul id="dropdownServices" class="dropdown-content">
-  <li><a href="#!">Softlanding</a></li>
+  <li><a href="#Services">Softlanding</a></li>
   <li class="divider"></li>
   <li><a href="http://www.gp.org.mx/">Actuariales</a></li>
 </ul>
@@ -207,8 +203,6 @@
         <div class="collapsible-header">Academia</div>
         <div class="collapsible-body">
             <a href="Certification">Certificación Corporativa WTC QRO</a>
-            <a href="http://workshops.wtcqueretaro.com/ProductSubCats.aspx?SubCatID=22" target="_blank">Certificación Lean Six Sigma</a>
-            <a href="#">Programa de Trascendencia WTC QRO</a>
         </div>
     </li>
     <li>
@@ -221,21 +215,20 @@
     <li>
         <div class="collapsible-header">Inmobiliario</div>
         <div class="collapsible-body">
-          <a href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Oficinas</a>
-          <a href="#WeTrade">We Trade Co-Working</a>
+          <a href="http://grupomomentum.com.mx/en/project/world-trade-center-queretaro/" target="_blank">Oficinas</a>
+          <a href="https://coworkingwetrade.come">We Trade Co-Working</a>
         </div>
     </li>
     <li>
         <div class="collapsible-header">Reservaciones</div>
         <div class="collapsible-body">
           <a href="Dining">Restaurantes</a>
-          <a href="http://hotelnena.mx">Hoteles</a>
         </div>
     </li>
     <li>
         <div class="collapsible-header">Servicios</div>
         <div class="collapsible-body">
-          <a href="#!">Softlanding</a>
+          <a href="#Services">Softlanding</a>
           <a href="http://www.gp.org.mx/">Actuariales</a>
         </div>
     </li>
