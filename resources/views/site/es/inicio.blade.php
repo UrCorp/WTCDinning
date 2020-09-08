@@ -35,14 +35,24 @@
         </a>
       </div>
     </li>
-    <li>
-      <img src="{{ asset('img/home/slider/cestos.png') }}">
+    <!-- <li> -->
+      <!-- <img src="{{ asset('img/home/slider/cestos.png') }}"> -->
+      <!-- <div class="center white-text w3-display-middle"> -->
+        <!-- <h4 class="condensed ligth">ARTESANÍAS MEXICANAS</h4> -->
+        <!-- <h6 class="light grey-text text-lighten-3">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</h6> -->
+        <!-- <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai"> -->
+          <!-- <i class="material-icons right">shop</i> -->
+          <!-- Ir a la Tienda -->
+        <!-- </a> -->
+      <!-- </div> -->
+    <!-- </li> -->
+	<li>
+      <img src="{{ asset('img/home/slider/WTC-Slider.jpg') }}">
       <div class="center white-text w3-display-middle">
-        <h4 class="condensed ligth">ARTESANÍAS MEXICANAS</h4>
-        <h6 class="light grey-text text-lighten-3">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai">
-          <i class="material-icons right">shop</i>
-          Ir a la Tienda
+        <h4 class="condensed ligth">GENERAL ASSEMBLY</h4>
+        <h6 class="light grey-text text-lighten-3">Se parte del evento más importante del año en Querétaro, WTCA General Assembly - Abril 2019</h6>
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_self" href="http://www.wtcqueretaro.com/GeneralAssembly">
+        SABER MÁS 
         </a>
       </div>
     </li>
@@ -50,9 +60,31 @@
   <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 50px; font-size: 36px">&#10094;</span></button>
   <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 50px; font-size: 36px">&#10095;</button>
 </div>
+<!-- WTC Landing -->
+<div id="Services" class="wrapper" style="margin-top: -40px">
+  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
+       <img src="{{ asset('img/home/WTC-GraficoHome.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
+      <img src="{{ asset('img/home/WTC-GraficoHome.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
+      <div class="parallax valign-wrapper"><img src="{{ asset('img/home/WTC-Fondohome.png') }}" alt=""></div>
+        <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 60%; ">
+          <img src="{{ asset('img/home/WTC-LogoHome.png') }}" width="100%">
+          <br>
 
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://www.wtcqueretaro.com/GeneralAssembly" style="margin-top:10px">
+              CONOCE MÁS
+            </a><br>
+        </div>
+        <div class="caption left-align hide-on-med-and-up" style="z-index: 100; margin: auto">
+          <img src="{{ asset('img/home/WTC-LogoHome.png') }}" width="100%">
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://www.wtcqueretaro.com/GeneralAssembly" style="margin-top:10px">
+              CONOCE MÁS
+            </a><br>
+        </div>
+  </div>
+</div>
+<!-- End WTC Landing -->
 <!-- Academics-->
-  <div class="wrapper" style="margin-top: -40px">
+  <div class="wrapper" >
     <div id="Academics" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
@@ -90,31 +122,31 @@
 </div>
 <!-- End [Newsletter] -->
 
-<!-- Commerce -->
-<div id="Commerce" class="wrapper">
-  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
-    <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 542px; width: 100%">
-    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/commerce.jpg') }}" alt="Commerce"></div>
-    <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100">
-      <img src="{{ asset('img/home/commerce-wtc.png') }}" width="60%">
-      <h1 style="font-weight:900">Tienda en línea</h1>
-      <p class="w3-justify" style="width:50%">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p>
-      <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank">
-        GO SHOPPING <i class="material-icons right">shop</i>
-      </a>
-    </div>
-    <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
-      <img src="{{ asset('img/home/commerce-wtc.png') }}" width="100%">
-      <h1 style="font-weight:900">Tienda en línea</h1>
-      <p class="w3-justify">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p>
-      <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank">
-        GO SHOPPING <i class="material-icons right">shop</i>
-      </a>
-    </div>
-  </div>
-</div>
-<!-- End Commerce -->
+<!-- <!-- Commerce -->  
+<!-- <div id="Commerce" class="wrapper"> -->
+  <!-- <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;"> -->
+    <!-- <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%"> -->
+    <!-- <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 542px; width: 100%"> -->
+    <!-- <div class="parallax valign-wrapper"><img src="{{ asset('img/home/commerce.jpg') }}" alt="Commerce"></div> -->
+    <!-- <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100"> -->
+      <!-- <img src="{{ asset('img/home/commerce-wtc.png') }}" width="60%"> -->
+      <!-- <h1 style="font-weight:900">Tienda en línea</h1> -->
+      <!-- <p class="w3-justify" style="width:50%">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p> -->
+      <!-- <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank"> -->
+        <!-- GO SHOPPING <i class="material-icons right">shop</i> -->
+      <!-- </a> -->
+    <!-- </div> -->
+    <!-- <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100"> -->
+      <!-- <img src="{{ asset('img/home/commerce-wtc.png') }}" width="100%"> -->
+      <!-- <h1 style="font-weight:900">Tienda en línea</h1> -->
+      <!-- <p class="w3-justify">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p> -->
+      <!-- <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank"> -->
+        <!-- GO SHOPPING <i class="material-icons right">shop</i> -->
+      <!-- </a> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
+<!-- <!-- End Commerce -->  
 
 <!-- Map -->
 <div id="RealEstate" class="grey lighten-3 hide-on-small-only">
@@ -125,27 +157,27 @@
 <!-- End Map -->
 
 <!-- Reservations -->
-<div id="Reservations" class="wrapper">
-  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
-    <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
-    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div>
-      <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100">
-        <img src="{{ asset('img/home/dining-wtc.png') }}" width="60%">
-        <p class="w3-justify" style="width:50%">Escoja dentro de nuestra amplia gama de restaurantes aliados la diversa oferta culinaria que tienen para ofrecer.</p>
-        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
-          RESERVACIONES
-        </a>
-      </div>
-      <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100">
-        <img src="{{ asset('img/home/dining-wtc.png') }}" width="100%">
-        <p class="w3-justify">Escoja dentro de nuestra amplia gama de restaurantes aliados la diversa oferta culinaria que tienen para ofrecer.</p>
-        <a class="btn waves-effect waves-light white teal-text" href="Dining" >
-          RESERVACIONES
-        </a>
-      </div>
-  </div>
-</div>
+<!-- <div id="Reservations" class="wrapper"> -->
+  <!-- <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;"> -->
+    <!-- <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%"> -->
+    <!-- <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%"> -->
+    <!-- <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div> -->
+      <!-- <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100"> -->
+        <!-- <img src="{{ asset('img/home/dining-wtc.png') }}" width="60%"> -->
+        <!-- <p class="w3-justify" style="width:50%">Escoja dentro de nuestra amplia gama de restaurantes aliados la diversa oferta culinaria que tienen para ofrecer.</p> -->
+        <!-- <a class="btn waves-effect waves-light white teal-text" href="Dining" > -->
+          <!-- RESERVACIONES -->
+        <!-- </a> -->
+      <!-- </div> -->
+      <!-- <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100"> -->
+        <!-- <img src="{{ asset('img/home/dining-wtc.png') }}" width="100%"> -->
+        <!-- <p class="w3-justify">Escoja dentro de nuestra amplia gama de restaurantes aliados la diversa oferta culinaria que tienen para ofrecer.</p> -->
+        <!-- <a class="btn waves-effect waves-light white teal-text" href="Dining" > -->
+          <!-- RESERVACIONES -->
+        <!-- </a> -->
+      <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
 <!-- End Reservations -->
 
 <!-- Momentum -->

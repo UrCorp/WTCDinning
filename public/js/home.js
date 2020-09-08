@@ -37,6 +37,8 @@ $(window).scroll(function() {
     $('#logobnmovil').removeClass('w3-hide');
     $('#home').removeClass('white-text');
     $('#home').css('color','#444');
+    $('#GenerealAssembly').removeClass('white-text');
+    $('#GenerealAssembly').css('color','#444');
     $('#academics').removeClass('white-text');
     $('#academics').css('color','#444');
     $('#consultancy').removeClass('white-text');
@@ -58,6 +60,7 @@ $(window).scroll(function() {
     $('#logocolormovil').removeClass('w3-hide');
     $('#logobnmovil').addClass('w3-hide');
     $('#home').addClass('white-text');
+	$('#GenerealAssembly').addClass('white-text');
     $('#academics').addClass('white-text');
     $('#consultancy').addClass('white-text');
     $('#discover').addClass('white-text');

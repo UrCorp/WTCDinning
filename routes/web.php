@@ -25,6 +25,10 @@ Route::group(['as' => 'site.'], function () {
 				'uses'	=> 	'indexController@index',
 				'as' 	=>	'index'
 			]);
+			Route::get('/GeneralAssembly', [
+        'uses'	=> 	'GeneralAssemblyController@index',
+        'as' 	=>	'es'
+      ]);
 
 		Route::get('/Dining', [
 				'uses' 	=> 	'indexController@dinning',
@@ -55,6 +59,11 @@ Route::group(['as' => 'site.'], function () {
 
     Route::get('/Inicio', [
         'uses'	=> 	'indexController@inicio',
+        'as' 	=>	'es'
+      ]);
+	  
+	  Route::get('/GenerealAssembly', [
+        'uses'	=> 	'GenerealAssemblyController@index',
         'as' 	=>	'es'
       ]);
 

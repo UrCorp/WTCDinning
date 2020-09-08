@@ -118,9 +118,11 @@
           </a>
         </li>
         <li>
-          <a class="dropdown-button white-text" href="#" data-activates="dropdownReservations" id="discover">
-            Reservaciones<i class="material-icons right">arrow_drop_down</i>
-          </a>
+          <!-- <a class="dropdown-button white-text" href="#" data-activates="dropdownReservations" id="discover"> -->
+            <!-- Reservaciones<i class="material-icons right">arrow_drop_down</i> -->
+          <!-- </a> -->
+		   <a href="http://www.wtcqueretaro.com/GeneralAssembly" class="dropdown-button white-text" id="GenerealAssembly">General Assembly</a>
+   
         </li>
         <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownServices" id="consultancy">
@@ -142,7 +144,7 @@
 <ul id="dropdownTrading" class="dropdown-content">
   <li><a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a></li>
   <li class="divider"></li>
-  <li><a href="https://www.kichink.com/stores/kanpai" target="_blank">Tienda en Línea</a></li>
+  <!-- <li><a href="https://www.kichink.com/stores/kanpai" target="_blank">Tienda en Línea</a></li> -->
 </ul>
 
 <!-- Nav Real State -->
@@ -153,10 +155,10 @@
 </ul>
 
 <!-- Nav Reservations -->
-<ul id="dropdownReservations" class="dropdown-content">
-  <li><a href="Dining">Restaurantes</a></li>
-  <li class="divider"></li>
-</ul>
+<!-- <ul id="dropdownReservations" class="dropdown-content"> -->
+  <!-- <li><a href="GenerealAssembly">Genereal Assembly</a></li> -->
+   
+<!-- </ul> -->
 
 <!-- Nav Services -->
 <ul id="dropdownServices" class="dropdown-content">
@@ -209,7 +211,7 @@
         <div class="collapsible-header">Comercializadora</div>
         <div class="collapsible-body">
           <a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a>
-          <a href="https://www.kichink.com/stores/kanpai" target="_blank">Tienda en Línea</a>
+          <!-- <a href="https://www.kichink.com/stores/kanpai" target="_blank">Tienda en Línea</a> -->
         </div>
     </li>
     <li>
@@ -220,10 +222,11 @@
         </div>
     </li>
     <li>
-        <div class="collapsible-header">Reservaciones</div>
-        <div class="collapsible-body">
-          <a href="Dining">Restaurantes</a>
-        </div>
+	<a href="http://www.wtcqueretaro.com/GenerealAssembly">Genereal Assembly</a>
+        <!-- <div class="collapsible-header">Reservaciones</div> -->
+        <!-- <div class="collapsible-body"> -->
+          <!-- <a href="Dining">Restaurantes</a> -->
+        <!-- </div> -->
     </li>
     <li>
         <div class="collapsible-header">Servicios</div>
