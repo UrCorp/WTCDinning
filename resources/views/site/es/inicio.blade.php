@@ -16,32 +16,12 @@
       </div>
     </li>
     <li>
-      <img src="{{ asset('img/home/slider/softlanding.png') }}">
+      <img src="{{ asset('img/home/slider/bg-accelerator.png') }}">
       <div class="center white-text w3-display-middle">
-        <h4 class="condensed">CERTIFICACIÓN WTC QRO</h4>
+        <h4 class="condensed">AELERADORA WTC</h4>
         <h6 class="light grey-text text-lighten-3">Genera valor agregado a tu organización.</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="Certification">
+        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="https://wtcqro.com/" target="_blank">
           CONOCE CÓMO <i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
-        </a>
-      </div>
-    </li>
-    <li>
-      <img src="{{ asset('img/home/slider/zocalo.png') }}">
-      <div class="center white-text w3-display-middle">
-        <h4 class="condensed ligth">SOFTLANDING</h4>
-        <h6 class="light grey-text text-lighten-3">Obtén apoyo para explorar nuevos mercados, relocalizar tu compañía o bajar costos de operación.</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" href="#mPresale">
-          AGENDA AHORA<i class="fa fa-chevron-right " aria-hidden="true" style="font-size: 13px"></i>
-        </a>
-      </div>
-    </li>
-	<li>
-      <img src="{{ asset('img/home/slider/WTC-Slider.jpg') }}">
-      <div class="center white-text w3-display-middle">
-        <h4 class="condensed ligth">GENERAL ASSEMBLY</h4>
-        <h6 class="light grey-text text-lighten-3">Se parte del evento más importante del año en Querétaro, WTCA General Assembly - Abril 2019</h6>
-        <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_self" href="http://www.wtcqueretaro.com/GeneralAssembly">
-        SABER MÁS 
         </a>
       </div>
     </li>
@@ -56,18 +36,18 @@
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
       <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
-        <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 60%; ">
-          <img src="{{ asset('img/home/academics-wtc.png') }}" width="100%">
+        <div class="caption left-align hide-on-small-only" style="z-index: 100; margin-left: 50%; width:40%">
+          <img src="{{ asset('img/home/wtc-accelerator.png') }}" width="100%">
           <br>
 
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
-              Certificación Corporativa WTC QRO
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="https://wtcqro.com/"  target="_blank" style="margin-top:20px">
+              Aceleradora WTC
             </a><br>
         </div>
         <div class="caption left-align hide-on-med-and-up" style="z-index: 100; margin: auto">
-          <img src="{{ asset('img/home/academics-wtc.png') }}" width="100%">
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="Certification" style="margin-top:10px">
-              Certificación Corporativa WTC QRO
+          <img src="{{ asset('img/home/wtc-accelerator.png') }}" width="100%">
+            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="https://wtcqro.com/"  target="_blank" style="margin-top:20px">
+              Aceleradora WTC
             </a><br>
         </div>
     </div>
