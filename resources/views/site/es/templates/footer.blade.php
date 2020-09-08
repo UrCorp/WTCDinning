@@ -21,11 +21,12 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright tale">
-      <div class="" style="margin-bottom:50px;background-color: rgba(68,68,68,0.2); height:50px; width:100%; padding:10px">
-          Powered by 8080</a>
+    <div class="footer-copyright" style="background-color: transparent">
+      <div class="" style="margin-bottom:20px;background-color: rgba(68,68,68,0.2); height:50px; line-height:30px; width:100%; padding:10px 50px">
+          Powered by 8080
           <a href="https://www.wtca.org/world-trade-center-queretaro" target="_blank"><img src="{{ asset('img/logos/wtc-association-blanco-footer.png') }}" class="right hide-on-med-and-down "></a>
           <a href="https://www.wtca.org/world-trade-center-queretaro" target="_blank"><img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" style="height: 20px;" class="right hide-on-large-only"></a>
       </div>
     </div>
   </footer>
+
