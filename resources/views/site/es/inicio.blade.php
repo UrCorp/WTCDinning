@@ -35,17 +35,6 @@
         </a>
       </div>
     </li>
-    <!-- <li> -->
-      <!-- <img src="{{ asset('img/home/slider/cestos.png') }}"> -->
-      <!-- <div class="center white-text w3-display-middle"> -->
-        <!-- <h4 class="condensed ligth">ARTESANÍAS MEXICANAS</h4> -->
-        <!-- <h6 class="light grey-text text-lighten-3">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</h6> -->
-        <!-- <a class="waves-effect waves-light btn-large transparent sliderbtn" target="_blank" href="https://www.kichink.com/stores/kanpai"> -->
-          <!-- <i class="material-icons right">shop</i> -->
-          <!-- Ir a la Tienda -->
-        <!-- </a> -->
-      <!-- </div> -->
-    <!-- </li> -->
 	<li>
       <img src="{{ asset('img/home/slider/WTC-Slider.jpg') }}">
       <div class="center white-text w3-display-middle">
@@ -60,29 +49,7 @@
   <button class="prev btn-flat white-text w3-display-left" style="z-index: 5; height: 50px; font-size: 36px">&#10094;</span></button>
   <button class="next btn-flat white-text w3-display-right" style="z-index: 5; height: 50px; font-size: 36px">&#10095;</button>
 </div>
-<!-- WTC Landing -->
-<div id="Services" class="wrapper" style="margin-top: -40px">
-  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-       <img src="{{ asset('img/home/WTC-GraficoHome.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
-      <img src="{{ asset('img/home/WTC-GraficoHome.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
-      <div class="parallax valign-wrapper"><img src="{{ asset('img/home/WTC-Fondohome.png') }}" alt=""></div>
-        <div class="caption left-align hide-on-small-only" style="z-index: 100; padding-left: 60%; ">
-          <img src="{{ asset('img/home/WTC-LogoHome.png') }}" width="100%">
-          <br>
 
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://www.wtcqueretaro.com/GeneralAssembly" style="margin-top:10px">
-              CONOCE MÁS
-            </a><br>
-        </div>
-        <div class="caption left-align hide-on-med-and-up" style="z-index: 100; margin: auto">
-          <img src="{{ asset('img/home/WTC-LogoHome.png') }}" width="100%">
-            <a class="waves-effect waves-light transparente w3-border w3-btn white-text w3-padding-16" href="http://www.wtcqueretaro.com/GeneralAssembly" style="margin-top:10px">
-              CONOCE MÁS
-            </a><br>
-        </div>
-  </div>
-</div>
-<!-- End WTC Landing -->
 <!-- Academics-->
   <div class="wrapper" >
     <div id="Academics" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
@@ -122,64 +89,6 @@
 </div>
 <!-- End [Newsletter] -->
 
-<!-- <!-- Commerce -->  
-<!-- <div id="Commerce" class="wrapper"> -->
-  <!-- <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;"> -->
-    <!-- <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%"> -->
-    <!-- <img src="{{ asset('img/home/commerce-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 542px; width: 100%"> -->
-    <!-- <div class="parallax valign-wrapper"><img src="{{ asset('img/home/commerce.jpg') }}" alt="Commerce"></div> -->
-    <!-- <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100"> -->
-      <!-- <img src="{{ asset('img/home/commerce-wtc.png') }}" width="60%"> -->
-      <!-- <h1 style="font-weight:900">Tienda en línea</h1> -->
-      <!-- <p class="w3-justify" style="width:50%">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p> -->
-      <!-- <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank"> -->
-        <!-- GO SHOPPING <i class="material-icons right">shop</i> -->
-      <!-- </a> -->
-    <!-- </div> -->
-    <!-- <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100"> -->
-      <!-- <img src="{{ asset('img/home/commerce-wtc.png') }}" width="100%"> -->
-      <!-- <h1 style="font-weight:900">Tienda en línea</h1> -->
-      <!-- <p class="w3-justify">Adquiere hermosos productos, creados por manos de artesanos Mexicanos en nuestra tienda exclusiva.</p> -->
-      <!-- <a class="btn waves-effect waves-light white teal-text" href="https://www.kichink.com/wtcqueretaro" target="_blank"> -->
-        <!-- GO SHOPPING <i class="material-icons right">shop</i> -->
-      <!-- </a> -->
-    <!-- </div> -->
-  <!-- </div> -->
-<!-- </div> -->
-<!-- <!-- End Commerce -->  
-
-<!-- Map -->
-<div id="RealEstate" class="grey lighten-3 hide-on-small-only">
-  <!--h2 class="center grismomentum hide-on-med-and-down" style="margin-top: 30px">Elige tu espacio oficina o consultorio médico</h2>
-  <h5 class="center grismomentum hide-on-large-only" style="margin-top: 20px">Elige tu propia oficina o consultorio</h5-->
-  <iframe src="http://grupomomentum.com.mx/_renders/wtcq/v2/" style="width:100%; height: 650px;" marginheight="0" frameborder=0 scrolling="no"></iframe>
-</div>
-<!-- End Map -->
-
-<!-- Reservations -->
-<!-- <div id="Reservations" class="wrapper"> -->
-  <!-- <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;"> -->
-    <!-- <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%"> -->
-    <!-- <img src="{{ asset('img/home/dining-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%"> -->
-    <!-- <div class="parallax valign-wrapper"><img src="{{ asset('img/home/dining.jpg') }}" alt="Unsplashed background img 1"></div> -->
-      <!-- <div class="caption left-align hide-on-small-only" style="padding-left: 10%; z-index: 100"> -->
-        <!-- <img src="{{ asset('img/home/dining-wtc.png') }}" width="60%"> -->
-        <!-- <p class="w3-justify" style="width:50%">Escoja dentro de nuestra amplia gama de restaurantes aliados la diversa oferta culinaria que tienen para ofrecer.</p> -->
-        <!-- <a class="btn waves-effect waves-light white teal-text" href="Dining" > -->
-          <!-- RESERVACIONES -->
-        <!-- </a> -->
-      <!-- </div> -->
-      <!-- <div class="caption center-align hide-on-med-and-up" style="padding: 15%; z-index: 100"> -->
-        <!-- <img src="{{ asset('img/home/dining-wtc.png') }}" width="100%"> -->
-        <!-- <p class="w3-justify">Escoja dentro de nuestra amplia gama de restaurantes aliados la diversa oferta culinaria que tienen para ofrecer.</p> -->
-        <!-- <a class="btn waves-effect waves-light white teal-text" href="Dining" > -->
-          <!-- RESERVACIONES -->
-        <!-- </a> -->
-      <!-- </div> -->
-  <!-- </div> -->
-<!-- </div> -->
-<!-- End Reservations -->
-
 <!-- Momentum -->
   <div class="w3-container w3-padding-32 w3-padding-large">
     <div class="w3-half w3-padding-large">
@@ -199,7 +108,6 @@
       <p class="w3-justify grismomentum">Conoce el exclusivo desarrollo médico y empresarial <b>"World Trade Center Querétaro"</b> donde tienes lo mejor a tu alcance.</p>
       <p class="verdemomentum">Proyecto Pre-certificado MEES, Edificación Sustentable</p>
       <a class="w3-btn btnmomentum" href="#mPresale">Solicitar información</a>
-      <a class="w3-btn btnmomentum" href="http://grupomomentum.com.mx/_renders/momentum-juriquilla/360/" target="_blank">Recorrido Virtual</a>
     </div>
     <div class="w3-half w3-padding-large">
       <div class="row">
@@ -221,24 +129,6 @@
     </div>
   </div>
 <!-- End Momentum -->
-
-<!-- WTC Landing -->
-<div id="Services" class="wrapper">
-  <div id="index-banner" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
-    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-left hide-on-small-only" style="height: 550px; width: 60%">
-    <img src="{{ asset('img/home/landing-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
-    <div class="parallax valign-wrapper"><img src="{{ asset('img/home/landing.jpg') }}" alt="Landing"></div>
-      <div class="caption left-align" style="padding-left: 10%; z-index: 100">
-          <img src="{{ asset('img/home/landing-wtc.png') }}" width="70%">
-          <br>
-          <h5 class="light grey-text text-lighten-3">¡EL FUTURO DE TU EMPRESA ESTÁ A SALVO CON NOSOTROS!</h5>
-          <a class="waves-effect waves-light white w3-btn pink-text text-darken-2 w3-padding-16" href="#mPresale" >
-            CONOCE MÁS
-          </a>
-      </div>
-  </div>
-</div>
-<!-- End WTC Landing -->
 
 <!-- [Strategic Allies] -->
   <div class="w3-panel">

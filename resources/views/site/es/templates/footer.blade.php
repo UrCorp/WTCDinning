@@ -4,11 +4,7 @@
         <div class="col l3 s12">
           <h5 class="blue-text">WTC Querétaro</h5>
           <ul class="white-text">
-            <li><a class="white-text" href="#Academics">Academia</a></li>
-            <li><a class="white-text" href="#Commerce">Comercializadora</a></li>
-            <li><a class="white-text" href="#RealEstate">Inmobiliaria</a></li>
-            <li><a class="white-text" href="#Reservations">Reservaciones</a></li>
-            <li><a class="white-text" href="#Services">Servicios</a></li>
+            <li><a class="white-text" href="#Academics">Aceleradora</a></li>
             <li><a class="white-text" href="#WeTrade">We Trade</a></li>
           </ul>
         </div>
@@ -27,7 +23,7 @@
     </div>
     <div class="footer-copyright tale">
       <div class="" style="margin-bottom:50px;background-color: rgba(68,68,68,0.2); height:50px; width:100%; padding:10px">
-          Powered by <a href="http://urcorp.mx" target="_blank"><img src="{{ asset('img/wtc-footer.png') }}" style="height: 20px;" /></a>
+          Powered by 8080</a>
           <a href="https://www.wtca.org/world-trade-center-queretaro" target="_blank"><img src="{{ asset('img/logos/wtc-association-blanco-footer.png') }}" class="right hide-on-med-and-down "></a>
           <a href="https://www.wtca.org/world-trade-center-queretaro" target="_blank"><img src="{{ asset('img/logos/wtc-association-blanco-nav.png') }}" style="height: 20px;" class="right hide-on-large-only"></a>
       </div>

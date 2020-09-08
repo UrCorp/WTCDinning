@@ -24,16 +24,7 @@ Route::group(['as' => 'site.'], function () {
 		Route::get('/Home', [
 				'uses'	=> 	'indexController@index',
 				'as' 	=>	'index'
-			]);
-			Route::get('/GeneralAssembly', [
-        'uses'	=> 	'GeneralAssemblyController@index',
-        'as' 	=>	'es'
       ]);
-
-		Route::get('/Dining', [
-				'uses' 	=> 	'indexController@dinning',
-				'as'	=> 	'dinning'
-			]);
 
 		Route::get('/Lean-Six-Sigma', function () {
 		    return view('site.leansixsigma');
@@ -42,11 +33,8 @@ Route::group(['as' => 'site.'], function () {
 
 		Route::get('/Certification', function () {
 		    return view('site.certification');
-		});
-
-		/*Route::get('/Mail', function () {
-		    return view('site.emails.presale');
-		});*/
+    });
+    
 
   });
 
@@ -61,24 +49,11 @@ Route::group(['as' => 'site.'], function () {
         'uses'	=> 	'indexController@inicio',
         'as' 	=>	'es'
       ]);
-	  
-	  Route::get('/GenerealAssembly', [
-        'uses'	=> 	'GenerealAssemblyController@index',
-        'as' 	=>	'es'
-      ]);
 
     Route::get('/Lean-Six-Sigma', function () {
 		    return view('site.es.leansixsigma');
-		});
-
-    Route::get('/Certification', function () {
-		    return view('site.es.certification');
-		});
-
-    Route::get('/Dining', [
-				'uses' 	=> 	'indexController@reservas',
-				'as'	=> 	'reservas'
-			]);
+    });
+    
   });
 
   Route::group(['prefix' => 'contact', 'as' => 'contact.'], function () {
@@ -125,34 +100,4 @@ Route::group(['as' => 'site.'], function () {
       'as'    => 'test'
     ]);
   });
-});
-
-
-
-Route::group(['prefix' => 'admin'], function() {
-	Route::resource('restaurants','RestaurantsController');
-	Route::get('restaurants/{id}/destroy', [
-			'uses'	=>	'RestaurantsController@destroy',
-			'as' 	=>	'restaurants.destroy'
-		]);
-	Route::resource('reservations', 'ReservationsController');
-
-	Route::resource('categories', 'CategoriesController');
-	Route::get('categories/{id}/destroy', [
-			'uses'	=>	'CategoriesController@destroy',
-			'as' 	=>	'categories.destroy'
-		]);
-
-	Route::resource('blog', 'BlogController');
-
-	Route::resource('tags', 'TagsController');
-	Route::get('tags/{id}/destroy', [
-			'uses'	=>	'TagsController@destroy',
-			'as' 	=>	'tags.destroy'
-		]);
-
-	Route::get('images', [
-			'uses'	=> 'ImageController@index',
-			'as' 	=> 'images.index'
-		]);
 });

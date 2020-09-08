@@ -19,30 +19,9 @@ class indexController extends Controller
         return view('site.welcome');
     }
 
-    public function dinning(Request $request)
-    {
-        $restaurants = Restaurant::search($request->search)->orderBy('name','ASC')->paginate();
-        $restaurants->each(function ($restaurants) {
-            $restaurants->categoria;
-            $restaurants->images;
-            $restaurants->tags;
-        });
-        return view('site.dinning')->with('restaurants',$restaurants);
-    }
-
     public function inicio(Request $request)
     {
         return view('site.es.inicio');
     }
-
-    public function reservas(Request $request)
-    {
-        $restaurants = Restaurant::search($request->search)->orderBy('name','ASC')->paginate();
-        $restaurants->each(function ($restaurants) {
-            $restaurants->categoria;
-            $restaurants->images;
-            $restaurants->tags;
-        });
-        return view('site.es.dining')->with('restaurants',$restaurants);
-    }
+    
 }

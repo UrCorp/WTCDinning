@@ -1,3 +1,7 @@
+.slider .slides{
+	height: 100vh!important;
+}
+
 .sliderbtn{
 	border: solid 1px white;
 }

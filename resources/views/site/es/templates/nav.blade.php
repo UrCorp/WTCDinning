@@ -26,7 +26,7 @@
           </a>
         </li>
         <li>
-          <a class="white-text" target="_blank" href="https://www.instagram.com/wtcqro/">
+          <a class="white-text" target="_blank" href="https://www.instagram.com/wtc.queretaro/">
             <i class="fa fa-instagram" style="font-size: 13px"></i>
           </a>
         </li>
@@ -74,7 +74,7 @@
           </a>
         </li>
         <li>
-          <a class="white-text" target="_blank" href="https://www.instagram.com/wtcqro/">
+          <a class="white-text" target="_blank" href="https://www.instagram.com/wtc.queretaro/">
             <i class="fa fa-instagram" style="font-size: 13px"></i>
           </a>
         </li>
@@ -118,13 +118,6 @@
           </a>
         </li>
         <li>
-          <!-- <a class="dropdown-button white-text" href="#" data-activates="dropdownReservations" id="discover"> -->
-            <!-- Reservaciones<i class="material-icons right">arrow_drop_down</i> -->
-          <!-- </a> -->
-		   <a href="http://www.wtcqueretaro.com/GeneralAssembly" class="dropdown-button white-text" id="GenerealAssembly">General Assembly</a>
-   
-        </li>
-        <li>
           <a class="dropdown-button white-text" href="#" data-activates="dropdownServices" id="consultancy">
             Servicios<i class="material-icons right">arrow_drop_down</i>
           </a>
@@ -136,35 +129,22 @@
 
 <!-- Nav Academia -->
 <ul id="dropdownAcademics" class="dropdown-content">
-  <li><a href="Certification">Certificación Corporativa WTC QRO</a></li>
-  <li class="divider"></li>
+  <li><a href="https://wtcqro.com/" target="_blank">Aceleradora</a></li>
 </ul>
 
 <!-- Nav Commerce -->
 <ul id="dropdownTrading" class="dropdown-content">
   <li><a href="https://connectamericas.com/company/world-trade-center-queretaro" target="_blank">Connect Americas</a></li>
-  <li class="divider"></li>
-  <!-- <li><a href="https://www.kichink.com/stores/kanpai" target="_blank">Tienda en Línea</a></li> -->
 </ul>
 
 <!-- Nav Real State -->
 <ul id="dropdownRealEstate" class="dropdown-content">
-  <li><a href="http://grupomomentum.com.mx/en/project/world-trade-center-queretaro/" target="_blank">Oficinas</a></li>
-  <li class="divider"></li>
   <li><a href="https://coworkingwetrade.come">We Trade Co-working</a></li>
 </ul>
 
-<!-- Nav Reservations -->
-<!-- <ul id="dropdownReservations" class="dropdown-content"> -->
-  <!-- <li><a href="GenerealAssembly">Genereal Assembly</a></li> -->
-   
-<!-- </ul> -->
-
 <!-- Nav Services -->
 <ul id="dropdownServices" class="dropdown-content">
-  <li><a href="#Services">Softlanding</a></li>
-  <li class="divider"></li>
-  <li><a href="http://www.gp.org.mx/">Actuariales</a></li>
+  <li><a href="http://www.gp.org.mx/" target="_blank">Actuariales</a></li>
 </ul>
 
 
@@ -204,7 +184,7 @@
     <li>
         <div class="collapsible-header">Academia</div>
         <div class="collapsible-body">
-            <a href="Certification">Certificación WTC QRO</a>
+            <a href="https://wtcqro.com/" target="_blank">Aceleradora</a>
         </div>
     </li>
     <li>
@@ -231,8 +211,7 @@
     <li>
         <div class="collapsible-header">Servicios</div>
         <div class="collapsible-body">
-          <a href="#Services">Softlanding</a>
-          <a href="http://www.gp.org.mx/">Actuariales</a>
+          <a href="http://www.gp.org.mx/" target="_blank">Actuariales</a>
         </div>
     </li>
 </ul>
