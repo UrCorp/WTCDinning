@@ -35,7 +35,7 @@
     <div id="Academics" class="parallax-container valign-wrapper w3-display-container" style="height: 550px;">
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-small-only" style="height: 550px; width: 60%">
       <img src="{{ asset('img/home/academics-trans.png') }}" class="w3-display-right hide-on-med-and-up" style="height: 550px; width: 100%">
-      <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.jpg') }}" alt=""></div>
+      <div class="parallax valign-wrapper"><img src="{{ asset('img/home/academics.png') }}" alt=""></div>
         <div class="caption left-align hide-on-small-only" style="z-index: 100; margin-left: 50%; width:40%">
           <img src="{{ asset('img/home/wtc-accelerator.png') }}" width="100%">
           <br>
